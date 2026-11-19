@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://remotebase.com/jobs",
-  "fetchedAt": "2026-11-18T16:54:21.565654+00:00",
+  "fetchedAt": "2026-11-19T15:01:56.806223+00:00",
   "state": "open",
   "jobs": [
     {
@@ -59,16 +59,6 @@
       "link": "https://remotebase.com/jobs/F67D13E250",
       "location": "Remote",
       "department": "Engineering Department",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "13d1d31901d4702db5ba718a52c16de3",
-      "title": "AI Engineer",
-      "link": "https://remotebase.com/jobs/6E7795E82F",
-      "location": "Remote",
-      "department": "Core",
       "jobType": "",
       "postedAt": "",
       "state": "open"

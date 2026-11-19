@@ -1,17 +1,8 @@
 {
   "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/careem/departments",
-  "fetchedAt": "2026-11-18T16:45:00.637599+00:00",
+  "fetchedAt": "2026-11-19T14:51:52.560232+00:00",
   "state": "open",
   "jobs": [
-    {
-      "id": "4202c9540b294d29e567be8836ad92f2",
-      "title": "Associate Director of Ads Sales",
-      "link": "https://boards.greenhouse.io/careem/jobs/8618945002?gh_jid=8618945002",
-      "location": "Dubai, United Arab Emirates",
-      "department": "Ads",
-      "postedAt": "2026-11-11T00:19:36-05:00",
-      "state": "open"
-    },
     {
       "id": "6ad7fb2b67897276ab6f976cbf768b99",
       "title": "Senior Strategy and Care Transformation Manager  ",
@@ -58,21 +49,12 @@
       "state": "open"
     },
     {
-      "id": "3595da53975e8f14141698983d1bfde2",
-      "title": "Product Operations Manager",
-      "link": "https://boards.greenhouse.io/careem/jobs/8916072002?gh_jid=8916072002",
-      "location": "Karachi, Pakistan",
-      "department": "Groceries Revenue Management",
-      "postedAt": "2026-11-11T00:19:36-05:00",
-      "state": "open"
-    },
-    {
       "id": "7e962551b623b53b9a8035aecc808d29",
       "title": "Senior IT Infrastructure Engineer II",
       "link": "https://boards.greenhouse.io/careem/jobs/8620488002?gh_jid=8620488002",
       "location": "Karachi, Pakistan",
       "department": "IT",
-      "postedAt": "2026-11-11T00:19:36-05:00",
+      "postedAt": "2026-11-19T02:30:21-05:00",
       "state": "open"
     },
     {

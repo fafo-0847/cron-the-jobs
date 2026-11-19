@@ -1,19 +1,8 @@
 {
   "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/moniepoint/jobs?content=true",
-  "fetchedAt": "2026-11-18T16:52:27.572854+00:00",
+  "fetchedAt": "2026-11-19T14:59:50.662852+00:00",
   "state": "open",
   "jobs": [
-    {
-      "id": "c831f596f188ab5ced819b3587b296a5",
-      "title": "Analytics Manager",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4941696101",
-      "location": "Remote, Spain",
-      "department": "Marketing & Sales",
-      "jobType": "",
-      "requisitionId": null,
-      "postedAt": "2026-07-30T09:06:28-04:00",
-      "state": "open"
-    },
     {
       "id": "9f70d25f3fb5afce1072a5d17b64a546",
       "title": "Analytics Manager",
@@ -26,17 +15,6 @@
       "state": "open"
     },
     {
-      "id": "7bb3eade24a18f6a29aa825536c5b775",
-      "title": "Analytics Manager",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4936062101",
-      "location": "London, United Kingdom",
-      "department": "Marketing & Sales",
-      "jobType": "",
-      "requisitionId": null,
-      "postedAt": "2026-07-23T04:55:33-04:00",
-      "state": "open"
-    },
-    {
       "id": "d01dbcb1d26d09960533babe3bece555",
       "title": "Analytics Manager",
       "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4941669101",
@@ -45,6 +23,28 @@
       "jobType": "",
       "requisitionId": null,
       "postedAt": "2026-07-30T09:04:50-04:00",
+      "state": "open"
+    },
+    {
+      "id": "c831f596f188ab5ced819b3587b296a5",
+      "title": "Analytics Manager",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4941696101",
+      "location": "Remote, Spain",
+      "department": "Marketing & Sales",
+      "jobType": "",
+      "requisitionId": null,
+      "postedAt": "2026-07-30T09:06:28-04:00",
+      "state": "open"
+    },
+    {
+      "id": "7bb3eade24a18f6a29aa825536c5b775",
+      "title": "Analytics Manager",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4936062101",
+      "location": "London, United Kingdom",
+      "department": "Marketing & Sales",
+      "jobType": "",
+      "requisitionId": null,
+      "postedAt": "2026-07-23T04:55:33-04:00",
       "state": "open"
     },
     {
@@ -114,6 +114,17 @@
       "state": "open"
     },
     {
+      "id": "bd8b2a04a8ffd77e9539759e545de047",
+      "title": "Data Entry Officer (Ogun)",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4828382101",
+      "location": "Ogun, Nigeria",
+      "department": "Moniebook Business Management Tools",
+      "jobType": "",
+      "requisitionId": "1441",
+      "postedAt": "2026-04-01T03:09:59-04:00",
+      "state": "open"
+    },
+    {
       "id": "68301b86edd598aa8ac8778f660ad697",
       "title": "Early Careers Talent Acquisition Specialist",
       "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4981411101",
@@ -125,17 +136,6 @@
       "state": "open"
     },
     {
-      "id": "13b4107cf58d452cb91c7efc3a234f9d",
-      "title": "Engineering Relations Partner",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4997794101",
-      "location": "Remote, Portugal",
-      "department": "Pool: Engineering",
-      "jobType": "",
-      "requisitionId": "1496",
-      "postedAt": "2026-10-05T11:33:43-04:00",
-      "state": "open"
-    },
-    {
       "id": "e53d8af77dda6c5bf65272a022901e48",
       "title": "Engineering Relations Partner",
       "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4874410101",
@@ -144,6 +144,17 @@
       "jobType": "",
       "requisitionId": "1496",
       "postedAt": "2026-05-25T05:52:00-04:00",
+      "state": "open"
+    },
+    {
+      "id": "13b4107cf58d452cb91c7efc3a234f9d",
+      "title": "Engineering Relations Partner",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4997794101",
+      "location": "Remote, Portugal",
+      "department": "Pool: Engineering",
+      "jobType": "",
+      "requisitionId": "1496",
+      "postedAt": "2026-10-05T11:33:43-04:00",
       "state": "open"
     },
     {
@@ -279,14 +290,36 @@
       "state": "open"
     },
     {
-      "id": "2a8bc8a8988759612dc053060f5cbe3a",
-      "title": "Key Account Officer",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5014835101",
-      "location": "Lagos, Nigeria",
-      "department": "Moniepoint MFB",
+      "id": "8b42a0dc14fa1d76339de67a0b693d12",
+      "title": "Implementation Officer (Enugu)",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4931501101",
+      "location": "Enugu, Nigeria",
+      "department": "Moniebook Business Management Tools",
       "jobType": "",
-      "requisitionId": "1614",
-      "postedAt": "2026-10-23T07:36:20-04:00",
+      "requisitionId": "1434",
+      "postedAt": "2026-07-18T21:18:21-04:00",
+      "state": "open"
+    },
+    {
+      "id": "26b3bd5e1fd9c5a5b2532e666c6ef832",
+      "title": "Implementation Officer (Imo)",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5042163101",
+      "location": "Imo, Nigeria",
+      "department": "Moniebook Business Management Tools",
+      "jobType": "",
+      "requisitionId": "1434",
+      "postedAt": "2026-11-19T03:48:40-05:00",
+      "state": "open"
+    },
+    {
+      "id": "bbde6d210918dbb5c4ec8c6f487a11c2",
+      "title": "Inventory Support Officer (Lagos)",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4196076101",
+      "location": "Lagos, Nigeria",
+      "department": "POS Distribution and Logistics",
+      "jobType": "",
+      "requisitionId": "668",
+      "postedAt": "2023-07-17T09:45:52-04:00",
       "state": "open"
     },
     {
@@ -411,39 +444,6 @@
       "state": "open"
     },
     {
-      "id": "697738580096528d4bfe714f1da4e1c7",
-      "title": "Product Design Manager - UX",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4629880101",
-      "location": "London, United Kingdom",
-      "department": "Product Design",
-      "jobType": "",
-      "requisitionId": "1209",
-      "postedAt": "2025-07-01T17:51:32-04:00",
-      "state": "open"
-    },
-    {
-      "id": "e79aedf989f477d8281a3e90ef84d284",
-      "title": "Product Design Manager - UX",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4944264101",
-      "location": "Remote, Poland",
-      "department": "Product Design",
-      "jobType": "",
-      "requisitionId": "1209",
-      "postedAt": "2026-08-27T05:20:03-04:00",
-      "state": "open"
-    },
-    {
-      "id": "f733f14514e5a8117a3be117668c8ab4",
-      "title": "Product Design Manager - UX",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4944263101",
-      "location": "Remote, Spain",
-      "department": "Product Design",
-      "jobType": "",
-      "requisitionId": "1209",
-      "postedAt": "2026-08-27T05:19:59-04:00",
-      "state": "open"
-    },
-    {
       "id": "7ab57701387378669a4921618651dbaf",
       "title": "Regional Security Officer (North East)",
       "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4942964101",
@@ -499,14 +499,14 @@
       "state": "open"
     },
     {
-      "id": "a7b6692027a942af8ae35bcc0afe0285",
+      "id": "7f3586b9386836e8a935a6997c2d2899",
       "title": "Senior Business Analyst",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4912941101",
-      "location": "Remote, Portugal",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4936515101",
+      "location": "Remote, Poland",
       "department": "",
       "jobType": "",
       "requisitionId": null,
-      "postedAt": "2026-06-30T06:57:02-04:00",
+      "postedAt": "2026-07-24T07:02:26-04:00",
       "state": "open"
     },
     {
@@ -521,14 +521,14 @@
       "state": "open"
     },
     {
-      "id": "7f3586b9386836e8a935a6997c2d2899",
+      "id": "a7b6692027a942af8ae35bcc0afe0285",
       "title": "Senior Business Analyst",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4936515101",
-      "location": "Remote, Poland",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4912941101",
+      "location": "Remote, Portugal",
       "department": "",
       "jobType": "",
       "requisitionId": null,
-      "postedAt": "2026-07-24T07:02:26-04:00",
+      "postedAt": "2026-06-30T06:57:02-04:00",
       "state": "open"
     },
     {
@@ -631,14 +631,14 @@
       "state": "open"
     },
     {
-      "id": "65319357f6d78c26804661c52c0529f4",
+      "id": "c368f1c857b9ae61410d8f03890b6bc4",
       "title": "Talent Acquisition Specialist",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4056914101",
-      "location": "Remote, Lagos, Nigeria",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4576013101",
+      "location": "Remote, Bangalore",
       "department": "Talent Acquisition",
       "jobType": "",
       "requisitionId": "377",
-      "postedAt": "2022-07-01T12:59:07-04:00",
+      "postedAt": "2025-04-17T11:47:16-04:00",
       "state": "open"
     },
     {
@@ -653,6 +653,17 @@
       "state": "open"
     },
     {
+      "id": "65319357f6d78c26804661c52c0529f4",
+      "title": "Talent Acquisition Specialist",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4056914101",
+      "location": "Remote, Lagos, Nigeria",
+      "department": "Talent Acquisition",
+      "jobType": "",
+      "requisitionId": "377",
+      "postedAt": "2022-07-01T12:59:07-04:00",
+      "state": "open"
+    },
+    {
       "id": "1d1eb84aa043f8593d1f3ffcc9f2a962",
       "title": "Talent Acquisition Specialist",
       "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4421698101",
@@ -664,14 +675,14 @@
       "state": "open"
     },
     {
-      "id": "c368f1c857b9ae61410d8f03890b6bc4",
-      "title": "Talent Acquisition Specialist",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4576013101",
-      "location": "Remote, Bangalore",
-      "department": "Talent Acquisition",
+      "id": "3808eaa5ae537bd336f8dc765baac188",
+      "title": "Team Lead, Hardware Quality Assurance",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5028649101",
+      "location": "Lagos, Nigeria",
+      "department": "POS Channel (NG)",
       "jobType": "",
-      "requisitionId": "377",
-      "postedAt": "2025-04-17T11:47:16-04:00",
+      "requisitionId": null,
+      "postedAt": "2026-11-14T07:22:30-05:00",
       "state": "open"
     },
     {

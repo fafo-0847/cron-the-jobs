@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/gomotive/departments",
-  "fetchedAt": "2026-11-18T16:52:27.618650+00:00",
+  "fetchedAt": "2026-11-19T14:59:50.860491+00:00",
   "state": "open",
   "jobs": [
     {
@@ -27,7 +27,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8886671002",
       "location": "United States - Remote",
       "department": "Billing/Collections",
-      "postedAt": "2026-11-17T13:42:07-05:00",
+      "postedAt": "2026-11-18T12:46:28-05:00",
       "state": "open"
     },
     {
@@ -54,15 +54,6 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8900270002",
       "location": "Hybrid - Austin, Texas; Hybrid - Buffalo, New York; Hybrid - Nashville, Tennessee; Hybrid - San Francisco, California; Hybrid - Seattle",
       "department": "Business Intelligence",
-      "postedAt": "2026-11-16T13:23:43-05:00",
-      "state": "open"
-    },
-    {
-      "id": "0e985c5bcb63599805b54e2769cf8ce7",
-      "title": "Technical Account Manager (Mid-Market and Commercial)",
-      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8926636002",
-      "location": "Remote - Islamabad & Lahore",
-      "department": "COGS",
       "postedAt": "2026-11-16T13:23:43-05:00",
       "state": "open"
     },
@@ -193,6 +184,15 @@
       "state": "open"
     },
     {
+      "id": "0e985c5bcb63599805b54e2769cf8ce7",
+      "title": "Technical Account Manager (Mid-Market and Commercial)",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8926636002",
+      "location": "Remote - Islamabad & Lahore",
+      "department": "Customer Support (CSP)",
+      "postedAt": "2026-11-18T18:15:45-05:00",
+      "state": "open"
+    },
+    {
       "id": "c34cae0daebc5e05a73aaa9e747a3331",
       "title": "Manager, Technical Account Management - Enterprise",
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8933077002",
@@ -270,7 +270,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8943192002",
       "location": "United States - Remote",
       "department": "Enablement",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-18T13:24:16-05:00",
       "state": "open"
     },
     {
@@ -324,7 +324,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8941487002",
       "location": "United States - Remote",
       "department": "Finance",
-      "postedAt": "2026-11-17T18:31:14-05:00",
+      "postedAt": "2026-11-18T13:33:18-05:00",
       "state": "open"
     },
     {
@@ -652,24 +652,6 @@
       "state": "open"
     },
     {
-      "id": "1ed5822f75a752c122e222c67456ceb5",
-      "title": "Demand Generation Marketing Manager",
-      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8696888002",
-      "location": "Hybrid - Nashville, Tennessee",
-      "department": "Marketing",
-      "postedAt": "2026-11-16T13:23:43-05:00",
-      "state": "open"
-    },
-    {
-      "id": "6132d5b999429df8cb717e5fad2ce6da",
-      "title": "Demand Generation Marketing Manager",
-      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8720994002",
-      "location": "Hybrid - Austin, Texas",
-      "department": "Marketing",
-      "postedAt": "2026-11-16T13:23:43-05:00",
-      "state": "open"
-    },
-    {
       "id": "71e68b7bb7c8ab8334083eec99f25203",
       "title": "Senior Marketing Operations Specialist",
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8733611002",
@@ -958,6 +940,15 @@
       "state": "open"
     },
     {
+      "id": "e30c39970a8e8e2a6cd14d8ef2e5d31a",
+      "title": "Director of Product, Safety",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8940630002",
+      "location": "Hybrid - Austin, Texas; Hybrid - Nashville, Tennessee; Hybrid - San Francisco, California; Hybrid - Seattle",
+      "department": "Product",
+      "postedAt": "2026-11-18T18:54:48-05:00",
+      "state": "open"
+    },
+    {
       "id": "d15ccfc331ad4ab23ea37f7c428950e9",
       "title": "Sales Recruiter II",
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8918232002",
@@ -1089,15 +1080,6 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/7284384002",
       "location": "United States - Remote",
       "department": "Sales Engineer MM",
-      "postedAt": "2026-11-16T13:23:43-05:00",
-      "state": "open"
-    },
-    {
-      "id": "aa8c58fb0eeb44a072040db1e6958966",
-      "title": "Content Manager",
-      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8892613002",
-      "location": "Pakistan - Remote",
-      "department": "Sales Engineer Shared Service",
       "postedAt": "2026-11-16T13:23:43-05:00",
       "state": "open"
     },

@@ -1,8 +1,38 @@
 {
   "sourceUrl": "https://hcld.fa.em2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,locationId=300000000300311,sortBy=POSTING_DATES_DESC,offset=0",
-  "fetchedAt": "2026-11-18T16:51:29.095937+00:00",
+  "fetchedAt": "2026-11-19T14:58:55.358026+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "dab817277cea4f44e75b3809254aa868",
+      "title": "Senior Manager Technology - Integration Support",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4762",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Hybrid",
+      "postedAt": "2026-11-19",
+      "state": "open"
+    },
+    {
+      "id": "dd00fc677669e5fedffb93b5dc94859c",
+      "title": "Senior Associate, Payment Operations.MGN Pak - Payments Operations - Clearing.Operations Group-PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6246",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-11-19",
+      "state": "open"
+    },
+    {
+      "id": "6d5d174b1bb370ae26575defdc642f5d",
+      "title": "Assistant Manager - Technology.MGN Pak - Tech - Digital - GTB Titan.MIT-MGNPAK",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6957",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-11-19",
+      "state": "open"
+    },
     {
       "id": "ebd37e8460438b33964164d9e7538d04",
       "title": "Product Manager, Retail Deposits.CoE Pakistan - RBG - Liabilities CASA.Retail Banking Group-PAKCOE",

@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/nakisa/jobs?content=true",
-  "fetchedAt": "2026-11-18T16:52:27.697978+00:00",
+  "fetchedAt": "2026-11-19T14:59:51.007230+00:00",
   "state": "open",
   "jobs": [
     {
@@ -67,17 +67,6 @@
       "jobType": "",
       "requisitionId": "126",
       "postedAt": "2026-10-01T09:58:56-04:00",
-      "state": "open"
-    },
-    {
-      "id": "528bffba0f9fa5dbc4d5fc5547797754",
-      "title": "Senior Implementation Consultant",
-      "link": "https://nakisa.com/career-opportunities/?gh_jid=4989026101",
-      "location": "Montréal, Quebec, Canada",
-      "department": "Professional Services",
-      "jobType": "",
-      "requisitionId": "125",
-      "postedAt": "2026-10-07T10:51:03-04:00",
       "state": "open"
     },
     {

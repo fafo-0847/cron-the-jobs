@@ -1,8 +1,58 @@
 {
   "sourceUrl": "https://careers.veeam.com/search-jobs?acm=ALL&alrpm=ALL&ascf=[%7B\"key\":\"Team\",\"value\":\"Securiti+AI\"%7D]",
-  "fetchedAt": "2026-11-18T16:54:51.897735+00:00",
+  "fetchedAt": "2026-11-19T15:02:29.731807+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "d7c9d4fd422ff436b59215aab6537e43",
+      "title": "Software Engineer Test - III",
+      "link": "https://careers.veeam.com/job/bengaluru/software-engineer-test-iii/22681/103507113936",
+      "location": "Bengaluru, Karnataka",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "43602d486272cc925ab01def8c8bfab4",
+      "title": "Senior Software Engineer, Test",
+      "link": "https://careers.veeam.com/job/bengaluru/senior-software-engineer-test/22681/103507113536",
+      "location": "Bengaluru, Karnataka",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "42bcbeb3c835b07db66866965c6ea9ef",
+      "title": "Software Engineer Test - II",
+      "link": "https://careers.veeam.com/job/bengaluru/software-engineer-test-ii/22681/103503169328",
+      "location": "Bengaluru, Karnataka",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "8d6fc913ce2a06bb9efb49bf2de9bdc5",
+      "title": "Software Engineer III - Backend",
+      "link": "https://careers.veeam.com/job/hyderabad/software-engineer-iii-backend/22681/97774191152",
+      "location": "Hyderabad, Telangana",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "f2f4ff9cc9659e20774c1ff25f687cfa",
+      "title": "Principal Product Manager, Graph & Reporting",
+      "link": "https://careers.veeam.com/job/san-jose/principal-product-manager-graph-and-reporting/22681/100188433312",
+      "location": "San Jose, CA",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
     {
       "id": "225de9cac8745e1cd8a84c61928cfce6",
       "title": "Tech Lead - Connector Framework",
@@ -114,16 +164,6 @@
       "state": "open"
     },
     {
-      "id": "85f475abb25efecbeeedbc1acf275d8f",
-      "title": "Software Engineer III",
-      "link": "https://careers.veeam.com/job/hyderabad/software-engineer-iii/22681/97774191152",
-      "location": "Hyderabad, Telangana",
-      "department": "Securiti AI",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
       "id": "6e71bc72387ff47725ddc42d4571c51b",
       "title": "Program Manager, Foward Deployed Engineering",
       "link": "https://careers.veeam.com/job/san-jose/program-manager-foward-deployed-engineering/22681/102172281200",
@@ -198,16 +238,6 @@
       "title": "Senior Software Engineer",
       "link": "https://careers.veeam.com/job/islamabad/senior-software-engineer/22681/97731498592",
       "location": "Islamabad, Islamabad",
-      "department": "Securiti AI",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "f4a04c3a6c124112f9f2d918f0d43628",
-      "title": "Senior Software Engineer, Test",
-      "link": "https://careers.veeam.com/job/bengaluru/senior-software-engineer-test/22681/96288752208",
-      "location": "Bengaluru, Karnataka",
       "department": "Securiti AI",
       "jobType": "",
       "postedAt": "",

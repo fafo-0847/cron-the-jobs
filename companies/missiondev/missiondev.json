@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://mission.dev/api/opportunities?page=1&perPage=12",
-  "fetchedAt": "2026-11-18T16:51:53.608639+00:00",
+  "fetchedAt": "2026-11-19T14:59:18.028299+00:00",
   "state": "open",
   "jobs": [
     {
@@ -49,22 +49,6 @@
       "missionName": "AI Platform Solutions",
       "missionDescription": "Support enterprise customers in adopting and scaling AI solutions by partnering closely to translate business needs into practical, high-impact technical implementations. Work collaboratively to design, develop, and deploy machine learning and AI applications using the platform, ensuring solutions align with customer objectives and deliver measurable value. Contribute to end-to-end AI initiatives — from problem definition through deployment — while maintaining a strong focus on scalability, reliability, and real-world impact.",
       "postedAt": "2026-11-17T14:52:56Z",
-      "state": "open"
-    },
-    {
-      "id": "d2608b164872032168a27f8a637dfc60",
-      "title": "Mobile Engineer (Android)",
-      "link": "",
-      "location": "LATAM",
-      "department": "Mobile Developer",
-      "jobType": "REMOTE",
-      "engagementType": "DEDICATED",
-      "primarySkills": "Android, Kotlin",
-      "secondarySkills": "ML Kit, Material Design, Java, GitHub Actions, Bitrise",
-      "slug": "TRAACMO001350",
-      "missionName": "Accelerating Security Workforce Management Software",
-      "missionDescription": "Our mission is to accelerate the evolution of security workforce management software by building high-performance, feature-rich mobile solutions. We empower security teams with cutting-edge technology, ensuring seamless operations, real-time insights, and enhanced efficiency in the field.",
-      "postedAt": "2026-11-05T19:52:32Z",
       "state": "open"
     },
     {
@@ -247,7 +231,7 @@
       "id": "01447c0d81b7270baad96ec726700333",
       "title": "Senior Cybersecurity Engineer",
       "link": "",
-      "location": "Saudi Arabia, Egypt, Japan, Nigeria, Qatar, India",
+      "location": "India, Egypt, Japan, Nigeria, Qatar, Saudi Arabia",
       "department": "DevOps Engineer",
       "jobType": "REMOTE",
       "engagementType": "DEDICATED",
@@ -263,7 +247,7 @@
       "id": "0179a69db3bee64d6fcbc90ef9c18fc4",
       "title": "Senior Database Administrator (Oracle, PostgreSQL, and MySQL)",
       "link": "",
-      "location": "Saudi Arabia, Egypt, Nigeria, Pakistan, India, Qatar",
+      "location": "India, Egypt, Nigeria, Pakistan, Qatar, Saudi Arabia",
       "department": "Data Engineer, DevOps Engineer",
       "jobType": "REMOTE",
       "engagementType": "DEDICATED",
@@ -279,7 +263,7 @@
       "id": "5ec29dcc3b1494186fcd236eab8a4cb7",
       "title": "Senior DevOps Engineer",
       "link": "",
-      "location": "Pakistan, India, Egypt, Nigeria, South Africa, Saudi Arabia",
+      "location": "India, Egypt, Nigeria, Pakistan, Saudi Arabia, South Africa",
       "department": "DevOps Engineer",
       "jobType": "REMOTE",
       "engagementType": "DEDICATED",

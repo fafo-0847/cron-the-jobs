@@ -1,18 +1,8 @@
 {
   "sourceUrl": "https://iacqey.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC,offset=0",
-  "fetchedAt": "2026-11-18T16:54:11.827872+00:00",
+  "fetchedAt": "2026-11-19T15:01:46.846952+00:00",
   "state": "open",
   "jobs": [
-    {
-      "id": "41a24e3098014b6f3a863fed3c089d75",
-      "title": "Operational Risk Analyst (UAE Nationals Only)",
-      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/935",
-      "location": "RAKBANK Corporate Office Dubai",
-      "department": "",
-      "jobType": "",
-      "postedAt": "2026-11-18",
-      "state": "open"
-    },
     {
       "id": "51c1f91415c671062c4122cbf0cdc874",
       "title": "Relationship Officer - National Loans",
@@ -284,8 +274,8 @@
       "state": "open"
     },
     {
-      "id": "967ed7d27559bc74f313febe3d6d52db",
-      "title": "Data Scientist",
+      "id": "147927ae18ae8493eb66edc905ce48c6",
+      "title": "Senior Data Scientist",
       "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/948",
       "location": "DCO Corp.Office- 8th FLOOR",
       "department": "",

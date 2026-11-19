@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://arbisoft.hirestream.io/api/v1/jobs/published-jobs/?timezone=Asia%2FKarachi&offset=0&limit=20&order=featured",
-  "fetchedAt": "2026-11-18T16:43:25.562171+00:00",
+  "fetchedAt": "2026-11-19T14:50:16.729188+00:00",
   "state": "open",
   "jobs": [
     {
@@ -19,15 +19,6 @@
       "location": "Westwood Office, Lahore",
       "department": "Product Management",
       "postedAt": "2026-11-13T07:39:34.166940Z",
-      "state": "open"
-    },
-    {
-      "id": "3e079572fd30513919246b97a394c673",
-      "title": "Lead Product Engineer (Python, Node.js & React)",
-      "link": "https://arbisoft.hirestream.io/jobs/a204e37f-e704-4d7c-8e19-f3c898134393",
-      "location": "Westwood Office, Lahore",
-      "department": "Software Engineering",
-      "postedAt": "2026-11-10T07:00:33.699151Z",
       "state": "open"
     },
     {

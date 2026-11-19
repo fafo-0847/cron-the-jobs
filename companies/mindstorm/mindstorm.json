@@ -1,12 +1,32 @@
 {
   "sourceUrl": "https://mindstormstudios.simplicant.com",
-  "fetchedAt": "2026-11-18T16:51:53.328300+00:00",
+  "fetchedAt": "2026-11-19T14:59:17.640192+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "5bc3f8801614845d615a02f4b8fdc5de",
+      "title": "Associate SQA",
+      "link": "https://mindstormstudios.simplicant.com/jobs/63054-associate-sqa/detail",
+      "location": "Lahore, Pakistan",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
     {
       "id": "74af441c0f84069828dc90f0fb378865",
       "title": "Game Designer",
       "link": "https://mindstormstudios.simplicant.com/jobs/59646-game-designer/detail",
+      "location": "Lahore, Pakistan",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "5bc3f8801614845d615a02f4b8fdc5de",
+      "title": "Associate SQA",
+      "link": "https://mindstormstudios.simplicant.com/jobs/63054-associate-sqa/detail",
       "location": "Lahore, Pakistan",
       "department": "",
       "jobType": "",

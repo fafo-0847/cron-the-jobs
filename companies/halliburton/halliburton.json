@@ -1,8 +1,48 @@
 {
   "sourceUrl": "https://careers.halliburton.com/category/engineering-science-technology-jobs/543/8646032/1",
-  "fetchedAt": "2026-11-18T16:49:41.882189+00:00",
+  "fetchedAt": "2026-11-19T14:56:39.965618+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "51f46c594fd3bbfcd3a1fcc86906b709",
+      "title": "Tech Prof-Completions, Assoc",
+      "link": "https://careers.halliburton.com/job/abu-dhabi/tech-prof-completions-assoc/543/103513851168",
+      "location": "Abu Dhabi, Abu Dhabi Emirate , United Arab Emirates",
+      "department": "Engineering/Science/Technology",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "f4fc1996e9dd45702a8e72ada49876dc",
+      "title": "Technical Professional Completions",
+      "link": "https://careers.halliburton.com/job/ho-chi-minh-city/technical-professional-completions/543/102276301552",
+      "location": "Ho Chi Minh City, Ho Chi Minh , Vietnam",
+      "department": "Engineering/Science/Technology",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "376741ef4dbf6d2c2b1df5e5661cf52e",
+      "title": "Software Engineer (RCoE)",
+      "link": "https://careers.halliburton.com/job/oslo/software-engineer-rcoe/543/103472949408",
+      "location": "Oslo, Oslo County , Norway",
+      "department": "Engineering/Science/Technology",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "57bd1516de91fd7bb78b9e47f4989fd4",
+      "title": "AI Engineer Team/Project Lead",
+      "link": "https://careers.halliburton.com/job/texas/ai-engineer-team-project-lead/543/103472949248",
+      "location": "Texas, US , United States",
+      "department": "Engineering/Science/Technology",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
     {
       "id": "c24c4dfaee87ab911dfc7dfdab790f74",
       "title": "Senior Data Scientist",
@@ -144,30 +184,10 @@
       "state": "open"
     },
     {
-      "id": "7edf77711aa50abdb2b7899e2232bf68",
-      "title": "Brazil - RJ - Data Management Consultant - Landmark",
-      "link": "https://careers.halliburton.com/job/rio-de-janeiro/brazil-rj-data-management-consultant-landmark/543/103179519584",
-      "location": "Rio de Janeiro, Rio de Janeiro , Brazil",
-      "department": "Engineering/Science/Technology",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
       "id": "5ef5e90237a206ad11d9882659636115",
       "title": "Principal Software Developer - Python",
       "link": "https://careers.halliburton.com/job/kuala-lumpur/principal-software-developer-python/543/96815553600",
       "location": "Kuala Lumpur, Kuala Lumpur , Malaysia",
-      "department": "Engineering/Science/Technology",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "144293081c3953c782b050aa5addfb5e",
-      "title": "Technician-Mechanical, Assoc",
-      "link": "https://careers.halliburton.com/job/abu-dhabi/technician-mechanical-assoc/543/103159348080",
-      "location": "Abu Dhabi, Abu Dhabi Emirate , United Arab Emirates",
       "department": "Engineering/Science/Technology",
       "jobType": "",
       "postedAt": "",
@@ -198,16 +218,6 @@
       "title": "Customer Success Leader",
       "link": "https://careers.halliburton.com/job/odessa/customer-success-leader/543/102945550176",
       "location": "Odessa, TX , United States",
-      "department": "Engineering/Science/Technology",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "1db3ab64c54392af9d22e64ba96d2ffc",
-      "title": "Technician Mechanical",
-      "link": "https://careers.halliburton.com/job/tananger/technician-mechanical/543/102850730800",
-      "location": "Tananger, Rogaland , Norway",
       "department": "Engineering/Science/Technology",
       "jobType": "",
       "postedAt": "",
