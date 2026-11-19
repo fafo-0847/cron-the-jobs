@@ -1,0 +1,77 @@
+{
+  "sourceUrl": "https://addo-ai.hirestream.io/api/v1/jobs/published-jobs/?timezone=Asia%2FKarachi&offset=0&limit=20&order=featured",
+  "fetchedAt": "2026-11-18T16:42:53.597759+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "fce01893b6540094661c5eb5f905bacc",
+      "title": "Associate Project Manager (Lahore)",
+      "link": "https://addo-ai.hirestream.io/jobs/ca540381-9a6b-4fe3-b981-89816d9f1642",
+      "location": "Addo, DHA, Phase 8",
+      "department": "PMO",
+      "jobType": "On-site",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "537a7b2f225f5026dd95746e23284885",
+      "title": "Senior Technical Project Manager (Karachi and Islamabad)",
+      "link": "https://addo-ai.hirestream.io/jobs/b83c0ea8-9c35-411f-a4a4-d7f1e79192b2",
+      "location": "Pakistan",
+      "department": "PMO",
+      "jobType": "On-site",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "6ecd2aaadd10ccff76432f41130e771b",
+      "title": "Data Scientist",
+      "link": "https://addo-ai.hirestream.io/jobs/8cd45b54-be6e-47c1-90c5-d8218339c45a",
+      "location": "Pakistan",
+      "department": "Data Sciences",
+      "jobType": "On-site",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "cbbdad5f4960af4e16f08fcef76ee8ab",
+      "title": "Social Media & Digital Growth Executive",
+      "link": "https://addo-ai.hirestream.io/jobs/917d32df-82c2-4ee8-8e3e-dbf1ec8c123e",
+      "location": "Addo, DHA, Phase 8",
+      "department": "Marketing",
+      "jobType": "On-site",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "b3f0223d9d6b7cc4f008942cb22e62d0",
+      "title": "Deputy Manager – Accounts",
+      "link": "https://addo-ai.hirestream.io/jobs/2a05171a-50d9-4348-af06-4f5188ac937d",
+      "location": "Addo, DHA, Phase 8",
+      "department": "Accounts ",
+      "jobType": "On-site",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "072a3a8b177561b3118534ab14885f1b",
+      "title": "Pre-Sales Associate",
+      "link": "https://addo-ai.hirestream.io/jobs/d0728dbc-5f49-4ea9-8b54-70351b8f1863",
+      "location": "Addo, DHA, Phase 8",
+      "department": "Tech. Sales",
+      "jobType": "On-site",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "8bc5b57dedf472050b5c9bed1f09c683",
+      "title": "Business Development Manager (Islamabad)",
+      "link": "https://addo-ai.hirestream.io/jobs/a4ac66f9-4b27-4aef-961c-c02cce3e96dc",
+      "location": "Addo",
+      "department": "Tech. Sales",
+      "jobType": "On-site",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/careem/departments",
+  "fetchedAt": "2026-11-18T16:45:00.637599+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "4202c9540b294d29e567be8836ad92f2",
+      "title": "Associate Director of Ads Sales",
+      "link": "https://boards.greenhouse.io/careem/jobs/8618945002?gh_jid=8618945002",
+      "location": "Dubai, United Arab Emirates",
+      "department": "Ads",
+      "postedAt": "2026-11-11T00:19:36-05:00",
+      "state": "open"
+    },
+    {
+      "id": "6ad7fb2b67897276ab6f976cbf768b99",
+      "title": "Senior Strategy and Care Transformation Manager  ",
+      "link": "https://boards.greenhouse.io/careem/jobs/8789147002?gh_jid=8789147002",
+      "location": "Dubai, United Arab Emirates",
+      "department": "Central Care Leadership",
+      "postedAt": "2026-11-11T00:19:36-05:00",
+      "state": "open"
+    },
+    {
+      "id": "480618bece75c02439701c66016f8e9a",
+      "title": "Account Manager I",
+      "link": "https://boards.greenhouse.io/careem/jobs/8844091002?gh_jid=8844091002",
+      "location": "Amman, Jordan",
+      "department": "Food & Dineout Jordan",
+      "postedAt": "2026-11-11T00:19:36-05:00",
+      "state": "open"
+    },
+    {
+      "id": "3ef162fce94927a6799b6664ba8d0b8d",
+      "title": "Account Manager I",
+      "link": "https://boards.greenhouse.io/careem/jobs/8873949002?gh_jid=8873949002",
+      "location": "Dubai, United Arab Emirates",
+      "department": "Food & Dineout UAE",
+      "postedAt": "2026-11-11T00:19:36-05:00",
+      "state": "open"
+    },
+    {
+      "id": "0ea0df75d79e170b952e205c095d17cd",
+      "title": "Sales Executive",
+      "link": "https://boards.greenhouse.io/careem/jobs/8873980002?gh_jid=8873980002",
+      "location": "Dubai, United Arab Emirates",
+      "department": "Food & Dineout UAE",
+      "postedAt": "2026-11-11T00:19:36-05:00",
+      "state": "open"
+    },
+    {
+      "id": "46606546316c405a9cbecb5d99b41305",
+      "title": "Quality Specialist",
+      "link": "https://boards.greenhouse.io/careem/jobs/8916073002?gh_jid=8916073002",
+      "location": "Dubai, United Arab Emirates",
+      "department": "Groceries Category Management",
+      "postedAt": "2026-11-11T00:19:36-05:00",
+      "state": "open"
+    },
+    {
+      "id": "3595da53975e8f14141698983d1bfde2",
+      "title": "Product Operations Manager",
+      "link": "https://boards.greenhouse.io/careem/jobs/8916072002?gh_jid=8916072002",
+      "location": "Karachi, Pakistan",
+      "department": "Groceries Revenue Management",
+      "postedAt": "2026-11-11T00:19:36-05:00",
+      "state": "open"
+    },
+    {
+      "id": "7e962551b623b53b9a8035aecc808d29",
+      "title": "Senior IT Infrastructure Engineer II",
+      "link": "https://boards.greenhouse.io/careem/jobs/8620488002?gh_jid=8620488002",
+      "location": "Karachi, Pakistan",
+      "department": "IT",
+      "postedAt": "2026-11-11T00:19:36-05:00",
+      "state": "open"
+    },
+    {
+      "id": "ef43d82c47517e675075ae3827f7aaec",
+      "title": "Senior ERP Functional Expert",
+      "link": "https://boards.greenhouse.io/careem/jobs/8620725002?gh_jid=8620725002",
+      "location": "Karachi, Pakistan",
+      "department": "IT",
+      "postedAt": "2026-11-11T00:19:36-05:00",
+      "state": "open"
+    },
+    {
+      "id": "7e800d875da04c7f49efc7ac5e136a98",
+      "title": "Senior Operations Associate - Shops",
+      "link": "https://boards.greenhouse.io/careem/jobs/8640594002?gh_jid=8640594002",
+      "location": "Dubai, United Arab Emirates",
+      "department": "PMO & Partner Operations",
+      "postedAt": "2026-11-11T00:19:36-05:00",
+      "state": "open"
+    },
+    {
+      "id": "15b430f1db94509daf9f3f1330a4d309",
+      "title": "Software Engineer II - Backend | NextGen Engineering",
+      "link": "https://boards.greenhouse.io/careem/jobs/7004825002?gh_jid=7004825002",
+      "location": "Lahore, Pakistan",
+      "department": "Satellite Engineering",
+      "postedAt": "2026-11-11T00:19:36-05:00",
+      "state": "open"
+    },
+    {
+      "id": "ab53522d3a293f11b202e220f7386729",
+      "title": "Software Engineer I - Backend | NextGen Engineering",
+      "link": "https://boards.greenhouse.io/careem/jobs/7107610002?gh_jid=7107610002",
+      "location": "Karachi, Pakistan; Lahore, Pakistan",
+      "department": "Satellite Engineering",
+      "postedAt": "2026-11-11T00:19:36-05:00",
+      "state": "open"
+    },
+    {
+      "id": "6c34b0d7bb35a8f92a120987b3880b01",
+      "title": "Account Manager II - Shops",
+      "link": "https://boards.greenhouse.io/careem/jobs/8899591002?gh_jid=8899591002",
+      "location": "Dubai, United Arab Emirates",
+      "department": "Shops - UAE",
+      "postedAt": "2026-11-11T00:19:36-05:00",
+      "state": "open"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "sourceUrl": "https://briskdev.co/career/",
+  "fetchedAt": "2026-10-06T14:49:01.632484+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "10fadc5ce409b3d75f49a0f91c2d2f55",
+      "title": "Open Positions",
+      "link": "",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "description": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "fdc2bf96d45ffd659fdc6e0dcad7ca60",
+      "title": "Assistant Technical Project Manager",
+      "link": "",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "description": "Brisk Dev Pvt. Ltd. is hiring an Assistant Technical Project Manager for its DHA Phase 8, Lahore office (3 PM – 12 AM). The ideal candidate should have 6+ months of experience in managing software projects, coordinating between development, design, and QA teams, and ensuring timely project delivery. The role requires a solid understanding of Agile/Scrum methodologies, SDLC, and project management tools like Jira or ClickUp. Candidates must be technically sound, detail-oriented, and capable of handling multiple projects efficiently while maintaining strong communication and organizational skills.",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "ec0c776355fc4f325abb7c0981468e2a",
+      "title": "Social Media & Marketing Executive",
+      "link": "",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "description": "Brisk Dev Pvt. Ltd. is hiring a Social Media & Marketing Executive for its DHA Phase 8, Lahore office (3 PM – 12 AM). For female employees: 3 PM – 8 PM onsite and 8 PM – 12 AM remote. We’re looking for a creative and motivated individual with 6+ months of experience in social media management or marketing. The role involves managing company pages, creating engaging content, running campaigns, analyzing performance, and enhancing brand visibility. Candidates must have strong communication, creative writing, and digital marketing skills, with the ability to work collaboratively in a fast-paced environment.",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

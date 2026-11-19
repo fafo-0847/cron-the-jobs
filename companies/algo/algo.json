@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://www.algo.com/careers/#open-positions",
+  "fetchedAt": "2026-10-06T14:48:17.700297+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "1cba9376bdda49953a764f0b75bb1932",
+      "title": "Technical Customer Support Associate – L1",
+      "link": "https://algomus.bamboohr.com/careers/282",
+      "location": "Lahore, Punjab",
+      "department": "Customer Support",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "797c709ba20a07ba8397b3f9b182a9db",
+      "title": "Demand Planning & Forecasting Analyst",
+      "link": "https://algomus.bamboohr.com/careers/284",
+      "location": "Lahore, Punjab",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

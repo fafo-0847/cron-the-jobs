@@ -1,0 +1,57 @@
+{
+  "sourceUrl": "https://conradlabs.com/careers",
+  "fetchedAt": "2026-11-18T16:47:00.309383+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "8569c57ec81d44e0887ec8e32bed7fc2",
+      "title": "DevOps Engineer",
+      "link": "https://conradlabs.com/jobs/devops-engineer-2",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "4605ba1346fbbb3406ae028d22d2b24c",
+      "title": "Software Engineer II",
+      "link": "https://conradlabs.com/jobs/software-engineer2",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "fa0fb711e7f0bfd844d3f1b2079eeaf6",
+      "title": "Senior Software Engineer (AI First Operating Model)",
+      "link": "https://conradlabs.com/jobs/senior-software-engineer-ai-first-operating-model",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "0a01848774ed28c6a72329378a443b64",
+      "title": "Product Manager",
+      "link": "https://conradlabs.com/jobs/product-manager-2",
+      "location": "Karachi, Lahore",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "46be4655a8f102121550992480b05325",
+      "title": "Senior Software Engineer",
+      "link": "https://conradlabs.com/jobs/senior-software-engineer-3",
+      "location": "Karachi, Lahore",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

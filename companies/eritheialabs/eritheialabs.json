@@ -1,0 +1,31 @@
+{
+  "sourceUrl": "https://www.eritheialabs.com/careers",
+  "fetchedAt": "2026-11-18T16:48:04.396913+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "b3d70783cf01a38892603b9ba39211f4",
+      "title": "Telesales Representative",
+      "link": "https://www.eritheialabs.com/job-offerings/el-jobs-sls-1009",
+      "location": "Lahore",
+      "department": "Sales & Marketing Department",
+      "jobType": "",
+      "jobCode": "EL-JOBS-SLS-1009",
+      "closesAt": "Oct 31,2026",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "b8240c5fa59167ea4b2540669657f506",
+      "title": "Business Development Executive",
+      "link": "https://www.eritheialabs.com/job-offerings/el-jobs-bgl-0727",
+      "location": "Lahore",
+      "department": "Business & Sales Department",
+      "jobType": "",
+      "jobCode": "EL-JOBS-BGL-0727",
+      "closesAt": "Nov 30,2026",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

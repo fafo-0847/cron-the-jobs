@@ -1,0 +1,12 @@
+[
+  {
+    "company": "burq",
+    "error": "[Errno 2] No such file or directory: 'archive/burq.json'",
+    "failedAt": "2026-07-12T23:42:14.004824+00:00"
+  },
+  {
+    "company": "rewaa",
+    "error": "[Errno 2] No such file or directory: 'archive/rewaa.json'",
+    "failedAt": "2026-07-12T23:43:55.409756+00:00"
+  }
+]

@@ -1,0 +1,1663 @@
+{
+  "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/gomotive/departments",
+  "fetchedAt": "2026-11-18T16:52:27.618650+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "84acff7aa592d032aab1319259a360bf",
+      "title": "Data Annotator (rotational shifts w/ weekends)",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8378193002",
+      "location": "Mexico City, Mexico",
+      "department": "Annotation",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "68ffa8e950cf7b05f661b666445037b1",
+      "title": "Senior Billing Specialist",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/6486830002",
+      "location": "Hybrid - Islamabad & Lahore",
+      "department": "Billing/Collections",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "e26985aebf2dc3bca3045a63053dca86",
+      "title": "Senior Collections Analyst",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8886671002",
+      "location": "United States - Remote",
+      "department": "Billing/Collections",
+      "postedAt": "2026-11-17T13:42:07-05:00",
+      "state": "open"
+    },
+    {
+      "id": "da36aa520f7827fb53120f73dfe12ab4",
+      "title": "Senior Analytics Engineer",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8783282002",
+      "location": "Mexico City - Hybrid",
+      "department": "Business Intelligence",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "d086ef9b1bdf7479df1894af07381ab6",
+      "title": "Senior Analytics Engineer - GTM",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8842739002",
+      "location": "Canada - Hybrid",
+      "department": "Business Intelligence",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "f3e96e3e80b894454bc474885322e498",
+      "title": "Senior Analytics Engineer - GTM",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8900270002",
+      "location": "Hybrid - Austin, Texas; Hybrid - Buffalo, New York; Hybrid - Nashville, Tennessee; Hybrid - San Francisco, California; Hybrid - Seattle",
+      "department": "Business Intelligence",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "0e985c5bcb63599805b54e2769cf8ce7",
+      "title": "Technical Account Manager (Mid-Market and Commercial)",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8926636002",
+      "location": "Remote - Islamabad & Lahore",
+      "department": "COGS",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "a55e06d67760ad8ccad0bf6d751f4481",
+      "title": "Technical Support Engineer",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/6903824002",
+      "location": "Hybrid - Islamabad & Lahore",
+      "department": "Customer Support (CSP)",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "9218ca43a5005a9d5fe67057412c47b3",
+      "title": "Technical Support Specialist",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/7950379002",
+      "location": "Pakistan - Islamabad; Pakistan - Lahore; Pakistan - Remote",
+      "department": "Customer Support (CSP)",
+      "postedAt": "2026-11-17T08:33:24-05:00",
+      "state": "open"
+    },
+    {
+      "id": "7c731f8c01f1deeacac7b45e7241ea6b",
+      "title": "Technical Account Manager - Enterprise ",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8021079002",
+      "location": "Remote - Islamabad & Lahore",
+      "department": "Customer Support (CSP)",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "5a7bb3cb42bacfdc7e76297ed0048ab1",
+      "title": "Technical Account Manager - Strategic",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8021084002",
+      "location": "Remote - Islamabad & Lahore",
+      "department": "Customer Support (CSP)",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "29fc9af5e69a8b4a4210843cb7934b77",
+      "title": "Technology Program Analyst II - Support AI",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8240269002",
+      "location": "Pakistan - Remote; Remote - Islamabad; Remote - Lahore",
+      "department": "Customer Support (CSP)",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "b3b4bd0ef75a3173f4688ca3d01f2590",
+      "title": "Senior Technical Support Engineer - Spanish",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8710003002",
+      "location": "Pakistan - Remote",
+      "department": "Customer Support (CSP)",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "871dd1be18970ab21fab19bd3f2786cd",
+      "title": "Data Analyst II",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8858120002",
+      "location": "Hybrid - Lahore; Remote - Islamabad",
+      "department": "Customer Support (CSP)",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "b88fd64bbf0b6f25ce46bd8265bb6e93",
+      "title": "Associate Program Manager, Technical Outreach",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8875593002",
+      "location": "Remote - Islamabad & Lahore",
+      "department": "Customer Support (CSP)",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "1b6374398ed1bc5fb289fd34fcbc4f7c",
+      "title": "Senior Backline Support Engineer",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8875595002",
+      "location": "Hybrid - Islamabad & Lahore",
+      "department": "Customer Support (CSP)",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "6dcb9a14756f39823e76a4f6b5984407",
+      "title": "Product Support Specialist",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8890306002",
+      "location": "United States - Buffalo, New York",
+      "department": "Customer Support (CSP)",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "fcce1e3cfef24a6f7c3d908c9a6d6de7",
+      "title": "Program Manager, Strategy Operations",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8893712002",
+      "location": "Hybrid - Islamabad & Lahore",
+      "department": "Customer Support (CSP)",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "c2543f71f7308a09e34f00a338cf0534",
+      "title": "Technical Support Specialist",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8906566002",
+      "location": "Mexico City - Hybrid",
+      "department": "Customer Support (CSP)",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "c97ebe04aa6917fcfeaf5b6ccb02b5cb",
+      "title": "Lead Support Engineer",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8925055002",
+      "location": "Pakistan - Remote",
+      "department": "Customer Support (CSP)",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "5ef430fb6afb57c8dcd02705eceabef8",
+      "title": "Business Intelligence Analyst II",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8925908002",
+      "location": "Hybrid - Lahore; Remote - Islamabad",
+      "department": "Customer Support (CSP)",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "c34cae0daebc5e05a73aaa9e747a3331",
+      "title": "Manager, Technical Account Management - Enterprise",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8933077002",
+      "location": "Remote - Islamabad & Lahore",
+      "department": "Customer Support (CSP)",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "dc8613733c6c9197c1bdc0b7ffb47363",
+      "title": "Senior Analyst, Strategic Analytics",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8590413002",
+      "location": "United States - Remote",
+      "department": "Data",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "df7694b59089d69d21eb2be42f47ecc5",
+      "title": "Role Readiness Specialist (Onboarding)",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8615936002",
+      "location": "Pakistan - Lahore",
+      "department": "Enablement",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "71fd8ade2258731d0ccc189bbfa54f15",
+      "title": "Senior Enablement Operations Manager",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8672501002",
+      "location": "Pakistan - Remote",
+      "department": "Enablement",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "88ce8eedc7b767842f4385e8cacadecc",
+      "title": "Global Director, Role Readiness",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8842429002",
+      "location": "United States - Remote",
+      "department": "Enablement",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "fd686e74d56839fdc1ef9930ba6f38bf",
+      "title": "Senior Customer Education Consultant",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8935202002",
+      "location": "United States - Remote",
+      "department": "Enablement",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "c85c118edecc82636f6325d954f190b4",
+      "title": "Sales Leadership Trainer",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8943188002",
+      "location": "United States - Remote",
+      "department": "Enablement",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "3270369913bf777bc7b4036d07cdf64f",
+      "title": "Sr. Manager, SDR Enablement Business Partners",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8943190002",
+      "location": "Hybrid - Austin, Texas; United States - Austin, Texas",
+      "department": "Enablement",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "63af8b335872891e64fa7ef620cfaa3f",
+      "title": "Sr Manager, Content & Academy",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8943192002",
+      "location": "United States - Remote",
+      "department": "Enablement",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "c495cf0f39d67705be848de26d96c36c",
+      "title": "Senior Salesforce Engineer - CPQ",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8781587002",
+      "location": "India - Remote",
+      "department": "Enterprise Systems",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "4d697397ab1f46f827ccc1020851ac7b",
+      "title": "Senior AI Platform Engineer",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8905056002",
+      "location": "Hybrid - Toronto",
+      "department": "Enterprise Systems",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "34911705c85c6ea41f3ba3f87a9c50d8",
+      "title": "Program Manager, Deal Desk Operations",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8693228002",
+      "location": "United States - Remote",
+      "department": "Field Operations",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "1fea3a56fb045d888137e2d11396a318",
+      "title": "Lead FP&A Analyst",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8782062002",
+      "location": "United States - Remote",
+      "department": "Finance",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "24a588f447cce08a4995552b33d0cef1",
+      "title": "Manager/Senior Manager FP&A- GTM",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8922857002",
+      "location": "United States - Remote",
+      "department": "Finance",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "e23b19b13432d167fe00473b9f1992c4",
+      "title": "Director, FP&A",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8941487002",
+      "location": "United States - Remote",
+      "department": "Finance",
+      "postedAt": "2026-11-17T18:31:14-05:00",
+      "state": "open"
+    },
+    {
+      "id": "b2692cf892fc32e44550fe9871962b2f",
+      "title": "Lead Compliance Manager",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8202194002",
+      "location": "United States - Remote",
+      "department": "Financial Products G&A",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "47245812f885ba5a9380d1ce83639341",
+      "title": "Risk Analyst I",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8917785002",
+      "location": "Pakistan - Remote",
+      "department": "Financial Products G&A",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "9c4172b2a3ce18313d53dab4f2373eaa",
+      "title": "Risk Analyst I, Underwriting",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8928319002",
+      "location": "Pakistan - Remote",
+      "department": "Financial Products G&A",
+      "postedAt": "2026-11-17T11:27:03-05:00",
+      "state": "open"
+    },
+    {
+      "id": "84e9676ebd4a160b6772bb837fac74d4",
+      "title": "Director, Product Design",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8770221002",
+      "location": "Hybrid - San Francisco, California",
+      "department": "Financial Products Product",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "5035c8c9527fdc70e231004134036888",
+      "title": "Financial Product Specialist II (Mid-Market)",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8856330002",
+      "location": "Pakistan - Remote",
+      "department": "Financial Products S&M",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "0a7d377f2a45cb05e7611ae0aae8d3e9",
+      "title": "Financial Product Specialist II",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8938072002",
+      "location": "Remote - Islamabad & Lahore",
+      "department": "Financial Products S&M",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "b1cfaafb58157e566c0bd6c16c5d1f39",
+      "title": "Business Strategy and Operations Analyst II (RevOps)",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/7761424002",
+      "location": "Pakistan - Islamabad",
+      "department": "GTM Strategy and Sales Operations",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "62652f8a8016d6aeaef4fe14a0ba4447",
+      "title": "Business Operations Manager",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8672520002",
+      "location": "United States - Remote",
+      "department": "GTM Strategy and Sales Operations",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "50f8639aa285da16e9d55a12450c8f96",
+      "title": "Business Strategy & Operations Analyst II",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8686675002",
+      "location": "Hybrid - Lahore",
+      "department": "GTM Strategy and Sales Operations",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "002128b38a04092f215c48575bcbffc2",
+      "title": "Business Strategy & Operations Manager",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8782390002",
+      "location": "United States - Remote",
+      "department": "GTM Strategy and Sales Operations",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "3c6d2db2c77c1b249e8931819e290a9d",
+      "title": "Senior Manager, GTM Operations",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8859354002",
+      "location": "United States - Remote",
+      "department": "GTM Strategy and Sales Operations",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "b6a0b8fb120afd9c709df6b88477f5c2",
+      "title": "Associate Manager, Business Strategy & Operations",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8899725002",
+      "location": "Hybrid - Lahore",
+      "department": "GTM Strategy and Sales Operations",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "f7581e1c6c36aab7e5afbf1778107e29",
+      "title": "Systems Transformation Analyst II",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8937756002",
+      "location": "Pakistan - Remote; Remote - Islamabad & Lahore",
+      "department": "GTM Strategy and Sales Operations",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "ae2b1372012156320c58a8317018e66c",
+      "title": "Telematics Coverage Engineer",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8783131002",
+      "location": "United States - Remote",
+      "department": "Hardware Engineering",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "89dbd0127e951d0966381b7f73ba3bd4",
+      "title": "Hardware Reliability Engineer",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8893977002",
+      "location": "Taiwan - Taipei",
+      "department": "Hardware Engineering",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "7d19342fdc895c89a7121918f534fa35",
+      "title": "Technical Lead Manager, Telematics",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8905070002",
+      "location": "Hybrid - Bangalore",
+      "department": "Hardware Engineering",
+      "postedAt": "2026-11-17T00:29:32-05:00",
+      "state": "open"
+    },
+    {
+      "id": "71326e58aac98fa205e12b77c3299c16",
+      "title": "Mechanical Engineer",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8910505002",
+      "location": "United States - Remote",
+      "department": "Hardware Engineering",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "bf5d898127e77aabdbc9a8c50f711899",
+      "title": "Technical Program Manager",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8910507002",
+      "location": "Hybrid - San Francisco, California",
+      "department": "Hardware Engineering",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "39b5daabdfe759e83dd9b8494a7ecbbc",
+      "title": "Senior Manufacturer Test Engineer ",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8927928002",
+      "location": "Taiwan - Taipei",
+      "department": "Hardware Engineering",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "d4be42ec3dd0f537f55db477be93e1db",
+      "title": "People Operations Lead",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8360649002",
+      "location": "Hybrid - Islamabad; Hybrid - Lahore",
+      "department": "HR",
+      "postedAt": "2026-11-18T06:35:23-05:00",
+      "state": "open"
+    },
+    {
+      "id": "e279f8bfa954eee197b149fdc643c49a",
+      "title": "Senior Manager, People Operations",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8372647002",
+      "location": "United States - Remote",
+      "department": "HR",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "e6ad13fa6779bbf0fb774caa5f9f7ccf",
+      "title": "Senior HR Business Partner — Temporary / Fixed-Term (6 Months) ",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8502748002",
+      "location": "United States - Remote",
+      "department": "HR",
+      "postedAt": "2026-11-18T03:00:50-05:00",
+      "state": "open"
+    },
+    {
+      "id": "cd53693a3ed60954b8a9d0e900772840",
+      "title": "People Business Partner",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8627801002",
+      "location": "Hybrid - Islamabad & Lahore",
+      "department": "HR",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "70e4dcc1eecf801c56644b0a2b871c78",
+      "title": "Employee Relations Business Partner",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8838180002",
+      "location": "Hybrid - Islamabad; Hybrid - Islamabad & Lahore; Hybrid - Lahore",
+      "department": "HR",
+      "postedAt": "2026-11-17T09:48:06-05:00",
+      "state": "open"
+    },
+    {
+      "id": "1bf5d954d7a1ccef0c87de2ffe9af468",
+      "title": "Senior HR Business Partner — Temporary / Fixed-Term (6 Months)",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8943405002",
+      "location": "Canada - Remote",
+      "department": "HR",
+      "postedAt": "2026-11-18T03:05:00-05:00",
+      "state": "open"
+    },
+    {
+      "id": "e390c0e18abae3584c4e6830fe1a5ecb",
+      "title": "Implementation Coordinator - Spanish",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8499079002",
+      "location": "Pakistan - Remote",
+      "department": "Implementation",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "f194862562ac0aa822a9c8cc18a2a51d",
+      "title": "Install Coordinator",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8499081002",
+      "location": "Pakistan - Remote",
+      "department": "Implementation",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "1ed63be5c86b19f4f9453a2a6aa5f77a",
+      "title": "Implementation Consultant ",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8750379002",
+      "location": "Mexico City - Hybrid",
+      "department": "Implementation",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "8d84efc160ce1b63f228b6f2c6b26f32",
+      "title": "Implementation Consultant",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8892611002",
+      "location": "Pakistan - Remote",
+      "department": "Implementation",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "397dc0971b4fb7bac8f6596379d4c165",
+      "title": "Senior Manager, IT Engineering",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8756912002",
+      "location": "Hybrid - Austin, Texas; Hybrid - Nashville, Tennessee; Hybrid - San Francisco, California; Hybrid - Seattle",
+      "department": "IT",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "8aa08dc6497d93789040c3e4dafa25e1",
+      "title": "Interested in joining our team?",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/5466892002",
+      "location": "Remote - United States",
+      "department": "Join our Talent Network",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "93eb496cc5692f8899a2ef10cd500702",
+      "title": "Interested in joining our team?",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/5476318002",
+      "location": "Remote - Pakistan",
+      "department": "Join our Talent Network",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "9a6e84c716901f2959346891214ef3e1",
+      "title": "Senior Counsel, Privacy & AI",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8360640002",
+      "location": "United States - Remote",
+      "department": "Legal",
+      "postedAt": "2026-11-18T11:23:23-05:00",
+      "state": "open"
+    },
+    {
+      "id": "7be388b31e18474f4d78d630919be6b6",
+      "title": "Commercial Counsel, Sales",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8922102002",
+      "location": "United States - Remote",
+      "department": "Legal",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "44379801993415c8546207079d543236",
+      "title": "Associate General Counsel, Commercial",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8939112002",
+      "location": "United States - Remote",
+      "department": "Legal",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "0a5a43681ba7959f17c82b83f78c7805",
+      "title": "Director, Financial & Corporate Communications",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8495813002",
+      "location": "United States - San Francisco, California",
+      "department": "Marketing",
+      "postedAt": "2026-11-16T19:46:04-05:00",
+      "state": "open"
+    },
+    {
+      "id": "1ed5822f75a752c122e222c67456ceb5",
+      "title": "Demand Generation Marketing Manager",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8696888002",
+      "location": "Hybrid - Nashville, Tennessee",
+      "department": "Marketing",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "6132d5b999429df8cb717e5fad2ce6da",
+      "title": "Demand Generation Marketing Manager",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8720994002",
+      "location": "Hybrid - Austin, Texas",
+      "department": "Marketing",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "71e68b7bb7c8ab8334083eec99f25203",
+      "title": "Senior Marketing Operations Specialist",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8733611002",
+      "location": "United States - Remote",
+      "department": "Marketing",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "2e8e773646e5245ef13cf0ee1d0ab822",
+      "title": "Demand Generation Marketing Manager",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8739420002",
+      "location": "Hybrid - San Francisco, California",
+      "department": "Marketing",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "3c7b16b8302e3b310d4b09716175afc8",
+      "title": "Internal Communications, Lead (Individual Contributor) ",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8750397002",
+      "location": "United States - Remote",
+      "department": "Marketing",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "652728c5076323f0cab4bd6dec51e541",
+      "title": "Customer Marketing Manager (Austin TX - hybrid)",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8811944002",
+      "location": "Hybrid - Austin, Texas",
+      "department": "Marketing",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "e9c241f88e2e5e1b00a5984b2cf71352",
+      "title": "Senior Technical SEO Specialist",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8822731002",
+      "location": "United States - Remote",
+      "department": "Marketing",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "2dbef6c6ae60af2e552ce8439cf04e53",
+      "title": "Sr. Marketing Manager",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8842468002",
+      "location": "United Kingdom",
+      "department": "Marketing",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "9183e770e0e0d3c8a1c44733a497f35f",
+      "title": "Demand Generation Marketing Manager",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8843484002",
+      "location": "United States - Remote",
+      "department": "Marketing",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "4b56e2a65afe9d39aa00147c3ef076ed",
+      "title": "Creative Director",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8900088002",
+      "location": "United States - San Francisco, California",
+      "department": "Marketing",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "d52f938cd3b64da6f245b59914998c8f",
+      "title": "Customer Marketing Specialist (Austin TX - hybrid)",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8909273002",
+      "location": "Hybrid - Austin, Texas",
+      "department": "Marketing",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "bbb6e5f434bd1726391ff500cbb576a5",
+      "title": "Lifecycle Marketing Specialist, Customer Journey",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8917106002",
+      "location": "United States - Remote",
+      "department": "Marketing",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "bd988782b4db72c0a9dab50591138364",
+      "title": "Lifecycle Marketing Manager, Expansion",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8917108002",
+      "location": "United States - Remote",
+      "department": "Marketing",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "cb0237a98974fee953e33ae7ebd77781",
+      "title": "VP, Growth",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8934415002",
+      "location": "United States - Remote",
+      "department": "Marketing",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "432f3932903f573f476ff54c13bc08e6",
+      "title": "VP, Product Marketing",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8934417002",
+      "location": "United States - Remote",
+      "department": "Marketing",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "f2026d3569309ac6193ed47b5f24d670",
+      "title": "Product Marketing Lead, Competitive Intelligence ",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8935281002",
+      "location": "United States - Remote",
+      "department": "Marketing",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "39fffa1b5294617e25b7a9d1d39c475b",
+      "title": "Mid-Market Regional Sales Manager ",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8891542002",
+      "location": "Hybrid - Austin, Texas",
+      "department": "MM",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "9003e7b34bf2c46d8ecf4376a57864a0",
+      "title": "Mid-Market Regional Sales Manager",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8936601002",
+      "location": "United States - Remote",
+      "department": "MM",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "46b10bdb732bebb00e6f656a4cb1c607",
+      "title": "Account Executive, Mid-Market - MX",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8622282002",
+      "location": "Mexico City - Hybrid",
+      "department": "MM Emerging Sales",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "d032d1f14761747e44b8a6d742eb10f7",
+      "title": "RevOps Strategic Initiatives Manager",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8654142002",
+      "location": "United States - Remote; United States - San Francisco, California",
+      "department": "Order Management",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "15517fd4ae8e3f65bc5f40f57606e5d2",
+      "title": "Senior Order Management Specialist",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8883191002",
+      "location": "Hybrid - Islamabad & Lahore",
+      "department": "Order Management",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "507be79a6e1d4ddf28257329a5c95bb1",
+      "title": "Order Management Specialist, Operations",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8883193002",
+      "location": "Hybrid - Islamabad & Lahore",
+      "department": "Order Management",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "e2ddae12bf656775b1427a404a34ab7b",
+      "title": "Order Management Specialist, Returns",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8940839002",
+      "location": "Pakistan - Remote",
+      "department": "Order Management",
+      "postedAt": "2026-11-16T15:42:52-05:00",
+      "state": "open"
+    },
+    {
+      "id": "ddca235e204531a6fe1db54f95993bf4",
+      "title": "Sales Operations Manager, Implementation",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8697087002",
+      "location": "United States - Remote",
+      "department": "Post Sale Operations",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "ad24c63aeaa06b81580ed48777da363c",
+      "title": "Sales Operations Manager, Implementation",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8841992002",
+      "location": "Canada - Remote",
+      "department": "Post Sale Operations",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "6671993c95ce2a93530438259d62acf0",
+      "title": "Staff Product Manager",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8191727002",
+      "location": "United Kingdom",
+      "department": "Product",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "842f22dfdea2e3eb58ad22a817760974",
+      "title": "Senior Product Operations Manager ",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8235467002",
+      "location": "Mexico City - Hybrid",
+      "department": "Product",
+      "postedAt": "2026-11-17T17:01:21-05:00",
+      "state": "open"
+    },
+    {
+      "id": "66f910122933e175e804cc5edbaf3bd6",
+      "title": "Senior Product Designer",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8512462002",
+      "location": "Bangalore, India",
+      "department": "Product",
+      "postedAt": "2026-11-18T00:50:30-05:00",
+      "state": "open"
+    },
+    {
+      "id": "4b58ef63d2d04c56abaa8888eb5a160b",
+      "title": "Senior / Staff Product Manager - IoT Connected Devices",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8782064002",
+      "location": "United States - Remote",
+      "department": "Product",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "a3643286d14fa9ad7ee66f5b7c90cd03",
+      "title": "Senior / Staff Product Manager - IoT Connected Devices",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8817353002",
+      "location": "Hybrid - Vancouver",
+      "department": "Product",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "03e67e81d8893d5046f886ce61bd49a4",
+      "title": "Director, Product Strategy & Monetization",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8880889002",
+      "location": "United States - Remote",
+      "department": "Product",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "31f0f7c0786d911e2deec398978c460c",
+      "title": "Director, Product Management",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8913113002",
+      "location": "Hybrid - San Francisco, California",
+      "department": "Product",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "5e76dc7dc6bc9fade48437eec615c441",
+      "title": "Senior Product Manager, Growth",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8924862002",
+      "location": "Hybrid - Bangalore",
+      "department": "Product",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "aa35d1855919086c413b0b8ac19ed5b5",
+      "title": "Content Management Specialist",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8928881002",
+      "location": "Pakistan - Remote",
+      "department": "Product",
+      "postedAt": "2026-11-16T15:24:21-05:00",
+      "state": "open"
+    },
+    {
+      "id": "d15ccfc331ad4ab23ea37f7c428950e9",
+      "title": "Sales Recruiter II",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8918232002",
+      "location": "United States - Remote",
+      "department": "Recruiting",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "d5e9e810c7205ae5078f2bcb77cc449f",
+      "title": "Senior Regional Partnership Manager",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8738124002",
+      "location": "Mexico City - Hybrid",
+      "department": "Sales",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "a44e712b888fd47bcab3597cb081dfa7",
+      "title": "Director, Customer Success - Canada",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8419784002",
+      "location": "Canada - Remote",
+      "department": "Sales Canada",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "ed3caff092d8a9e0c91f912ed54355aa",
+      "title": "Mid Market  Account Executive- Quebec",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8864587002",
+      "location": "Canada - Remote",
+      "department": "Sales Canada",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "ed727f3383756ef48e69d8a91b1f3b27",
+      "title": "CMRL Account Executive II (Canada)",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8888287002",
+      "location": "Pakistan - Remote",
+      "department": "Sales Canada",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "17f07c6263c52cdc809f68dc1aae072c",
+      "title": "Gestionnaire de comptes – marché intermédiaire (Québec)",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8895819002",
+      "location": "Canada - Remote",
+      "department": "Sales Canada",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "562212286243ba4bb47f846926ffd36c",
+      "title": "Enterprise Account Executive- Western Canada",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8945711002",
+      "location": "Canada - Remote",
+      "department": "Sales Canada",
+      "postedAt": "2026-11-18T11:34:23-05:00",
+      "state": "open"
+    },
+    {
+      "id": "9fbc4cbbf41b16d99db8d1507a24bae5",
+      "title": "Commercial Account Manager",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/6050374002",
+      "location": "Remote - Islamabad & Lahore",
+      "department": "Sales CMRL EXP",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "dd94776136fe79d28dba768eea33a872",
+      "title": "Manager, Commercial Account Management ",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/7870024002",
+      "location": "Hybrid - Islamabad & Lahore",
+      "department": "Sales CMRL EXP",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "303c8ef58918581a1bc78a5dfaf854e0",
+      "title": "Senior Solutions Engineer, Enterprise (Canada)",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8916786002",
+      "location": "Canada - Remote",
+      "department": "Sales Engineer Canada",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "48db1cbb677498e13ee8f443094241ee",
+      "title": "Senior Solutions Engineer, Enterprise (Mountain/Pacific Regions)",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/7895290002",
+      "location": "United States - Remote",
+      "department": "Sales Engineer ENT",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "7935f85ae67ce98add2c1f03bb93ce56",
+      "title": "Senior Solutions Engineer, Enterprise (Central/Eastern Regions)",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8635231002",
+      "location": "United States - Remote",
+      "department": "Sales Engineer ENT",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "740dd537475301e8a66176c71355ee0f",
+      "title": "Trial Success Manager",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8709975002",
+      "location": "Mexico City - Hybrid",
+      "department": "Sales Engineer Mexico",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "237cd03df95e9b6120999fa4a0cd8294",
+      "title": "Sales Engineer",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8769746002",
+      "location": "Mexico City - Hybrid",
+      "department": "Sales Engineer Mexico",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "8ec4c527f43e562c22efe1d6da065d4d",
+      "title": "Solutions Engineer, Mid-Market ",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/7284384002",
+      "location": "United States - Remote",
+      "department": "Sales Engineer MM",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "aa8c58fb0eeb44a072040db1e6958966",
+      "title": "Content Manager",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8892613002",
+      "location": "Pakistan - Remote",
+      "department": "Sales Engineer Shared Service",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "0dcbce2c7739f3b515bede5edea8f57e",
+      "title": "Senior Manager, Associate Solutions Engineering Academy (Austin, Hybrid)",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8913574002",
+      "location": "Hybrid - Austin, Texas",
+      "department": "Sales Engineer Shared Service",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "6bf30307851f3479576161bcd0b9440e",
+      "title": "Senior Manager, Associate Solutions Engineering Academy (Nashville, Hybrid)",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8928774002",
+      "location": "Hybrid - Nashville, Tennessee",
+      "department": "Sales Engineer Shared Service",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "d57d706ff405b74a8c40c42fe54a13d8",
+      "title": "Director, Customer Engineering",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8936524002",
+      "location": "United States - Remote",
+      "department": "Sales Engineer Shared Service",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "b64bf3da755b818df3a6928d1375ba2e",
+      "title": "AVP, Customer Success - Enterprise and Strategic Accounts",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8882841002",
+      "location": "United States - Austin, Texas; United States - Nashville, Tennessee; United States - San Francisco, California",
+      "department": "Sales ENT EXP",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "6bdb73b6b43848549248d20b349c74e8",
+      "title": "Director of Strategic Accounts, Eastern U.S.",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/7083305002",
+      "location": "United States - Remote",
+      "department": "Sales ENT NL",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "890824790fcfee96576abcb784522033",
+      "title": "Director of Strategic Accounts, Central U.S.",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8047012002",
+      "location": "United States - Remote",
+      "department": "Sales ENT NL",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "703520575e4a109d461d512a5e200692",
+      "title": "Director of Strategic Accounts, Western U.S.",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8047035002",
+      "location": "United States - Remote",
+      "department": "Sales ENT NL",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "bd9a62d32181218bfb8a6b592db0574b",
+      "title": "Enterprise Account Executive",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8534891002",
+      "location": "Mexico City - Hybrid",
+      "department": "Sales Mexico",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "a63f198632d77426fb34fc8df15a045f",
+      "title": "Account Executive, Strategic",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8706368002",
+      "location": "Mexico City - Hybrid",
+      "department": "Sales Mexico",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "032078cd30db396b7634cefee2471f5c",
+      "title": "Account Executive, SMB",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8922521002",
+      "location": "Mexico City - Hybrid",
+      "department": "Sales Mexico",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "0f69aefd7c7bd9afbc2eb93518fc500d",
+      "title": "Mid-Market Account Executive",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8606982002",
+      "location": "Hybrid - Austin, Texas",
+      "department": "Sales MM NL",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "ee8159b6978d7214500e0b6bf511b6d0",
+      "title": "Mid-Market Account Executive",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8606984002",
+      "location": "Hybrid - Nashville, Tennessee",
+      "department": "Sales MM NL",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "25a4212a3676bc948a1922a11cca6cd5",
+      "title": "Mid-Market Account Executive",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8608835002",
+      "location": "United States - Remote",
+      "department": "Sales MM NL",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "5d1d3b181d50cb924d75c6c1a20179b8",
+      "title": "SMB Account Manager",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/6056440002",
+      "location": "Remote - Islamabad & Lahore",
+      "department": "Sales SMB EXP",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "a43bd515711d914c43726f2a1134af8a",
+      "title": "SMB Account Executive - Outbound Sales",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/6056462002",
+      "location": "Hybrid - Islamabad & Lahore; Pakistan - Karachi",
+      "department": "Sales SMB NL",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "07d6a15fd9c288ece2c78aca8419b08d",
+      "title": "Commercial Account Executive, Outbound Sales",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8737445002",
+      "location": "Pakistan - Remote",
+      "department": "Sales SMB NL",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "ab7ccedf07356d62c49207e6afd2014d",
+      "title": "VP, SMB Sales & Account Management",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8777150002",
+      "location": "United States - Austin, Texas; United States - Nashville, Tennessee",
+      "department": "Sales SMB NL",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "4456f3239af674d7676a65dc263fbb65",
+      "title": "Regional Vice President, Strategic West Sales",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8811243002",
+      "location": "United States - Remote",
+      "department": "Sales Strategic",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "76412f737d6937a29be8fb7c76137a20",
+      "title": "Regional Vice President, Strategic East Sales",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8906828002",
+      "location": "United States - Remote",
+      "department": "Sales Strategic",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "0e9a048b47b11092657716a1f2b921a1",
+      "title": "Mid-Market Account Executive, Networks",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8912734002",
+      "location": "United States - Remote",
+      "department": "Sales Strategic",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "9c7629243a9b81ba3801850356c4ec9f",
+      "title": "ENT Account Executive",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8922072002",
+      "location": "Hybrid - United Kingdom; London, England",
+      "department": "Sales UK",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "e522e3f39f9772cd38fc96c208897ee3",
+      "title": "MM Account Executive",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8922329002",
+      "location": "Hybrid - United Kingdom; London, England",
+      "department": "Sales UK",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "c376a5b944d4c8f10cb9a348e905382f",
+      "title": "Sales Development Representative",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8767271002",
+      "location": "Hybrid - Toronto",
+      "department": "SDR Canada",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "6709fd28881a8cea42095d8dabe4f09f",
+      "title": "Associate Sales Development Manager",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8923863002",
+      "location": "Hybrid - Toronto",
+      "department": "SDR Canada",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "394c0da2118fe2717d55b714156122df",
+      "title": "Sales Development Representative - Austin, TX",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8606959002",
+      "location": "United States - Austin, Texas",
+      "department": "SDR ENT",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "ff59cf0cbd48262ef8678fb98763a92a",
+      "title": "Sales Development Representative",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8703246002",
+      "location": "Mexico City - Hybrid",
+      "department": "SDR Mexico",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "3459ef1e78baa4cc11b18ba25b862b3c",
+      "title": "Outbound Sales Development Representative, Mid-Market",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/7833105002",
+      "location": "Pakistan - Remote",
+      "department": "SDR MM",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "2300ca7946bf9092a326b1201f340e61",
+      "title": "French Speaking SDR",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8367923002",
+      "location": "Pakistan - Remote",
+      "department": "SDR MM",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "d21d949c65f4738e454b611c696e04f3",
+      "title": "Sales Development Manager",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8703240002",
+      "location": "Mexico City - Hybrid",
+      "department": "SDR MM",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "3d203ee87d2e24aed68b17bfb3ab2aec",
+      "title": "Sales Development Representative - Nashville, TN",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8606976002",
+      "location": "United States - Nashville, Tennessee",
+      "department": "SDR Strategic",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "963e3c391519c3b6dacd8653d30cab07",
+      "title": "Senior Security Engineer, Device/Hardware",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8402722002",
+      "location": "Canada - Remote",
+      "department": "Security",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "24b69a1c394fd3c536caf1fd5e464eca",
+      "title": "Senior Security Engineer, Device/Hardware",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8752599002",
+      "location": "Canada - Remote; Canada - Vancouver",
+      "department": "Security",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "d87c2b9ce1b5d3c877c414a93b162a7f",
+      "title": "Senior Security Engineer, Device/Hardware",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8752600002",
+      "location": "Canada - Remote; Hybrid - Toronto",
+      "department": "Security",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "9929a7e8e957d0c5b95a21987131002f",
+      "title": "Director, Security Compliance and Trust",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8811798002",
+      "location": "United States - Remote",
+      "department": "Security",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "8ae26f39ef420624b2c47169f19beaa9",
+      "title": "Security Software Engineer",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8831546002",
+      "location": "Canada - Hybrid",
+      "department": "Security",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "5af8a79ef7adea81c17f82165fd8d934",
+      "title": "Security Engineer, Device/Hardware",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8915912002",
+      "location": "Hybrid - Austin, Texas; Hybrid - Buffalo, New York; Hybrid - Nashville, Tennessee; Hybrid - San Francisco, California; Hybrid - Seattle",
+      "department": "Security",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "9880bd2ad521de40d14fc8ebcef90c21",
+      "title": "Executive Assistant",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8931053002",
+      "location": "Hybrid - Austin, Texas; Hybrid - Nashville, Tennessee; Hybrid - San Francisco, California; Hybrid - Seattle",
+      "department": "Security",
+      "postedAt": "2026-11-17T15:07:54-05:00",
+      "state": "open"
+    },
+    {
+      "id": "3a318904bd5dba021984fd74361066dd",
+      "title": "French Speaking Commercial Outbound Account Executive",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8325871002",
+      "location": "Pakistan - Remote",
+      "department": "S&M",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "02108c38436cfbff2ac5ec8f61f428be",
+      "title": "Account Executive, SMB New Logo – Spanish Speaking",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8344647002",
+      "location": "Pakistan - Remote",
+      "department": "S&M",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "84bacd26c47fd25b98653e032dcaec2a",
+      "title": "Manager SMB, Spanish Account Management",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8930040002",
+      "location": "Hybrid - Islamabad & Lahore; Pakistan - Remote",
+      "department": "S&M",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "2f37c92582d8675a93b017b71fd83b8f",
+      "title": "Software Engineer - Android",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8109192002",
+      "location": "Hybrid - Bangalore",
+      "department": "Software Engineering",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "633def70173bf951ececd338e54c8f82",
+      "title": "Staff Software Engineer - Backend ",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8651443002",
+      "location": "Hybrid - San Francisco, California",
+      "department": "Software Engineering",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "21bd1e71fa6a72256f6420ca3c7e203e",
+      "title": "Staff Software Engineer",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8651445002",
+      "location": "Hybrid - San Francisco, California",
+      "department": "Software Engineering",
+      "postedAt": "2026-11-17T05:50:14-05:00",
+      "state": "open"
+    },
+    {
+      "id": "2884223057d289448dee406e65dcc69b",
+      "title": "Director, Developer Platform & Experience",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8686131002",
+      "location": "Hybrid - San Francisco, California; Hybrid - Seattle",
+      "department": "Software Engineering",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "8516e0b1f0159f59d20d8d194da96524",
+      "title": "Director, Developer Platform & Experience",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8706163002",
+      "location": "Hybrid - Vancouver",
+      "department": "Software Engineering",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "390bdadcbca320790c8fc89e553f794b",
+      "title": "Staff Technical Program Manager, Platform Services",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8706370002",
+      "location": "Hybrid - San Francisco, California",
+      "department": "Software Engineering",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "3b809b03e3dff28db4ad589f970aefc2",
+      "title": "Staff Software Engineer, Backend",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8706541002",
+      "location": "Hybrid - San Francisco, California",
+      "department": "Software Engineering",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "610a19e96f14f8fde0c606828c71b493",
+      "title": "Staff Technical Program Manager, Platform Services",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8755691002",
+      "location": "Hybrid - Seattle",
+      "department": "Software Engineering",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "3e244bf009d69d24140187a707c80ad2",
+      "title": "AI Engineer",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8785039002",
+      "location": "Bangalore, India",
+      "department": "Software Engineering",
+      "postedAt": "2026-11-18T03:54:50-05:00",
+      "state": "open"
+    },
+    {
+      "id": "12a827a1c975bee975aa373668017685",
+      "title": "Staff Technical Program Manager, Platform Services",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8802171002",
+      "location": "Canada - Vancouver",
+      "department": "Software Engineering",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "2a008b2fba6460674f0d01e6980a1805",
+      "title": "Staff Software Engineer - Backend",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8820960002",
+      "location": "Hybrid - Vancouver",
+      "department": "Software Engineering",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "299c008975a590325aa74ff9060cf8c3",
+      "title": "Engineering Manager, IoT Platform",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8910519002",
+      "location": "Hybrid - San Francisco, California",
+      "department": "Software Engineering",
+      "postedAt": "2026-11-18T10:28:53-05:00",
+      "state": "open"
+    },
+    {
+      "id": "249870438beed58863025ca35ec6920f",
+      "title": "Site Reliability Engineer (SRE)",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8916410002",
+      "location": "Bangalore, India",
+      "department": "Software Engineering",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "b010199f2f87c1cb04425a9554648adf",
+      "title": "Staff Software Engineer - Backend Services",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8925237002",
+      "location": "Hybrid - Seattle",
+      "department": "Software Engineering",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "90299aa87ddb0b58cb06d8c84992c4fb",
+      "title": "Fulfillment and Logistics Manager",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8889315002",
+      "location": "Mexico City - Hybrid",
+      "department": "Supply Chain",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "f6496f072a84822e448b3eb8fcf29cac",
+      "title": "Material Program Manager",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8893975002",
+      "location": "Taiwan - Taipei",
+      "department": "Supply Chain",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "2bd2d0bd63dd6f224f0beedfb440f2b1",
+      "title": "Installations Specialist",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8694030002",
+      "location": "United States - Georgia",
+      "department": "Trial Installations",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "4ba2a1c7e92cd20d13963f14969067bd",
+      "title": "Installations Specialist",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8876924002",
+      "location": "United States - Texas",
+      "department": "Trial Installations",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "7ff8f0088d7d1ac4a88da11792beb6ff",
+      "title": "Installations Specialist",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8876948002",
+      "location": "United States - Remote",
+      "department": "Trial Installations",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "e230d088b40628d34ddf50985ae6e429",
+      "title": "Installations Specialist",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8876967002",
+      "location": "United States - Remote",
+      "department": "Trial Installations",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "15b7208aa8a3c2e66ba1b80d524feb29",
+      "title": "Installations Specialist",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8924473002",
+      "location": "United States - Remote",
+      "department": "Trial Installations",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "9616c9f725fd41859e72b28ac9b12b74",
+      "title": "Installations Specialist",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8924481002",
+      "location": "United States - Remote",
+      "department": "Trial Installations",
+      "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    }
+  ]
+}

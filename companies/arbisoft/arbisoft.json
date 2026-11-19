@@ -1,0 +1,43 @@
+{
+  "sourceUrl": "https://arbisoft.hirestream.io/api/v1/jobs/published-jobs/?timezone=Asia%2FKarachi&offset=0&limit=20&order=featured",
+  "fetchedAt": "2026-11-18T16:43:25.562171+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "2064b67b5873b5f780c53e9d55334edc",
+      "title": "Security GRC Engineer (Compliance & Operations)",
+      "link": "https://arbisoft.hirestream.io/jobs/94fb25db-ebdd-46b4-8797-471c93b69589",
+      "location": "Westwood Office, Lahore",
+      "department": "Risk & Compliance",
+      "postedAt": "2026-11-13T08:24:58.875170Z",
+      "state": "open"
+    },
+    {
+      "id": "6c05be6c2b16a88d847038b5326339a7",
+      "title": "Product Manager",
+      "link": "https://arbisoft.hirestream.io/jobs/2a99a09e-fd25-4da7-b4d6-16603b7f0884",
+      "location": "Westwood Office, Lahore",
+      "department": "Product Management",
+      "postedAt": "2026-11-13T07:39:34.166940Z",
+      "state": "open"
+    },
+    {
+      "id": "3e079572fd30513919246b97a394c673",
+      "title": "Lead Product Engineer (Python, Node.js & React)",
+      "link": "https://arbisoft.hirestream.io/jobs/a204e37f-e704-4d7c-8e19-f3c898134393",
+      "location": "Westwood Office, Lahore",
+      "department": "Software Engineering",
+      "postedAt": "2026-11-10T07:00:33.699151Z",
+      "state": "open"
+    },
+    {
+      "id": "0a00e4ad219ffd40e3a8a9e29f1ebc18",
+      "title": "Finance Executive",
+      "link": "https://arbisoft.hirestream.io/jobs/5eedb46a-cd42-40ae-a951-1499abb2544e",
+      "location": "Westwood Office, Lahore",
+      "department": "Finance",
+      "postedAt": "2026-11-06T08:03:08.025520Z",
+      "state": "open"
+    }
+  ]
+}

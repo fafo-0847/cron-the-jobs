@@ -1,0 +1,167 @@
+{
+  "sourceUrl": "https://jobs.experlabs.com/jobs?location=%5B%5D&department=%5B%5D&jobType=%5B%5D&title=&isRemoteLocation=false",
+  "fetchedAt": "2026-11-10T15:57:04.436594+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "a07de02d02bcabd88ea7ccc347feaf4c",
+      "title": "Forward Deployed Engineer",
+      "link": "https://jobs.experlabs.com/jobs/-AOztGlcFqkq/forward-deployed-engineer",
+      "location": "Lahore, Pakistan",
+      "department": "Engineering",
+      "jobType": "2",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "f56988dc827e71df144bbcee8f152abf",
+      "title": "Lead Software Engineer (Salesforce Platform)",
+      "link": "https://jobs.experlabs.com/jobs/G-cTFJd363WF/lead-software-engineer-salesforce-platform",
+      "location": "Lahore, Pakistan",
+      "department": "Engineering",
+      "jobType": "2",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "7b6da12a51b6e1af50c7febd2d869747",
+      "title": "Lead Software Engineer - Salesforce Commerce Cloud",
+      "link": "https://jobs.experlabs.com/jobs/P0H7zjyxClB2/lead-software-engineer-salesforce-commerce-cloud",
+      "location": "Lahore, Pakistan",
+      "department": "Engineering",
+      "jobType": "2",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "318a06d6e6c122acb09a5c53395c7fc8",
+      "title": "Robotic Process Automation Engineer",
+      "link": "https://jobs.experlabs.com/jobs/5WUgufdi9LbR/robotic-process-automation-engineer",
+      "location": "Lahore, Pakistan",
+      "department": "Engineering",
+      "jobType": "2",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "01a4ba57434b99ef16b18351ca01f9cc",
+      "title": "Senior Python Developer",
+      "link": "https://jobs.experlabs.com/jobs/XFkMJQZrB04y/senior-python-developer",
+      "location": "Lahore, Pakistan",
+      "department": "Engineering",
+      "jobType": "2",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "d37642023d05b5c6e4bfc8b9fe11c31a",
+      "title": "Senior Shopify Developer",
+      "link": "https://jobs.experlabs.com/jobs/lkaBdSIrEGvO/senior-shopify-developer",
+      "location": "Lahore, Pakistan",
+      "department": "Engineering",
+      "jobType": "2",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "8ed56cbbdc82f2692e68afd331721df5",
+      "title": "Senior Software Engineer (JavaScript or SFCC)",
+      "link": "https://jobs.experlabs.com/jobs/FT27_p3W70NK/senior-software-engineer-javascript-or-sfcc",
+      "location": "Lahore, Pakistan",
+      "department": "Engineering",
+      "jobType": "2",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "cdec8bdb28ed5b15f256dc13800a1fa8",
+      "title": "Senior Software Engineer (Salesforce Platform)",
+      "link": "https://jobs.experlabs.com/jobs/QUcyUCPN-BAP/senior-software-engineer-salesforce-platform",
+      "location": "Lahore, Pakistan",
+      "department": "Engineering",
+      "jobType": "2",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "ff3490e98cb83a4514f2a687d89444dc",
+      "title": "Senior Software Engineer - (NestJS/NextJS/Shopify)",
+      "link": "https://jobs.experlabs.com/jobs/cess8BEQjJYe/senior-software-engineer-nestjs-nextjs-shopify",
+      "location": "Lahore, Pakistan",
+      "department": "Engineering",
+      "jobType": "2",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "b045d705f3e260649ec5e94c08ef46ca",
+      "title": "Software Engineer (JavaScript or SFCC)",
+      "link": "https://jobs.experlabs.com/jobs/ZThqGuqR85vd/software-engineer-javascript-or-sfcc",
+      "location": "Lahore, Pakistan",
+      "department": "Engineering",
+      "jobType": "2",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "805723f2c90e70ee3e16810cbf6a9dc8",
+      "title": "Software Engineer (Salesforce Platform)",
+      "link": "https://jobs.experlabs.com/jobs/4nCPMWarysle/software-engineer-salesforce-platform",
+      "location": "Lahore, Pakistan",
+      "department": "Engineering",
+      "jobType": "2",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "73edb4cd4b641d9091fef9c707497507",
+      "title": "HR Manager",
+      "link": "https://jobs.experlabs.com/jobs/mxVR2RcKfMqm/hr-manager",
+      "location": "Lahore, Pakistan",
+      "department": "Human Resources",
+      "jobType": "2",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "11a4819392611f82ff0fba45af55572e",
+      "title": "Talent Acquisition Associate",
+      "link": "https://jobs.experlabs.com/jobs/shXE3FaBPWLR/talent-acquisition-associate",
+      "location": "Lahore, Pakistan",
+      "department": "Human Resources",
+      "jobType": "2",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "938789a598b697f2d04b02156ab0c2f0",
+      "title": "Business Development Executive",
+      "link": "https://jobs.experlabs.com/jobs/620_2nYDySAs/business-development-executive",
+      "location": "Lahore, Pakistan",
+      "department": "Growth & Marketing",
+      "jobType": "2",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "1fe82c4f851b293547c7493d1371ca82",
+      "title": "Head of Growth",
+      "link": "https://jobs.experlabs.com/jobs/VGJmUsHVvMlO/head-of-growth",
+      "location": "Lahore, Pakistan",
+      "department": "Growth & Marketing",
+      "jobType": "2",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "926b7ff6d7b10dea4a80e8727ad6f07f",
+      "title": "Senior Business Analyst",
+      "link": "https://jobs.experlabs.com/jobs/QdvZ_-dlMfG1/senior-business-analyst",
+      "location": "Lahore, Pakistan",
+      "department": "Growth & Marketing",
+      "jobType": "2",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

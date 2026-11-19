@@ -1,0 +1,139 @@
+{
+  "sourceUrl": "https://api.lever.co/v0/postings/educative?mode=json",
+  "fetchedAt": "2026-11-18T16:48:00.316119+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "5213113063291a7ef8e9219c66d91fc6",
+      "title": "Community Manager",
+      "link": "https://jobs.lever.co/educative/788f4c1f-5ee0-44ad-a3bd-2bdf98b6ea81",
+      "department": "Marketing",
+      "location": "Lahore",
+      "jobType": "Full-time",
+      "workplaceType": "onsite",
+      "postedAt": "2026-07-23T08:28:38.847000+00:00",
+      "state": "open"
+    },
+    {
+      "id": "1f034a2cc81974faec9d1ecf15120d48",
+      "title": "Content Marketing Associate",
+      "link": "https://jobs.lever.co/educative/aebecc5e-8559-47cb-a564-b59aa2da44c1",
+      "department": "Marketing",
+      "location": "Lahore",
+      "jobType": "Full-time",
+      "workplaceType": "onsite",
+      "postedAt": "2026-08-27T08:03:16.466000+00:00",
+      "state": "open"
+    },
+    {
+      "id": "9cc40faa5e3008ed7ebc5c90283cec24",
+      "title": "Director of Finance and Operations",
+      "link": "https://jobs.lever.co/educative/199a6e40-8e88-48c6-939a-8343d17a2800",
+      "department": "Finance",
+      "location": "Bellevue, WA",
+      "jobType": "Full-time",
+      "workplaceType": "hybrid",
+      "postedAt": "2025-07-08T23:51:50.150000+00:00",
+      "state": "open"
+    },
+    {
+      "id": "9bfc6ca0b7ba7e74edb1cdeb6c359c04",
+      "title": "Graphic Designer",
+      "link": "https://jobs.lever.co/educative/d9e7e06d-2877-4f41-9c7a-e4006c50a603",
+      "department": "Marketing",
+      "location": "Lahore",
+      "jobType": "Full-time",
+      "workplaceType": "onsite",
+      "postedAt": "2024-06-21T11:47:45.711000+00:00",
+      "state": "open"
+    },
+    {
+      "id": "64e17526cd3ed967a364225c3923a711",
+      "title": "Product Designer",
+      "link": "https://jobs.lever.co/educative/fc589071-9733-4173-be0a-ae432cc1593d",
+      "department": "Open positions",
+      "location": "Lahore",
+      "jobType": "Full-time",
+      "workplaceType": "onsite",
+      "postedAt": "2023-03-08T08:40:22.845000+00:00",
+      "state": "open"
+    },
+    {
+      "id": "feabaf35ef7d99c4648298ff95fe7278",
+      "title": "Product Manager",
+      "link": "https://jobs.lever.co/educative/659db28a-b4e5-4981-931f-16a8c35ff32c",
+      "department": "Open positions",
+      "location": "Lahore",
+      "jobType": "Full-time",
+      "workplaceType": "onsite",
+      "postedAt": "2021-07-09T22:38:35.611000+00:00",
+      "state": "open"
+    },
+    {
+      "id": "a133937af72c82f99920ab10781141f1",
+      "title": "Senior Technical Content Engineers",
+      "link": "https://jobs.lever.co/educative/c33cd8ef-043a-47b0-9454-561e6cd17e5c",
+      "department": "TCE",
+      "location": "Lahore",
+      "jobType": "Full-time",
+      "workplaceType": "onsite",
+      "postedAt": "2021-07-09T22:11:52.267000+00:00",
+      "state": "open"
+    },
+    {
+      "id": "afb40ec0ccd2aa93964dbb75bd1f34f8",
+      "title": "Senior Technical Content Engineers (Islamabad)",
+      "link": "https://jobs.lever.co/educative/0ee86a3d-2645-4c5e-8c72-6b8f6e68a1d5",
+      "department": "TCE",
+      "location": "Islamabad",
+      "jobType": "Full-time",
+      "workplaceType": "onsite",
+      "postedAt": "2022-09-26T00:40:56.755000+00:00",
+      "state": "open"
+    },
+    {
+      "id": "7cfd4e6369abd3fcc26e2701b745b33c",
+      "title": "Software Engineer (Entry-level)",
+      "link": "https://jobs.lever.co/educative/09b4532f-3645-41bf-8546-e05b3448b8a0",
+      "department": "Open positions",
+      "location": "Lahore",
+      "jobType": "Full-time",
+      "workplaceType": "onsite",
+      "postedAt": "2021-06-21T18:50:11.455000+00:00",
+      "state": "open"
+    },
+    {
+      "id": "60bd796e77c3c81795590d1645048d58",
+      "title": "Software Engineer (Experienced)",
+      "link": "https://jobs.lever.co/educative/5ddd53be-d3fa-4c87-9402-bcf2fbcf65df",
+      "department": "Open positions",
+      "location": "Lahore",
+      "jobType": "Full-time",
+      "workplaceType": "onsite",
+      "postedAt": "2021-07-06T23:53:01.993000+00:00",
+      "state": "open"
+    },
+    {
+      "id": "1dc1df68a1f89949f8df4e3740b30975",
+      "title": "Technical Content Engineer",
+      "link": "https://jobs.lever.co/educative/b065fdf1-680f-47e0-ad0f-08b67528ae98",
+      "department": "TCE",
+      "location": "Lahore",
+      "jobType": "Full-time",
+      "workplaceType": "onsite",
+      "postedAt": "2021-06-21T18:57:22.213000+00:00",
+      "state": "open"
+    },
+    {
+      "id": "31f97dd304921c6d2cb800578a13a062",
+      "title": "Technical Content Strategist & Editor",
+      "link": "https://jobs.lever.co/educative/811c5d48-607c-4261-a8fc-5bf93d8ef36a",
+      "department": "Marketing",
+      "location": "Lahore",
+      "jobType": "Full-time",
+      "workplaceType": "onsite",
+      "postedAt": "2026-09-25T13:27:33.442000+00:00",
+      "state": "open"
+    }
+  ]
+}

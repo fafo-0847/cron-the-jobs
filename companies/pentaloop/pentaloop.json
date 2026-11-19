@@ -1,0 +1,67 @@
+{
+  "sourceUrl": "https://pentaloop.com/view-job-openings/",
+  "fetchedAt": "2026-11-18T16:52:58.801086+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "f92fcee9cbffe02a5e5a0a9253c63022",
+      "title": "ASO & App Growth Executive (iOS/Android)",
+      "link": "https://pentaloop.com/jobs/aso-app-growth-executive-ios-android/",
+      "location": "",
+      "department": "Marketing",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "5f3ba223e3550c739ecb6fef203ec4b8",
+      "title": "Senior JAVA Backend Developer",
+      "link": "https://pentaloop.com/jobs/senior-java-backend-developer/",
+      "location": "",
+      "department": "Senior JAVA Backend Developer",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "f34926af81114fc73180adc0b879c548",
+      "title": "Associate Software Engineer",
+      "link": "https://pentaloop.com/jobs/associate-software-enginee/",
+      "location": "",
+      "department": "Android",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "658bf56e608116f9fb10933d60fdfbc5",
+      "title": "Designer Ui/Ux",
+      "link": "https://pentaloop.com/jobs/designer-ui-ux/",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "3c95499e14d2fd53a671f8aebacb76e8",
+      "title": "Jr. Marketing Executive (ASO)",
+      "link": "https://pentaloop.com/jobs/jr-marketing-executive/",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "bf2ab832be8430dc769bbe531212105d",
+      "title": "iOS Developer",
+      "link": "https://pentaloop.com/jobs/ios-developer/",
+      "location": "",
+      "department": "iOS Developer",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

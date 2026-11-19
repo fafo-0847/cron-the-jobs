@@ -1,0 +1,62 @@
+{
+  "sourceUrl": "https://disruptcom.odoo.com/jobs",
+  "fetchedAt": "2026-11-18T16:47:25.239517+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "44a6a2a030bd4b99eb659334ae836b46",
+      "title": "Infrastructure Engineer",
+      "link": "https://disruptcom.odoo.com/jobs/infrastructure-engineer-348",
+      "location": "Karachi, Pakistan",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open",
+      "tags": "Karachi, Pakistan"
+    },
+    {
+      "id": "9d50df4a5bc605149a29501088f5202c",
+      "title": "InfraStructure Engineer",
+      "link": "https://disruptcom.odoo.com/jobs/infrastructure-engineer-350",
+      "location": "Karachi, Pakistan",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open",
+      "tags": "Karachi, Pakistan"
+    },
+    {
+      "id": "71340aace369e12fcd4b50a9bc6bc0c0",
+      "title": "Sales Manager",
+      "link": "https://disruptcom.odoo.com/jobs/sales-manager-351",
+      "location": "Remote",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open",
+      "tags": "Remote"
+    },
+    {
+      "id": "f4c11df51a342b35ea69401f36e2ccc1",
+      "title": "Creative Director",
+      "link": "https://disruptcom.odoo.com/jobs/creative-director-98",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open",
+      "tags": "Pakistan"
+    },
+    {
+      "id": "166aed9fd0730f19d5bb9934b27f8f74",
+      "title": "Head of PR",
+      "link": "https://disruptcom.odoo.com/jobs/head-of-pr-100",
+      "location": "United States",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open",
+      "tags": "United States"
+    }
+  ]
+}

@@ -1,0 +1,717 @@
+{
+  "sourceUrl": "https://hcld.fa.em2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,locationId=300000000300311,sortBy=POSTING_DATES_DESC,offset=0",
+  "fetchedAt": "2026-11-18T16:51:29.095937+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "ebd37e8460438b33964164d9e7538d04",
+      "title": "Product Manager, Retail Deposits.CoE Pakistan - RBG - Liabilities CASA.Retail Banking Group-PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6409",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-11-17",
+      "state": "open"
+    },
+    {
+      "id": "53b228abc480a31dfb1851fe52edd770",
+      "title": "Product Manager, Liabilities.COE Pak - RBG - Mashreq Gold & Plus.Retail Banking Group-PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7244",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-11-17",
+      "state": "open"
+    },
+    {
+      "id": "11dd122d1073f91e1712ab792dcb7b4d",
+      "title": "Marketing Manager \u2013 SME Banking",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7333",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Hybrid",
+      "postedAt": "2026-11-17",
+      "state": "open"
+    },
+    {
+      "id": "80ad05d3f535ea8dd337265061bb77d8",
+      "title": "Compliance Manager - Assurance",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7306",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-11-16",
+      "state": "open"
+    },
+    {
+      "id": "00a158af306040cac3056f1463e65cec",
+      "title": "Manager Workforce Management- CXCG MBP- Client Experience and Conduct Group-MB Pakistan Ltd",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7321",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-11-16",
+      "state": "open"
+    },
+    {
+      "id": "cf6fef488f9420ce7942799d2175f7fd",
+      "title": "Domain Portfolio Lead.MGN Pak - TECH - Transformation Office.MIT - PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/5118",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-11-12",
+      "state": "open"
+    },
+    {
+      "id": "3197892b763d829091cf13ff590ef60c",
+      "title": "Assistant Manager Compliance - AML",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7054",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-11-12",
+      "state": "open"
+    },
+    {
+      "id": "cb77c7b036af014d56185f78f9c9a9d7",
+      "title": "Senior Manager, Quality Assurance-Digital Banking Products-Mashreq Bank Pakistan-Retail Banking Group",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7127",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Hybrid",
+      "postedAt": "2026-11-11",
+      "state": "open"
+    },
+    {
+      "id": "19b498d5cefb6facd522eba5ab09f839",
+      "title": "Manager \u2013 Pakistan FI Sales \u2013 CIBG.Karachi  FI - Sales - CBG.Corporate & Investment Banking Group",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7277",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-11-11",
+      "state": "open"
+    },
+    {
+      "id": "21c644a62275430cfa0ce8b80bbc7311",
+      "title": "Dev Engineer (Frontend) MGN Pak -  Retail Banking Group",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7237",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-11-10",
+      "state": "open"
+    },
+    {
+      "id": "1ba90747c417ddaad9141ee2aa6193bc",
+      "title": "Senior Manager Security Assurance",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7146",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-11-09",
+      "state": "open"
+    },
+    {
+      "id": "b761956cfdf404c040fbc948fcd0e83b",
+      "title": "Assistant Manager - Data Center.MGN Pak - TECH - Infrastructure.MIT - PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3484",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Hybrid",
+      "postedAt": "2026-11-03",
+      "state": "open"
+    },
+    {
+      "id": "980ae40497dce259959a0140a1a9a2e0",
+      "title": "Senior Associate, Compliance Operations.MGN Pak - Compliance Ops -RCU.Operations Group-PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7039",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-11-02",
+      "state": "open"
+    },
+    {
+      "id": "4dcc53fc29248be959da916d40df0943",
+      "title": "Senior Officer, Payment Operations. Payment Operations - MBP.Operations Group-MBPKLTD",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7139",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-11-02",
+      "state": "open"
+    },
+    {
+      "id": "5391fcdcc19a032dc353e3a2c2530136",
+      "title": "Assistant Manager - Citrix Support.MGN Pak- TECH - TOPS - End - User Services.MIT - PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7133",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-10-29",
+      "state": "open"
+    },
+    {
+      "id": "07e729972d9600cb2f2e87e898d6acb3",
+      "title": "Manager \u2013 Business Analysis, Product Planning.MGN Pak - GTB-Management-Shared.Corporate & Investment Banking Group-PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7137",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Hybrid",
+      "postedAt": "2026-10-29",
+      "state": "open"
+    },
+    {
+      "id": "74956c7d27bf17195b8d2bf95044bc9e",
+      "title": "Software Engineer.MGN Pak - Digital Corporate WDS.Corporate & Investment Banking Group-PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4906",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-10-27",
+      "state": "open"
+    },
+    {
+      "id": "119abc616fc13aa1d29405ed64890999",
+      "title": "Product Manager- Account Services (Mashreq Global Network)",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/5309",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-10-20",
+      "state": "open"
+    },
+    {
+      "id": "4065c8f811b9d9b79dbf4dd10f6150b5",
+      "title": "Vice President - Technology.MGN Pak - TECH - Transformation Office.MIT - PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6998",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-10-20",
+      "state": "open"
+    },
+    {
+      "id": "50080ab99dd17c7c64098a68a90f5422",
+      "title": "Assistant Manger Settlement Card Operations.Card Operations - MBP.Operations Group-MBPKLTD",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7045",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Hybrid",
+      "postedAt": "2026-10-20",
+      "state": "open"
+    },
+    {
+      "id": "684357bc4cdd7d375696d00940555af2",
+      "title": "Assistant Manager - Big Data Administrator.MGN Pak - Digital Data Platforms.MIT - PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6790",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-10-15",
+      "state": "open"
+    },
+    {
+      "id": "79f8268162e864fe5ed40954bd252e03",
+      "title": "Assistant Manager - Big Data Administrator.MGN Pak - Digital Data Platforms.MIT - PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6789",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-10-15",
+      "state": "open"
+    },
+    {
+      "id": "5038938cedde6aeeb381315d38ae271a",
+      "title": "Senior Associate - FTC Factoring Ops",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6945",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-10-15",
+      "state": "open"
+    },
+    {
+      "id": "30e5a0b4fd3d9effd30fe0b1bef6cd21",
+      "title": "Associate - Credit Operations.MGN Pak-Retail Banking Ops -RCO.Operations Group-PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6963",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-10-15",
+      "state": "open"
+    },
+    {
+      "id": "9bc20f470a8a7045dbd5e56df60ffa1f",
+      "title": "Business Development Officer.MGN Pak - DBC PL Fulfillment.Retail Banking Group-PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3123",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-10-14",
+      "state": "open"
+    },
+    {
+      "id": "8aeca22169afc7ff9cb747fdee549cb2",
+      "title": "Senior Manager, Virtualization & Citrix.MGN Pak - TECH - Technical Services.MIT - PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3753",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Hybrid",
+      "postedAt": "2026-10-09",
+      "state": "open"
+    },
+    {
+      "id": "1ec412adb3003104a23b71de9d3a8581",
+      "title": "Manager Technology, SRE.MGN Pak - TECH - Digital Squad-Devops.MIT - PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4618",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-10-09",
+      "state": "open"
+    },
+    {
+      "id": "c2d42466cdde5b673e4e9fb0ad5801bf",
+      "title": "VP, Stream Head - Data Analytics for Functions.MGN Pak - TECH - Data Management.MIT - PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4984",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-10-09",
+      "state": "open"
+    },
+    {
+      "id": "e0f4436780861ccd5d83c14202d47a94",
+      "title": "Senior Manager - Data Engineer.MGN Pak - Digital Data Platforms.MIT - PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4985",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-10-09",
+      "state": "open"
+    },
+    {
+      "id": "189e0a76776843ff6b1be89784e65416",
+      "title": "Senior Manager - Technology - Service Management.MGN Pak - TECH - Service Management.MIT-MGNPAK",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6108",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-10-09",
+      "state": "open"
+    },
+    {
+      "id": "b0e3bd30437e6f24625741372a0b5688",
+      "title": "Assistant Manager - Operations & Programs.COE PAK - Central Management.Operations Group-PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6974",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-10-09",
+      "state": "open"
+    },
+    {
+      "id": "c3302c358fba3a40a3f8922c9ae7232f",
+      "title": "Product Owner - KYC. NEO - MBP",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6867",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-10-05",
+      "state": "open"
+    },
+    {
+      "id": "3fd4efc86cd029a4e520d9cbd2bc63fd",
+      "title": "Assistant Manager - Technology - Middleware & Platforms (MGN Pak)",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6803",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-10-02",
+      "state": "open"
+    },
+    {
+      "id": "86939c19c2bbfcd7945dff9898f38f42",
+      "title": "Manager Workforce Management. CXCG",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6893",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-09-30",
+      "state": "open"
+    },
+    {
+      "id": "e369f0fb06003e153806bebf5c014ab2",
+      "title": "Assistant Manager - Trade Operations.MGN Pak - Trade Operations-Exports.Operations Group-PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6839",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-09-28",
+      "state": "open"
+    },
+    {
+      "id": "4cc04cd64b85c4b223170ace666ae456",
+      "title": "VP, Senior Legal Counsel - Wholesale Banking",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/5077",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-09-24",
+      "state": "open"
+    },
+    {
+      "id": "2da47ae69b94ad853d4c59d7764872e6",
+      "title": "Senior Associate.MGN Pak - RBG - Incentive Processing.RBG-MGNPAK",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6779",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-09-22",
+      "state": "open"
+    },
+    {
+      "id": "2a60cb494471cc59d66e4f96b4eed338",
+      "title": "Manager Treasury Accounting & Regulatory Reporting.Treasury Operations.Operations Group-PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6495",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Hybrid",
+      "postedAt": "2026-09-17",
+      "state": "open"
+    },
+    {
+      "id": "8a5a874a34f48c05acc3c4aaf8a2a5ea",
+      "title": "Manager - Analytics - MGN Pak - RBG",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/5034",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-09-16",
+      "state": "open"
+    },
+    {
+      "id": "6db72508f737d9834ac690f1ace0974f",
+      "title": "Senior Product Owner \u2013 Portfolio and Proposition (Mashreq Bank of Pakistan)",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6763",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-09-16",
+      "state": "open"
+    },
+    {
+      "id": "a7b37bee0af1be244901402322d85602",
+      "title": "Head of Contact Center- CXCG (Mashreq Bank of Pakistan)",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6764",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-09-15",
+      "state": "open"
+    },
+    {
+      "id": "ffd024e88758d05c30a47f4da4e61ee7",
+      "title": "Senior Manager - Loyalty Platform.MGN Pak - TECH - Pricing Platform.MIT - PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6604",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-09-14",
+      "state": "open"
+    },
+    {
+      "id": "92010632816482775c26e22b0175468a",
+      "title": "Senior Associate, Payment Operations.COE Pak - Payments Operations - Investigation.Operations Group-PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6667",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-09-14",
+      "state": "open"
+    },
+    {
+      "id": "f992a0176d680dfd09ccf83bede0a368",
+      "title": "Assistant Manager - AML Transaction Monitoring",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6423",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-09-08",
+      "state": "open"
+    },
+    {
+      "id": "bce43e6d96f3d518ff4554a2cda794be",
+      "title": "Senior Product Manager - Islamic Banking (Mashreq Bank of Pakistan)",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6670",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-09-08",
+      "state": "open"
+    },
+    {
+      "id": "dac25cf2c17b14a8ee868764915c444c",
+      "title": "Head of Remittance & FI (Mashreq Bank Pakistan Limited)",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6664",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-09-07",
+      "state": "open"
+    },
+    {
+      "id": "df0a539f028ffd9cec673e4320f5d5fd",
+      "title": "Team Leader - Compliance Ops - Perpetual Screening.MGN Pak - Compliance Ops - Perpetual Screening.Operations Group-PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6492",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-09-01",
+      "state": "open"
+    },
+    {
+      "id": "5ac22bb35e6e6601c4967898ad3cb327",
+      "title": "Virtual Relationship Manager (Mashreq Bank Pakistan Limited)",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6123",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-08-20",
+      "state": "open"
+    },
+    {
+      "id": "8e1eb54f05279bfda39d0a03de273304",
+      "title": "Senior Vice President, Senior Product Owner-Cards.Payments - MBP.Retail Banking Group-MBPKLTD",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6494",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-08-20",
+      "state": "open"
+    },
+    {
+      "id": "cc581693525a06a9ff2bdb72df4b1f6c",
+      "title": "Senior Virtual Relationship Manager - NeoBiz (Mashreq Digital Bank Pakistan)",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/5527",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-07-07",
+      "state": "open"
+    },
+    {
+      "id": "6cf6b1f8eeaf21414346b421570c443b",
+      "title": "Senior Officer - Customer Care Unit.CXCG MBP.Client Experience and Conduct Group-MBPKLTD",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/5748",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-06-12",
+      "state": "open"
+    },
+    {
+      "id": "b5e3e224932ee089dd919f951a3efdc1",
+      "title": "Treasury Dealer.Treasury and Capital Markets - MBP.Treasury and Capital Markets-MBPKLTD",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/5848",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-06-11",
+      "state": "open"
+    },
+    {
+      "id": "57f17657c47a9bcd10aeb9033094fd92",
+      "title": "Sr. Manager Governance & Conduct Client Experience.CXCG - MBP.Retail Banking Group-MBPKLTD",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3261",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-06-09",
+      "state": "open"
+    },
+    {
+      "id": "8b9f8711ef4bfaf328ad5f0e573b9b64",
+      "title": "Senior Product Owner, Product Development.Islamic Banking MBP.Retail Banking Group-MBPKLTD",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/5668",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-06-09",
+      "state": "open"
+    },
+    {
+      "id": "9b3dbb8ce1800690a224c71616f6c1af",
+      "title": "Virtual Relationship Manager (Mashreq Bank Pakistan Limited)",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/5280",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-05-14",
+      "state": "open"
+    },
+    {
+      "id": "eb5b6b321195179ff6d5ece0171a5b51",
+      "title": "Senior Product Owner - Payments.Payments - MBP.Retail Banking Group-MBPKLTD",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3156",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-05-04",
+      "state": "open"
+    },
+    {
+      "id": "55977d56cc335ab586b57198fd635ec5",
+      "title": "Senior Product Manager Activation and Fulfillment.Neo Biz MBP.Retail Banking Group RBG-MBPKLTD",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3749",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-04-21",
+      "state": "open"
+    },
+    {
+      "id": "775d010b2b3b336023b9ed13b5bf9ed2",
+      "title": "Senior Manager Customer Engagement.NEO - MBP.Retail Banking Group RBG-MBPKLTD",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3866",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-04-21",
+      "state": "open"
+    },
+    {
+      "id": "8eac130de52177392dc2f774716065b9",
+      "title": "Relationship Officer, DBC - Balance Builder.MGN Pak - Direct Banking Center - Balance Builder.Retail Banking Group-PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/5333",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-04-21",
+      "state": "open"
+    },
+    {
+      "id": "39ec8b1b53ebb0b1070757dba4410fe7",
+      "title": "Sr. Dev Engineer (Frontend).Digital Banking Products -MBP.Retail Banking Group-MBPKLTD",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4157",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-04-17",
+      "state": "open"
+    },
+    {
+      "id": "2320167494f4f96cc66bae3f13bde3da",
+      "title": "Virtual Relationship Manager - NeoBiz (Mashreq Bank Pakistan Limited)",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4601",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-04-17",
+      "state": "open"
+    },
+    {
+      "id": "a9d9a943eaba346a2acb975fa6013bf5",
+      "title": "Senior Manager - RCMS.MGN Pak - TECH - Digital Channel.MIT-MGNPAK",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3228",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-04-15",
+      "state": "open"
+    },
+    {
+      "id": "ecf003649e4895b617407eccf266bbea",
+      "title": "Senior Manager-Payments,Liquidity&Virtual Accounts.MGN Pak - TECH - Digital - GTB.MIT - PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2673",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Hybrid",
+      "postedAt": "2026-04-14",
+      "state": "open"
+    },
+    {
+      "id": "cda1705b1ba4836415fd84d0f0c9d694",
+      "title": "Senior Associate - Trade Operations.Trade Operations.Operations Group-PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4938",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-03-17",
+      "state": "open"
+    },
+    {
+      "id": "8a97c69a6d40d528f66043f3e42f4ed4",
+      "title": "Manager - Cloud Engineer.MGN Pak - MIT/Tech/Cloud.MIT - PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4808",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-02-17",
+      "state": "open"
+    },
+    {
+      "id": "b8d19b79c9aa85edb3a3026cb0aad9a9",
+      "title": "Manager Tech-Payments,Liquidity&Virtual Accounts.MGN Pak - GTB Technology.MIT - PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2671",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Hybrid",
+      "postedAt": "2026-02-13",
+      "state": "open"
+    },
+    {
+      "id": "b5a2b1762d6f30cb265b4baea8298b1e",
+      "title": "Senior Manager - Data Engineer.MGN Pak - Digital Data Platforms.MIT - PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1750",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-02-12",
+      "state": "open"
+    },
+    {
+      "id": "304a1f3cd6e997b6387702ed8008096a",
+      "title": "Manager - Oracle Fusion HCM Technical.MGN Pak - TECH - HR Technology.MIT-MGNPAK",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2352",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-02-12",
+      "state": "open"
+    },
+    {
+      "id": "379e52a51188876a70bd7ad617a88286",
+      "title": "AVP - Finance Technology.MGN Pak - Corporate Affairs Finance Tech.MIT - PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2430",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Hybrid",
+      "postedAt": "2026-02-12",
+      "state": "open"
+    },
+    {
+      "id": "934d0340ee44b192b79138e7dda3bfd7",
+      "title": "Sr. Dev Engineer (Backend).Digital Banking Products.Retail Banking Group-MBPKLTD",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4156",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2025-12-18",
+      "state": "open"
+    },
+    {
+      "id": "50e113d7904f07221da20f023b6ca5c6",
+      "title": "Relationship Officer - DBC Balance Builder Retention",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4064",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2025-12-11",
+      "state": "open"
+    }
+  ]
+}

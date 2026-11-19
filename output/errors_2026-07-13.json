@@ -1,0 +1,52 @@
+[
+  {
+    "company": "10pearls",
+    "error": "[Errno 2] No such file or directory: 'archive/10pearls.json'",
+    "failedAt": "2026-07-13T11:12:39.148832+00:00"
+  },
+  {
+    "company": "burq",
+    "error": "[Errno 2] No such file or directory: 'archive/burq.json'",
+    "failedAt": "2026-07-13T11:13:01.065473+00:00"
+  },
+  {
+    "company": "careem",
+    "error": "[Errno 2] No such file or directory: 'archive/careem.json'",
+    "failedAt": "2026-07-13T11:13:01.398948+00:00"
+  },
+  {
+    "company": "laam",
+    "error": "[Errno 2] No such file or directory: 'archive/laam.json'",
+    "failedAt": "2026-07-13T11:13:53.688173+00:00"
+  },
+  {
+    "company": "motive",
+    "error": "[Errno 2] No such file or directory: 'archive/motive.json'",
+    "failedAt": "2026-07-13T11:13:58.288561+00:00"
+  },
+  {
+    "company": "rewaa",
+    "error": "[Errno 2] No such file or directory: 'archive/rewaa.json'",
+    "failedAt": "2026-07-13T11:14:21.426702+00:00"
+  },
+  {
+    "company": "securiti",
+    "error": "[Errno 2] No such file or directory: 'archive/securiti.json'",
+    "failedAt": "2026-07-13T11:14:37.026337+00:00"
+  },
+  {
+    "company": "ssi",
+    "error": "[Errno 2] No such file or directory: 'archive/ssi.json'",
+    "failedAt": "2026-07-13T11:14:50.222183+00:00"
+  },
+  {
+    "company": "systems",
+    "error": "[Errno 2] No such file or directory: 'archive/systems.json'",
+    "failedAt": "2026-07-13T11:14:56.705149+00:00"
+  },
+  {
+    "company": "tajir",
+    "error": "[Errno 2] No such file or directory: 'archive/tajir.json'",
+    "failedAt": "2026-07-13T11:14:58.439178+00:00"
+  }
+]

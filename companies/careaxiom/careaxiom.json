@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://careaxiom.com/careers/",
+  "fetchedAt": "2026-11-18T16:45:00.555360+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "237583659e64279321c8139b005ca56f",
+      "title": "Full Stack Developer\u200e",
+      "link": "https://careaxiom.com/full-stack-developer%e2%80%8e/",
+      "location": "",
+      "department": "Technology",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "5fe8a0d620b0a89d83c020ecbf89223a",
+      "title": "Jr. iOS Software Engineer",
+      "link": "https://careaxiom.com/ios-software-engineer/",
+      "location": "",
+      "department": "Technology",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "5fbf710a49db0cf2865126a90f871e69",
+      "title": "Associate Software Engineer",
+      "link": "https://careaxiom.com/associate-software-engineer-2/",
+      "location": "",
+      "department": "Technology",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "03875d3f85724a7b7ae38a61ebe8b3f9",
+      "title": "Software Quality Assurance Engineer",
+      "link": "https://careaxiom.com/software-quality-assurance-engineer-2/",
+      "location": "",
+      "department": "Technology",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

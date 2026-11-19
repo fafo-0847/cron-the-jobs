@@ -1,0 +1,77 @@
+{
+  "sourceUrl": "https://xgrid.freshteam.com/hire/widgets/jobs.json",
+  "fetchedAt": "2026-10-21T13:46:39.252716+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "689212bb3c6a82ea825d0f96c496ea0d",
+      "title": "Business Development Intern",
+      "link": "https://www.xgrid.co/careers/?jobId=qW7uoWxSJEm4",
+      "location": "",
+      "department": "",
+      "jobType": "Internship",
+      "postedAt": "2023-11-07T11:29:37.000Z",
+      "state": "open"
+    },
+    {
+      "id": "ba0caa80cdcc841329855f3f2f1cc34e",
+      "title": "Full Stack Developer",
+      "link": "https://www.xgrid.co/careers/?jobId=6TYoALcEUwLQ",
+      "location": "",
+      "department": "",
+      "jobType": "Part time",
+      "postedAt": "2022-02-23T09:20:55.000Z",
+      "state": "open"
+    },
+    {
+      "id": "b8735139eeb9ca9a77cb14d5ba0e6ca1",
+      "title": "HR Specialist",
+      "link": "https://www.xgrid.co/careers/?jobId=aBV3hWN23u6u",
+      "location": "",
+      "department": "",
+      "jobType": "Part time",
+      "postedAt": "2023-09-21T12:41:35.000Z",
+      "state": "open"
+    },
+    {
+      "id": "0e3f84e8d799a046c7dd43a02a4dcd1c",
+      "title": "HubSpot Specialist ",
+      "link": "https://www.xgrid.co/careers/?jobId=A32ZLWN4YA5Z",
+      "location": "",
+      "department": "",
+      "jobType": "Part time",
+      "postedAt": "2025-05-20T08:37:22.000Z",
+      "state": "open"
+    },
+    {
+      "id": "b9b172a4b5ae31ba20192d8aeddef979",
+      "title": "Marketing & Customer Growth Specialist",
+      "link": "https://www.xgrid.co/careers/?jobId=t3-_OdR9fNve",
+      "location": "",
+      "department": "",
+      "jobType": "Part time",
+      "postedAt": "2024-05-17T07:34:25.000Z",
+      "state": "open"
+    },
+    {
+      "id": "d9b639476029cf1bcec3ddd6952a22f6",
+      "title": "Marketing Automation Intern",
+      "link": "https://www.xgrid.co/careers/?jobId=mpqfyBtShUOz",
+      "location": "",
+      "department": "",
+      "jobType": "Internship",
+      "postedAt": "2024-04-03T06:34:37.000Z",
+      "state": "open"
+    },
+    {
+      "id": "d892d43916853f31e8c5eef89f322297",
+      "title": "System Design Architect",
+      "link": "https://www.xgrid.co/careers/?jobId=bqPhZwrmW5l8",
+      "location": "",
+      "department": "",
+      "jobType": "Part time",
+      "postedAt": "2025-10-23T06:57:36.000Z",
+      "state": "open"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "company": "avanza",
+    "error": "loadExistingSnapshot() missing 1 required positional argument: 'snapshotPath'",
+    "failedAt": "2026-06-24T13:18:02.383454+00:00"
+  },
+  {
+    "company": "nextbridge",
+    "error": "loadExistingSnapshot() missing 1 required positional argument: 'snapshotPath'",
+    "failedAt": "2026-06-24T13:19:21.304628+00:00"
+  },
+  {
+    "company": "northbay",
+    "error": "loadExistingSnapshot() missing 1 required positional argument: 'snapshotPath'",
+    "failedAt": "2026-06-24T13:19:21.306853+00:00"
+  },
+  {
+    "company": "tps",
+    "error": "loadExistingSnapshot() missing 1 required positional argument: 'snapshotPath'",
+    "failedAt": "2026-06-24T13:20:23.945827+00:00"
+  }
+]

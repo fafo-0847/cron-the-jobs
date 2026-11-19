@@ -1,0 +1,607 @@
+{
+  "sourceUrl": "https://iacqey.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC,offset=0",
+  "fetchedAt": "2026-11-18T16:54:11.827872+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "41a24e3098014b6f3a863fed3c089d75",
+      "title": "Operational Risk Analyst (UAE Nationals Only)",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/935",
+      "location": "RAKBANK Corporate Office Dubai",
+      "department": "",
+      "jobType": "",
+      "postedAt": "2026-11-18",
+      "state": "open"
+    },
+    {
+      "id": "51c1f91415c671062c4122cbf0cdc874",
+      "title": "Relationship Officer - National Loans",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/956",
+      "location": "Nihal Office - Right wing - GROUND FLOOR",
+      "department": "",
+      "jobType": "",
+      "postedAt": "2026-11-17",
+      "state": "open"
+    },
+    {
+      "id": "ed7e290b973d555d6f9574f2c5ea0739",
+      "title": "Senior Vice President & Head of Credit Distribution & Financing Solutions",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/980",
+      "location": "RAKBANK Corporate Office Dubai",
+      "department": "",
+      "jobType": "",
+      "postedAt": "2026-11-17",
+      "state": "open"
+    },
+    {
+      "id": "f6fa2b61e70a7a15075373dff2a99eab",
+      "title": "Associate Vice President, Product Marketing \u2013 Personal Banking Group",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/895",
+      "location": "DCO Corp.Office- 10th  FLOOR",
+      "department": "",
+      "jobType": "Hybrid",
+      "postedAt": "2026-11-16",
+      "state": "open"
+    },
+    {
+      "id": "a6a8f22ab0d2c26ac3fedd055aa922f2",
+      "title": "Associate Vice President, Product Marketing - Business Banking Group",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/954",
+      "location": "United Arab Emirates",
+      "department": "",
+      "jobType": "Hybrid",
+      "postedAt": "2026-11-16",
+      "state": "open"
+    },
+    {
+      "id": "143d06a28c5936d524554ed2919a023a",
+      "title": "Assistant Manager \u2013 Marketing Planning | 6-Month Parental Leave Cover",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/971",
+      "location": "United Arab Emirates",
+      "department": "",
+      "jobType": "Hybrid",
+      "postedAt": "2026-11-16",
+      "state": "open"
+    },
+    {
+      "id": "8739e392b245170a421c448120d043ce",
+      "title": "Creative Lead",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/978",
+      "location": "DCO Corp.Office- 10th  FLOOR",
+      "department": "",
+      "jobType": "Hybrid",
+      "postedAt": "2026-11-16",
+      "state": "open"
+    },
+    {
+      "id": "4762037c6a689bea023aacf8253f76ee",
+      "title": "Senior Creative Designer",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/981",
+      "location": "DCO Corp.Office- 10th  FLOOR",
+      "department": "",
+      "jobType": "Hybrid",
+      "postedAt": "2026-11-16",
+      "state": "open"
+    },
+    {
+      "id": "ba3fb4fea1e8c322802536b63dbbcecc",
+      "title": "Associate Vice President - Art Direction",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/986",
+      "location": "DCO Corp.Office- 10th  FLOOR",
+      "department": "",
+      "jobType": "Hybrid",
+      "postedAt": "2026-11-16",
+      "state": "open"
+    },
+    {
+      "id": "0f4d26a3bd4bf622293a0e1bada7dc03",
+      "title": "Assistant Manager \u2013 Contact Centre WFM",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/451",
+      "location": "RAK HQ - 2nd Floor",
+      "department": "",
+      "jobType": "",
+      "postedAt": "2026-11-12",
+      "state": "open"
+    },
+    {
+      "id": "d585ed5ba1fe37af51813e10c1d216e5",
+      "title": "Associate Vice President \u2013 Solution Architect \u2013 Digital Assets",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/669",
+      "location": "RAK HQ - 3rd Floor",
+      "department": "",
+      "jobType": "Hybrid",
+      "postedAt": "2026-11-12",
+      "state": "open"
+    },
+    {
+      "id": "99afb6d7a2117891d5faf94d1ef5078c",
+      "title": "Senior Relationship Manager - Chinese Segment",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/970",
+      "location": "Dragon Mart Chinese Business Center",
+      "department": "",
+      "jobType": "",
+      "postedAt": "2026-11-12",
+      "state": "open"
+    },
+    {
+      "id": "92fa482acb327f73bb7ac39977abce80",
+      "title": "Platform Architect - Data Platform",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/566",
+      "location": "United Arab Emirates",
+      "department": "",
+      "jobType": "",
+      "postedAt": "2026-11-11",
+      "state": "open"
+    },
+    {
+      "id": "7af7d0c0431f00a2dc61fe8dd33c6e43",
+      "title": "Assistant Manager - Credit Policy & MIS",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/929",
+      "location": "RAKBANK Corporate Office Dubai",
+      "department": "",
+      "jobType": "",
+      "postedAt": "2026-11-11",
+      "state": "open"
+    },
+    {
+      "id": "2ecfcd96dc25a647ed1c3e83031c0ee6",
+      "title": "Vice President - Risk Analytics",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/836",
+      "location": "RAKBANK Corporate Office Dubai",
+      "department": "",
+      "jobType": "",
+      "postedAt": "2026-11-06",
+      "state": "open"
+    },
+    {
+      "id": "77ee942d7a16d59ad02d1f670b7c2e1c",
+      "title": "Associate Vice President - Digital Assets Cybersecurity",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/840",
+      "location": "DCO Corp.Office- 10th  FLOOR",
+      "department": "",
+      "jobType": "",
+      "postedAt": "2026-11-06",
+      "state": "open"
+    },
+    {
+      "id": "b9e9b954b50030799288820d3a4c01e3",
+      "title": "Branch Sales Officer",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/961",
+      "location": "Umm Hurair Branch - GROUND FLOOR",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-11-06",
+      "state": "open"
+    },
+    {
+      "id": "007a4bd4db8bb4cfefaba80a5738a652",
+      "title": "Associate Vice President - Scrum Master, Everyday Banking",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/886",
+      "location": "DCO Corp.Office- 7th  FLOOR",
+      "department": "",
+      "jobType": "",
+      "postedAt": "2026-11-05",
+      "state": "open"
+    },
+    {
+      "id": "f675a68bfee89b3487e2ac14f3ff92e4",
+      "title": "Associate Vice President & Solution Architect",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/829",
+      "location": "DCO Corp.Office- 1st  FLOOR",
+      "department": "",
+      "jobType": "Hybrid",
+      "postedAt": "2026-11-04",
+      "state": "open"
+    },
+    {
+      "id": "c2979e7a692b0c1d0a51d51fe3c5f397",
+      "title": "Associate Vice President \u2013 Digital Product Owner",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/953",
+      "location": "EMPIRE HEIGHTS - GROUND FLOOR",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-11-03",
+      "state": "open"
+    },
+    {
+      "id": "7385ba3533bcaa0f2c6217cd9dc440eb",
+      "title": "Lead Test Engineer",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/876",
+      "location": "DCO Corp.Office- 4th  FLOOR",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-11-02",
+      "state": "open"
+    },
+    {
+      "id": "4d105c393a6828cc09215becd8a396d4",
+      "title": "Associate Vice President - People Transformation (UAE National)",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/955",
+      "location": "DCO Corp.Office- 11th  FLOOR",
+      "department": "",
+      "jobType": "Hybrid",
+      "postedAt": "2026-11-02",
+      "state": "open"
+    },
+    {
+      "id": "461dcf4eafa7c10ca930286ed7fbc7a8",
+      "title": "Procurement Specialist (Emiratization)",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/944",
+      "location": "RAKBANK Corporate Office Dubai",
+      "department": "",
+      "jobType": "",
+      "postedAt": "2026-10-30",
+      "state": "open"
+    },
+    {
+      "id": "3464a3cd927e192d42a647fed4ddf4c8",
+      "title": "Officer Trade Finance",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/721",
+      "location": "DCO Corp.Office- 6th  FLOOR",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-10-29",
+      "state": "open"
+    },
+    {
+      "id": "b47e01260771fe70dfac92168dc7e2a2",
+      "title": "Relationship Manager - SME Coverage",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/906",
+      "location": "Sultan Business Centre - FIRST FLOOR",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-10-29",
+      "state": "open"
+    },
+    {
+      "id": "69f84fd3490d705c71bea269bbaed6e9",
+      "title": "Executive Vice President - Head of Segmentation, Partnerships & Planning, Business Banking",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/467",
+      "location": "RAKBANK Corporate Office Dubai",
+      "department": "",
+      "jobType": "Hybrid",
+      "postedAt": "2026-10-28",
+      "state": "open"
+    },
+    {
+      "id": "c50ff2dcb295f079520bb92b7db88d7a",
+      "title": "Collection Officer",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/938",
+      "location": "Al Qusais Branch",
+      "department": "",
+      "jobType": "",
+      "postedAt": "2026-10-28",
+      "state": "open"
+    },
+    {
+      "id": "84d2bad9a94ec6cd1998a70449ac3ad9",
+      "title": "Senior Analyst (BI Developer)",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/942",
+      "location": "United Arab Emirates",
+      "department": "",
+      "jobType": "",
+      "postedAt": "2026-10-28",
+      "state": "open"
+    },
+    {
+      "id": "967ed7d27559bc74f313febe3d6d52db",
+      "title": "Data Scientist",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/948",
+      "location": "DCO Corp.Office- 8th FLOOR",
+      "department": "",
+      "jobType": "Hybrid",
+      "postedAt": "2026-10-28",
+      "state": "open"
+    },
+    {
+      "id": "2bd6c8bee067e3f3f033b4d9a0256546",
+      "title": "Relationship Manager - Mortgages- Elite Banking",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/949",
+      "location": "Omniah Tower",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-10-28",
+      "state": "open"
+    },
+    {
+      "id": "ceb720c407c9c9b58aa4a562e9e90257",
+      "title": "Vice President - Head of Branches, Abu Dhabi and Al Ain (UAE National)",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/933",
+      "location": "United Arab Emirates",
+      "department": "",
+      "jobType": "",
+      "postedAt": "2026-10-27",
+      "state": "open"
+    },
+    {
+      "id": "515360f263e60d84d374b6ea9379fc4d",
+      "title": "Assistant Relationship Manager- SME Coverage",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/901",
+      "location": "Sultan Business Centre - FIRST FLOOR",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-10-22",
+      "state": "open"
+    },
+    {
+      "id": "4c296a1360d7af9e525fac8121a87b2d",
+      "title": "Manager- Channel Partner - Business Banking Group",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/804",
+      "location": "Sultan Business Centre - FIRST FLOOR",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-10-16",
+      "state": "open"
+    },
+    {
+      "id": "e9b89af56418f22fc1052de393497033",
+      "title": "Associate Vice President - Risk Analytics (UAE National)",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/902",
+      "location": "DCO Corp.Office- 8th FLOOR",
+      "department": "",
+      "jobType": "Hybrid",
+      "postedAt": "2026-10-16",
+      "state": "open"
+    },
+    {
+      "id": "2e53a7420a01461f3a5eb533d129c6f4",
+      "title": "Relationship Manager ( UAE National ) - Business Banking Group",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/501",
+      "location": "Umm Hurair Branch - MEZZANINE FLOOR",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-10-15",
+      "state": "open"
+    },
+    {
+      "id": "63f88d4ed85abd072b243fe0df09fa34",
+      "title": "Senior Relationship Manager - SME Acquisition",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/773",
+      "location": "Sultan Business Centre - FIRST FLOOR",
+      "department": "",
+      "jobType": "",
+      "postedAt": "2026-10-14",
+      "state": "open"
+    },
+    {
+      "id": "470844b9608b5f7ab826077bf7bcde10",
+      "title": "Associate Vice President, Cash Management Implementation Manager - Wholesale Banking Group",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/823",
+      "location": "RAKBANK Corporate Office Dubai",
+      "department": "",
+      "jobType": "",
+      "postedAt": "2026-10-09",
+      "state": "open"
+    },
+    {
+      "id": "7f8d27d2c6d671662efe1ca465d860e6",
+      "title": "Operations & Service Manager ( UAE National ) - Retail Banking Group",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/848",
+      "location": "Deira Maktoum Branch",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-10-09",
+      "state": "open"
+    },
+    {
+      "id": "56f32b5ff85f3bad5fb8ceda78d3b8ab",
+      "title": "Staff Data Scientist",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/567",
+      "location": "DCO Corp.Office- 8th FLOOR",
+      "department": "",
+      "jobType": "",
+      "postedAt": "2026-10-08",
+      "state": "open"
+    },
+    {
+      "id": "72ba482269646926e8c9a452e2ec8e1a",
+      "title": "Associate Vice President - Scrum Master, Everyday Banking - Business Banking Group",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/870",
+      "location": "DCO Corp.Office- 7th  FLOOR",
+      "department": "",
+      "jobType": "",
+      "postedAt": "2026-10-08",
+      "state": "open"
+    },
+    {
+      "id": "d4dd13028c270361e5de85e90ef9c75a",
+      "title": "Relationship Officer General Insurance",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/539",
+      "location": "United Arab Emirates",
+      "department": "",
+      "jobType": "",
+      "postedAt": "2026-10-06",
+      "state": "open"
+    },
+    {
+      "id": "23ffd3f7aa9f399cbd3d88a3199be3bc",
+      "title": "Learning & Development Specialist",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/825",
+      "location": "United Arab Emirates",
+      "department": "",
+      "jobType": "",
+      "postedAt": "2026-09-25",
+      "state": "open"
+    },
+    {
+      "id": "03424fe06e5a19d5a643a3d37d8465ab",
+      "title": "Digital PRO",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/535",
+      "location": "United Arab Emirates",
+      "department": "",
+      "jobType": "",
+      "postedAt": "2026-09-23",
+      "state": "open"
+    },
+    {
+      "id": "1cd5380d7b0ba052ad259a54d38946c4",
+      "title": "Relationship Officer Business Account Acquisition",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/745",
+      "location": "Sultan Business Centre  - MEZZANINE FLOOR",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-09-22",
+      "state": "open"
+    },
+    {
+      "id": "831714d87ddba5d28f9e1bb31a6d3133",
+      "title": "Relationship Manager - Cash Management Sales",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/696",
+      "location": "RAKBANK Corporate Office Dubai",
+      "department": "",
+      "jobType": "",
+      "postedAt": "2026-09-18",
+      "state": "open"
+    },
+    {
+      "id": "9c21bbc006908c7c319493fe420a9698",
+      "title": "VP and Head of Cross Sell, Business Banking",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/816",
+      "location": "Umm Hurair Branch - MEZZANINE FLOOR",
+      "department": "",
+      "jobType": "Hybrid",
+      "postedAt": "2026-09-18",
+      "state": "open"
+    },
+    {
+      "id": "f950651f614163257d5538b3c7f5db8e",
+      "title": "Vice President & Head of Program Lending - Business Banking Group",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/776",
+      "location": "DCO Corp.Office- 9th  FLOOR",
+      "department": "",
+      "jobType": "Hybrid",
+      "postedAt": "2026-09-14",
+      "state": "open"
+    },
+    {
+      "id": "98709114862f2f9190a188581e9ea6cf",
+      "title": "Dialer Management Lead",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/778",
+      "location": "RAK HQ - Ground Floor",
+      "department": "",
+      "jobType": "",
+      "postedAt": "2026-09-14",
+      "state": "open"
+    },
+    {
+      "id": "e6a8a5f90e231f8b0f97cd3301f8110a",
+      "title": "Relationship Manager - Business Banking Liabilities - Elite",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/692",
+      "location": "Abu Dhabi",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-09-03",
+      "state": "open"
+    },
+    {
+      "id": "8e24adf6316cc6696d30d27d40ab2548",
+      "title": "Relationship Manager - Chinese Segment",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/521",
+      "location": "Dragon Mart Chinese Business Center",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-09-02",
+      "state": "open"
+    },
+    {
+      "id": "2d4bcd94d74109b7bd6b8943ee4e7bbd",
+      "title": "Virtual Relationship Manager",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/625",
+      "location": "Sultan Business Centre  - MEZZANINE FLOOR",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-08-30",
+      "state": "open"
+    },
+    {
+      "id": "810ef8d8d88383fc47b7605bfa3f7771",
+      "title": "Senior Risk Analyst",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/483",
+      "location": "RAKBANK Corporate Office Dubai",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-08-06",
+      "state": "open"
+    },
+    {
+      "id": "fa3dc49cb101102c752885e1c03f95d0",
+      "title": "Collections Specialist",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/489",
+      "location": "Nihal Office",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-08-05",
+      "state": "open"
+    },
+    {
+      "id": "454555a5eee72472691605a7f4fc1163",
+      "title": "Senior Vice President & Head - Facilities Management, Corporate Services & Workplace Experience",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/595",
+      "location": "RAKBANK Corporate Office Dubai",
+      "department": "",
+      "jobType": "",
+      "postedAt": "2026-08-03",
+      "state": "open"
+    },
+    {
+      "id": "c1e5043f0eb98369dd91c30672dc3af2",
+      "title": "Teller",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/578",
+      "location": "Khalidiya Branch",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-07-30",
+      "state": "open"
+    },
+    {
+      "id": "0c2cc9b83adae4571b7d9fddc296572f",
+      "title": "Senior Credit Analyst",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/490",
+      "location": "RAKBANK Corporate Office Dubai",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-07-28",
+      "state": "open"
+    },
+    {
+      "id": "19dd805a877bd83c7f4313313439c540",
+      "title": "Assistant Relationship Manager",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/498",
+      "location": "DCO Corp.Office- 9th  FLOOR",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-07-28",
+      "state": "open"
+    },
+    {
+      "id": "df107801a8b992d78195f6a22017ff71",
+      "title": "Financial Analyst - Financial Planning & Analysis",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/495",
+      "location": "RAKBANK Corporate Office Dubai",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-07-16",
+      "state": "open"
+    },
+    {
+      "id": "74408d08d0d88ab529f476f832c8a353",
+      "title": "Branch Sales Officer",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/309",
+      "location": "United Arab Emirates",
+      "department": "",
+      "jobType": "",
+      "postedAt": "2026-05-05",
+      "state": "open"
+    },
+    {
+      "id": "f4360210aeeded97a267b89870b73792",
+      "title": "Senior Relationship Officer Personal loans",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/113",
+      "location": "Nihal Office",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-02-02",
+      "state": "open"
+    }
+  ]
+}

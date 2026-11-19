@@ -1,0 +1,67 @@
+{
+  "sourceUrl": "https://jobs.siemens.com/en_US/externaljobs/SearchJobs/?42414=%5B812046%5D&42414_format=17570&listFilterMode=1&folderRecordsPerPage=6&",
+  "fetchedAt": "2026-11-18T16:55:07.586721+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "422a6e58388cc3da26091f662c942475",
+      "title": "People & Organization People Partner \u2013 Karachi, Pakistan",
+      "link": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/529630",
+      "location": "Karachi, Sindh, Pakistan",
+      "department": "People & Organization",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "8dbdf1bc7897d3ee0dfd744cba5cfe12",
+      "title": "Head of Planning, Forecasting & Incentive Management",
+      "link": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/529539",
+      "location": "Multiple Locations",
+      "department": "Sales",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "49eee3c215ff3fbaf58f32ee17ae3726",
+      "title": "Power System Consultant - Karachi, Pakistan",
+      "link": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/526108",
+      "location": "Karachi, Sindh, Pakistan",
+      "department": "Engineering",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "b4db255c244a7e55753f45d9e5336442",
+      "title": "Analista Controladoria Projetos Pleno (CPM)",
+      "link": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/523162",
+      "location": "Multiple Locations",
+      "department": "Finance",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "4e11fd0936fadf72a3a071b49c959343",
+      "title": "Automation Projects and Bids Manager \u2013 Lahore or Karachi, Pakistan",
+      "link": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/519999",
+      "location": "Multiple Locations",
+      "department": "Customer Services",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "851bfe6625452222e0ee946db1dddf8e",
+      "title": "Digital Solutions & Cybersecurity Sales Specialist \u2013Karachi or Lahore, Pakistan",
+      "link": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/513589",
+      "location": "Multiple Locations",
+      "department": "Sales",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

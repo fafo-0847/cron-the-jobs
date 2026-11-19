@@ -1,0 +1,7 @@
+[
+  {
+    "company": "pentaloop",
+    "error": "module 'companies.pentaloop.pentaloop' has no attribute 'loadExistingSnapshot'",
+    "failedAt": "2026-07-18T09:30:41.224489+00:00"
+  }
+]

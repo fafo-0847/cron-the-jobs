@@ -1,0 +1,72 @@
+[
+  {
+    "company": "arrivy",
+    "error": "'jobs'",
+    "failedAt": "2026-07-17T09:58:30.064050+00:00"
+  },
+  {
+    "company": "barq",
+    "error": "'jobs'",
+    "failedAt": "2026-07-17T09:58:35.031676+00:00"
+  },
+  {
+    "company": "careaxiom",
+    "error": "'jobs'",
+    "failedAt": "2026-07-17T09:58:50.730399+00:00"
+  },
+  {
+    "company": "cinnova",
+    "error": "'jobs'",
+    "failedAt": "2026-07-17T09:58:57.858706+00:00"
+  },
+  {
+    "company": "datasciencedojo",
+    "error": "'jobs'",
+    "failedAt": "2026-07-17T10:00:06.844036+00:00"
+  },
+  {
+    "company": "datumlabs",
+    "error": "'jobs'",
+    "failedAt": "2026-07-17T10:00:11.899880+00:00"
+  },
+  {
+    "company": "invozone",
+    "error": "'jobs'",
+    "failedAt": "2026-07-17T10:01:10.296913+00:00"
+  },
+  {
+    "company": "mashreqbank",
+    "error": "'jobs'",
+    "failedAt": "2026-07-17T10:01:24.945260+00:00"
+  },
+  {
+    "company": "mindstorm",
+    "error": "'jobs'",
+    "failedAt": "2026-07-17T10:01:25.173291+00:00"
+  },
+  {
+    "company": "northstar",
+    "error": "'jobs'",
+    "failedAt": "2026-07-17T10:01:41.145418+00:00"
+  },
+  {
+    "company": "rakbank",
+    "error": "'jobs'",
+    "failedAt": "2026-07-17T10:01:56.502701+00:00"
+  },
+  {
+    "company": "sibisoft",
+    "error": "'jobs'",
+    "failedAt": "2026-07-17T10:02:42.371022+00:00"
+  },
+  {
+    "company": "uworx",
+    "error": "'jobs'",
+    "failedAt": "2026-07-17T10:03:45.575015+00:00"
+  },
+  {
+    "company": "waseela",
+    "error": "'jobs'",
+    "failedAt": "2026-07-17T10:04:03.799195+00:00"
+  }
+]

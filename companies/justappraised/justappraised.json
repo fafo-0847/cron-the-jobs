@@ -1,0 +1,37 @@
+{
+  "sourceUrl": "https://ats.rippling.com/just-appraised-jobs/jobs",
+  "fetchedAt": "2026-10-23T13:14:48.382074+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "6b953c551d6eac0ff7954f5931db0724",
+      "title": "Customer Success Manager",
+      "link": "https://ats.rippling.com/just-appraised-jobs/jobs/f62af676-fa3f-4f75-915e-b104ff5c845c",
+      "location": "Customer Experience",
+      "department": "Customer Experience",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "c6b2012688844da7607a64af536ba6ed",
+      "title": "Customer Engineer",
+      "link": "https://ats.rippling.com/just-appraised-jobs/jobs/c224bc39-251f-47ba-b6f8-45b187c40471",
+      "location": "Engineering (All)",
+      "department": "Engineering (All)",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "bd1d6cfa5f4ae5ae6a19d2973d1c6ec6",
+      "title": "Account Executive",
+      "link": "https://ats.rippling.com/just-appraised-jobs/jobs/cdc6394e-7bfa-400a-93c1-7201d2ec3436",
+      "location": "Sales",
+      "department": "Sales",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

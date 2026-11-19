@@ -1,0 +1,187 @@
+{
+  "sourceUrl": "https://career.zaptatech.com",
+  "fetchedAt": "2026-11-18T16:59:06.446800+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "8ae21806fe478b65d736be3e67fb7d37",
+      "title": "DevOps Engineer",
+      "link": "https://career.zaptatech.com/job-detail/devops-engineer1",
+      "location": "ZAPTA Technologies Private Limited- Lahore",
+      "department": "Developer",
+      "jobType": "",
+      "postedAt": "16/11/2026",
+      "state": "open"
+    },
+    {
+      "id": "08d0b1ae93e568933243e6d87b77b18d",
+      "title": "Business Development Manager",
+      "link": "https://career.zaptatech.com/job-detail/business-development-manager1",
+      "location": "Sync4Tech Private Limited - Lahore",
+      "department": "Business Development - Sync4Tech",
+      "jobType": "",
+      "postedAt": "12/11/2026",
+      "state": "open"
+    },
+    {
+      "id": "7b0f67c8a2db35cdc8a2e4b8af6bbe74",
+      "title": "Business Development Intern",
+      "link": "https://career.zaptatech.com/job-detail/business-development-intern3",
+      "location": "Sync4Tech Private Limited - Lahore",
+      "department": "Business Development - Sync4Tech",
+      "jobType": "",
+      "postedAt": "12/11/2026",
+      "state": "open"
+    },
+    {
+      "id": "815481b7226cefc15771003d9373c9dc",
+      "title": "Associate Business Developer",
+      "link": "https://career.zaptatech.com/job-detail/associate-business-developer2",
+      "location": "Sync4Tech Private Limited - Lahore",
+      "department": "Business Development - Sync4Tech",
+      "jobType": "",
+      "postedAt": "13/11/2026",
+      "state": "open"
+    },
+    {
+      "id": "73a71915f8d3e7a0478871cc657e0808",
+      "title": "Business Development Executive",
+      "link": "https://career.zaptatech.com/job-detail/business-development-executive",
+      "location": "Sync4Tech Private Limited - Lahore",
+      "department": "Business Development - Sync4Tech",
+      "jobType": "",
+      "postedAt": "10/11/2026",
+      "state": "open"
+    },
+    {
+      "id": "8605ec0f09a0a5a1c241027b598987d2",
+      "title": "Admin Coordinator",
+      "link": "https://career.zaptatech.com/job-detail/admin-coordinator",
+      "location": "ZAPTA Technologies Private Limited- Lahore",
+      "department": "Punjab Skills Development",
+      "jobType": "",
+      "postedAt": "09/11/2026",
+      "state": "open"
+    },
+    {
+      "id": "dd81df846a6d05887f08e477e550625a",
+      "title": "Academic Coordinator",
+      "link": "https://career.zaptatech.com/job-detail/academic-coordinator",
+      "location": "ZAPTA Technologies Private Limited- Lahore",
+      "department": "Punjab Skills Development",
+      "jobType": "",
+      "postedAt": "09/11/2026",
+      "state": "open"
+    },
+    {
+      "id": "6cbbda738e6efdef87ff36109fa9e306",
+      "title": "Program Manager",
+      "link": "https://career.zaptatech.com/job-detail/program-manager",
+      "location": "ZAPTA Technologies Private Limited- Lahore",
+      "department": "Punjab Skills Development",
+      "jobType": "",
+      "postedAt": "09/11/2026",
+      "state": "open"
+    },
+    {
+      "id": "d896cfb1b1b57f4500719793f27c3e89",
+      "title": "Video Editor",
+      "link": "https://career.zaptatech.com/job-detail/video-editor",
+      "location": "ZAPTA Technologies Private Limited- Lahore",
+      "department": "Marketing",
+      "jobType": "",
+      "postedAt": "12/11/2026",
+      "state": "open"
+    },
+    {
+      "id": "8ae21806fe478b65d736be3e67fb7d37",
+      "title": "DevOps Engineer",
+      "link": "https://career.zaptatech.com/job-detail/devops-engineer1",
+      "location": "ZAPTA Technologies Private Limited- Lahore",
+      "department": "Developer",
+      "jobType": "",
+      "postedAt": "16/11/2026",
+      "state": "open"
+    },
+    {
+      "id": "08d0b1ae93e568933243e6d87b77b18d",
+      "title": "Business Development Manager",
+      "link": "https://career.zaptatech.com/job-detail/business-development-manager1",
+      "location": "Sync4Tech Private Limited - Lahore",
+      "department": "Business Development - Sync4Tech",
+      "jobType": "",
+      "postedAt": "12/11/2026",
+      "state": "open"
+    },
+    {
+      "id": "7b0f67c8a2db35cdc8a2e4b8af6bbe74",
+      "title": "Business Development Intern",
+      "link": "https://career.zaptatech.com/job-detail/business-development-intern3",
+      "location": "Sync4Tech Private Limited - Lahore",
+      "department": "Business Development - Sync4Tech",
+      "jobType": "",
+      "postedAt": "12/11/2026",
+      "state": "open"
+    },
+    {
+      "id": "815481b7226cefc15771003d9373c9dc",
+      "title": "Associate Business Developer",
+      "link": "https://career.zaptatech.com/job-detail/associate-business-developer2",
+      "location": "Sync4Tech Private Limited - Lahore",
+      "department": "Business Development - Sync4Tech",
+      "jobType": "",
+      "postedAt": "13/11/2026",
+      "state": "open"
+    },
+    {
+      "id": "73a71915f8d3e7a0478871cc657e0808",
+      "title": "Business Development Executive",
+      "link": "https://career.zaptatech.com/job-detail/business-development-executive",
+      "location": "Sync4Tech Private Limited - Lahore",
+      "department": "Business Development - Sync4Tech",
+      "jobType": "",
+      "postedAt": "10/11/2026",
+      "state": "open"
+    },
+    {
+      "id": "8605ec0f09a0a5a1c241027b598987d2",
+      "title": "Admin Coordinator",
+      "link": "https://career.zaptatech.com/job-detail/admin-coordinator",
+      "location": "ZAPTA Technologies Private Limited- Lahore",
+      "department": "Punjab Skills Development",
+      "jobType": "",
+      "postedAt": "09/11/2026",
+      "state": "open"
+    },
+    {
+      "id": "dd81df846a6d05887f08e477e550625a",
+      "title": "Academic Coordinator",
+      "link": "https://career.zaptatech.com/job-detail/academic-coordinator",
+      "location": "ZAPTA Technologies Private Limited- Lahore",
+      "department": "Punjab Skills Development",
+      "jobType": "",
+      "postedAt": "09/11/2026",
+      "state": "open"
+    },
+    {
+      "id": "6cbbda738e6efdef87ff36109fa9e306",
+      "title": "Program Manager",
+      "link": "https://career.zaptatech.com/job-detail/program-manager",
+      "location": "ZAPTA Technologies Private Limited- Lahore",
+      "department": "Punjab Skills Development",
+      "jobType": "",
+      "postedAt": "09/11/2026",
+      "state": "open"
+    },
+    {
+      "id": "d896cfb1b1b57f4500719793f27c3e89",
+      "title": "Video Editor",
+      "link": "https://career.zaptatech.com/job-detail/video-editor",
+      "location": "ZAPTA Technologies Private Limited- Lahore",
+      "department": "Marketing",
+      "jobType": "",
+      "postedAt": "12/11/2026",
+      "state": "open"
+    }
+  ]
+}

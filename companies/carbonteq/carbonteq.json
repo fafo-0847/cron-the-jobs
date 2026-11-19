@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://carbonteq.com/careers/",
+  "fetchedAt": "2026-06-24T01:03:28.048456+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "132e2c9361a89132c5366d12ca1b5694",
+      "title": "Project Management Internship 2026",
+      "link": "https://carbonteq.resumatorsite.com/apply/ImhgOLzP8U/job_20260201171654_V6CMNQQXP6O5F66O",
+      "location": "Lahore, Punjab, Pakistan",
+      "department": "Project Management",
+      "jobType": "Temporary",
+      "postedAt": "2026-02-01",
+      "state": "open"
+    },
+    {
+      "id": "948a93e9c276b6078b20a5035e75ffee",
+      "title": "UI/UX Internship 2026",
+      "link": "https://carbonteq.resumatorsite.com/apply/ImhgOLzP8U/job_20260127083203_0GD6XVWUURPMID5N",
+      "location": "Lahore, Punjab, Pakistan",
+      "department": "Design",
+      "jobType": "Temporary",
+      "postedAt": "2026-01-27",
+      "state": "open"
+    }
+  ]
+}

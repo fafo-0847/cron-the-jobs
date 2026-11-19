@@ -1,0 +1,40 @@
+{
+  "sourceUrl": "https://barq.dev/careers",
+  "fetchedAt": "2026-11-18T16:44:22.435729+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "073111fd8612f607aa544719e9161786",
+      "title": "Marketing Intern",
+      "link": "https://barq.dev/careers/marketing-intern",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "description": "Barq Dev is hiring creative, energetic and outgoing Marketing Interns to help us grow our brand, create engaging content and manage our presence across social media platforms.",
+      "state": "open"
+    },
+    {
+      "id": "2489446edc32284966ede7813a6c2427",
+      "title": "Business Development Intern",
+      "link": "https://barq.dev/careers/business-development-intern-1",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "description": "Barq Dev is hiring Business Development Interns, with the potential for a full-time job based on performance. A degree is not a compulsory requirement if you have top-notch communication skills and the ability to excel in this role.",
+      "state": "open"
+    },
+    {
+      "id": "6b2aa2050bab8b464751c004514d4dee",
+      "title": "Talent Pool Application Form",
+      "link": "https://barq.dev/careers/talent-pool-application-form",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "description": "Barq Dev is a software development company building scalable digital solutions across web, mobile, AI, backend and cloud technologies. We're open to connecting with talented individuals looking to learn, grow and make an impact.",
+      "state": "open"
+    }
+  ]
+}

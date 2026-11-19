@@ -1,0 +1,57 @@
+{
+  "sourceUrl": "https://infotechgroup.com/jobs-at-infotech/",
+  "fetchedAt": "2026-11-18T16:50:04.224971+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "bb82d0ed7a13f2c9bee1ac9a6576a442",
+      "title": "Head of Marketing",
+      "link": "https://infotechgroup.com/head-of-marketing/",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "966d40b54077211cb8227cabf75bac03",
+      "title": "Manager Sourcing and Logistics",
+      "link": "https://infotechgroup.com/manager-sourcing-logistics/",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "4b8b15e131652c6baee6ab337f348996",
+      "title": "Manager, Business Intelligence Solution",
+      "link": "https://infotechgroup.com/manager-business-intelligence-solution/",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "615063264eed6315ee0c62857fa37541",
+      "title": "Pre-Sales & Proposal Associate",
+      "link": "https://infotechgroup.com/pre-sales-proposal-associate",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "da9a817b06aa1751a53bd1ee4afcbe78",
+      "title": "Associate Software Engineer",
+      "link": "https://infotechgroup.com/associate-software-engineer",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

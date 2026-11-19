@@ -1,0 +1,127 @@
+{
+  "sourceUrl": "https://techinoid.odoo.com/jobs",
+  "fetchedAt": "2026-11-18T16:55:41.828337+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "462ebcc390b09457c56c5f8bd13b7e2c",
+      "title": "React Native Developer",
+      "link": "https://techinoid.odoo.com/jobs/react-native-developer-22",
+      "location": "Lahore, Pakistan",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "a9edb71c80541ba0b369690d599850bf",
+      "title": "Data Entry Operator",
+      "link": "https://techinoid.odoo.com/jobs/data-entry-operator-20",
+      "location": "Lahore, Pakistan",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "591d79a5a22f98127a139626ae3638c4",
+      "title": "SEO Specialist",
+      "link": "https://techinoid.odoo.com/jobs/seo-specialist-19",
+      "location": "Lahore, Pakistan",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "f5186162ec92cd8061510f8004576175",
+      "title": "Core Java Developer",
+      "link": "https://techinoid.odoo.com/jobs/core-java-developer-21",
+      "location": "Lahore, Pakistan",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "2cdbdc99c038b77ebfa46e20f992dde5",
+      "title": ".Net Developer",
+      "link": "https://techinoid.odoo.com/jobs/net-developer-17",
+      "location": "Lahore, Pakistan",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "22484e1e14889af31d26f3f2114d16e6",
+      "title": "DotNet Developer",
+      "link": "https://techinoid.odoo.com/jobs/dotnet-developer-24",
+      "location": "Lahore, Pakistan",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "310d59417ec03c6ea25e4d399abce049",
+      "title": "Cold Calling - Sales",
+      "link": "https://techinoid.odoo.com/jobs/cold-calling-sales-30",
+      "location": "Lahore, Pakistan",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "e86fcee2200f0c11ddd3a5792c973271",
+      "title": "React Developer - Mid level",
+      "link": "https://techinoid.odoo.com/jobs/react-developer-mid-level-15",
+      "location": "Lahore, Pakistan",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "619add14ead4f4ae5de1dc2b2ef1b928",
+      "title": "Technical Recruiter",
+      "link": "https://techinoid.odoo.com/jobs/technical-recruiter-29",
+      "location": "Lahore, Pakistan",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "9f8c1bdf673a1c366b9d764f2f4719d5",
+      "title": "Proposal Engineer",
+      "link": "https://techinoid.odoo.com/jobs/proposal-engineer-34",
+      "location": "Lahore, Pakistan",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "1e5c0c8149549d3989f9609752b16b11",
+      "title": "UI/UX Designer",
+      "link": "https://techinoid.odoo.com/jobs/ui-ux-designer-23",
+      "location": "Lahore, Pakistan",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "ec01fb3736e37989c163cf81bff0e9b8",
+      "title": "Business Developer",
+      "link": "https://techinoid.odoo.com/jobs/business-developer-28",
+      "location": "Lahore, Pakistan",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

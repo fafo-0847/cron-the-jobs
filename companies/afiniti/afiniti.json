@@ -1,0 +1,37 @@
+{
+  "sourceUrl": "https://www.afiniti.com/jobs/",
+  "fetchedAt": "2026-11-18T16:42:55.391940+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "7d755d1604383ff505ab7da150162d21",
+      "title": "Director Product Management",
+      "link": "https://www.afiniti.com/job/?title=2418-director-product-management&gnk=job&gni=8a7883a8a184746e01a1894087642ea2",
+      "location": "United States",
+      "department": "",
+      "jobType": "",
+      "postedAt": "10/29/2026",
+      "state": "open"
+    },
+    {
+      "id": "a14b01ff33d8bd9c4052550776176c4e",
+      "title": "Associate General Counsel, Commercial Contracts",
+      "link": "https://www.afiniti.com/job/?title=2417-associate-general-counsel-commercial-contracts&gnk=job&gni=8a7885a8a0abfd5001a0ec93dab63411",
+      "location": "Ireland",
+      "department": "",
+      "jobType": "",
+      "postedAt": "09/29/2026",
+      "state": "open"
+    },
+    {
+      "id": "b0fe43fd4b528d852f302150a1cf1ab6",
+      "title": "Director, Enterprise Sales",
+      "link": "https://www.afiniti.com/job/?title=2413-director-enterprise-sales&gnk=job&gni=8a78879e9f4435c7019f60d4805405c0",
+      "location": "United Kingdom",
+      "department": "",
+      "jobType": "",
+      "postedAt": "07/14/2026",
+      "state": "open"
+    }
+  ]
+}

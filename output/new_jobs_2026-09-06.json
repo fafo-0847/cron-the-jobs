@@ -1,0 +1,83 @@
+[
+  {
+    "id": "55b034bda2309d90fcfd7adfb333ac57",
+    "title": "Senior Product Engineer (Python & React.js)",
+    "link": "https://arbisoft.hirestream.io/jobs/1fa9bdfd-9356-4d39-a069-ada285905970",
+    "location": "Jail Road, Lahore",
+    "department": "Software Engineering",
+    "postedAt": "2026-09-06T11:45:16.432828Z",
+    "state": "open",
+    "company": "arbisoft",
+    "detectedAt": "2026-09-06T12:00:05.496419+00:00"
+  },
+  {
+    "id": "9de2607aaf45e3e826ebe2857ea2e78d",
+    "title": "Product Engineer (Frontend-heavy, React)",
+    "link": "https://arbisoft.hirestream.io/jobs/ce8b0c99-2370-4efd-8321-f555a9b025e8",
+    "location": "Westwood Office, Lahore",
+    "department": "Software Engineering",
+    "postedAt": "2026-09-06T11:59:22.318291Z",
+    "state": "open",
+    "company": "arbisoft",
+    "detectedAt": "2026-09-06T12:00:05.496419+00:00"
+  },
+  {
+    "id": "a7b5af0e8cc66efb16d2f826b24d8435",
+    "title": "Senior Product Engineer (Javascript & Node.js)",
+    "link": "https://arbisoft.hirestream.io/jobs/3f68611d-253d-4368-aaa9-b86568e9a2dc",
+    "location": "Westwood Office, Lahore",
+    "department": "Software Engineering",
+    "postedAt": "2026-09-06T11:52:18.051242Z",
+    "state": "open",
+    "company": "arbisoft",
+    "detectedAt": "2026-09-06T12:00:05.496419+00:00"
+  },
+  {
+    "id": "03ec7230b4fa1eec7094439fd81e1b2d",
+    "title": "Brazil- Remote: Full Stack AI Developer",
+    "link": "https://careers.halliburton.com/job/rio-de-janeiro/brazil-remote-full-stack-ai-developer/543/100228492736",
+    "location": "Rio de Janeiro, Rio de Janeiro , Brazil",
+    "department": "Engineering/Science/Technology",
+    "jobType": "",
+    "postedAt": "",
+    "state": "open",
+    "company": "halliburton",
+    "detectedAt": "2026-09-06T12:03:52.605035+00:00"
+  },
+  {
+    "id": "033ceb15d33f55863b66b76c9108d98f",
+    "title": "Procurement & Inventory Officer",
+    "link": "https://jobs.tkxel.com/jobs/Careers/524295000042760075/Procurement-Inventory-Officer?source=CareerSite",
+    "location": "Lahore, Pakistan",
+    "department": "",
+    "jobType": "",
+    "postedAt": "",
+    "state": "open",
+    "company": "tkxel",
+    "detectedAt": "2026-09-06T12:09:56.248800+00:00"
+  },
+  {
+    "id": "d5a38fb929246126d559f634c4e262d2",
+    "title": "Forward Deployed Engineer, Agentic Platform",
+    "link": "https://jobs.tkxel.com/jobs/Careers/524295000042760067/Forward-Deployed-Engineer-Agentic-Platform?source=CareerSite",
+    "location": "Riyadh, Saudi Arabia",
+    "department": "",
+    "jobType": "",
+    "postedAt": "",
+    "state": "open",
+    "company": "tkxel",
+    "detectedAt": "2026-09-06T12:09:56.248800+00:00"
+  },
+  {
+    "id": "ff18259e03a60f69e320fe17e2241cfb",
+    "title": "Procurement Executive",
+    "link": "https://jobs.tkxel.com/jobs/Careers/524295000042760027/Procurement-Executive?source=CareerSite",
+    "location": "Lahore, Pakistan",
+    "department": "",
+    "jobType": "",
+    "postedAt": "",
+    "state": "open",
+    "company": "tkxel",
+    "detectedAt": "2026-09-06T12:09:56.248800+00:00"
+  }
+]

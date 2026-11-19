@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://venturedive.applytojob.com/apply/#alljobs",
+  "fetchedAt": "2026-11-18T16:57:45.396061+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "af789d04add92728f42f6d909d79548b",
+      "title": "Network & System Support Engineer",
+      "link": "https://venturedive.applytojob.com/apply/Ziv6J3tK8D/Network-System-Support-Engineer",
+      "location": "Karachi, Pakistan",
+      "department": "General",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "69fd1960e2201a63a9721e914c42f4ce",
+      "title": "Senior Data Architect",
+      "link": "https://venturedive.applytojob.com/apply/p0IDDcdskp/Senior-Data-Architect",
+      "location": "Pakistan",
+      "department": "Data & AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

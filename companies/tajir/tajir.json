@@ -1,0 +1,37 @@
+{
+  "sourceUrl": "https://jobs.ashbyhq.com/tajir",
+  "fetchedAt": "2026-11-18T16:55:33.495181+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "4145630846ff13d2e5ba3eb04fdfa3fb",
+      "title": "Business Operations Associate",
+      "link": "https://jobs.ashbyhq.com/tajir/e10705b6-80d9-4fde-8540-600fa6aa9769",
+      "location": "Lahore",
+      "department": "Business Operations",
+      "jobType": "Full time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "ec5204c7257832405c722c721bfa8464",
+      "title": "Finance Executive",
+      "link": "https://jobs.ashbyhq.com/tajir/6dcf6e20-00dd-4d61-956f-24753aa584d3",
+      "location": "Lahore",
+      "department": "Finance",
+      "jobType": "Full time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "e0a5af7b996189cd534e77ae69ac6fa5",
+      "title": "Category Executive",
+      "link": "https://jobs.ashbyhq.com/tajir/d74f3d62-1ada-4b48-b647-27d2142d2d8b",
+      "location": "Lahore",
+      "department": "Procurement",
+      "jobType": "Full time",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

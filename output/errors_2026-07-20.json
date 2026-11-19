@@ -1,0 +1,7 @@
+[
+  {
+    "company": "nakisa",
+    "error": "module 'companies.nakisa.nakisa' has no attribute 'loadExistingSnapshot'",
+    "failedAt": "2026-07-20T10:58:43.183750+00:00"
+  }
+]

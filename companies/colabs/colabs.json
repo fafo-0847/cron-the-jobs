@@ -1,0 +1,57 @@
+{
+  "sourceUrl": "https://www.colabs.pk/careers",
+  "fetchedAt": "2026-11-18T16:46:24.260981+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "d927471cfd9232f654c7b078165e75f9",
+      "title": "Sales Manager KSA",
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLSeORShNbcF7lLk83lC2fQ1O2fQA_CMmgMFFNNcuaiv2CuZz8w/viewform",
+      "location": "Riyadh",
+      "department": "Community & Sales",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "aa814d694bf391b88dff744dece3007e",
+      "title": "Senior Lead Community Ops",
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLSdhcM1MR2sEGHpgXeldA3Op3sxBOj_dX16xjUWMTYXslEbR4Q/viewform",
+      "location": "Karachi",
+      "department": "Community & Sales",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "c8b98041a5346f6a5e4120be336b48e5",
+      "title": "Business Development Manager (KSA)",
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLSdyUwhF9e2CFzvVHV9rPF-m62HFGb4jddr32M6Clq_kGkCt8g/viewform",
+      "location": "Riyadh",
+      "department": "Community & Sales",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "1e2fa5575bf76a1a227fda77850e4e4c",
+      "title": "Strategy Lead (PK/KSA)",
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLSdMe6rTw_lXbdXJlK0s0ON0wxB38b2Q-yowi2mwTjogq7_1rg/viewform",
+      "location": "Lahore",
+      "department": "Strategy",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "e2a52586b01edb7221709ea666cfe71f",
+      "title": "Office Manager / Executive Assistant",
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLScFD2NcpBrxsfh9-WoH3-CC7bTO8aGCxy-ny3eQ0rj58ulVGA/viewform",
+      "location": "Lahore",
+      "department": "Operations",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

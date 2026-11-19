@@ -1,0 +1,37 @@
+{
+  "sourceUrl": "https://www.hatzsdimensions.com/resources/career",
+  "fetchedAt": "2026-11-18T16:49:44.130286+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "cf9e003772e7555d28c5b9f28f5a358f",
+      "title": "AI Engineer",
+      "link": "",
+      "location": "Lahore",
+      "department": "Product",
+      "jobType": "Full Time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "5e341abed208487feb35c05b6f27f855",
+      "title": "Business Developer",
+      "link": "",
+      "location": "Lahore",
+      "department": "Marketing",
+      "jobType": "Full Time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "a3641931cae159f34340bbe92ed6e446",
+      "title": "Sales Specialist",
+      "link": "",
+      "location": "Lahore",
+      "department": "Sales",
+      "jobType": "Full Time",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

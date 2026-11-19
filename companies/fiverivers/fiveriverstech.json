@@ -1,0 +1,43 @@
+{
+  "sourceUrl": "https://fiveriverstech.zohorecruit.com/jobs/Careers",
+  "fetchedAt": "2026-11-18T16:48:29.972093+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "a7bb2473df3bc7b2a9a3043c32a54fa1",
+      "title": "Senior Business Development Associate",
+      "link": "https://fiveriverstech.zohorecruit.com/jobs/Careers/750262000009110202/Senior-Business-Development-Associate?source=CareerSite",
+      "location": "Lahore, Pakistan",
+      "department": "",
+      "jobType": "Full time",
+      "experience": "3-6 years",
+      "description": "FiveRivers Technologies is looking for a proactive and results-driven Senior Business Development Associate with 3–4 years of B2B sales and lead gener...",
+      "postedAt": "08/07/2026",
+      "state": "open"
+    },
+    {
+      "id": "863f43e28909a61c37812d844579e9a2",
+      "title": "Technical Support Engineer",
+      "link": "https://fiveriverstech.zohorecruit.com/jobs/Careers/750262000008800025/Technical-Support-Engineer?source=CareerSite",
+      "location": "Lahore, Pakistan",
+      "department": "",
+      "jobType": "Full time",
+      "experience": "1-3 years",
+      "description": "FiveRivers Technologies is looking for a Technical Support Engineer to provide enterprise-level assistance to our customers. The ideal candidate will ...",
+      "postedAt": "09/03/2026",
+      "state": "open"
+    },
+    {
+      "id": "fe8602d3d3c8c558ea9d007cd4c2be79",
+      "title": "Software Engineer (MERN)",
+      "link": "https://fiveriverstech.zohorecruit.com/jobs/Careers/750262000009582084/Software-Engineer-MERN-?source=CareerSite",
+      "location": "Lahore, Pakistan",
+      "department": "",
+      "jobType": "Full time",
+      "experience": "1-3 years",
+      "description": "FiveRivers Technologies is looking for a Full Stack Developer with 1–2 years of professional experience to develop, maintain, and deliver end-to-end f...",
+      "postedAt": "10/29/2026",
+      "state": "open"
+    }
+  ]
+}

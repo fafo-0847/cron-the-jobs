@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://www.powersoft19.com/careers/",
+  "fetchedAt": "2026-11-18T16:53:30.925738+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "04853a23581c27a36b34f6f559cde731",
+      "title": "Embedded Systems Developers",
+      "link": "",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "716b70e4f24e14e96e04374e516f00b8",
+      "title": "Enterprise and Web Apps Developers",
+      "link": "",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "0abebe3c5a437e5708519e2a69f069d4",
+      "title": "2D Graphics and Animation Designers",
+      "link": "",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "621897a3576137a2e996659b23ff69ed",
+      "title": "3D Graphics and Animation Designers",
+      "link": "",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

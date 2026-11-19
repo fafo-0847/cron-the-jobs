@@ -1,0 +1,87 @@
+{
+  "sourceUrl": "https://www.bazaartech.com/careers",
+  "fetchedAt": "2026-11-18T16:44:29.319947+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "b1913d88e15c9ae9f97ec0a4ab15dad6",
+      "title": "B2C Operations Manager",
+      "link": "https://www.bazaartech.com/careers#L9YY5534",
+      "location": "",
+      "department": "Operations",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "c78c81ddebc614b1da58c0c4469bd5cc",
+      "title": "Bazaar Talent Pool - Engineering",
+      "link": "https://www.bazaartech.com/careers#L987YR44",
+      "location": "",
+      "department": "Engineering",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "dce29e4e557c603d044937fbbefbcea0",
+      "title": "Bazaar Talent Pool - Finance",
+      "link": "https://www.bazaartech.com/careers#QV7WVVW6",
+      "location": "",
+      "department": "Finance",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "9dc3b7f11cf999e7ad480b9d6cfaee86",
+      "title": "Bazaar Talent Pool - Industrial",
+      "link": "https://www.bazaartech.com/careers#QY7787Y9",
+      "location": "",
+      "department": "Industrial",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "cb6da0a3e87097d0ce04b7ff551a9e4a",
+      "title": "Bazaar Talent Pool - Retail",
+      "link": "https://www.bazaartech.com/careers#L97WYY4Y",
+      "location": "",
+      "department": "Retail",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "4e6b58cde81239dc1ddf9a541febf18c",
+      "title": "Financial Reporting Lead",
+      "link": "https://www.bazaartech.com/careers#L9XYW8V6",
+      "location": "",
+      "department": "Finance",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "8c4dac7a68064b7d2bba30fb1b87af7b",
+      "title": "Head of Last Mile",
+      "link": "https://www.bazaartech.com/careers#L556V5R5",
+      "location": "",
+      "department": "Operations",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "9ea8b338dae510b252f3eaa2fd958937",
+      "title": "Regional Manager Fulfillment - South",
+      "link": "https://www.bazaartech.com/careers#L8WVYW73",
+      "location": "",
+      "department": "Operations",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

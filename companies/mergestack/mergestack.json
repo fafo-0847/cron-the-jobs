@@ -1,0 +1,55 @@
+{
+  "sourceUrl": "https://www.mergestack.com/career",
+  "fetchedAt": "2026-10-12T21:00:26.030771+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "26d77ddf0cb97e1ef904cff9e8bc1d1b",
+      "title": "Fresher MERN Stack Developer/MERN Stack Interns",
+      "link": "https://www.mergestack.com/career/opening/fresher-mern-stack-developer-mern-stack-interns",
+      "location": "LAHORE",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open",
+      "experience": "ENTRY LEVEL",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "d5d962f1960cb908263d46f2d93c0cca",
+      "title": "Software Quality Assurance Engineer (Manual)",
+      "link": "https://www.mergestack.com/career/opening/software-quality-assurance-engineer-manual",
+      "location": "LAHORE",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open",
+      "experience": "1-2 YEARS",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "8407423f53dba6c46b07fae74d16dc28",
+      "title": "MERN Stack Developer",
+      "link": "https://www.mergestack.com/career/opening/mern-stack-developer-next.js",
+      "location": "LAHORE",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open",
+      "experience": "1 YEAR",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "73a71915f8d3e7a0478871cc657e0808",
+      "title": "Business Development Executive",
+      "link": "https://www.mergestack.com/career/opening/business-development-executive",
+      "location": "LAHORE",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open",
+      "experience": "1-2 YEARS",
+      "status": "ACTIVE"
+    }
+  ]
+}

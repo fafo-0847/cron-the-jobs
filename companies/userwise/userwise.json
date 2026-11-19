@@ -1,0 +1,117 @@
+{
+  "sourceUrl": "https://userwise.io/career/",
+  "fetchedAt": "2026-11-18T16:57:37.894774+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "bec469fea072919bfcfa5f609dc29472",
+      "title": "Art Director - Mobile Casual F2P Games",
+      "link": "https://userwise-services.workable.com/jobs/6039870",
+      "location": "Remote \u2013 Serbia, Poland, Romania, Brazil, Turkey, Armenia",
+      "department": "Art",
+      "jobType": "remote",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "49b1e809c8ae2bf6aabab89cd95eb2be",
+      "title": "Lead UI/UX Designer - Mobile Casual F2P Games",
+      "link": "https://userwise-services.workable.com/jobs/6083994",
+      "location": "Remote \u2013 Serbia, Romania, Turkey, Poland, Spain, Portugal",
+      "department": "Art",
+      "jobType": "remote",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "b6697ec310c76e6771be86a6c1e4e255",
+      "title": "Live-Ops Game Designer - Mobile F2P",
+      "link": "https://userwise-services.workable.com/jobs/5567353",
+      "location": "Remote \u2013 Serbia, Romania, Turkey, Poland",
+      "department": "Design",
+      "jobType": "remote",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "59bc4fe5243f38ee29a73d281fe6ac07",
+      "title": "Principal /Senior Game Designer - Product Builder (AI Games)",
+      "link": "https://userwise-services.workable.com/jobs/6176497",
+      "location": "Remote \u2013 Serbia, Romania, Turkey, Poland, Spain, Portugal",
+      "department": "Design",
+      "jobType": "remote",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "c24729be8589e6b6644a666af1bd02a3",
+      "title": "Principal Server Engineer (PK)",
+      "link": "https://userwise-services.workable.com/jobs/6082504",
+      "location": "On Site \u2013 Lahore, Punjab, Pakistan",
+      "department": "Engineering",
+      "jobType": "on_site",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "10021df8d20a61460d36347f7f0e98b7",
+      "title": "Principal Server Engineer",
+      "link": "https://userwise-services.workable.com/jobs/6124720",
+      "location": "Remote \u2013 Serbia, Romania, Hungary, Turkey, Spain",
+      "department": "Engineering",
+      "jobType": "remote",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "0a3be8e395feb12fafe9164b6d241a04",
+      "title": "Senior UA Creative Strategist - Mobile Games",
+      "link": "https://userwise-services.workable.com/jobs/6062284",
+      "location": "Remote \u2013 Turkey, Poland, Serbia, Portugal, Spain, Romania",
+      "department": "Marketing",
+      "jobType": "remote",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "0160acfece079ae27c1e1467ff6d78c8",
+      "title": "VP Growth & Live Games",
+      "link": "https://userwise-services.workable.com/jobs/6188694",
+      "location": "Remote \u2013 Serbia, Poland, Romania, Brazil, Turkey, Armenia",
+      "department": "Product",
+      "jobType": "remote",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "fd6422b048fced47af27c6d1d29fee24",
+      "title": "Product Manager, Mobile Games Portfolio",
+      "link": "https://userwise-services.workable.com/jobs/6256936",
+      "location": "Remote \u2013 Serbia, Poland, Romania, Turkey, Armenia, Hungary",
+      "department": "Product",
+      "jobType": "remote",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "3d0c5a53a1038ba4f6bbfad10eeacf38",
+      "title": "Senior QA Engineer",
+      "link": "https://userwise-services.workable.com/jobs/5320183",
+      "location": "On Site \u2013 Lahore, Punjab, Pakistan",
+      "department": "Quality Assurance (QA)",
+      "jobType": "on_site",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "665130dd9d7fdb09da3c011547c85014",
+      "title": "Associate QA Engineer",
+      "link": "https://userwise-services.workable.com/jobs/5320212",
+      "location": "On Site \u2013 Lahore, Punjab, Pakistan",
+      "department": "Quality Assurance (QA)",
+      "jobType": "on_site",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

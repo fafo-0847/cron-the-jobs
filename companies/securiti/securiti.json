@@ -1,0 +1,447 @@
+{
+  "sourceUrl": "https://careers.veeam.com/search-jobs?acm=ALL&alrpm=ALL&ascf=[%7B\"key\":\"Team\",\"value\":\"Securiti+AI\"%7D]",
+  "fetchedAt": "2026-11-18T16:54:51.897735+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "225de9cac8745e1cd8a84c61928cfce6",
+      "title": "Tech Lead - Connector Framework",
+      "link": "https://careers.veeam.com/job/san-jose/tech-lead-connector-framework/22681/103447781392",
+      "location": "San Jose, CA",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "ff5ecbc208efcda2faf47732eb7078c3",
+      "title": "Assoc. SDET",
+      "link": "https://careers.veeam.com/job/islamabad/assoc-sdet/22681/103416587552",
+      "location": "Islamabad, Islamabad",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "19503e4b3a07136cd8bfbd5ee4c19842",
+      "title": "Assoc. SDET",
+      "link": "https://careers.veeam.com/job/karachi/assoc-sdet/22681/103412697280",
+      "location": "Karachi, Sindh",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "ae975ddfa30d733ff9a40ebc563a18e7",
+      "title": "Sr. Tech Lead - Backend",
+      "link": "https://careers.veeam.com/job/karachi/sr-tech-lead-backend/22681/102894039936",
+      "location": "Karachi, Sindh",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "d8929d69d6cdf419ac5895b63e817de0",
+      "title": "Staff Security Engineer- Security and Compliance",
+      "link": "https://careers.veeam.com/job/san-jose/staff-security-engineer-security-and-compliance/22681/102648887424",
+      "location": "San Jose, CA",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "73c09b96e8c2443502f83bbad7cb77f8",
+      "title": "Data Scientist",
+      "link": "https://careers.veeam.com/job/karachi/data-scientist/22681/103379103840",
+      "location": "Karachi, Sindh",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "c3fdcbc0d1344e4f9a0fe3ced8e0bedd",
+      "title": "Senior Director, Software Development Engineer in Test",
+      "link": "https://careers.veeam.com/job/san-jose/senior-director-software-development-engineer-in-test/22681/103264412480",
+      "location": "San Jose, CA",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "1a751b86c698015d2ef7e2efdee285c2",
+      "title": "Software Engineer III - Frontend",
+      "link": "https://careers.veeam.com/job/hyderabad/software-engineer-iii-frontend/22681/101686525424",
+      "location": "Hyderabad, Telangana",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "2f657780e1379f6d1bc8e254dd31fd74",
+      "title": "Sr. Director, DevOps",
+      "link": "https://careers.veeam.com/job/san-jose/sr-director-devops/22681/103181458576",
+      "location": "San Jose, CA",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "638552ead9b1a096d5c456d9622cb1c3",
+      "title": "Senior Software Engineer, Test",
+      "link": "https://careers.veeam.com/job/karachi/senior-software-engineer-test/22681/103152579568",
+      "location": "Karachi, Sindh",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "36e29bb96d00102898bc27b5f31d31e6",
+      "title": "Director, Identity, Entitlements & Activity",
+      "link": "https://careers.veeam.com/job/san-jose/director-identity-entitlements-and-activity/22681/103127217520",
+      "location": "San Jose, CA",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "85f475abb25efecbeeedbc1acf275d8f",
+      "title": "Software Engineer III",
+      "link": "https://careers.veeam.com/job/hyderabad/software-engineer-iii/22681/97774191152",
+      "location": "Hyderabad, Telangana",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "6e71bc72387ff47725ddc42d4571c51b",
+      "title": "Program Manager, Foward Deployed Engineering",
+      "link": "https://careers.veeam.com/job/san-jose/program-manager-foward-deployed-engineering/22681/102172281200",
+      "location": "San Jose, CA",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "ba08536257ccc9c3c88d6ee2425d63ea",
+      "title": "Product Marketing Director, Veeam Intelligent ResOps",
+      "link": "https://careers.veeam.com/job/seattle/product-marketing-director-veeam-intelligent-resops/22681/99393834960",
+      "location": "Seattle, WA",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "b37c84f4ec50400b0ced3608015e376c",
+      "title": "Product Marketing Director, DataAI Privacy",
+      "link": "https://careers.veeam.com/job/seattle/product-marketing-director-dataai-privacy/22681/99393836160",
+      "location": "Seattle, WA",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "33a094bb55e0972fdd39cbab2d92a75e",
+      "title": "Senior Sales Engineer - Data & AI Security",
+      "link": "https://careers.veeam.com/job/france/senior-sales-engineer-data-and-ai-security/22681/102152011552",
+      "location": "France",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "f32d98105659b4af1d0c2b0eae3a2e6e",
+      "title": "Senior Software Engineer, Performance Engineering",
+      "link": "https://careers.veeam.com/job/san-jose/senior-software-engineer-performance-engineering/22681/101910102960",
+      "location": "San Jose, CA",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "1b25edc0252cda4b4703c14d135f559e",
+      "title": "Product Marketing Director, DataAI Privacy",
+      "link": "https://careers.veeam.com/job/san-jose/product-marketing-director-dataai-privacy/22681/99393836144",
+      "location": "San Jose, CA",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "dfb7d5ebf8887551051f1b10a4e6b86d",
+      "title": "Senior Software Engineer, Test",
+      "link": "https://careers.veeam.com/job/islamabad/senior-software-engineer-test/22681/97457987984",
+      "location": "Islamabad, Islamabad",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "33fbd58e373844ca9bfe3bec72af3ca8",
+      "title": "Senior Software Engineer",
+      "link": "https://careers.veeam.com/job/islamabad/senior-software-engineer/22681/97731498592",
+      "location": "Islamabad, Islamabad",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "f4a04c3a6c124112f9f2d918f0d43628",
+      "title": "Senior Software Engineer, Test",
+      "link": "https://careers.veeam.com/job/bengaluru/senior-software-engineer-test/22681/96288752208",
+      "location": "Bengaluru, Karnataka",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "716b48b6e8a97ebe781c00f96163aba4",
+      "title": "Product Marketing Director, Veeam Intelligent ResOps",
+      "link": "https://careers.veeam.com/job/san-jose/product-marketing-director-veeam-intelligent-resops/22681/99393834992",
+      "location": "San Jose, CA",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "37e218a5384435e53dcba3ef54ed65c8",
+      "title": "Technical Lead Manager, Forward Deployed Engineering",
+      "link": "https://careers.veeam.com/job/san-jose/technical-lead-manager-forward-deployed-engineering/22681/101578884656",
+      "location": "San Jose, CA",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "e8a1b2de0895cd2e470305bb26137bc1",
+      "title": "Staff Software Development Engineer in Test (Infrastructure)",
+      "link": "https://careers.veeam.com/job/san-jose/staff-software-development-engineer-in-test-infrastructure/22681/100712610224",
+      "location": "San Jose, CA",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "02ccd06dd94994495e746d6cfb2d8da4",
+      "title": "Staff Software Development Engineer in Test (Graph Database)",
+      "link": "https://careers.veeam.com/job/san-jose/staff-software-development-engineer-in-test-graph-database/22681/100712610240",
+      "location": "San Jose, CA",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "fdd9d3da68a9fac22c1888ef82f32755",
+      "title": "Staff Software Development Engineer in Test (Connectors)",
+      "link": "https://careers.veeam.com/job/san-jose/staff-software-development-engineer-in-test-connectors/22681/100678472768",
+      "location": "San Jose, CA",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "3c97fd337e04aca196dc232ce2d05cbd",
+      "title": "Senior Sales Engineer - Data & AI Security",
+      "link": "https://careers.veeam.com/job/munich/senior-sales-engineer-data-and-ai-security/22681/99804119936",
+      "location": "Munich, Bavaria",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "8a457c75b58b85532303497ab0211607",
+      "title": "Senior Forward Deployed Engineer",
+      "link": "https://careers.veeam.com/job/north-sydney/senior-forward-deployed-engineer/22681/100154712336",
+      "location": "North Sydney, New South Wales",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "a93cebedf56fad1153cec039400cd48f",
+      "title": "Senior Forward Deployed Engineer",
+      "link": "https://careers.veeam.com/job/san-jose/senior-forward-deployed-engineer/22681/100820734912",
+      "location": "San Jose, CA",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "da8dc4af17374bbef61eb3c7d028e18b",
+      "title": "Senior Forward Deployed Engineer",
+      "link": "https://careers.veeam.com/job/melbourne/senior-forward-deployed-engineer/22681/98077177264",
+      "location": "Melbourne, Victoria",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "9fdb00655ee8653c7a4d27aa93feaac3",
+      "title": "Senior Forward Deployed Engineer",
+      "link": "https://careers.veeam.com/job/brisbane/senior-forward-deployed-engineer/22681/98074630720",
+      "location": "Brisbane, Queensland",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "e29356017ff00416257b18cb229e834f",
+      "title": "Senior Engineer - Hyperscale Analytics",
+      "link": "https://careers.veeam.com/job/san-jose/senior-engineer-hyperscale-analytics/22681/100632516864",
+      "location": "San Jose, CA",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "6261300f16b5215511dba2fb260cfb37",
+      "title": "Senior Engineer - Access Entitlements",
+      "link": "https://careers.veeam.com/job/british-columbia/senior-engineer-access-entitlements/22681/100624014048",
+      "location": "British Columbia, CA",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "f169d9c53eb886f97f9cf7b3bd6b018b",
+      "title": "Senior Director, Product Management",
+      "link": "https://careers.veeam.com/job/san-jose/senior-director-product-management/22681/99811331040",
+      "location": "San Jose, CA",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "41d127fe9e5615f8c454f77c6faf7773",
+      "title": "Sales Specialist - Data & AI Security - SF Bay",
+      "link": "https://careers.veeam.com/job/san-francisco/sales-specialist-data-and-ai-security-sf-bay/22681/101032680288",
+      "location": "San Francisco, CA",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "63286fbcf0e128b013ecf8d90151ce07",
+      "title": "Sales Specialist - Data & AI Security",
+      "link": "https://careers.veeam.com/job/minnesota/sales-specialist-data-and-ai-security/22681/99766073424",
+      "location": "Minnesota, US",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "27aba507cc5176d087d70986501099a9",
+      "title": "Sales Specialist - Data & AI Security",
+      "link": "https://careers.veeam.com/job/massachusetts/sales-specialist-data-and-ai-security/22681/99766073488",
+      "location": "Massachusetts, US",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "1513a6bb19ed93961fcc8368cfefb646",
+      "title": "Sales Specialist - Data & AI Security",
+      "link": "https://careers.veeam.com/job/dallas/sales-specialist-data-and-ai-security/22681/91393211104",
+      "location": "Dallas, TX",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "f61853d94e3c5ada99ae5431238df51b",
+      "title": "Sales Specialist - Data & AI Security",
+      "link": "https://careers.veeam.com/job/houston/sales-specialist-data-and-ai-security/22681/91673101120",
+      "location": "Houston, TX",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "bd443d99261b8977fcec8518a9ff32f0",
+      "title": "Sales Engineer - Data & AI Security",
+      "link": "https://careers.veeam.com/job/spain/sales-engineer-data-and-ai-security/22681/92297965728",
+      "location": "Spain",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "f51bca435ee12a0c002fa7d8ef5b8d5f",
+      "title": "Policy Engineering Intern- Summer 2027",
+      "link": "https://careers.veeam.com/job/san-jose/policy-engineering-intern-summer-2027/22681/100489032992",
+      "location": "San Jose, CA",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "334c444eadae306b724c6ebdbedc5bbb",
+      "title": "Forward Deployed Engineer",
+      "link": "https://careers.veeam.com/job/san-jose/forward-deployed-engineer/22681/100820733376",
+      "location": "San Jose, CA",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "c9e9a3a45e2a28a3e6be1a11c70afca1",
+      "title": "DevSecOps",
+      "link": "https://careers.veeam.com/job/san-jose/devsecops/22681/99393834832",
+      "location": "San Jose, CA",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "07978871576415b5f8b620bcf036b733",
+      "title": "AI/ML Intern Summer 2027",
+      "link": "https://careers.veeam.com/job/san-jose/ai-ml-intern-summer-2027/22681/100489029808",
+      "location": "San Jose, CA",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "sourceUrl": "https://tenx.webhr.co/hr/careers/",
+  "fetchedAt": "2026-11-18T16:55:53.883198+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "b5db822545fa7554a0053d4bb06c2fc8",
+      "title": "Data Engineer",
+      "link": "",
+      "location": "Lahore",
+      "department": "Data Analytics",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "a0af7a7b341eba8f2b776422a34a47b6",
+      "title": "Project Manager",
+      "link": "",
+      "location": "Lahore",
+      "department": "PMO",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "b5ec5e190f3035ed5a86c84256276ab3",
+      "title": "Senior Data Engineer",
+      "link": "",
+      "location": "Karachi",
+      "department": "Data Analytics",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "44661a903eb7bb30ba79e34670cb9df3",
+      "title": "Senior Software Engineer",
+      "link": "",
+      "location": "Lahore",
+      "department": "Software Development",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "68e7c94765b396e04483cf110abbaa3b",
+      "title": "Solution Architect",
+      "link": "",
+      "location": "Lahore",
+      "department": "Data Analytics",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

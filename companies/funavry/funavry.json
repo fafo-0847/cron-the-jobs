@@ -1,0 +1,55 @@
+{
+  "sourceUrl": "https://www.funavry.com/career.html",
+  "fetchedAt": "2026-10-25T13:05:32.292124+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "812730bc11c5e293ea7a1af24b48c1d1",
+      "title": "Full Stack Developer (Web & Mobile)",
+      "link": "https://www.funavry.com/career.html",
+      "location": "Islamabad",
+      "department": "",
+      "jobType": "Full Time",
+      "experience": "2-5 years",
+      "jobShift": "Morning",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "5bdecf011cd4f3747b462e6a0b3f615d",
+      "title": "UI/UX Designer",
+      "link": "https://www.funavry.com/career.html",
+      "location": "Islamabad",
+      "department": "",
+      "jobType": "Full Time",
+      "experience": "2-5 years",
+      "jobShift": "Morning",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "76efe702b405b5920a939922e97385e6",
+      "title": "VR Game Developer and Animator",
+      "link": "https://www.funavry.com/career.html",
+      "location": "Islamabad",
+      "department": "",
+      "jobType": "Full Time",
+      "experience": "2-5 years",
+      "jobShift": "Morning",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "c6452d367863226ce8efde1fcf0a8eba",
+      "title": "Data Science Engineer",
+      "link": "https://www.funavry.com/career.html",
+      "location": "Islamabad",
+      "department": "",
+      "jobType": "Full Time",
+      "experience": "2-5 years",
+      "jobShift": "Morning",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

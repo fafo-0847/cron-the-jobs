@@ -1,0 +1,40 @@
+{
+  "sourceUrl": "https://stax3.com/jobs",
+  "fetchedAt": "2026-11-18T16:55:16.510495+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "6a913f9c407e5d87caa72991eb56e80b",
+      "title": "Own the result",
+      "link": "",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open",
+      "description": "Understand why the work matters, not only what is assigned."
+    },
+    {
+      "id": "59fe359cb454eda6f3fa1b504bcd2b27",
+      "title": "Stay close to the team",
+      "link": "",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open",
+      "description": "Share context early and solve difficult problems together."
+    },
+    {
+      "id": "a4b6fb298e7a205ae2454bb78ba930ef",
+      "title": "Keep improving",
+      "link": "",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open",
+      "description": "Use feedback, curiosity, and good judgment to grow."
+    }
+  ]
+}

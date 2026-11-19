@@ -1,0 +1,51 @@
+{
+  "sourceUrl": "https://invobyte.com/careers/",
+  "fetchedAt": "2026-11-18T16:50:06.102184+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "2ebc64692d57458f017b8f56a815af3d",
+      "title": "Frontend Developer",
+      "link": "https://invobyte.com/?page_id=2124",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open",
+      "rowText": "Frontend Developer | ———————————— | Lahore | View Details"
+    },
+    {
+      "id": "d6c84896c41235b2e724a34956291ee0",
+      "title": "Graphic Designer",
+      "link": "",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open",
+      "rowText": "Graphic Designer | ———————————— | Lahore | View Details"
+    },
+    {
+      "id": "89a6ac6f7b90fcc7991f53f3eff7223c",
+      "title": "Digital Marketer",
+      "link": "",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open",
+      "rowText": "Digital Marketer | ———————————— | Lahore | View Details"
+    },
+    {
+      "id": "ece7e2e33ac341cf8061d11b4ef77c2e",
+      "title": "SEO Manager",
+      "link": "",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open",
+      "rowText": "SEO Manager | ———————————— | Lahore | View Details"
+    }
+  ]
+}

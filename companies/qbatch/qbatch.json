@@ -1,0 +1,62 @@
+{
+  "sourceUrl": "https://careers.qbatch.com/jobs",
+  "fetchedAt": "2026-09-10T12:54:31.308950+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "2b761e4072470f66aa395e4287086ffe",
+      "title": "Social Media Executive",
+      "link": "https://careers.qbatch.com/jobs/NffV0yFbBv4D/social-media-executive",
+      "location": "Lahore, Punjab",
+      "department": "Marketing",
+      "jobType": "Full Time",
+      "description": "We're looking for a creative junior Social Media Executive to join our team in Lahore!Experience: 0-3 monthsLo...",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "11c8f26eb30a7ad01838a02470a612c0",
+      "title": "Business Development Executive",
+      "link": "https://careers.qbatch.com/jobs/5xRSQotUl4Hy/business-development-executive",
+      "location": "Lahore, Punjab",
+      "department": "Sales",
+      "jobType": "Full Time",
+      "description": "Role OverviewWe are looking for a Business Development Executive (BDE) to help drive growth for our software d...",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "28414db77369e202256d0789e785ed2e",
+      "title": "Senior Software Engineer",
+      "link": "https://careers.qbatch.com/jobs/NSUSnV2zXCxd/senior-software-engineer",
+      "location": "Faisalabad, Punjab",
+      "department": "Engineering",
+      "jobType": "Full Time",
+      "description": "We are looking for a Senior Software Engineer with 3–5 years of hands-on experience in building robust, scalab...",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "25da066dfd984a36424c0da4cedf9580",
+      "title": "Software Engineer",
+      "link": "https://careers.qbatch.com/jobs/zB2emaiUJ2G2/software-engineer",
+      "location": "Lahore, Punjab",
+      "department": "Engineering",
+      "jobType": "Full Time",
+      "description": "Job DescriptionWe are looking for a passionate Full Stack Developer with strong expertise in both backend...",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "3c42aa238ee78076ee6172fe585e15ce",
+      "title": "Solutions Architect / Senior Software Engineer",
+      "link": "https://careers.qbatch.com/jobs/MX5ywnGaqdr-/solutions-architect-senior-software-engineer",
+      "location": "Faisalabad, Punjab",
+      "department": "Engineering",
+      "jobType": "Full Time",
+      "description": "We are looking for a Solutions Architect / Senior Software Engineer to lead the design, development, and deliv...",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

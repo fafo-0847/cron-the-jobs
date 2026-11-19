@@ -1,0 +1,29 @@
+{
+  "sourceUrl": "https://portal.ibtidah.com/careers",
+  "fetchedAt": "2026-11-18T16:50:00.012308+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "9ce18e49ee0a5a44b41a4f741c459d0d",
+      "title": "HR Executive - Junior",
+      "link": "https://portal.ibtidah.com/careers/ibtidah_solutions/hr-executive---junior",
+      "location": "Lahore",
+      "department": "Human Resources - IBT",
+      "jobType": "Full-time",
+      "closesOn": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "10b8e4b1e7ee50082ee8226947f1c399",
+      "title": "QA Engineer Automation - Senior",
+      "link": "https://portal.ibtidah.com/careers/ibtidah_solutions/qa-engineer-automation---senior-",
+      "location": "Lahore",
+      "department": "Quality Management - IBT",
+      "jobType": "Full-time",
+      "closesOn": "",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

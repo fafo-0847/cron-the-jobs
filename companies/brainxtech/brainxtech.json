@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://careers.brainxtech.com",
+  "fetchedAt": "2026-11-18T16:44:30.988708+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "22d155e580ec7c6aea1682a32f5e9f56",
+      "title": "Video Editor",
+      "link": "https://careers.brainxtech.com/jobs/video-editor-2026-10-19",
+      "location": "Lahore, Pakistan",
+      "department": "",
+      "jobType": "Contractual",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "8c579f236796441b7b413019e60478d3",
+      "title": "Shopify Developer (Experienced)",
+      "link": "https://careers.brainxtech.com/jobs/shopify-developer-experienced-2026-05-19",
+      "location": "Lahore, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

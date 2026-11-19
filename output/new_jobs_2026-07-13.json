@@ -1,0 +1,49 @@
+[
+  {
+    "id": "cde3121d08b499245ae4f83cdb6ef88e",
+    "title": "Client Success Manager",
+    "link": "https://addo-ai.hirestream.io/jobs/3c029643-379e-4f10-ac44-76905120c263",
+    "location": "Addo, DHA, Phase 8",
+    "department": "PMO",
+    "jobType": "On-site",
+    "postedAt": "",
+    "state": "open",
+    "company": "addoai",
+    "detectedAt": "2026-07-13T11:12:41.759100+00:00"
+  },
+  {
+    "id": "11914779825ee08a3f3b780cff934f8e",
+    "title": "Senior DevOps Engineer",
+    "link": "https://jobs.dubizzlelabs.com/p/dffa4165303301-senior-devops-engineer",
+    "location": "Karachi, PK",
+    "department": "Engineering",
+    "postedAt": "",
+    "state": "open",
+    "company": "dubizzle",
+    "detectedAt": "2026-07-13T11:13:31.881495+00:00"
+  },
+  {
+    "id": "6b518f58936e154b8e7445e5394aab0e",
+    "title": "PHP Developer",
+    "link": "https://jobs.tkxel.com/jobs/Careers/524295000041546679/PHP-Developer?source=CareerSite",
+    "location": "Lahore, Pakistan",
+    "department": "",
+    "jobType": "",
+    "postedAt": "",
+    "state": "open",
+    "company": "tkxel",
+    "detectedAt": "2026-07-13T11:15:15.772537+00:00"
+  },
+  {
+    "id": "c111c1fdf21d28293c1cf582991c6029",
+    "title": "GenAI Engineer",
+    "link": "https://jobs.tkxel.com/jobs/Careers/524295000041525643/GenAI-Engineer?source=CareerSite",
+    "location": "Lahore, Pakistan",
+    "department": "",
+    "jobType": "",
+    "postedAt": "",
+    "state": "open",
+    "company": "tkxel",
+    "detectedAt": "2026-07-13T11:15:15.772537+00:00"
+  }
+]

@@ -1,0 +1,1007 @@
+{
+  "sourceUrl": "https://api.resumatorapi.com/v1/jobs/status/open?apikey=9xmcuwVUT7G1mbVPmcL25yZ74FLkAqq8",
+  "fetchedAt": "2026-11-18T16:52:40.817388+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "b22c359a63b02ca4d44de8e6bc59ea93",
+      "title": "Devops Engineer - AWS",
+      "link": "https://northbay.resumatorsite.com/apply/omqplSY7ef/job_20261118123301_KQ5IYID8ONALCKYK",
+      "location": "Karachi, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-11-18",
+      "state": "open"
+    },
+    {
+      "id": "619608a0b560ad5e19aad0b7605d071c",
+      "title": "Devops Engineer - AWS",
+      "link": "https://northbay.resumatorsite.com/apply/3T9MekwUZa/job_20261118123419_DDSJBBN0BB5JNC8U",
+      "location": "Islamabad, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-11-18",
+      "state": "open"
+    },
+    {
+      "id": "ef9f8003f0b0553df0b7cf0e5ced94dd",
+      "title": "Devops Engineer - AWS",
+      "link": "https://northbay.resumatorsite.com/apply/6nzpuuAgOC/job_20261116111416_EBZVAV6UE9BZHZXB",
+      "location": "Lahore, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-11-16",
+      "state": "open"
+    },
+    {
+      "id": "1ee1a7b82de240d92e56f05fdd362711",
+      "title": "Senior Data Governance Consultant",
+      "link": "https://northbay.resumatorsite.com/apply/r4O3GqYkEy/job_20261102211101_IKF68QEPND2ZMMC5",
+      "location": "Delhi, India",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-11-02",
+      "state": "open"
+    },
+    {
+      "id": "a53d040bbf9bcacc64bb7a5e4bfcd4f6",
+      "title": "Linux Administrator",
+      "link": "https://northbay.resumatorsite.com/apply/WynjYQQZf3/job_20261027081410_DE8JZBPGRKMLNIR5",
+      "location": "Dubai, United Arab Emirates",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-10-27",
+      "state": "open"
+    },
+    {
+      "id": "752458d138e7a488cf272981e814793d",
+      "title": "Vmware Administrator",
+      "link": "https://northbay.resumatorsite.com/apply/vEeuEhXbLo/job_20261027082218_ZN51HDUGCHEYN3YP",
+      "location": "Dubai, United Arab Emirates",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-10-27",
+      "state": "open"
+    },
+    {
+      "id": "cf55bcf0259e2b7a7ff2a2f7cad150bf",
+      "title": "Senior Business Analyst",
+      "link": "https://northbay.resumatorsite.com/apply/CfEKfsT9Ek/job_20261026100956_YBVNWPPZ7QXWWFSL",
+      "location": "India",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-10-26",
+      "state": "open"
+    },
+    {
+      "id": "258d195e7f0e636b5cdc38c4cfa3139c",
+      "title": "Senior Data Governance Consultant",
+      "link": "https://northbay.resumatorsite.com/apply/eWXAtYUlXA/job_20261025201753_UWA3BAJWAHSWDJ5S",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "department": "Data Engineering",
+      "jobType": "Full Time",
+      "postedAt": "2026-10-25",
+      "state": "open"
+    },
+    {
+      "id": "8f6faceeb2e565a4afb7e01e3e719de0",
+      "title": "Senior Data Governance Consultant",
+      "link": "https://northbay.resumatorsite.com/apply/EIQEmWbwKE/job_20261023105923_KU9PFMX7UXA4XSND",
+      "location": "Mumbai, India",
+      "department": "Data Engineering",
+      "jobType": "Full Time",
+      "postedAt": "2026-10-23",
+      "state": "open"
+    },
+    {
+      "id": "00ee673dcf83f64e26d8015b0a0be32b",
+      "title": "Senior Data Engineer",
+      "link": "https://northbay.resumatorsite.com/apply/bpOwkC7sm8/job_20261019052124_CHKKSEDJK45T275J",
+      "location": "Karnataka, India",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-10-19",
+      "state": "open"
+    },
+    {
+      "id": "c1586297550e9f03320c837fd6197483",
+      "title": "Senior Full Stack Engineer",
+      "link": "https://northbay.resumatorsite.com/apply/2JxODYybhm/job_20261018081514_CZ6X3X6NLKCYHUPQ",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-10-18",
+      "state": "open"
+    },
+    {
+      "id": "2be641fc2a0be533022ab929cac24409",
+      "title": "Developer – Microsoft Dynamics 365",
+      "link": "https://northbay.resumatorsite.com/apply/fsQ9gI21B9/job_20261016072151_STJ70LD9TFYPNCIB",
+      "location": "India",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-10-16",
+      "state": "open"
+    },
+    {
+      "id": "5503301a3ac80e8f443687b9c4fcd0d2",
+      "title": "Functional Lead - Microsoft Dynamics 365",
+      "link": "https://northbay.resumatorsite.com/apply/S8ZWKMvs3R/job_20261016072410_5BE3IXKRUWCVHZPZ",
+      "location": "India",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-10-16",
+      "state": "open"
+    },
+    {
+      "id": "2be6eb528aeef9f3c86ebfa4740b9834",
+      "title": "Solution Architect – Microsoft Dynamics 365",
+      "link": "https://northbay.resumatorsite.com/apply/1gl8L0Y3QR/job_20261016072756_DVAA4UK50EVC9NAI",
+      "location": "India",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-10-16",
+      "state": "open"
+    },
+    {
+      "id": "b24378d9f3d702825c2296a638f1c975",
+      "title": "Technical Lead – Microsoft Dynamics 365",
+      "link": "https://northbay.resumatorsite.com/apply/SCcyr0UV6p/job_20261016072859_PUQO8WCE9ZTVNSTV",
+      "location": "India",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-10-16",
+      "state": "open"
+    },
+    {
+      "id": "2ee7c87ff285910f21b9e875d59bf5e6",
+      "title": "Technical Project Manager – Generative AI",
+      "link": "https://northbay.resumatorsite.com/apply/8xUji0DHxJ/job_20261016120128_VUATXI0D8AQZZTMV",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "department": "Project Management",
+      "jobType": "Full Time",
+      "postedAt": "2026-10-16",
+      "state": "open"
+    },
+    {
+      "id": "8608a0e6fecb334c5f4c63a70cc9976c",
+      "title": "Senior Devops Engineer",
+      "link": "https://northbay.resumatorsite.com/apply/EVhuAcsPww/job_20261015135856_LQPG1ZAWH69BT9WB",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-10-15",
+      "state": "open"
+    },
+    {
+      "id": "a859b30225ccb34438ea40156a44014e",
+      "title": "Solution Architect – Microsoft Dynamics 365",
+      "link": "https://northbay.resumatorsite.com/apply/dOLrQqJRIB/job_20261005202826_BYYOFHVXAPBQC5IP",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-10-05",
+      "state": "open"
+    },
+    {
+      "id": "4cd4437a57caa2c6e281fe8c5ff14511",
+      "title": "Functional Lead - Microsoft Dynamics 365",
+      "link": "https://northbay.resumatorsite.com/apply/smF4mJTea7/job_20261005203951_4TV8RLGORHABGYX6",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-10-05",
+      "state": "open"
+    },
+    {
+      "id": "558815d6d0ab57fa78a3508081fb0b3b",
+      "title": "Technical Lead – Microsoft Dynamics 365",
+      "link": "https://northbay.resumatorsite.com/apply/ZZ1GFIDyWF/job_20261005204934_CFXUKE3SPBUWMI5M",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-10-05",
+      "state": "open"
+    },
+    {
+      "id": "79e9426ed30a263c1376dd72ced2161d",
+      "title": "Developer – Microsoft Dynamics 365",
+      "link": "https://northbay.resumatorsite.com/apply/scWkWOC13E/job_20261005205814_8UU1HIUQNJ5PPDZX",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-10-05",
+      "state": "open"
+    },
+    {
+      "id": "70cdbc49bb05b2b5bf52a25d7f131043",
+      "title": "Vmware Administrator",
+      "link": "https://northbay.resumatorsite.com/apply/TFrp8nPfMY/job_20261005231747_URRGPJQOZGHODXG7",
+      "location": "Lahore, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-10-05",
+      "state": "open"
+    },
+    {
+      "id": "3e9f6e8a43bf42b41c2dcdacf9b3f9ab",
+      "title": "Linux Systems Administrator",
+      "link": "https://northbay.resumatorsite.com/apply/igppfJCfEv/job_20261005232013_FAUZEGTM5UDGOGI8",
+      "location": "Karachi, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-10-05",
+      "state": "open"
+    },
+    {
+      "id": "f7ed1f5225ad377f2c2463f937224a0b",
+      "title": "Linux Systems Administrator",
+      "link": "https://northbay.resumatorsite.com/apply/LomUwlz3GC/job_20261005232041_LE3K2KHHJWB5P702",
+      "location": "Lahore, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-10-05",
+      "state": "open"
+    },
+    {
+      "id": "477c3eeb501637204bc678947cd6dcf7",
+      "title": "Linux Systems Administrator",
+      "link": "https://northbay.resumatorsite.com/apply/PFB91mFzw6/job_20261005232215_S62K8XPSS7WFSMBI",
+      "location": "Islamabad, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-10-05",
+      "state": "open"
+    },
+    {
+      "id": "4896b70fae45f2e3a5c22d92a7078899",
+      "title": "Vmware Administrator",
+      "link": "https://northbay.resumatorsite.com/apply/x4WHgJ1FzE/job_20261005232306_2CBC6YYJKXK2DUU7",
+      "location": "Karachi, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-10-05",
+      "state": "open"
+    },
+    {
+      "id": "c5fd753b775a666f8c74d19bcb58af41",
+      "title": "Vmware Administrator",
+      "link": "https://northbay.resumatorsite.com/apply/rZDIiUdYaa/job_20261005232340_TENB6KSKR5IOIS2C",
+      "location": "Islamabad, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-10-05",
+      "state": "open"
+    },
+    {
+      "id": "c22fd5ac7123efb6b1d6e6d657ac304d",
+      "title": "Digital Product Manager – AI, Digital & Enterprise Platforms",
+      "link": "https://northbay.resumatorsite.com/apply/jQAXOAczIH/job_20261002035413_8JPT9TEKTLPOVEOP",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "department": "Product Management",
+      "jobType": "Full Time",
+      "postedAt": "2026-10-02",
+      "state": "open"
+    },
+    {
+      "id": "57f4a895037d0dfc316f897e89bd56a5",
+      "title": "Senior Business Analyst – Arabic Speaker",
+      "link": "https://northbay.resumatorsite.com/apply/yOtAEcCXv1/job_20261002040436_YYLP4WXTISUA0DS1",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "department": "Project Management",
+      "jobType": "Full Time",
+      "postedAt": "2026-10-02",
+      "state": "open"
+    },
+    {
+      "id": "dbdc7ace12c7be97c070809263ae2904",
+      "title": "Project Manager – Digital Transformation & AI",
+      "link": "https://northbay.resumatorsite.com/apply/IJg7LiZvqR/job_20261002101318_RFKYGDHUM2IOD3LB",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "department": "Project Management",
+      "jobType": "Full Time",
+      "postedAt": "2026-10-02",
+      "state": "open"
+    },
+    {
+      "id": "e1a64ac13fe1e376dbc741404cba4042",
+      "title": "Full Stack Engineer",
+      "link": "https://northbay.resumatorsite.com/apply/7z2pGZ22Mz/job_20261002104336_LTVAWV461U2DLCYA",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "department": "Development Team",
+      "jobType": "Full Time",
+      "postedAt": "2026-10-02",
+      "state": "open"
+    },
+    {
+      "id": "a4ce34dcd55cadc186947552723d5e4d",
+      "title": "Senior Technical Project Manager | Pakistan",
+      "link": "https://northbay.resumatorsite.com/apply/CAiwoKccCv/job_20261001150630_RP5GKIM5HDOHGYZF",
+      "location": "Karachi, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-10-01",
+      "state": "open"
+    },
+    {
+      "id": "650bf841d6c36a0baa272ac994c0d21f",
+      "title": "Project Manager",
+      "link": "https://northbay.resumatorsite.com/apply/CBjnXhJwhv/job_20261001205010_M5ONADSLBUZGXDFI",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-10-01",
+      "state": "open"
+    },
+    {
+      "id": "3e1cf895dba6a9907e0f9d21701d6a14",
+      "title": "GenAI Architect (PreSales) - Arabic Speaking",
+      "link": "https://northbay.resumatorsite.com/apply/9dXnxnmKzF/job_20260929132949_BAY7RPR4URQ9FVHL",
+      "location": "Riyadh, Saudi Arabia",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-09-29",
+      "state": "open"
+    },
+    {
+      "id": "a783fdd82821f79fbfe3135fe9ffc79c",
+      "title": "Network Security Engineer (L3)",
+      "link": "https://northbay.resumatorsite.com/apply/nt61G1UvfW/job_20260927171120_XJM1TF20YY9IP2CG",
+      "location": "Lahore, Pakistan",
+      "department": "Infrastructure",
+      "jobType": "Full Time",
+      "postedAt": "2026-09-27",
+      "state": "open"
+    },
+    {
+      "id": "864c35c59fafc0eb915581ece91c9704",
+      "title": "Network Security Engineer (L3)",
+      "link": "https://northbay.resumatorsite.com/apply/DnY3rWxltP/job_20260927171835_IIBHZ3EU95VOS7SM",
+      "location": "Karachi, Pakistan",
+      "department": "Infrastructure",
+      "jobType": "Full Time",
+      "postedAt": "2026-09-27",
+      "state": "open"
+    },
+    {
+      "id": "eeae09a58dd9cabab8fec58994167617",
+      "title": "Network Security Engineer (L3)",
+      "link": "https://northbay.resumatorsite.com/apply/lI46kdu7dY/job_20260927171859_ZKA85M8IOSZ8IBLR",
+      "location": "Islamabad, Pakistan",
+      "department": "Infrastructure",
+      "jobType": "Full Time",
+      "postedAt": "2026-09-27",
+      "state": "open"
+    },
+    {
+      "id": "477c09f7730e69b874da5f39a97657f6",
+      "title": "SecOps Security Engineer (L3) – Check Point, Palo Alto & Fortinet firewalls",
+      "link": "https://northbay.resumatorsite.com/apply/9jFN0p7wpn/job_20260925120437_ST9IAYQF8HZKDK7W",
+      "location": "Lahore, Pakistan",
+      "department": "Infrastructure",
+      "jobType": "Full Time",
+      "postedAt": "2026-09-25",
+      "state": "open"
+    },
+    {
+      "id": "0cf30adc753a55b053c32750b436aa92",
+      "title": "SecOps Security Engineer (L3) – Check Point, Palo Alto & Fortinet firewalls",
+      "link": "https://northbay.resumatorsite.com/apply/91IBzfItvx/job_20260925121042_FEDYXKIKRJNPFAF8",
+      "location": "Islamabad, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-09-25",
+      "state": "open"
+    },
+    {
+      "id": "33ae31f6e9c3dea969840616a3462495",
+      "title": "SecOps Security Engineer (L3) – Check Point, Palo Alto & Fortinet firewalls",
+      "link": "https://northbay.resumatorsite.com/apply/vdwhD1IUNb/job_20260925121103_JFUAUUZINT3ZFERW",
+      "location": "Karachi, Pakistan",
+      "department": "Infrastructure",
+      "jobType": "Full Time",
+      "postedAt": "2026-09-25",
+      "state": "open"
+    },
+    {
+      "id": "3d9ff0fc96890b2feb5e43b187b28676",
+      "title": "Lead Full-Stack Engineer – AI Product Development",
+      "link": "https://northbay.resumatorsite.com/apply/zxcsJIWO1k/job_20260922145844_XL7J6A73O6HDMDLP",
+      "location": "Lahore, Pakistan",
+      "department": "Development Team",
+      "jobType": "Full Time",
+      "postedAt": "2026-09-22",
+      "state": "open"
+    },
+    {
+      "id": "aed58153863395d09853c8e65e3782cc",
+      "title": "Lead Full-Stack Engineer – AI Product Development",
+      "link": "https://northbay.resumatorsite.com/apply/birWc6hAtS/job_20260922150557_BDHROWB3N4CWZFRU",
+      "location": "Karachi, Pakistan",
+      "department": "Development Team",
+      "jobType": "Full Time",
+      "postedAt": "2026-09-22",
+      "state": "open"
+    },
+    {
+      "id": "202c269dc09a0f75728a89d7deb0eca7",
+      "title": "Lead Full-Stack Engineer – AI Product Development",
+      "link": "https://northbay.resumatorsite.com/apply/e3XIOjob77/job_20260922150622_6YU2UTPMEU3SZBTY",
+      "location": "Islamabad, Pakistan",
+      "department": "Development Team",
+      "jobType": "Full Time",
+      "postedAt": "2026-09-22",
+      "state": "open"
+    },
+    {
+      "id": "f9b70a4f866260b5439a55ab0b995c16",
+      "title": "Cyber Security Engineer",
+      "link": "https://northbay.resumatorsite.com/apply/2Y9m2ED3q8/job_20260921084756_EJWJFGTSF0TH2HFQ",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-09-21",
+      "state": "open"
+    },
+    {
+      "id": "cfe682cb18b5c51ba3e3883c9faa5018",
+      "title": "Senior Full Stack Engineer",
+      "link": "https://northbay.resumatorsite.com/apply/c0RKPxYOrR/job_20260915131613_ELXQ0NCB546ELVPX",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-09-15",
+      "state": "open"
+    },
+    {
+      "id": "c8e970a9dd425d6fa0e2d85b481475a4",
+      "title": "NLP Engineer",
+      "link": "https://northbay.resumatorsite.com/apply/rLgSvELRLe/job_20260915132320_RP173TFCOSCZHP3U",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-09-15",
+      "state": "open"
+    },
+    {
+      "id": "94c861944fcbd5cacff07707e844112c",
+      "title": "Scrum Master – Generative AI (Arabic Speaker)",
+      "link": "https://northbay.resumatorsite.com/apply/NdNVm1ZNh1/job_20260915153308_ZDDYPDCUEJSWGUIN",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "department": "Project Management",
+      "jobType": "Full Time",
+      "postedAt": "2026-09-15",
+      "state": "open"
+    },
+    {
+      "id": "e46167221f74e0d98f233d302cfca5ec",
+      "title": "Senior Full Stack Engineer",
+      "link": "https://northbay.resumatorsite.com/apply/ZSvYg2vmrb/job_20260914084734_3BRZAJCKE7OWVRGM",
+      "location": "Lahore, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-09-14",
+      "state": "open"
+    },
+    {
+      "id": "7d5c69a6e3ebf054535a536b9243e939",
+      "title": "Senior Full Stack Engineer",
+      "link": "https://northbay.resumatorsite.com/apply/4hagc4c2PR/job_20260914085335_M0CPMBQP9URORLPT",
+      "location": "Karachi, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-09-14",
+      "state": "open"
+    },
+    {
+      "id": "58a5ea9b088b3868531aab7350994473",
+      "title": "Senior Full Stack Engineer",
+      "link": "https://northbay.resumatorsite.com/apply/a5iZpQTdXw/job_20260914085505_ZLQKPWZIY00UVGTY",
+      "location": "Islamabad, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-09-14",
+      "state": "open"
+    },
+    {
+      "id": "2816cc18e6c894951e658a4811735468",
+      "title": "Data Management & Analytics Specialist",
+      "link": "https://northbay.resumatorsite.com/apply/SSVDGSfkoX/job_20260904100752_XCOYRSI4YLX4HCEH",
+      "location": "Lahore, Pakistan",
+      "department": "Data Governance",
+      "jobType": "Full Time",
+      "postedAt": "2026-09-04",
+      "state": "open"
+    },
+    {
+      "id": "7c57f6275e8a934ce08ccf8c6536d51b",
+      "title": "Data Management & Analytics Specialist",
+      "link": "https://northbay.resumatorsite.com/apply/lnDurz74Gb/job_20260904101527_SKTZ2DEC7JFGEH2G",
+      "location": "Karachi, Pakistan",
+      "department": "Data Governance",
+      "jobType": "Full Time",
+      "postedAt": "2026-09-04",
+      "state": "open"
+    },
+    {
+      "id": "fb150ce7bbab8e754e4acfe41e1991e6",
+      "title": "Data Management & Analytics Specialist",
+      "link": "https://northbay.resumatorsite.com/apply/tRmvUeOKWV/job_20260904101952_0AVSPWNLCIANRQBJ",
+      "location": "Islamabad, Pakistan",
+      "department": "Data Governance",
+      "jobType": "Full Time",
+      "postedAt": "2026-09-04",
+      "state": "open"
+    },
+    {
+      "id": "99eca6371db511430b16a21cab40aedb",
+      "title": "Data Management Maturity & Governance Lead",
+      "link": "https://northbay.resumatorsite.com/apply/X8WuRa9s7o/job_20260904104657_QDBTGB1XXCZPO08J",
+      "location": "Lahore, Pakistan",
+      "department": "Data Governance",
+      "jobType": "Full Time",
+      "postedAt": "2026-09-04",
+      "state": "open"
+    },
+    {
+      "id": "51d908eda4122a506d165dc124f7e11b",
+      "title": "Data Management Maturity & Governance Lead",
+      "link": "https://northbay.resumatorsite.com/apply/eyErX9xsA3/job_20260904105259_NHZ1J7KYF2Z0SBHA",
+      "location": "Karachi, Pakistan",
+      "department": "Data Governance",
+      "jobType": "Full Time",
+      "postedAt": "2026-09-04",
+      "state": "open"
+    },
+    {
+      "id": "3b07235940f956d9ac3ca4f5b621b501",
+      "title": "Data Management Maturity & Governance Lead",
+      "link": "https://northbay.resumatorsite.com/apply/XZlfsGBZgs/job_20260904105326_ICWENMJVZR0E04PZ",
+      "location": "Islamabad, Pakistan",
+      "department": "Data Governance",
+      "jobType": "Full Time",
+      "postedAt": "2026-09-04",
+      "state": "open"
+    },
+    {
+      "id": "28c1b86929984904952bd5ed5b94a521",
+      "title": "Senior Data Governance Consultant – Azure",
+      "link": "https://northbay.resumatorsite.com/apply/F4bkuNsJCn/job_20260831205600_OUGWJIVGZOPMQM4L",
+      "location": "Lahore, Pakistan",
+      "department": "Data Engineering",
+      "jobType": "Full Time",
+      "postedAt": "2026-08-31",
+      "state": "open"
+    },
+    {
+      "id": "a8679b4162135aa8230b04634ce7fa9e",
+      "title": "Senior Data Governance Consultant – Azure",
+      "link": "https://northbay.resumatorsite.com/apply/yowaeMSlXR/job_20260831210423_KSDUS6KTHJGJDEM2",
+      "location": "Karachi, Pakistan",
+      "department": "Data Engineering",
+      "jobType": "Full Time",
+      "postedAt": "2026-08-31",
+      "state": "open"
+    },
+    {
+      "id": "e9bdd3590792abd599f4d83f0a0ef0bc",
+      "title": "Senior Data Governance Consultant – Azure",
+      "link": "https://northbay.resumatorsite.com/apply/uQvWOxfVnt/job_20260831210445_QBL1VQMWKKMPTTYG",
+      "location": "Islamabad, Pakistan",
+      "department": "Data Engineering",
+      "jobType": "Full Time",
+      "postedAt": "2026-08-31",
+      "state": "open"
+    },
+    {
+      "id": "fdc7d30ee9a307a7f7c6da6cff619bfa",
+      "title": "Principal Software Engineer (Data Platform)",
+      "link": "https://northbay.resumatorsite.com/apply/VIvE7e2YVb/job_20260829133310_VQUW7MW5SQ2DXIRF",
+      "location": "Lahore, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-08-29",
+      "state": "open"
+    },
+    {
+      "id": "1d26e841feeecff551c95b42de6dee26",
+      "title": "Principal Software Engineer (Data Platform)",
+      "link": "https://northbay.resumatorsite.com/apply/pMDPhd7Lrc/job_20260829134917_FFSCOVFXRSQXFLOJ",
+      "location": "Islamabad, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-08-29",
+      "state": "open"
+    },
+    {
+      "id": "897f409c8576bb4d9d92518bd11272a2",
+      "title": "Principal Software Engineer (Data Platform)",
+      "link": "https://northbay.resumatorsite.com/apply/0Mbk2596Hx/job_20260829135214_QC9APCGA4PYXBCRZ",
+      "location": "Karachi, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-08-29",
+      "state": "open"
+    },
+    {
+      "id": "f0aa9577a9d4638630804811e78f9c5d",
+      "title": "Senior Data Engineer",
+      "link": "https://northbay.resumatorsite.com/apply/BIUa5VHo4b/job_20260827174334_XSRE2SCAOSV0QYYI",
+      "location": "Delhi, United Arab Emirates",
+      "department": "Data Engineering",
+      "jobType": "Full Time",
+      "postedAt": "2026-08-27",
+      "state": "open"
+    },
+    {
+      "id": "266612a910f8c7c07a8350c51834331d",
+      "title": "Full Stack Engineer",
+      "link": "https://northbay.resumatorsite.com/apply/VdJnUXaMRL/job_20260817094335_R2KINAQ2NEQ2LAJU",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-08-17",
+      "state": "open"
+    },
+    {
+      "id": "fa9af8c875a1efca1617f970f7f26ed1",
+      "title": "Data Governance & Security Engineer",
+      "link": "https://northbay.resumatorsite.com/apply/SMHxK9PLLx/job_20260812101822_IUMO0V5M8VZQIYNI",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "department": "Development Team",
+      "jobType": "Full Time",
+      "postedAt": "2026-08-12",
+      "state": "open"
+    },
+    {
+      "id": "36a74a8ccbe1b27bfc2ebf91519adf6d",
+      "title": "Data Classification Engineer",
+      "link": "https://northbay.resumatorsite.com/apply/Fg65rnMLwV/job_20260812102049_UKIEOGXP0C6Y1ISF",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "department": "Development Team",
+      "jobType": "Full Time",
+      "postedAt": "2026-08-12",
+      "state": "open"
+    },
+    {
+      "id": "36a79bda7987c3562b17385a51157e25",
+      "title": "Senior Technical Project Manager",
+      "link": "https://northbay.resumatorsite.com/apply/20QPZ09eST/job_20260806144603_CCPXTVM07MICZFIG",
+      "location": "Lahore, Pakistan",
+      "department": "Development Team",
+      "jobType": "Full Time",
+      "postedAt": "2026-08-06",
+      "state": "open"
+    },
+    {
+      "id": "8f3b0db687f54e7786df66b857303b2a",
+      "title": "Senior Technical Project Manager",
+      "link": "https://northbay.resumatorsite.com/apply/AOtP1LCK4E/job_20260806145300_GRBHGX1FKXABZ8HP",
+      "location": "Islamabad, Pakistan",
+      "department": "Development Team",
+      "jobType": "Full Time",
+      "postedAt": "2026-08-06",
+      "state": "open"
+    },
+    {
+      "id": "b0942649aa1526c235edc4504660fb00",
+      "title": "Senior Data Governance & Security Specialist",
+      "link": "https://northbay.resumatorsite.com/apply/p1ySM7WUdP/job_20260730105225_0SQTBCE58AX0RZWT",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "department": "Development Team",
+      "jobType": "Full Time",
+      "postedAt": "2026-07-30",
+      "state": "open"
+    },
+    {
+      "id": "9cf7e276662d57e390c4ae2d834115e3",
+      "title": "Senior Data Classification Specialist",
+      "link": "https://northbay.resumatorsite.com/apply/BxDaGWtK2P/job_20260729123858_PO41IMLZJOQNCLIF",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "department": "Development Team",
+      "jobType": "Full Time",
+      "postedAt": "2026-07-29",
+      "state": "open"
+    },
+    {
+      "id": "d46de88641d43cb7ca73435bde076005",
+      "title": "Senior Data Classification Specialist",
+      "link": "https://northbay.resumatorsite.com/apply/LKbSqosLq1/job_20260729125733_0MJRZLZAMAWXJTGR",
+      "location": "Dubai, United Arab Emirates",
+      "department": "Development Team",
+      "jobType": "Full Time",
+      "postedAt": "2026-07-29",
+      "state": "open"
+    },
+    {
+      "id": "1d4a2a3569d6ea4268e9848e5175fbe3",
+      "title": "Senior - AI Engineer",
+      "link": "https://northbay.resumatorsite.com/apply/fXF3OaXZc1/job_20260722090502_KHUHYQDZCESIBIED",
+      "location": "Islamabad, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-07-22",
+      "state": "open"
+    },
+    {
+      "id": "52ce1e9b33c9c35243d5f78f3bf9e412",
+      "title": "Lead Data Engineer (AWS Data Platform)",
+      "link": "https://northbay.resumatorsite.com/apply/12ybdz9bLe/job_20260709074242_DWW1IUZS4S7OIFTP",
+      "location": "Lahore, Pakistan",
+      "department": "Data Engineering",
+      "jobType": "Full Time",
+      "postedAt": "2026-07-09",
+      "state": "open"
+    },
+    {
+      "id": "c2790ced955f86eb2b2fc6e0848b5544",
+      "title": "Lead Data Engineer (AWS Data Platform)",
+      "link": "https://northbay.resumatorsite.com/apply/6dbiSeGIhk/job_20260709075307_PYUTIHSGA4XP8ZUP",
+      "location": "Karachi, Pakistan",
+      "department": "Data Engineering",
+      "jobType": "Full Time",
+      "postedAt": "2026-07-09",
+      "state": "open"
+    },
+    {
+      "id": "7dfbb301fe44dfebe7423deefa9563dd",
+      "title": "Lead Data Engineer (AWS Data Platform)",
+      "link": "https://northbay.resumatorsite.com/apply/0KYwb6Lwfl/job_20260709075329_YINAMRFUESVTTC3H",
+      "location": "Islamabad, Pakistan",
+      "department": "Data Engineering",
+      "jobType": "Full Time",
+      "postedAt": "2026-07-09",
+      "state": "open"
+    },
+    {
+      "id": "aaae18978e788697e6f4450451cb4cf7",
+      "title": "QA Automation Engineer - GenAI",
+      "link": "https://northbay.resumatorsite.com/apply/nyKVjw6bkk/job_20260702122725_PPW0GDBJ906PWNLU",
+      "location": "Abu Dhabi, United States",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-07-02",
+      "state": "open"
+    },
+    {
+      "id": "065245fc5add4ef1312a696e66078ca8",
+      "title": "QA Automation Engineer – GenAI",
+      "link": "https://northbay.resumatorsite.com/apply/QXusI0XwBc/job_20260702123407_I4ADQ8UWILEDEIYQ",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-07-02",
+      "state": "open"
+    },
+    {
+      "id": "ca07c69008703c91875b5ff35405747d",
+      "title": "Senior Data Engineer",
+      "link": "https://northbay.resumatorsite.com/apply/ARPHbCAr3r/job_20260627002319_BQRNIPGA6D4IEZKM",
+      "location": "Lahore, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-06-27",
+      "state": "open"
+    },
+    {
+      "id": "de028839c5f8595df2a0a88b13b09e5e",
+      "title": "Senior Data Engineer",
+      "link": "https://northbay.resumatorsite.com/apply/zLbgYcPYTt/job_20260627005358_LEFATGFKP70WXPFI",
+      "location": "Islamabad, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-06-27",
+      "state": "open"
+    },
+    {
+      "id": "7cfa7c0a0f3f2c713941f14809db6da9",
+      "title": "Senior Data Engineer",
+      "link": "https://northbay.resumatorsite.com/apply/yJK53N74EZ/job_20260627005533_NOYIBFZYNVI23LZY",
+      "location": "Karachi, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-06-27",
+      "state": "open"
+    },
+    {
+      "id": "975e975edf3c22b0a357efd540fd3671",
+      "title": "Devops Engineer - Azure",
+      "link": "https://northbay.resumatorsite.com/apply/l3GFKsVwEA/job_20260617084955_CALLVDR351IUEDIM",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-06-17",
+      "state": "open"
+    },
+    {
+      "id": "42e43669f1ffc9801b33170e7ddef742",
+      "title": "Senior Android Developer",
+      "link": "https://northbay.resumatorsite.com/apply/8JE0wIcUex/job_20260615083458_WP12PBHISCFP2QCU",
+      "location": "Lahore, Pakistan",
+      "department": "",
+      "jobType": "Contracted",
+      "postedAt": "2026-06-15",
+      "state": "open"
+    },
+    {
+      "id": "4c13cb11e6ac985721a0e6552252f27f",
+      "title": "Senior Android Developer",
+      "link": "https://northbay.resumatorsite.com/apply/EvnSIRfa6E/job_20260615084256_IOPUPABFJLBSJOQM",
+      "location": "Islamabad, Pakistan",
+      "department": "",
+      "jobType": "Contracted",
+      "postedAt": "2026-06-15",
+      "state": "open"
+    },
+    {
+      "id": "6989206fab4d23e6ec34e9dfb86ef152",
+      "title": "Azure Devops Engineer",
+      "link": "https://northbay.resumatorsite.com/apply/lfrJ5IWJfq/job_20260521094028_JHK3DYLLXWMSFT4A",
+      "location": "United Arab Emirates",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-05-21",
+      "state": "open"
+    },
+    {
+      "id": "d84bc0051e90d610d7e8fdb8aa89b750",
+      "title": "Senior Data Engineer (AWS / PLSQL / Oracle)",
+      "link": "https://northbay.resumatorsite.com/apply/36IdBUYdEw/job_20260415135359_GSHYCWJSJ8U5VKB4",
+      "location": "Lahore, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-04-15",
+      "state": "open"
+    },
+    {
+      "id": "c27fa14525c92e99b4bff085ccd813a6",
+      "title": "Senior Data Engineer (AWS / PLSQL / Oracle)",
+      "link": "https://northbay.resumatorsite.com/apply/rYDoQdS5Ze/job_20260415141630_ZATR9GPLBGYL9UEZ",
+      "location": "Islamabad, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-04-15",
+      "state": "open"
+    },
+    {
+      "id": "c988981f0f4ca7d55d0e01d9e832a3ac",
+      "title": "Senior Data Engineer (AWS / PLSQL / Oracle)",
+      "link": "https://northbay.resumatorsite.com/apply/UFYRm503DL/job_20260415141824_1TVBPMSZAA7CE2L7",
+      "location": "Karachi, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-04-15",
+      "state": "open"
+    },
+    {
+      "id": "8a5ef6437b12a6d9a65e5e90b61c502b",
+      "title": "Lead Data Engineer (AWS / PLSQL / PL/PGSQL)",
+      "link": "https://northbay.resumatorsite.com/apply/Vk3eyFwt7R/job_20260415150326_G1G9KSZ9ANUUX2V1",
+      "location": "Karachi, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-04-15",
+      "state": "open"
+    },
+    {
+      "id": "87114511dadf77fda024ab9b163eb9da",
+      "title": "Lead Data Engineer (AWS / PLSQL / PL/PGSQL)",
+      "link": "https://northbay.resumatorsite.com/apply/EchFc2nYG4/job_20260415150611_ADDRK0UVEWC4XT8B",
+      "location": "Lahore, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-04-15",
+      "state": "open"
+    },
+    {
+      "id": "6d206e01e5c514f53f2c4b8e70b93947",
+      "title": "Lead Data Engineer (AWS / PLSQL / PL/PGSQL)",
+      "link": "https://northbay.resumatorsite.com/apply/hMaPPLhAIv/job_20260415150744_DR6VMLUHDZKPCVTA",
+      "location": "Islamabad, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-04-15",
+      "state": "open"
+    },
+    {
+      "id": "2948c9af7bf1a32596178f7cbd510158",
+      "title": "Front-End Web Developer (React + Azure)",
+      "link": "https://northbay.resumatorsite.com/apply/r0nkSCt3lx/job_20260409102336_TELICWL2NJXLB8AO",
+      "location": "Lahore, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-04-09",
+      "state": "open"
+    },
+    {
+      "id": "64183324fbd7ec05aa1a2f569a0067a1",
+      "title": "Front-End Web Developer (React + Azure)",
+      "link": "https://northbay.resumatorsite.com/apply/rhPVwOpfHv/job_20260409102959_XWI8CWBHOE7Q5LVC",
+      "location": "Islamabad, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-04-09",
+      "state": "open"
+    },
+    {
+      "id": "0ead1ae8db278cc14a1cdfe6fc7eec61",
+      "title": "Front-End Web Developer (React + Azure)",
+      "link": "https://northbay.resumatorsite.com/apply/8cdmZjtSlh/job_20260409103304_WCCYMJS03UUOROX3",
+      "location": "Karachi, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-04-09",
+      "state": "open"
+    },
+    {
+      "id": "64d9b97e76bbbf5d4bbbd646614f5bbd",
+      "title": "Lead Data Scientist – GenAI",
+      "link": "https://northbay.resumatorsite.com/apply/BbukYCqGLo/job_20260225010748_PNHVWQYGDJDQPJTG",
+      "location": "Cairo, Egypt",
+      "department": "Data Science",
+      "jobType": "Full Time",
+      "postedAt": "2026-02-25",
+      "state": "open"
+    },
+    {
+      "id": "5ffc1340c89095bf6795e3db3105fb24",
+      "title": "Senior Data Engineer – AWS",
+      "link": "https://northbay.resumatorsite.com/apply/GDoAOp0ZW6/job_20260225101844_FGIU8WMPH5AK9LFB",
+      "location": "Cairo, Egypt",
+      "department": "Data Engineering",
+      "jobType": "Full Time",
+      "postedAt": "2026-02-25",
+      "state": "open"
+    },
+    {
+      "id": "2052fa13d71d5752603d2fbafca227bc",
+      "title": "Senior Accountant (SEC-US Reporter)",
+      "link": "https://northbay.resumatorsite.com/apply/navmSrSJjP/job_20251217111155_SJLAP6KUVKR2JPWZ",
+      "location": "Karachi, Pakistan",
+      "department": "",
+      "jobType": "Contracted",
+      "postedAt": "2025-12-17",
+      "state": "open"
+    },
+    {
+      "id": "970c2bbc41868b592e017c3c35533847",
+      "title": "Senior Accountant (SEC-US Reporter)",
+      "link": "https://northbay.resumatorsite.com/apply/ZJx4CUTOlt/job_20251217111725_IL4CZEXLEUNCPAE1",
+      "location": "Lahore, Pakistan",
+      "department": "",
+      "jobType": "Contracted",
+      "postedAt": "2025-12-17",
+      "state": "open"
+    },
+    {
+      "id": "9ca7554a9767045b22a441d06b3658eb",
+      "title": "Senior Accountant (SEC-US Reporter)",
+      "link": "https://northbay.resumatorsite.com/apply/xh1l2ZjJWT/job_20251217111755_ON0XWHTKQ7CYCENR",
+      "location": "Islamabad, Pakistan",
+      "department": "",
+      "jobType": "Contracted",
+      "postedAt": "2025-12-17",
+      "state": "open"
+    },
+    {
+      "id": "52d7e5a3da877dc50d7ed8e93453fb9e",
+      "title": ".NET Developer",
+      "link": "https://northbay.resumatorsite.com/apply/q91wjU5pCF/job_20251118092502_NMVG9LCOAORRWPJ4",
+      "location": "Lahore, Pakistan",
+      "department": "Development Team",
+      "jobType": "Full Time",
+      "postedAt": "2025-11-18",
+      "state": "open"
+    },
+    {
+      "id": "e5421ee761b32d918991498a217433db",
+      "title": "Senior AI Engineer",
+      "link": "https://northbay.resumatorsite.com/apply/32qfQ3OWtD/job_20251029205655_4JC4NFYSBF3E370Z",
+      "location": "Karachi, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2025-10-29",
+      "state": "open"
+    }
+  ]
+}

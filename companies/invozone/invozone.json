@@ -1,0 +1,205 @@
+{
+  "sourceUrl": "https://next.invozone.com/jobs",
+  "fetchedAt": "2026-11-18T16:50:16.055807+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "12b923b88e49bfe6737e1902987bf5d8",
+      "title": "",
+      "link": "https://next.invozone.com/jobs",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "closingDate": "",
+      "state": "open"
+    },
+    {
+      "id": "a27fd5cb7db6a19213a0f1df45e5827e",
+      "title": "Cloud Security Architect",
+      "link": "https://next.invozone.com/jobs",
+      "location": "Lahore",
+      "department": "Engineering - IZ",
+      "jobType": "Full-time",
+      "postedAt": "2 weeks ago",
+      "closingDate": "18 Nov, 2026",
+      "state": "open"
+    },
+    {
+      "id": "c65c90d8b0224d32c371f6dcdccc0b2e",
+      "title": "Finance Manager",
+      "link": "https://next.invozone.com/jobs",
+      "location": "Lahore",
+      "department": "Admin Operations - IZ",
+      "jobType": "Full-time",
+      "postedAt": "2 weeks ago",
+      "closingDate": "30 Nov, 2026",
+      "state": "open"
+    },
+    {
+      "id": "9c228c4d67d946be648ae8f74ce8be9e",
+      "title": "Senior Payment Technical Business Analyst",
+      "link": "https://next.invozone.com/jobs",
+      "location": "Lahore",
+      "department": "Engineering - IZ",
+      "jobType": "Hourly",
+      "postedAt": "1 month ago",
+      "closingDate": "26 Oct, 2026",
+      "state": "open"
+    },
+    {
+      "id": "b66a2dcccacc7a25fbcd0da5145d07f2",
+      "title": "Computer Vision Engineer",
+      "link": "https://next.invozone.com/jobs",
+      "location": "Lahore",
+      "department": "Engineering - IZ",
+      "jobType": "Full-time",
+      "postedAt": "1 month ago",
+      "closingDate": "31 Oct, 2026",
+      "state": "open"
+    },
+    {
+      "id": "cd6655c1240fa6644696ee0cabd48042",
+      "title": "Front Desk / Admin Intern",
+      "link": "https://next.invozone.com/jobs",
+      "location": "Lahore",
+      "department": "Admin Operations - IZ",
+      "jobType": "Full-time",
+      "postedAt": "1 month ago",
+      "closingDate": "31 Oct, 2026",
+      "state": "open"
+    },
+    {
+      "id": "a8bbb89521dd2f3a713ac2fcc2b9c61f",
+      "title": "Lead Generation Associate",
+      "link": "https://next.invozone.com/jobs",
+      "location": "Lahore",
+      "department": "InvoHire - IZ",
+      "jobType": "Full-time",
+      "postedAt": "2 months ago",
+      "closingDate": "31 Oct, 2026",
+      "state": "open"
+    },
+    {
+      "id": "9ce894a5d7f00fb10a32bd66e465969a",
+      "title": "Business Development Associate",
+      "link": "https://next.invozone.com/jobs",
+      "location": "Lahore",
+      "department": "BD Dynamic Sales - IZ",
+      "jobType": "Full-time",
+      "postedAt": "2 months ago",
+      "closingDate": "",
+      "state": "open"
+    },
+    {
+      "id": "2b16ea88b8eb21818f75414907c931e4",
+      "title": "DevOps Engineer",
+      "link": "https://next.invozone.com/jobs",
+      "location": "Lahore",
+      "department": "Engineering - IZ",
+      "jobType": "Full-time",
+      "postedAt": "3 months ago",
+      "closingDate": "30 Sep, 2026",
+      "state": "open"
+    },
+    {
+      "id": "20fff0db77a2bbb9bcfe7b43ee296e49",
+      "title": "Business Development Representative",
+      "link": "https://next.invozone.com/jobs",
+      "location": "Lahore",
+      "department": "InvoHire - IZ",
+      "jobType": "Full-time",
+      "postedAt": "3 months ago",
+      "closingDate": "23 Sep, 2026",
+      "state": "open"
+    },
+    {
+      "id": "04520710833ea1aeb00f8489a7ac5ae1",
+      "title": "Principal AI / Data Scientist",
+      "link": "https://next.invozone.com/jobs",
+      "location": "Islamabad",
+      "department": "Engineering - IZ",
+      "jobType": "Contract",
+      "postedAt": "3 months ago",
+      "closingDate": "30 Oct, 2026",
+      "state": "open"
+    },
+    {
+      "id": "cb16138bf0017c21992e5e2f9c4353f7",
+      "title": "Tender &amp; Bid Specialist",
+      "link": "https://next.invozone.com/jobs",
+      "location": "Lahore",
+      "department": "BD Corporate Sale - IZ",
+      "jobType": "Full-time",
+      "postedAt": "3 months ago",
+      "closingDate": "30 Nov, 2026",
+      "state": "open"
+    },
+    {
+      "id": "b3d4f35860dfcad5133f26d7a4074d21",
+      "title": "Associate Project Manager",
+      "link": "https://next.invozone.com/jobs",
+      "location": "Lahore",
+      "department": "Engineering - IZ",
+      "jobType": "Full-time",
+      "postedAt": "3 months ago",
+      "closingDate": "16 Sep, 2026",
+      "state": "open"
+    },
+    {
+      "id": "ac0c61cb9e51548073b14fe95300a2b7",
+      "title": "AI/ML Engineer",
+      "link": "https://next.invozone.com/jobs",
+      "location": "Lahore",
+      "department": "Engineering - IZ",
+      "jobType": "Full-time",
+      "postedAt": "3 months ago",
+      "closingDate": "30 Sep, 2026",
+      "state": "open"
+    },
+    {
+      "id": "6fa69a75e034f14a6b2f8e0fbb93dd5b",
+      "title": "Data Engineer",
+      "link": "https://next.invozone.com/jobs",
+      "location": "Lahore",
+      "department": "Engineering - IZ",
+      "jobType": "Full-time",
+      "postedAt": "5 months ago",
+      "closingDate": "30 Sep, 2026",
+      "state": "open"
+    },
+    {
+      "id": "821bdae2a9ee54adb1d8a8d23872d065",
+      "title": "Business Development Intern",
+      "link": "https://next.invozone.com/jobs",
+      "location": "Lahore",
+      "department": "BD Fast Sales - IZ",
+      "jobType": "Full-time",
+      "postedAt": "8 months ago",
+      "closingDate": "31 Oct, 2026",
+      "state": "open"
+    },
+    {
+      "id": "c0ca789551b30e2010e3498107140ac4",
+      "title": "",
+      "link": "https://next.invozone.com/jobs",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "closingDate": "",
+      "state": "open"
+    },
+    {
+      "id": "380e537acdaedd487ca1adb49d020f7e",
+      "title": "",
+      "link": "https://next.invozone.com/jobs",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "closingDate": "",
+      "state": "open"
+    }
+  ]
+}

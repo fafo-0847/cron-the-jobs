@@ -1,0 +1,77 @@
+{
+  "sourceUrl": "https://www.alethia.ai/careers",
+  "fetchedAt": "2026-11-18T16:43:02.747298+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "0036361c46d6a2045f61fde7d2f5752a",
+      "title": "Generative AI / LLM Engineer",
+      "link": "",
+      "location": "Onsite",
+      "department": "AI",
+      "jobType": "Full-Time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "4d91a97b18bcb8475413d8215c787dcf",
+      "title": "ML Engineer (CV / Gen AI)",
+      "link": "",
+      "location": "Onsite",
+      "department": "AI",
+      "jobType": "Full-Time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "1c3addf03a1bd36ef93c9ba25a0f5ecb",
+      "title": "Animator / AI Content Creator",
+      "link": "",
+      "location": "Onsite",
+      "department": "Design",
+      "jobType": "Full-Time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "64dfba396a58ee3b246106ea39803918",
+      "title": "Growth Marketing Associate - AI",
+      "link": "",
+      "location": "Onsite",
+      "department": "Marketing",
+      "jobType": "Full-Time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "1ce375629c00d47048198808ad4b409f",
+      "title": "Cyber Security Specialist (Junior-Mid Level)",
+      "link": "",
+      "location": "Onsite",
+      "department": "Security",
+      "jobType": "Full-Time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "a1f3b2fa1c84e8e0d82978db9c4ba587",
+      "title": "Computer Vision Intern",
+      "link": "",
+      "location": "Onsite",
+      "department": "Internship",
+      "jobType": "Full-Time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "170429002013f38afc61193bc668fedc",
+      "title": "AI Engineering Intern",
+      "link": "",
+      "location": "Onsite",
+      "department": "Internship",
+      "jobType": "Full-Time",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "sourceUrl": "https://datasciencedojo.com/about/careers/",
+  "fetchedAt": "2026-07-17T22:44:04.623395+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "427e9eeb68d8cac0c74d047574c18d79",
+      "title": "Data Analyst",
+      "link": "https://datasciencedojo.com/jobs/data-analyst/",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "d1c0621f81b2d67504bc57a32d2fe8c7",
+      "title": "Associate Data Analyst",
+      "link": "https://datasciencedojo.com/jobs/associate-data-analyst/",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "0ff0522b0b6d9199cdfc0a128b8e445f",
+      "title": "Associate Data Engineer",
+      "link": "https://datasciencedojo.com/jobs/associate-data-engineer/",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "c74b1a7be77556d445970bd96409aa50",
+      "title": "Software Engineer - Generative AI and LLMs",
+      "link": "https://datasciencedojo.com/jobs/software-engineer-generative-ai-and-llms/",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "a55e96620fdaa68a76e91e095585c78d",
+      "title": "Product Marketing Manager",
+      "link": "https://datasciencedojo.com/jobs/product-marketing-manager/",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "3bf00d017137062f0357a2ae88762106",
+      "title": "Technical Content Engineer",
+      "link": "https://datasciencedojo.com/jobs/technical-content-engineer/",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "b95a86bed8fd010ee11c684b04cad99c",
+      "title": "Web Developer - WordPress",
+      "link": "https://datasciencedojo.com/jobs/web-developer-wordpress/",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "f4e7331e317c08bddbebc96299088f86",
+      "title": "System Support Associate",
+      "link": "https://datasciencedojo.com/jobs/system-support-associate",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "66401ca975231d675873637355fbe7e0",
+      "title": "Account Manager",
+      "link": "https://datasciencedojo.com/jobs/account-executive",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

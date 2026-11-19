@@ -1,0 +1,67 @@
+{
+  "sourceUrl": "https://ml1.ai/careers/",
+  "fetchedAt": "2026-09-03T12:45:57.504694+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "0dff42af328079ebb09270c019864563",
+      "title": "UX/UI designer",
+      "link": "https://ml1.ai/jobs/ux-ui-designer/",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "68914e3c045c167ea3c72d877a4760c0",
+      "title": "HR Executive",
+      "link": "https://ml1.ai/jobs/hr-executive/",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "af9ba17a7eea58353be013af3a32f3aa",
+      "title": "Data Scientist",
+      "link": "https://ml1.ai/jobs/data-scientist/",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "4fcd81385a2b73fa889a7202e14b4883",
+      "title": "Technical Project Manager",
+      "link": "https://ml1.ai/jobs/technical-project-manager/",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "fa38687d7f01e90e5a5902ef405cbd1a",
+      "title": "Devops Engineer",
+      "link": "https://ml1.ai/jobs/devops-engineer/",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "e89aee439d745059fc1864d94636d2a6",
+      "title": "Security Engineer",
+      "link": "https://ml1.ai/jobs/security-engineer/",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

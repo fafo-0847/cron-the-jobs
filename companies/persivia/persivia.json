@@ -1,0 +1,67 @@
+{
+  "sourceUrl": "https://wp.persivia.com/careers/",
+  "fetchedAt": "2026-09-22T13:17:49.428535+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "fd9ffe6113b2121eb3e9a1e92615c069",
+      "title": "Product Owner — Product Management Team",
+      "link": "https://wp.persivia.com/job/product-owner-product-management-team/",
+      "location": "Marlborough, MA",
+      "department": "Persivia Inc",
+      "jobType": "Full Time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "eb290095635b3f9fc33bf5e6749f7316",
+      "title": "Implementation Specialist – Persivia (USA)",
+      "link": "https://wp.persivia.com/job/implementation-specialist-persivia-usa/",
+      "location": "Marlborough, MA",
+      "department": "Persivia Inc",
+      "jobType": "Full Time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "cc8913e48134bfa66b8e02e4d8cfe376",
+      "title": "Elite Support Manager – Persivia USA",
+      "link": "https://wp.persivia.com/job/elite-support-manager-persivia-usa-marlborough-ma/",
+      "location": "Marlborough, MA",
+      "department": "Persivia Inc",
+      "jobType": "Full Time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "a32ee064d40f923c67aa24cd9736033c",
+      "title": "VP / Director of Engineering",
+      "link": "https://wp.persivia.com/job/vp-director-of-engineering/",
+      "location": "Marlborough, MA",
+      "department": "Persivia Inc",
+      "jobType": "Full Time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "94ba81d2d1fb849eb63670110fe314dc",
+      "title": "Head of Information Technology (IT)",
+      "link": "https://wp.persivia.com/job/head-of-information-technology-it/",
+      "location": "Marlborough, MA",
+      "department": "Persivia Inc",
+      "jobType": "Full Time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "6c4e1a9ec290b061fdcb0717e38b21ac",
+      "title": "Account Executive",
+      "link": "https://wp.persivia.com/job/account-executive/",
+      "location": "Marlborough, MA",
+      "department": "Persivia Inc",
+      "jobType": "Full Time",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

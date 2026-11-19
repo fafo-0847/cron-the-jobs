@@ -1,0 +1,19 @@
+{
+  "sourceUrl": "https://neurallab.co/careers",
+  "fetchedAt": "2026-11-18T16:52:35.955799+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "39137204fc8a7624ecab785cc824b3ce",
+      "title": "AI Engineer (Operations Research)",
+      "link": "https://neurallab.co/job-details/0",
+      "location": "Singapore",
+      "department": "Engineering",
+      "jobType": "Full-time or Internship",
+      "workMode": "Remote",
+      "description": "Work on real aviation challenges using optimization, algorithms, and data. Ideal for those skilled in Python, operations research, and solvers like Gurobi. A great fit if you enjoy problem-solving and want to grow fast in a startup.",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

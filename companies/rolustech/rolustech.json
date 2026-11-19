@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://www.rolustech.com/jobs",
+  "fetchedAt": "2026-11-18T16:54:37.370891+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "ddda53dde51776e53ebe19425adeb18a",
+      "title": "Lead AI/ML Engineer",
+      "link": "https://www.rolustech.com/blog/jobs/lead-ai-ml-engineer",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "5e79fc35424bd35f4131de39f2ca4530",
+      "title": "Salesforce Education Cloud Developer",
+      "link": "https://www.rolustech.com/blog/jobs/salesforce-education-cloud-developer",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "ea7dee327b0a71b736a7ae615712a77c",
+      "title": "SQA Engineer",
+      "link": "https://www.rolustech.com/blog/jobs/sqa-engineer",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "5a24a321baefc851437faf23a3d20c80",
+      "title": "Senior Salesforce Engineer \u2013 Sales & Experience Cloud",
+      "link": "https://www.rolustech.com/blog/jobs/senior-salesforce-engineer-sales-experience-cloud",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

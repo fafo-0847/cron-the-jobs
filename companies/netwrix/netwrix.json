@@ -1,0 +1,87 @@
+{
+  "sourceUrl": "https://ats.rippling.com/en-GB/netwrix-corporation/jobs?page=0&jobBoardSlug=netwrix-corporation",
+  "fetchedAt": "2026-10-23T13:17:10.623753+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "44651e4658f6287d1d520448a8a5d09c",
+      "title": "Accounts Payable Specialist",
+      "link": "https://ats.rippling.com/en-GB/netwrix-corporation/jobs/76f6237a-8aa4-4f44-8778-2868f523a2e5",
+      "location": "Finance",
+      "department": "Finance",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "5c888b34a9ac6f718f605191500e206e",
+      "title": "HR Operations Specialist – EMEA",
+      "link": "https://ats.rippling.com/en-GB/netwrix-corporation/jobs/bfb2e68b-1b9f-4b6a-9713-21dac41bc033",
+      "location": "Human Resources",
+      "department": "Human Resources",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "8d13f71634a1206d5280adcdbe83c8ec",
+      "title": "Events Specialist",
+      "link": "https://ats.rippling.com/en-GB/netwrix-corporation/jobs/49f044e4-0bfb-49bc-bf50-8a5c3bb1b69e",
+      "location": "Marketing",
+      "department": "Marketing",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "b0ace77d436b3c8e011d536cd49e9d30",
+      "title": "Lead Sales Operations Manager",
+      "link": "https://ats.rippling.com/en-GB/netwrix-corporation/jobs/b9aa481c-94f8-4a57-80bc-950f2ab2076c",
+      "location": "Operations",
+      "department": "Operations",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "edfbee537ff8da46b4b36d891e7d7ba4",
+      "title": "Expert Product Manager – Netwrix Auditor",
+      "link": "https://ats.rippling.com/en-GB/netwrix-corporation/jobs/5deaaa23-0332-4993-b82a-3be8b4cdb005",
+      "location": "Product Management",
+      "department": "Product Management",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "ac93567104a29240999aea8cbf8edb8a",
+      "title": "(Senior) Staff Software Engineer",
+      "link": "https://ats.rippling.com/en-GB/netwrix-corporation/jobs/af3136c6-c44d-4dd5-876c-8c6da58468aa",
+      "location": "R&D",
+      "department": "R&D",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "bfb46b94ecb7d76991d3739999334267",
+      "title": "DevOps Engineer - Netwrix DevOps Group",
+      "link": "https://ats.rippling.com/en-GB/netwrix-corporation/jobs/5d128e4b-ec00-4962-bfd6-bf3e1abd1a55",
+      "location": "R&D",
+      "department": "R&D",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "78c316df07b96bb10a12c26e7bbbf0ac",
+      "title": "Account Executive II",
+      "link": "https://ats.rippling.com/en-GB/netwrix-corporation/jobs/0ee1d09f-e56f-4393-9db4-a9540cd058ff",
+      "location": "Sales",
+      "department": "Sales",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

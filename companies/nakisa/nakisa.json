@@ -1,0 +1,106 @@
+{
+  "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/nakisa/jobs?content=true",
+  "fetchedAt": "2026-11-18T16:52:27.697978+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "442c84b0007a12bbc43a7d252c17268b",
+      "title": "Pre-Sales Consultant - Commercial Real Estate Software",
+      "link": "https://nakisa.com/career-opportunities/?gh_jid=4995870101",
+      "location": "Montréal, Quebec, Canada",
+      "department": "Business Development",
+      "jobType": "",
+      "requisitionId": "127",
+      "postedAt": "2026-10-15T19:42:21-04:00",
+      "state": "open"
+    },
+    {
+      "id": "2a1a73d07b5c98ba253dfd1c128e7bd5",
+      "title": "Product Manager",
+      "link": "https://nakisa.com/career-opportunities/?gh_jid=4942806101",
+      "location": "Montréal, Quebec, Canada",
+      "department": "Product Management",
+      "jobType": "",
+      "requisitionId": "117",
+      "postedAt": "2026-08-27T17:18:19-04:00",
+      "state": "open"
+    },
+    {
+      "id": "a660526d8cf1840b5c754dec97e57052",
+      "title": "Product Manager - Accounting",
+      "link": "https://nakisa.com/career-opportunities/?gh_jid=4963628101",
+      "location": "Montréal, Quebec, Canada",
+      "department": "Product Management",
+      "jobType": "",
+      "requisitionId": "119",
+      "postedAt": "2026-09-11T10:28:12-04:00",
+      "state": "open"
+    },
+    {
+      "id": "6dde86adc0893cc077b027b7c2d638a1",
+      "title": "Product Manager - Platform",
+      "link": "https://nakisa.com/career-opportunities/?gh_jid=5019518101",
+      "location": "Montréal, Quebec, Canada",
+      "department": "Product Management",
+      "jobType": "",
+      "requisitionId": "131",
+      "postedAt": "2026-11-13T16:34:38-05:00",
+      "state": "open"
+    },
+    {
+      "id": "cf79e202a81e6f3bdbc318acdd6b28f5",
+      "title": "SaaS Implementation Project Manager",
+      "link": "https://nakisa.com/career-opportunities/?gh_jid=4877772101",
+      "location": "Montreal, Quebec, Canada",
+      "department": "Professional Services",
+      "jobType": "",
+      "requisitionId": "110",
+      "postedAt": "2026-06-11T15:14:26-04:00",
+      "state": "open"
+    },
+    {
+      "id": "e8e780fbe9c118cfcb2a727d901ddb26",
+      "title": "Senior Account Executive - Public Sector",
+      "link": "https://nakisa.com/career-opportunities/?gh_jid=4989032101",
+      "location": "Ottawa, Ontario, Canada",
+      "department": "Account Executives",
+      "jobType": "",
+      "requisitionId": "126",
+      "postedAt": "2026-10-01T09:58:56-04:00",
+      "state": "open"
+    },
+    {
+      "id": "528bffba0f9fa5dbc4d5fc5547797754",
+      "title": "Senior Implementation Consultant",
+      "link": "https://nakisa.com/career-opportunities/?gh_jid=4989026101",
+      "location": "Montréal, Quebec, Canada",
+      "department": "Professional Services",
+      "jobType": "",
+      "requisitionId": "125",
+      "postedAt": "2026-10-07T10:51:03-04:00",
+      "state": "open"
+    },
+    {
+      "id": "c7c91bd855eb44d98dfc7bc7da8a3a5a",
+      "title": "Software Developer - Applications",
+      "link": "https://nakisa.com/career-opportunities/?gh_jid=4965677101",
+      "location": "Montréal, Quebec, Canada",
+      "department": "Development",
+      "jobType": "",
+      "requisitionId": "120",
+      "postedAt": "2026-09-03T16:13:05-04:00",
+      "state": "open"
+    },
+    {
+      "id": "34d506f20cae38c890c8db8ca3a9c2a5",
+      "title": "Software Developer - Cloud Platform",
+      "link": "https://nakisa.com/career-opportunities/?gh_jid=4941144101",
+      "location": "Montréal, Quebec, Canada",
+      "department": "R&D",
+      "jobType": "",
+      "requisitionId": "116",
+      "postedAt": "2026-08-28T14:11:42-04:00",
+      "state": "open"
+    }
+  ]
+}

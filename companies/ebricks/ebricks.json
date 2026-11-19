@@ -1,0 +1,57 @@
+{
+  "sourceUrl": "https://www.ebricks-inc.com/careers.html",
+  "fetchedAt": "2026-11-18T16:47:59.737443+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "3ed381d071b05e4864d4a04c30db05ca",
+      "title": "Software Architect",
+      "link": "https://www.ebricks-inc.com/software-architect.html",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "fee88f517f53d3748195431d1d52c357",
+      "title": "iOS Developer",
+      "link": "https://www.ebricks-inc.com/ios-developer.html",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "7e0556b7d6d96807dc19f07831454508",
+      "title": "Android Developer",
+      "link": "https://www.ebricks-inc.com/android-developer.html",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "dc509eada962975f93a5c09c092db301",
+      "title": "Quality Assurance: Automation Framework",
+      "link": "https://www.ebricks-inc.com/qa-automation.html",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "5c329c9cc520d4a34dd8616567957512",
+      "title": "Web/JS Developer",
+      "link": "https://www.ebricks-inc.com/web-developer.html",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

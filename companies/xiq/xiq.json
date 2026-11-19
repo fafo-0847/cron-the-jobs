@@ -1,0 +1,67 @@
+{
+  "sourceUrl": "https://xiqinc.com/careers/",
+  "fetchedAt": "2026-07-19T17:00:49.491463+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "2d711a65abffd5ae81bba3e4e8ffe18b",
+      "title": "Associate Software Engineer",
+      "link": "https://xiqinc.com/jobs/associate-software-engineer/",
+      "location": "Lahore",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "05dabbccd9f9de629487a56e18f7221d",
+      "title": "Customer Success Manager",
+      "link": "https://xiqinc.com/jobs/customer-success-manager/",
+      "location": "Lahore",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "06d454d55df97bb922b31037bfba3d7e",
+      "title": "Product Manager",
+      "link": "https://xiqinc.com/jobs/product-manager/",
+      "location": "Lahore",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "83681311d5bd4ad47b351ff1a5dde6dc",
+      "title": "US-Based Account Executive",
+      "link": "https://xiqinc.com/jobs/account-executive/",
+      "location": "USA",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "908d2332f1b8995599362647c6b1d680",
+      "title": "Senior Backend Developer",
+      "link": "https://xiqinc.com/jobs/senior-backend-developer/",
+      "location": "USA",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "7b9768e74bbd3e66d341ee46df73c0f7",
+      "title": "Senior Frontend Developer",
+      "link": "https://xiqinc.com/jobs/senior-frontend-developer/",
+      "location": "Lahore",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

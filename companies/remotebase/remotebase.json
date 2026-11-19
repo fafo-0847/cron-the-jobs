@@ -1,0 +1,77 @@
+{
+  "sourceUrl": "https://remotebase.com/jobs",
+  "fetchedAt": "2026-11-18T16:54:21.565654+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "dc2a1b2d2936ee5553427924d54f16d3",
+      "title": "Senior Nodejs Developer",
+      "link": "https://remotebase.com/jobs/00F148FCE5",
+      "location": "Remote",
+      "department": "Engineering Department",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "7755800f4956f31023ea69596ca74f9d",
+      "title": "Rust Engineer (Part Time)",
+      "link": "https://remotebase.com/jobs/8820623E90",
+      "location": "Remote",
+      "department": "Engineering Department",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "330f1d26eb2766b42072dd73c7887f6e",
+      "title": "Technical Recruiter",
+      "link": "https://remotebase.com/jobs/50EC0E9B99",
+      "location": "Remote",
+      "department": "Engineering Department",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "e68058a480656098069f4c1f68bf431a",
+      "title": "Senior Full Stack .Net Developer (React)",
+      "link": "https://remotebase.com/jobs/529DE5B4D4",
+      "location": "Remote",
+      "department": "Engineering Department",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "03f2bbfd879b65eb399b40bc5900c4ee",
+      "title": "Senior Full-Stack Developer (.NET + React)",
+      "link": "https://remotebase.com/jobs/3C744C32A7",
+      "location": "Remote",
+      "department": "Engineering Department",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "47a636f518a090fab0ed404019bda19e",
+      "title": "Senior Lead Generation Specialist (Growth Team) - Part-Time",
+      "link": "https://remotebase.com/jobs/F67D13E250",
+      "location": "Remote",
+      "department": "Engineering Department",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "13d1d31901d4702db5ba718a52c16de3",
+      "title": "AI Engineer",
+      "link": "https://remotebase.com/jobs/6E7795E82F",
+      "location": "Remote",
+      "department": "Core",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

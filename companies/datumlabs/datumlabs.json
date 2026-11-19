@@ -1,0 +1,87 @@
+{
+  "sourceUrl": "https://www.datumlabs.io/careers",
+  "fetchedAt": "2026-11-18T16:47:21.210890+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "92f942ccf0e6ecde1ca6212a510fe450",
+      "title": "Engineering Manager - Data & AI",
+      "link": "https://www.datumlabs.io/careers/engineering-manager-data-ai",
+      "location": "Lahore (On-Site)",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "adbee71682bb602cc6dc30a8f8ab412e",
+      "title": "Senior Data Engineer",
+      "link": "https://www.datumlabs.io/careers/senior-data-engineer-463ed",
+      "location": "Lahore (On-Site)",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "092d005a8bb77a86f0325988c0917858",
+      "title": "CRM Integration Engineer",
+      "link": "https://www.datumlabs.io/careers/crm-integration-engineer",
+      "location": "Lahore (On-Site)",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "139118d34f96ea682efd9dad40385617",
+      "title": "Senior Front-End Engineer (Vue.js)",
+      "link": "https://www.datumlabs.io/careers/senior-front-end-engineer-vue-js",
+      "location": "Lahore (On-Site)",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "58e5ac29861625e96246ba3a84606818",
+      "title": "Senior Data Scientist (Research)",
+      "link": "https://www.datumlabs.io/careers/senior-data-scientist-research",
+      "location": "Lahore (On-Site)",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "04e29a30d0cdf947c9a231693126656a",
+      "title": "Zoho CRM Developer",
+      "link": "https://www.datumlabs.io/careers/zoho-crm-developer",
+      "location": "Lahore (On-Site)",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "09af626af34a6ad55acf33afa7b2d1d8",
+      "title": "Performance Marketing & Tracking Specialist (Google & Meta Ads)",
+      "link": "https://www.datumlabs.io/careers/performance-marketing-tracking-specialist-google-meta-ads",
+      "location": "Lahore (On-Site)",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "d05fe5025ea76a36c1605886bdedbf32",
+      "title": "Mid Level Business Developer",
+      "link": "https://www.datumlabs.io/careers/mid-level-business-developer",
+      "location": "Johar Town, Lahore (On Site)",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

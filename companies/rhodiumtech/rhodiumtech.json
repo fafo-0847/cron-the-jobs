@@ -1,0 +1,57 @@
+{
+  "sourceUrl": "https://rhodium-tech.com/careers",
+  "fetchedAt": "2026-11-18T16:54:33.710084+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "79c8ecce9a7c569e2d868e39cf5fc596",
+      "title": "Product Designer",
+      "link": "",
+      "location": "Lahore",
+      "department": "Design",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "a3367debbc458e955401945ccff8a956",
+      "title": "Engineering Manager",
+      "link": "",
+      "location": "Lahore",
+      "department": "Software Engineering",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "e4b2dad459e93b0a795c0f872d53833b",
+      "title": "Customer Success Manager",
+      "link": "",
+      "location": "Lahore",
+      "department": "Customer Success",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "24860a7b0d4f4d8842e5b446d59edbce",
+      "title": "Account Executive",
+      "link": "",
+      "location": "Lahore",
+      "department": "Sales",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "2dcb8ca833a255dbf357bb088150060e",
+      "title": "SEO Marketing Manager",
+      "link": "",
+      "location": "Lahore",
+      "department": "Marketing",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

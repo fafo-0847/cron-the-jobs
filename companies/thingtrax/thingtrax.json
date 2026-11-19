@@ -1,0 +1,62 @@
+{
+  "sourceUrl": "https://thingtrax.com/careers/",
+  "fetchedAt": "2026-11-18T16:56:36.887021+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "ee6c6f857597fcc8623b924416088732",
+      "title": "Account Executive",
+      "link": "https://apply.workable.com/j/4076A47053",
+      "location": "",
+      "department": "Sales",
+      "jobType": "",
+      "country": "United Kingdom",
+      "postedAt": "2026-11-02",
+      "state": "open"
+    },
+    {
+      "id": "cfcfadaf69802a91cd394ba9e4b4c07a",
+      "title": "Business Development Representative",
+      "link": "https://apply.workable.com/j/C2F8878045",
+      "location": "",
+      "department": "Sales",
+      "jobType": "",
+      "country": "United Kingdom",
+      "postedAt": "2026-11-16",
+      "state": "open"
+    },
+    {
+      "id": "25ff3af935b2152b862e5ff2ed16e33d",
+      "title": "Expression of Interest - Future Opportunities at Thingtrax (Talent Pool)",
+      "link": "https://apply.workable.com/j/CF5B8FA557",
+      "location": "Punjab, Lahore",
+      "department": "",
+      "jobType": "",
+      "country": "Pakistan",
+      "postedAt": "2026-01-20",
+      "state": "open"
+    },
+    {
+      "id": "e77bcc1c72d998f74116c73e43a21138",
+      "title": "Mid-Senior Level - DevSecOps Engineer",
+      "link": "https://apply.workable.com/j/835ABC3577",
+      "location": "Punjab, Lahore",
+      "department": "Development",
+      "jobType": "",
+      "country": "Pakistan",
+      "postedAt": "2026-09-08",
+      "state": "open"
+    },
+    {
+      "id": "32922a51afa76e5a060778193c241be9",
+      "title": "Thingtrax Vision AI Launchpad",
+      "link": "https://apply.workable.com/j/6BC03F3559",
+      "location": "Punjab, Lahore",
+      "department": "Development",
+      "jobType": "",
+      "country": "Pakistan",
+      "postedAt": "2026-08-03",
+      "state": "open"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "company": "avanza",
+    "error": "loadExistingSnapshot() missing 1 required positional argument: 'snapshotPath'",
+    "failedAt": "2026-06-23T19:47:15.537107+00:00"
+  },
+  {
+    "company": "codeninja",
+    "error": "module 'companies.codeninja.codeninja' has no attribute 'loadExistingSnapshot'",
+    "failedAt": "2026-06-23T19:47:22.334826+00:00"
+  },
+  {
+    "company": "nextbridge",
+    "error": "loadExistingSnapshot() missing 1 required positional argument: 'snapshotPath'",
+    "failedAt": "2026-06-23T19:48:55.336851+00:00"
+  },
+  {
+    "company": "northbay",
+    "error": "loadExistingSnapshot() missing 1 required positional argument: 'snapshotPath'",
+    "failedAt": "2026-06-23T19:48:55.349273+00:00"
+  },
+  {
+    "company": "tps",
+    "error": "loadExistingSnapshot() missing 1 required positional argument: 'snapshotPath'",
+    "failedAt": "2026-06-23T19:49:57.330222+00:00"
+  }
+]

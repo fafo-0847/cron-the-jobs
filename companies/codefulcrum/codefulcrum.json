@@ -1,0 +1,95 @@
+{
+  "sourceUrl": "https://www.codefulcrum.com/careers",
+  "fetchedAt": "2026-11-18T16:46:20.532795+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "50aa10868162bf5695052f2374dd9343",
+      "title": "SQA Engineer",
+      "link": "/careers/software-quality-assurance-engineer-sqa",
+      "location": "On-Site",
+      "department": "",
+      "jobType": "",
+      "description": "Join us as a SQA Engineer to champion quality and ensure flawless software experiences.",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "525b2a5db050081b4fec149c64fee963",
+      "title": "BD Executive",
+      "link": "/careers/business-development-executive",
+      "location": "On-Site",
+      "department": "",
+      "jobType": "",
+      "description": "Join our team as a Business Development Executive to connect with passion and drive our sales.",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "88e392afa623c5543c77e23d0983ec0e",
+      "title": "UI/UX Designer",
+      "link": "/careers/ui-ux-designer",
+      "location": "On-Site",
+      "department": "",
+      "jobType": "",
+      "description": "Join our team to craft captivating user journeys and design intuitive interfaces that delight users.",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "44f4ba5169b8fd1278397267dbf5c14d",
+      "title": "Software Engineer (Python)",
+      "link": "/careers/software-engineer-python",
+      "location": "On-Site",
+      "department": "",
+      "jobType": "",
+      "description": "Join us as a Software Engineer to build dynamic web applications and fuel our future with powerful Python magic.",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "8f934fa5adf2f7a13f896a0ceb39d7a6",
+      "title": "Software Engineer (Java)",
+      "link": "https://www.codefulcrum.com/career-detail-software-engineer-java",
+      "location": "On-Site",
+      "department": "",
+      "jobType": "",
+      "description": "Join our team as a Software Engineer to create robust backend solutions and enhance our development process.",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "75c8a83a42c4f48ed76a82f35ee8cd8b",
+      "title": "Software Engineer (JavaScript)",
+      "link": "/careers/software-engineer-javascript",
+      "location": "On-Site",
+      "department": "",
+      "jobType": "",
+      "description": "Join us as a Software Engineer to bring web experiences to life with cutting-edge front-end development.",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "90b2a213623d1ab255eca570f416e3dd",
+      "title": "Human Resources (HR)",
+      "link": "/careers/human-resources",
+      "location": "On-Site",
+      "department": "",
+      "jobType": "",
+      "description": "Join our team as an HR Executive to enhance employee relations and improve our HR practices.",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "0f793248e9104703b8265e6284d14a90",
+      "title": "Fresh Graduate 2026",
+      "link": "/careers/fresh-graduate",
+      "location": "On-Site",
+      "department": "",
+      "jobType": "",
+      "description": "Ready to take your career to the next level? We’re searching for motivated, curious, and driven individuals who want to make an impact. Join a collaborative team where your ideas matter and your skills truly shine.",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

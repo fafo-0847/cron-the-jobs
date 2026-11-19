@@ -1,0 +1,37 @@
+{
+  "sourceUrl": "https://northstartechserv.com/careers/",
+  "fetchedAt": "2026-11-18T16:52:44.923740+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "6379f20659e1dd357f0eba1c2d361c02",
+      "title": "Senior Cloud Architect",
+      "link": "https://northstartechserv.com/careers/",
+      "location": "San Francisco, CA",
+      "department": "Cloud Services",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "1a3956dd289db29da8cb28c92e0e33bc",
+      "title": "AI/ML Engineer",
+      "link": "https://northstartechserv.com/careers/",
+      "location": "Remote",
+      "department": "AI Solutions",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "8262bc16366b8163297cdcf857d36702",
+      "title": "DevOps Engineer",
+      "link": "https://northstartechserv.com/careers/",
+      "location": "New York, NY",
+      "department": "Engineering",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

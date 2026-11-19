@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://careers.khaleef.com/jobs",
+  "fetchedAt": "2026-11-18T16:50:20.768199+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "57b990e9cc93df5ecbdb025886fe0a12",
+      "title": "Sales Associate",
+      "link": "https://careers.khaleef.com/jobs/sales-associate-26",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "f0ce63570ef9b61df2159d5173bc62d2",
+      "title": "Graphic Designer",
+      "link": "https://careers.khaleef.com/jobs/graphic-designer-105",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

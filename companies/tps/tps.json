@@ -1,0 +1,177 @@
+{
+  "sourceUrl": "https://api.webhr.co/api/careers/",
+  "fetchedAt": "2026-10-12T17:38:50.390389+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "258b42b22c3ba3870c8d3f73cf8c969b",
+      "title": "Associate Analytics Engineer",
+      "link": "https://tps.webhr.co/jobs/4105976",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Permanent",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "127fc863afd70bcfbfacbb1a24a02d44",
+      "title": "QA Automation Engineer",
+      "link": "https://tps.webhr.co/jobs/31010394",
+      "location": "Karachi, Pakistan",
+      "department": "QM & Automation",
+      "jobType": "Permanent",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "d0ed470fc1fd7cc72f2364e8441fe3ab",
+      "title": "Project Manager - Islamabad",
+      "link": "https://tps.webhr.co/jobs/22543717",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Permanent",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "0886ea1f8fe3e70239a202eefabd8915",
+      "title": "System Engineer - Vortex",
+      "link": "https://tps.webhr.co/jobs/61882271",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Permanent",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "465ad1b13bd0a79eb9b0fc7a61b3a326",
+      "title": "Manager Information Security",
+      "link": "https://tps.webhr.co/jobs/86891891",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Permanent",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "294e72e9505e5ce1122918a2acc526aa",
+      "title": "Key Account Manager - Enterprise Sales",
+      "link": "https://tps.webhr.co/jobs/72107170",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Permanent",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "52666067e69b4beb7b0bb4eb1f5ea8ca",
+      "title": "Customer Success Manager",
+      "link": "https://tps.webhr.co/jobs/62929807",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Permanent",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "4945353cbb4008581bba1ad097e9df6c",
+      "title": "Lead QIS -QA",
+      "link": "https://tps.webhr.co/jobs/36573085",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Permanent",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "fc42b801ab332bf3b23543f36f1cd038",
+      "title": "Senior Sales Professional",
+      "link": "https://tps.webhr.co/jobs/85051184",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Permanent",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "0e1629e3dc484a8b06281f364eb74d1c",
+      "title": "SQA Engineer - Vortex (1)",
+      "link": "https://tps.webhr.co/jobs/8813926",
+      "location": "Karachi",
+      "department": "Administration",
+      "jobType": "Permanent",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "0827dd0fa2b20524945b828fca0ba0ee",
+      "title": "Onsite Resident Engineer",
+      "link": "https://tps.webhr.co/jobs/42605121",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Permanent",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "e33dcba929145ab91b5ddb00e58e8d17",
+      "title": "Associate Software Developer",
+      "link": "https://tps.webhr.co/jobs/57743147",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Permanent",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "93d60f30589eeca6eceb1471c7c76813",
+      "title": "Development Lead",
+      "link": "https://tps.webhr.co/jobs/71273323",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Permanent",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "a4340c95999809b7cc88af2c253cec02",
+      "title": "Software Engineer C++",
+      "link": "https://tps.webhr.co/jobs/80293454",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Permanent",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "be7a50b6a9061492c38c47b6e8f8a8b5",
+      "title": "Development Manager",
+      "link": "https://tps.webhr.co/jobs/95392683",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Permanent",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "77f6f5b2d98e935925565ab8c8e68c8b",
+      "title": "QIS Engineer - SQA",
+      "link": "https://tps.webhr.co/jobs/69011821",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Permanent",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "95be1d84e13f1f0670f2772abb239024",
+      "title": "Senior Software Engineer  - Reimagined",
+      "link": "https://tps.webhr.co/jobs/98249699",
+      "location": "Karachi, Pakistan",
+      "department": "",
+      "jobType": "Permanent",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

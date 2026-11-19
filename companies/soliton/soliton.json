@@ -1,0 +1,77 @@
+{
+  "sourceUrl": "https://www.solitontechnologies.com/backend/public/api/getJobs",
+  "fetchedAt": "2026-11-04T16:11:34.772603+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "5a29056b646c3a19552ba1939a9f6f0e",
+      "title": "Senior Account/Product Specialist - HL7, EMR",
+      "link": "https://www.solitontechnologies.com/careers/113",
+      "location": "On-Site",
+      "department": "",
+      "jobType": "1",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "2a6b2aa94b1ac0c6a1f9a15ce7d2136c",
+      "title": "Business Analyst/Sr Business Analyst",
+      "link": "https://www.solitontechnologies.com/careers/134",
+      "location": "On-Site",
+      "department": "",
+      "jobType": "1",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "2026c573ce9b00a66574e4c5fd779dd3",
+      "title": "Technical Support Engineer/Sr Technical Support Engineer",
+      "link": "https://www.solitontechnologies.com/careers/145",
+      "location": "On-Site",
+      "department": "",
+      "jobType": "1",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "3aa555819ffde374e643661c044561fc",
+      "title": "Machine Learning Engineer/Sr Machine Learning Engineer",
+      "link": "https://www.solitontechnologies.com/careers/140",
+      "location": "On-Site",
+      "department": "",
+      "jobType": "1",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "6304e29042f21d039b6cb52f3d3d5313",
+      "title": "Senior/Principal Automation Engineer - SQA",
+      "link": "https://www.solitontechnologies.com/careers/138",
+      "location": "On-Site",
+      "department": "",
+      "jobType": "1",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "74c71bf695a2755bee608d3445a4c402",
+      "title": "UI / Front-End Developer",
+      "link": "https://www.solitontechnologies.com/careers/139",
+      "location": "On-Site",
+      "department": "",
+      "jobType": "1",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "e641d2ae6d2926896e37a3f09a69e459",
+      "title": "Senior Software Engineer (Java)",
+      "link": "https://www.solitontechnologies.com/careers/141",
+      "location": "On-Site",
+      "department": "",
+      "jobType": "1",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

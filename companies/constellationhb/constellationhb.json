@@ -1,0 +1,37 @@
+{
+  "sourceUrl": "https://www.constellationhb.com/careers/",
+  "fetchedAt": "2026-11-18T16:47:03.080592+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "47c01da737b61d493a37231ea5b1044c",
+      "title": "Senior Systems Administrator – M365 & Infrastructure Administrator (Markham, Canada)",
+      "link": "",
+      "location": "Markham, Canada",
+      "department": "",
+      "jobType": "Full-Time",
+      "postedAt": "October 5, 2026",
+      "state": "open"
+    },
+    {
+      "id": "4fac525191445fa3e67f58dda13583e4",
+      "title": "Technical Services Engineer + Local IT (Vancouver, Canada)",
+      "link": "",
+      "location": "Vancouver, Canada",
+      "department": "",
+      "jobType": "Full-Time",
+      "postedAt": "October 5, 2026",
+      "state": "open"
+    },
+    {
+      "id": "2211a68be5af0d9b2eaefc7b166f58d7",
+      "title": "Director of M&A, Homebuilder Solutions Portfolio (Markham, Ontario)",
+      "link": "https://www.linkedin.com/jobs/view/3945923130/",
+      "location": "Markham, Ontario",
+      "department": "",
+      "jobType": "Full-Time",
+      "postedAt": "February 5, 2026",
+      "state": "open"
+    }
+  ]
+}

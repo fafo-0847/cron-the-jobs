@@ -1,0 +1,49 @@
+name: job-tracker-daily
+
+on:
+  schedule:
+    - cron: "37 7 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  scrape:
+    permissions:
+      contents: write
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ hashFiles('requirements.txt') }}
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+
+      - name: Run job tracker
+        run: python main.py
+
+      - name: Commit updated snapshots and output
+        run: |
+          git config user.name "job-tracker-bot"
+          git config user.email "actions@github.com"
+          git add companies/*/*.json output/*.json
+          git diff --staged --quiet || git commit -m "Update job snapshots"
+          git push
+      
+      - name: Send notification email
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
+        run: python notify.py
+
+
+

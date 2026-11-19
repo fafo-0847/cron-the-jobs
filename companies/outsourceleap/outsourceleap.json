@@ -1,0 +1,55 @@
+{
+  "sourceUrl": "https://outsourceleap.com/career.html",
+  "fetchedAt": "2026-11-18T16:52:57.409076+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "b704c44600410569452903c0394423ce",
+      "title": "Senior React Developer",
+      "link": "",
+      "location": "Remote",
+      "department": "",
+      "jobType": "Full-Time",
+      "postedAt": "",
+      "state": "open",
+      "description": "Build high-performance web applications with React and modern JavaScript frameworks for global clients.",
+      "status": "Active"
+    },
+    {
+      "id": "eaae6528c8e66e2ade0aa2b533db9181",
+      "title": "Full-Stack Laravel Developer",
+      "link": "",
+      "location": "Remote",
+      "department": "",
+      "jobType": "Full-Time",
+      "postedAt": "",
+      "state": "open",
+      "description": "Develop robust web applications using Laravel, Vue.js, and MySQL for enterprise clients.",
+      "status": "Active"
+    },
+    {
+      "id": "f43bed211507420d28813d9d8a127929",
+      "title": "SEO Specialist",
+      "link": "",
+      "location": "Remote",
+      "department": "",
+      "jobType": "Full-Time",
+      "postedAt": "",
+      "state": "open",
+      "description": "Drive organic growth through technical SEO, content optimization, and link building strategies.",
+      "status": "Active"
+    },
+    {
+      "id": "f9c010b8881c7f077e2e29155057a5da",
+      "title": "UI/UX Designer",
+      "link": "",
+      "location": "Remote",
+      "department": "",
+      "jobType": "Contract",
+      "postedAt": "",
+      "state": "open",
+      "description": "Create stunning, user-centric designs for web and mobile applications that delight users.",
+      "status": "Active"
+    }
+  ]
+}

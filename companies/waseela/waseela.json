@@ -1,0 +1,95 @@
+{
+  "sourceUrl": "https://waseela.global/jobs",
+  "fetchedAt": "2026-11-18T16:58:00.399944+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "12b923b88e49bfe6737e1902987bf5d8",
+      "title": "",
+      "link": "https://waseela.global/jobs",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "closingDate": "",
+      "state": "open"
+    },
+    {
+      "id": "a8017b7394b9b7fdcb1fe4e60a226aca",
+      "title": "Assistant Manager",
+      "link": "https://waseela.global/jobs",
+      "location": "Lahore",
+      "department": "ICT Operations - WPL",
+      "jobType": "Full Time Employee - Ongoing Contract",
+      "postedAt": "2 months ago",
+      "closingDate": "",
+      "state": "open"
+    },
+    {
+      "id": "5f943847c576ffe64c8ffe38c23c3bc3",
+      "title": "Senior Manager Food Quality Assurance &amp; Safety",
+      "link": "https://waseela.global/jobs",
+      "location": "Lahore",
+      "department": "Dairy - WPL",
+      "jobType": "Full Time Employee - Ongoing Contract",
+      "postedAt": "2 months ago",
+      "closingDate": "",
+      "state": "open"
+    },
+    {
+      "id": "a33d61dba24b5d2d6c2cfcb16c7ad0e7",
+      "title": "Assistant Manager \u2013 Operations",
+      "link": "https://waseela.global/jobs",
+      "location": "Bhawana",
+      "department": "FMCG - The Market - WPL",
+      "jobType": "Full Time Employee - Ongoing Contract",
+      "postedAt": "2 months ago",
+      "closingDate": "",
+      "state": "open"
+    },
+    {
+      "id": "174eb8ec65a642ce8ea4c0c5a28dfb76",
+      "title": "Doodh Collection Officer",
+      "link": "https://waseela.global/jobs",
+      "location": "Bhawana",
+      "department": "Milk Collection - WPL",
+      "jobType": "Full Time Employee - Ongoing Contract",
+      "postedAt": "3 months ago",
+      "closingDate": "",
+      "state": "open"
+    },
+    {
+      "id": "b9f8b0948a186b7f7da0fb6bcd8e55fe",
+      "title": "Doodh Collection Agent",
+      "link": "https://waseela.global/jobs",
+      "location": "Chiniot/Mahabali",
+      "department": "Milk Collection - WPL",
+      "jobType": "Full Time Employee - Fixed Term Contract",
+      "postedAt": "3 months ago",
+      "closingDate": "",
+      "state": "open"
+    },
+    {
+      "id": "c0ca789551b30e2010e3498107140ac4",
+      "title": "",
+      "link": "https://waseela.global/jobs",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "closingDate": "",
+      "state": "open"
+    },
+    {
+      "id": "380e537acdaedd487ca1adb49d020f7e",
+      "title": "",
+      "link": "https://waseela.global/jobs",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "closingDate": "",
+      "state": "open"
+    }
+  ]
+}

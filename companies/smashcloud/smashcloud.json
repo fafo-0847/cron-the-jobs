@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://v2.smashcloud.com/api/career?populate[0]=WorkatSmashCloud&populate[1]=CurrentOpenings&populate[2]=JobPost&populate[3]=apply_nows",
+  "fetchedAt": "2026-11-18T16:55:07.680208+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "e33cccaf3c6a72ce6c3dee53758e50d0",
+      "title": "Frontend Developer",
+      "link": "",
+      "location": "Lahore",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "e9578767b9c73134b2ef72a6bcefec68",
+      "title": "Backend Developer",
+      "link": "",
+      "location": "Lahore",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "5e2c48d38a0ee699ff020f74c6c0dbe7",
+      "title": "Business Analyst",
+      "link": "",
+      "location": "Lahore",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "e0c40dadd5b025898803cb3371afea3e",
+      "title": "Designer",
+      "link": "",
+      "location": "KPK",
+      "department": "",
+      "jobType": "Part Time",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

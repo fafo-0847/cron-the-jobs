@@ -1,0 +1,108 @@
+[
+  {
+    "id": "f56352fff43eb8b8cb12abab9c31ecf8",
+    "title": "Project Manager",
+    "link": "https://gosaas.bamboohr.com/careers/240",
+    "location": "Pakistan",
+    "postedAt": "",
+    "state": "open",
+    "company": "gosaas",
+    "detectedAt": "2026-08-16T08:34:22.304824+00:00"
+  },
+  {
+    "id": "5fa8e8bb15e528ce4f588c87f4bd62a5",
+    "title": "EDI Architect",
+    "link": "https://gosaas.bamboohr.com/careers/194",
+    "location": "Pakistan",
+    "postedAt": "",
+    "state": "open",
+    "company": "gosaas",
+    "detectedAt": "2026-08-16T08:34:22.304824+00:00"
+  },
+  {
+    "id": "330a70488a1e427feee28200d4f87f5c",
+    "title": "Software Engineer",
+    "link": "https://gosaas.bamboohr.com/careers/109",
+    "location": "Pakistan",
+    "postedAt": "",
+    "state": "open",
+    "company": "gosaas",
+    "detectedAt": "2026-08-16T08:34:22.304824+00:00"
+  },
+  {
+    "id": "de1606f1c2b65588fa7b673fe3ac5ca7",
+    "title": "Campaign Operations Manager (Individual Contributor)",
+    "link": "https://job-boards.greenhouse.io/gomotive/jobs/8686653002",
+    "location": "India - Remote",
+    "department": "Marketing",
+    "postedAt": "2026-08-15T23:36:50-04:00",
+    "state": "open",
+    "company": "motive",
+    "detectedAt": "2026-08-16T08:35:59.707394+00:00"
+  },
+  {
+    "id": "fbdc3ed5eba785ce8e0075ae76eaf3d9",
+    "title": "Customer Solutions Consultant",
+    "link": "https://app.myhcm.pk/CareerPortal/Careers?q=S57nvxmYbMdN17VpCEUmkA%3D%3D&lang=null",
+    "location": "Karachi",
+    "department": "Northstar",
+    "jobType": "",
+    "postedAt": "",
+    "closingDate": "31/08/2026",
+    "state": "open",
+    "company": "sibisoft",
+    "detectedAt": "2026-08-16T08:37:41.123342+00:00"
+  },
+  {
+    "id": "7a48d47a905109feaa1914b80be64815",
+    "title": "Principal – Cyber Security Engineering",
+    "link": "https://app.myhcm.pk/CareerPortal/Careers?q=S57nvxmYbMdN17VpCEUmkA%3D%3D&lang=null",
+    "location": "Karachi",
+    "department": "Development-offshore-PAK",
+    "jobType": "",
+    "postedAt": "",
+    "closingDate": "31/08/2026",
+    "state": "open",
+    "company": "sibisoft",
+    "detectedAt": "2026-08-16T08:37:41.123342+00:00"
+  },
+  {
+    "id": "38c560a833f78224bb374849afee9cd4",
+    "title": "Data Migration Field Support Technician",
+    "link": "https://swius.com/wp-content/plugins/bullhorn-oscp-swi/jobs/20127",
+    "location": "Boise, Idaho",
+    "department": "Field Engineers/Technicians",
+    "jobType": "",
+    "jobCode": "20127",
+    "postedAt": "Aug 14, 2026",
+    "state": "open",
+    "company": "swius",
+    "detectedAt": "2026-08-16T08:38:11.789210+00:00"
+  },
+  {
+    "id": "9d8479f65069d718768d10c63ddf7ac5",
+    "title": "Application Technical Specialist",
+    "link": "https://swius.com/wp-content/plugins/bullhorn-oscp-swi/jobs/20126",
+    "location": "Boise, Idaho",
+    "department": "Software Engineers",
+    "jobType": "",
+    "jobCode": "20126",
+    "postedAt": "Aug 14, 2026",
+    "state": "open",
+    "company": "swius",
+    "detectedAt": "2026-08-16T08:38:11.789210+00:00"
+  },
+  {
+    "id": "a26bb0bc34661a28cf15631d04c529b1",
+    "title": "Power System Software Engineer – Lead",
+    "link": "https://swius.com/wp-content/plugins/bullhorn-oscp-swi/jobs/20123",
+    "location": "Hybrid, Delhi",
+    "department": "Software Engineers",
+    "jobType": "",
+    "jobCode": "20123",
+    "postedAt": "Aug 14, 2026",
+    "state": "open",
+    "company": "swius",
+    "detectedAt": "2026-08-16T08:38:11.789210+00:00"
+  }
+]

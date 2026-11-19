@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://www.arrivy.com/careers/",
+  "fetchedAt": "2026-11-18T16:43:31.367207+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "3d82004703c53afd83701c2025c48e65",
+      "title": "Software Onboarding Engineer",
+      "link": "https://www.arrivy.com/careers/software-onboarding-engineer/",
+      "location": "Lahore",
+      "department": "Support and Onboarding",
+      "jobType": "Full Time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "73a8f1deef92c34e7b57207b1dea68b9",
+      "title": "Senior Sales Development Representative",
+      "link": "https://www.arrivy.com/careers/senior-sales-development-representative/",
+      "location": "Lahore",
+      "department": "Sales",
+      "jobType": "Full Time",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

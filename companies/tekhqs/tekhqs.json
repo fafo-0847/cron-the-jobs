@@ -1,0 +1,51 @@
+{
+  "sourceUrl": "https://tekhqs.com/careers/",
+  "fetchedAt": "2026-11-18T16:55:43.539793+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "c15937f4c898697718ae9ae2bb9aaba9",
+      "title": "Lead DevOps Engineer",
+      "link": "https://tekhqs.com/careers/lead-devops-engineer/",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "description": "We are seeking a highly skilled and experienced Lead DevOps Engineer with 8+ years of experience in designing, implementing, and.",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "52343353a783e1b9319aebd42645ae5f",
+      "title": "Associate Business Development Executive",
+      "link": "https://tekhqs.com/careers/associate-business-development-executive/",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "description": "We are looking for a motivated Business Development Executive to join our growing team. This role is primarily focused on.",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "88e392afa623c5543c77e23d0983ec0e",
+      "title": "UI/UX Designer",
+      "link": "https://tekhqs.com/careers/ui-ux-designer/",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "description": "We are looking for a creative Senior UI/UX Designer (2 to 3 years of experience). The ideal candidate will design.",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "5d60c7f060d1a1ad4f352bae10d47499",
+      "title": "Product Owner – Blockchain",
+      "link": "https://tekhqs.com/careers/product-owner-blockchain/",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "description": "We are looking for a highly driven and technically sound Product Owner – Blockchain to lead the development of our.",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

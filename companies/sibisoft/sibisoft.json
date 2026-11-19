@@ -1,0 +1,62 @@
+{
+  "sourceUrl": "https://app.myhcm.pk/CareerPortal/Careers?q=S57nvxmYbMdN17VpCEUmkA%3D%3D&lang=null",
+  "fetchedAt": "2026-11-18T16:55:01.898271+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "a72495181d6d58c089799faeaeba9097",
+      "title": "Project Manager",
+      "link": "https://app.myhcm.pk/CareerPortal/Careers?q=S57nvxmYbMdN17VpCEUmkA%3D%3D&lang=null",
+      "location": "Karachi",
+      "department": "PAK",
+      "jobType": "",
+      "postedAt": "",
+      "closingDate": "20/11/2026",
+      "state": "open"
+    },
+    {
+      "id": "6341fd3b7d3371deb00e1605126ca3ad",
+      "title": "Customer Solutions Consultant",
+      "link": "https://app.myhcm.pk/CareerPortal/Careers?q=S57nvxmYbMdN17VpCEUmkA%3D%3D&lang=null",
+      "location": "Karachi",
+      "department": "Northstar",
+      "jobType": "",
+      "postedAt": "",
+      "closingDate": "20/11/2026",
+      "state": "open"
+    },
+    {
+      "id": "7add3d9fba442794c668fe91a7a00882",
+      "title": "Project Coordinator",
+      "link": "https://app.myhcm.pk/CareerPortal/Careers?q=S57nvxmYbMdN17VpCEUmkA%3D%3D&lang=null",
+      "location": "Karachi",
+      "department": "Projectmanagement-offshore-PAK",
+      "jobType": "",
+      "postedAt": "",
+      "closingDate": "20/11/2026",
+      "state": "open"
+    },
+    {
+      "id": "69c13b920fa7384cb6e322f5b6ca156f",
+      "title": "Software Engineer I",
+      "link": "https://app.myhcm.pk/CareerPortal/Careers?q=S57nvxmYbMdN17VpCEUmkA%3D%3D&lang=null",
+      "location": "Karachi",
+      "department": "Development-offshore-PAK-SENPOS",
+      "jobType": "",
+      "postedAt": "",
+      "closingDate": "20/11/2026",
+      "state": "open"
+    },
+    {
+      "id": "8af5bf4f8cdab5ee50077063b28c7b76",
+      "title": "Product Delivery Manager",
+      "link": "https://app.myhcm.pk/CareerPortal/Careers?q=S57nvxmYbMdN17VpCEUmkA%3D%3D&lang=null",
+      "location": "Karachi",
+      "department": "Productmanagement-offshore-PAK-SENPOS",
+      "jobType": "",
+      "postedAt": "",
+      "closingDate": "20/11/2026",
+      "state": "open"
+    }
+  ]
+}

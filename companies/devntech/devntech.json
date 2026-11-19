@@ -1,0 +1,67 @@
+{
+  "sourceUrl": "https://www.devntech.com/careers",
+  "fetchedAt": "2026-08-11T09:00:00.264830+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "955ec929e82388a3419a44044150ea57",
+      "title": "Associate Software Engineer",
+      "link": "https://devntech.odoo.com/jobs/associate-software-engineer-4",
+      "location": "On Site",
+      "department": "",
+      "jobType": "",
+      "experience": "0-1 years",
+      "description": "Entry-level role for fresh graduates to assist in software development under senior guidance. Build technical foundations while contributing to real projects.",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "aa44765c9f6e94b8ddceb31461e37c26",
+      "title": "Software Engineer(Experienced)",
+      "link": "https://devntech.odoo.com/jobs/software-engineerexperienced-6",
+      "location": "On Site",
+      "department": "",
+      "jobType": "",
+      "experience": "1-3 years",
+      "description": "Full Stack Developer focused on backend development using JavaScript stack (MERN/NextJS/NestJS). Design and maintain scalable web applications with frontend integration.",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "4cbb86614aca8fadea713722dbbc48b1",
+      "title": "Associate Project Manager",
+      "link": "https://devntech.odoo.com/jobs/associate-project-manager-8",
+      "location": "On Site",
+      "department": "",
+      "jobType": "",
+      "experience": "0-1 years",
+      "description": "Support project planning, coordination, and execution across teams. Manage multiple tasks while maintaining strong stakeholder communication.",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "bb902bd44793594e85dd1e91f28e111a",
+      "title": "Marketing Intern / Social Media Intern",
+      "link": "https://devntech.odoo.com/jobs/marketing-intern-social-media-intern-12",
+      "location": "On Site",
+      "department": "",
+      "jobType": "",
+      "experience": "0-1 years",
+      "description": "Manage social platforms and create engaging content. Perfect for those who love scrolling, posting, and spotting trends.",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "c0c58ee1d2d634114bb691dc38d2cfa7",
+      "title": "Senior Frontend Engineer",
+      "link": "https://devntech.odoo.com/jobs/senior-frontend-engineer-9",
+      "location": "On Site",
+      "department": "",
+      "jobType": "",
+      "experience": "3+ years",
+      "description": "Design and optimize high-quality web interfaces using React, Next.js, and TypeScript. Build scalable UI components and mentor junior developers.",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}

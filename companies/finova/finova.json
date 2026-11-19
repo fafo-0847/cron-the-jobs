@@ -1,0 +1,47 @@
+{
+  "sourceUrl": "https://careers.finova.tech/#jobs",
+  "fetchedAt": "2026-11-18T16:48:27.289289+00:00",
+  "state": "open",
+  "jobs": [
+    {
+      "id": "19ad588c95869e7bd50f8332c2c9a227",
+      "title": "Technical Delivery Manager (12 month FTC)",
+      "link": "https://careers.finova.tech/jobs/8747775-technical-delivery-manager-12-month-ftc",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "e367170b98a101b68a88d5cdc90b401f",
+      "title": "Principal Site Reliability Engineer",
+      "link": "https://careers.finova.tech/jobs/8697496-principal-site-reliability-engineer",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "88869ca20899327c2990ed1e8d65acfe",
+      "title": "Senior Site Reliability Engineer",
+      "link": "https://careers.finova.tech/jobs/8652786-senior-site-reliability-engineer",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "837c3374bb0d7b49027dda33d10d73ee",
+      "title": "Senior Business Consultant",
+      "link": "https://careers.finova.tech/jobs/8287758-senior-business-consultant",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
+}
