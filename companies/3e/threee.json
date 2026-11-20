@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://jobs.ashbyhq.com/3e",
-  "fetchedAt": "2026-11-19T14:49:41.485311+00:00",
+  "fetchedAt": "2026-11-20T16:21:13.787174+00:00",
   "state": "open",
   "jobs": [
     {
@@ -105,6 +105,32 @@
       "workplaceType": "Hybrid",
       "compensation": "$90K – $105K • Offers Bonus",
       "postedAt": "2026-11-16T21:55:11.879+00:00",
+      "state": "open"
+    },
+    {
+      "id": "c379484894c0d8c4361485f3ce769b14",
+      "title": "Software Implementation Specialist",
+      "link": "https://jobs.ashbyhq.com/3E/930933d4-7a10-4a7b-9be1-603f77863788",
+      "location": "Lancaster, UK",
+      "department": "Customer Experience",
+      "team": "Onboarding & Implementation",
+      "jobType": "FullTime",
+      "workplaceType": "Remote",
+      "compensation": "",
+      "postedAt": "2026-11-19T21:17:36.867+00:00",
+      "state": "open"
+    },
+    {
+      "id": "c2a193c59663956d1e29ed69ae81cb82",
+      "title": "Software Implementation Project Manager",
+      "link": "https://jobs.ashbyhq.com/3E/0e60deeb-0fe8-4a61-ae55-ecf13ea4a498",
+      "location": "Lancaster, UK",
+      "department": "Customer Experience",
+      "team": "Onboarding & Implementation",
+      "jobType": "FullTime",
+      "workplaceType": "OnSite",
+      "compensation": "",
+      "postedAt": "2026-11-19T21:16:30.034+00:00",
       "state": "open"
     },
     {

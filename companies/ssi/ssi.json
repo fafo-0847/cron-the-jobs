@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://strategic-systems-international.breezy.hr",
-  "fetchedAt": "2026-11-19T15:02:52.932882+00:00",
+  "fetchedAt": "2026-11-20T16:33:10.716108+00:00",
   "state": "open",
   "jobs": [
     {
@@ -48,6 +48,16 @@
       "title": "Forward Deployed Engineer",
       "link": "https://strategic-systems-international.breezy.hr/p/d06f8ca11182-forward-deployed-engineer",
       "location": "Multiple Locations",
+      "department": "",
+      "jobType": "Contract",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "e77b3e3d491f8aeb69df081ea52e867d",
+      "title": "MS Dynamics 365 Consultant",
+      "link": "https://strategic-systems-international.breezy.hr/p/8c6962c135cd-ms-dynamics-365-consultant",
+      "location": "Lahore, PK",
       "department": "",
       "jobType": "Contract",
       "postedAt": "",

@@ -1,8 +1,17 @@
 {
   "sourceUrl": "https://arbisoft.hirestream.io/api/v1/jobs/published-jobs/?timezone=Asia%2FKarachi&offset=0&limit=20&order=featured",
-  "fetchedAt": "2026-11-19T14:50:16.729188+00:00",
+  "fetchedAt": "2026-11-20T16:21:46.939045+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "d3f3e146a4a552ffd984453421990f03",
+      "title": "Project Manager",
+      "link": "https://arbisoft.hirestream.io/jobs/6d578a20-8c4c-4f99-9ba0-dbe11dfdb57f",
+      "location": "Arbisoft Germany, Berlin",
+      "department": "Software Engineering",
+      "postedAt": "2026-11-20T14:09:06.564310Z",
+      "state": "open"
+    },
     {
       "id": "2064b67b5873b5f780c53e9d55334edc",
       "title": "Security GRC Engineer (Compliance & Operations)",

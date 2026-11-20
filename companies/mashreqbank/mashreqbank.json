@@ -1,8 +1,18 @@
 {
   "sourceUrl": "https://hcld.fa.em2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,locationId=300000000300311,sortBy=POSTING_DATES_DESC,offset=0",
-  "fetchedAt": "2026-11-19T14:58:55.358026+00:00",
+  "fetchedAt": "2026-11-20T16:29:18.594305+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "f42af0c544975cf15d9351d7276a2141",
+      "title": "QA Engineer (Mashreq Global Network, Pakistan) - Retail Banking Group",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7335",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-11-20",
+      "state": "open"
+    },
     {
       "id": "dab817277cea4f44e75b3809254aa868",
       "title": "Senior Manager Technology - Integration Support",
@@ -191,26 +201,6 @@
       "department": "",
       "jobType": "Hybrid",
       "postedAt": "2026-10-29",
-      "state": "open"
-    },
-    {
-      "id": "74956c7d27bf17195b8d2bf95044bc9e",
-      "title": "Software Engineer.MGN Pak - Digital Corporate WDS.Corporate & Investment Banking Group-PAKCOE",
-      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4906",
-      "location": "Pakistan",
-      "department": "",
-      "jobType": "Remote work (RW)",
-      "postedAt": "2026-10-27",
-      "state": "open"
-    },
-    {
-      "id": "119abc616fc13aa1d29405ed64890999",
-      "title": "Product Manager- Account Services (Mashreq Global Network)",
-      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/5309",
-      "location": "Pakistan",
-      "department": "",
-      "jobType": "Fulltime office (FTO)",
-      "postedAt": "2026-10-20",
       "state": "open"
     },
     {

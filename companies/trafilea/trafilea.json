@@ -1,8 +1,18 @@
 {
   "sourceUrl": "https://careers.trafilea.com/careers-2/",
-  "fetchedAt": "2026-11-19T15:05:10.724772+00:00",
+  "fetchedAt": "2026-11-20T16:35:16.493732+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "bb829ffe56be2e76dce519600b405a61",
+      "title": "Security Engineer",
+      "link": "",
+      "location": "",
+      "department": "",
+      "jobType": "Remote job",
+      "postedAt": "",
+      "state": "open"
+    },
     {
       "id": "24b6818ddb42fae52c61521e4bf655eb",
       "title": "AI Project Manager",

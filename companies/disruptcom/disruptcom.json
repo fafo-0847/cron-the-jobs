@@ -1,8 +1,30 @@
 {
   "sourceUrl": "https://disruptcom.odoo.com/jobs",
-  "fetchedAt": "2026-11-19T14:54:26.431373+00:00",
+  "fetchedAt": "2026-11-20T16:25:28.664722+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "c4169883f19fdf9fa08ce6f32a21b1a6",
+      "title": "[SIMULATION] Social Media Executive (ZIG Finance)",
+      "link": "https://disruptcom.odoo.com/jobs/simulation-social-media-executive-zig-finance-362",
+      "location": "Karachi, Pakistan",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open",
+      "tags": "Karachi, Pakistan"
+    },
+    {
+      "id": "166aed9fd0730f19d5bb9934b27f8f74",
+      "title": "Head of PR",
+      "link": "https://disruptcom.odoo.com/jobs/head-of-pr-100",
+      "location": "United States",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open",
+      "tags": "United States"
+    },
     {
       "id": "44a6a2a030bd4b99eb659334ae836b46",
       "title": "Infrastructure Engineer",
@@ -35,28 +57,6 @@
       "postedAt": "",
       "state": "open",
       "tags": "Remote"
-    },
-    {
-      "id": "f4c11df51a342b35ea69401f36e2ccc1",
-      "title": "Creative Director",
-      "link": "https://disruptcom.odoo.com/jobs/creative-director-98",
-      "location": "Pakistan",
-      "department": "",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open",
-      "tags": "Pakistan"
-    },
-    {
-      "id": "166aed9fd0730f19d5bb9934b27f8f74",
-      "title": "Head of PR",
-      "link": "https://disruptcom.odoo.com/jobs/head-of-pr-100",
-      "location": "United States",
-      "department": "",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open",
-      "tags": "United States"
     }
   ]
 }

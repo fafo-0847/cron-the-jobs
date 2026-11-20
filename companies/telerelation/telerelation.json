@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://telerelation.com/careers",
-  "fetchedAt": "2026-11-19T15:03:34.790025+00:00",
+  "fetchedAt": "2026-11-20T16:33:41.630637+00:00",
   "state": "open",
   "jobs": [
     {
@@ -49,6 +49,18 @@
       "postedAt": "",
       "state": "open",
       "experience": "0-1",
+      "workMode": "Onsite"
+    },
+    {
+      "id": "adf585d89c69d84c4d09e075c0265a3a",
+      "title": "Finance Associate",
+      "link": "https://telerelation.com/careers?job=Finance-Associate",
+      "location": "Islamabad",
+      "department": "FINANCE",
+      "jobType": "Full Time",
+      "postedAt": "",
+      "state": "open",
+      "experience": "3-5+",
       "workMode": "Onsite"
     },
     {

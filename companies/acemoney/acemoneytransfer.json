@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://acemoneytransfer.applytojob.com/apply",
-  "fetchedAt": "2026-11-19T14:49:44.845546+00:00",
+  "fetchedAt": "2026-11-20T16:21:16.686618+00:00",
   "state": "open",
   "jobs": [
     {
@@ -49,6 +49,16 @@
       "link": "https://acemoneytransfer.applytojob.com/apply/xdJEmBmPV3/Customer-Experience-Officer-Executive",
       "location": "Jhelum, Punjab, Pakistan",
       "department": "Customer Xperience",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "8bab7f62c1a8f60374547c973a465e31",
+      "title": "Financial Crime Investigation & Reporting Officer",
+      "link": "https://acemoneytransfer.applytojob.com/apply/q2xc4Uv1kI/Financial-Crime-Investigation-Reporting-Officer",
+      "location": "Lahore, Punjab, Pakistan",
+      "department": "Compliance Layer-2",
       "jobType": "",
       "postedAt": "",
       "state": "open"
@@ -119,6 +129,16 @@
       "link": "https://acemoneytransfer.applytojob.com/apply/hMJo1TwgR6/Receptionist",
       "location": "Lahore, Punjab, Pakistan",
       "department": "Administration",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "e190d06c45b081881dfc0f8506afcb17",
+      "title": "Regulatory Compliance Manager – EU",
+      "link": "https://acemoneytransfer.applytojob.com/apply/tb79SEpWIo/Regulatory-Compliance-Manager-EU",
+      "location": "Kharian, Punjab, Pakistan",
+      "department": "",
       "jobType": "",
       "postedAt": "",
       "state": "open"

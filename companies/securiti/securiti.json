@@ -1,8 +1,18 @@
 {
   "sourceUrl": "https://careers.veeam.com/search-jobs?acm=ALL&alrpm=ALL&ascf=[%7B\"key\":\"Team\",\"value\":\"Securiti+AI\"%7D]",
-  "fetchedAt": "2026-11-19T15:02:29.731807+00:00",
+  "fetchedAt": "2026-11-20T16:32:47.780683+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "a93cebedf56fad1153cec039400cd48f",
+      "title": "Senior Forward Deployed Engineer",
+      "link": "https://careers.veeam.com/job/san-jose/senior-forward-deployed-engineer/22681/100820734912",
+      "location": "San Jose, CA",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
     {
       "id": "d7c9d4fd422ff436b59215aab6537e43",
       "title": "Software Engineer Test - III",
@@ -88,16 +98,6 @@
       "title": "Sr. Tech Lead - Backend",
       "link": "https://careers.veeam.com/job/karachi/sr-tech-lead-backend/22681/102894039936",
       "location": "Karachi, Sindh",
-      "department": "Securiti AI",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "d8929d69d6cdf419ac5895b63e817de0",
-      "title": "Staff Security Engineer- Security and Compliance",
-      "link": "https://careers.veeam.com/job/san-jose/staff-security-engineer-security-and-compliance/22681/102648887424",
-      "location": "San Jose, CA",
       "department": "Securiti AI",
       "jobType": "",
       "postedAt": "",
@@ -308,16 +308,6 @@
       "title": "Senior Forward Deployed Engineer",
       "link": "https://careers.veeam.com/job/north-sydney/senior-forward-deployed-engineer/22681/100154712336",
       "location": "North Sydney, New South Wales",
-      "department": "Securiti AI",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "a93cebedf56fad1153cec039400cd48f",
-      "title": "Senior Forward Deployed Engineer",
-      "link": "https://careers.veeam.com/job/san-jose/senior-forward-deployed-engineer/22681/100820734912",
-      "location": "San Jose, CA",
       "department": "Securiti AI",
       "jobType": "",
       "postedAt": "",

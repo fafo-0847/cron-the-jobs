@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://jobs.siemens.com/en_US/externaljobs/SearchJobs/?42414=%5B812046%5D&42414_format=17570&listFilterMode=1&folderRecordsPerPage=6&",
-  "fetchedAt": "2026-11-19T15:02:45.107899+00:00",
+  "fetchedAt": "2026-11-20T16:33:03.691065+00:00",
   "state": "open",
   "jobs": [
     {
@@ -19,6 +19,16 @@
       "link": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/529539",
       "location": "Multiple Locations",
       "department": "Sales",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "da7e21e6d162b9af7cc8bd652b8d0177",
+      "title": "Learning Portfolio Consultant - m/f/d",
+      "link": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/524586",
+      "location": "Multiple Locations",
+      "department": "Customer Services",
       "jobType": "",
       "postedAt": "",
       "state": "open"
@@ -49,16 +59,6 @@
       "link": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/519999",
       "location": "Multiple Locations",
       "department": "Customer Services",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "851bfe6625452222e0ee946db1dddf8e",
-      "title": "Digital Solutions & Cybersecurity Sales Specialist \u2013Karachi or Lahore, Pakistan",
-      "link": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/513589",
-      "location": "Multiple Locations",
-      "department": "Sales",
       "jobType": "",
       "postedAt": "",
       "state": "open"

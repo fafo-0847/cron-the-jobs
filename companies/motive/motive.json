@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/gomotive/departments",
-  "fetchedAt": "2026-11-19T14:59:50.860491+00:00",
+  "fetchedAt": "2026-11-20T16:30:15.157745+00:00",
   "state": "open",
   "jobs": [
     {
@@ -9,7 +9,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8378193002",
       "location": "Mexico City, Mexico",
       "department": "Annotation",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:31:39-05:00",
       "state": "open"
     },
     {
@@ -36,7 +36,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8783282002",
       "location": "Mexico City - Hybrid",
       "department": "Business Intelligence",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:33:19-05:00",
       "state": "open"
     },
     {
@@ -45,7 +45,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8842739002",
       "location": "Canada - Hybrid",
       "department": "Business Intelligence",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:33:25-05:00",
       "state": "open"
     },
     {
@@ -54,7 +54,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8900270002",
       "location": "Hybrid - Austin, Texas; Hybrid - Buffalo, New York; Hybrid - Nashville, Tennessee; Hybrid - San Francisco, California; Hybrid - Seattle",
       "department": "Business Intelligence",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:33:39-05:00",
       "state": "open"
     },
     {
@@ -81,7 +81,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8021079002",
       "location": "Remote - Islamabad & Lahore",
       "department": "Customer Support (CSP)",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:28:59-05:00",
       "state": "open"
     },
     {
@@ -99,7 +99,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8240269002",
       "location": "Pakistan - Remote; Remote - Islamabad; Remote - Lahore",
       "department": "Customer Support (CSP)",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:30:47-05:00",
       "state": "open"
     },
     {
@@ -108,7 +108,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8710003002",
       "location": "Pakistan - Remote",
       "department": "Customer Support (CSP)",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:32:50-05:00",
       "state": "open"
     },
     {
@@ -117,7 +117,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8858120002",
       "location": "Hybrid - Lahore; Remote - Islamabad",
       "department": "Customer Support (CSP)",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:33:27-05:00",
       "state": "open"
     },
     {
@@ -135,7 +135,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8875595002",
       "location": "Hybrid - Islamabad & Lahore",
       "department": "Customer Support (CSP)",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:33:32-05:00",
       "state": "open"
     },
     {
@@ -162,7 +162,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8906566002",
       "location": "Mexico City - Hybrid",
       "department": "Customer Support (CSP)",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:33:39-05:00",
       "state": "open"
     },
     {
@@ -180,7 +180,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8925908002",
       "location": "Hybrid - Lahore; Remote - Islamabad",
       "department": "Customer Support (CSP)",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:33:52-05:00",
       "state": "open"
     },
     {
@@ -189,7 +189,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8926636002",
       "location": "Remote - Islamabad & Lahore",
       "department": "Customer Support (CSP)",
-      "postedAt": "2026-11-18T18:15:45-05:00",
+      "postedAt": "2026-11-19T15:33:52-05:00",
       "state": "open"
     },
     {
@@ -198,7 +198,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8933077002",
       "location": "Remote - Islamabad & Lahore",
       "department": "Customer Support (CSP)",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:33:54-05:00",
       "state": "open"
     },
     {
@@ -215,15 +215,6 @@
       "title": "Role Readiness Specialist (Onboarding)",
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8615936002",
       "location": "Pakistan - Lahore",
-      "department": "Enablement",
-      "postedAt": "2026-11-16T13:23:43-05:00",
-      "state": "open"
-    },
-    {
-      "id": "71fd8ade2258731d0ccc189bbfa54f15",
-      "title": "Senior Enablement Operations Manager",
-      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8672501002",
-      "location": "Pakistan - Remote",
       "department": "Enablement",
       "postedAt": "2026-11-16T13:23:43-05:00",
       "state": "open"
@@ -288,7 +279,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8905056002",
       "location": "Hybrid - Toronto",
       "department": "Enterprise Systems",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:33:39-05:00",
       "state": "open"
     },
     {
@@ -342,7 +333,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8917785002",
       "location": "Pakistan - Remote",
       "department": "Financial Products G&A",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:33:51-05:00",
       "state": "open"
     },
     {
@@ -351,7 +342,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8928319002",
       "location": "Pakistan - Remote",
       "department": "Financial Products G&A",
-      "postedAt": "2026-11-17T11:27:03-05:00",
+      "postedAt": "2026-11-19T15:33:53-05:00",
       "state": "open"
     },
     {
@@ -369,7 +360,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8856330002",
       "location": "Pakistan - Remote",
       "department": "Financial Products S&M",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:33:27-05:00",
       "state": "open"
     },
     {
@@ -378,7 +369,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8938072002",
       "location": "Remote - Islamabad & Lahore",
       "department": "Financial Products S&M",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:33:54-05:00",
       "state": "open"
     },
     {
@@ -405,7 +396,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8686675002",
       "location": "Hybrid - Lahore",
       "department": "GTM Strategy and Sales Operations",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:32:49-05:00",
       "state": "open"
     },
     {
@@ -441,7 +432,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8937756002",
       "location": "Pakistan - Remote; Remote - Islamabad & Lahore",
       "department": "GTM Strategy and Sales Operations",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:33:54-05:00",
       "state": "open"
     },
     {
@@ -459,7 +450,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8893977002",
       "location": "Taiwan - Taipei",
       "department": "Hardware Engineering",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:33:39-05:00",
       "state": "open"
     },
     {
@@ -495,16 +486,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8927928002",
       "location": "Taiwan - Taipei",
       "department": "Hardware Engineering",
-      "postedAt": "2026-11-16T13:23:43-05:00",
-      "state": "open"
-    },
-    {
-      "id": "d4be42ec3dd0f537f55db477be93e1db",
-      "title": "People Operations Lead",
-      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8360649002",
-      "location": "Hybrid - Islamabad; Hybrid - Lahore",
-      "department": "HR",
-      "postedAt": "2026-11-18T06:35:23-05:00",
+      "postedAt": "2026-11-19T15:33:52-05:00",
       "state": "open"
     },
     {
@@ -531,7 +513,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8627801002",
       "location": "Hybrid - Islamabad & Lahore",
       "department": "HR",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:32:40-05:00",
       "state": "open"
     },
     {
@@ -553,12 +535,21 @@
       "state": "open"
     },
     {
+      "id": "084d0faa3ed27545fa87a4b666daaeec",
+      "title": "Senior Manager, People Operations",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8952913002",
+      "location": "Canada - Remote",
+      "department": "HR",
+      "postedAt": "2026-11-19T15:15:34-05:00",
+      "state": "open"
+    },
+    {
       "id": "e390c0e18abae3584c4e6830fe1a5ecb",
       "title": "Implementation Coordinator - Spanish",
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8499079002",
       "location": "Pakistan - Remote",
       "department": "Implementation",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:32:16-05:00",
       "state": "open"
     },
     {
@@ -567,7 +558,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8499081002",
       "location": "Pakistan - Remote",
       "department": "Implementation",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:32:17-05:00",
       "state": "open"
     },
     {
@@ -576,7 +567,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8750379002",
       "location": "Mexico City - Hybrid",
       "department": "Implementation",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:32:53-05:00",
       "state": "open"
     },
     {
@@ -585,7 +576,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8892611002",
       "location": "Pakistan - Remote",
       "department": "Implementation",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:33:38-05:00",
       "state": "open"
     },
     {
@@ -652,6 +643,15 @@
       "state": "open"
     },
     {
+      "id": "82a325c2f6ed8848a7cc6d1ef46cd510",
+      "title": "Sr Demand Generation Marketing Manager - Mid Market",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8720994002",
+      "location": "United States - Remote",
+      "department": "Marketing",
+      "postedAt": "2026-11-19T15:46:14-05:00",
+      "state": "open"
+    },
+    {
       "id": "71e68b7bb7c8ab8334083eec99f25203",
       "title": "Senior Marketing Operations Specialist",
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8733611002",
@@ -661,12 +661,12 @@
       "state": "open"
     },
     {
-      "id": "2e8e773646e5245ef13cf0ee1d0ab822",
-      "title": "Demand Generation Marketing Manager",
+      "id": "00bbf4847c15429bc56c40d07cf98de2",
+      "title": "Sr Demand Generation Marketing Manager - Mid Market",
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8739420002",
-      "location": "Hybrid - San Francisco, California",
+      "location": "United States - Remote",
       "department": "Marketing",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:46:14-05:00",
       "state": "open"
     },
     {
@@ -702,16 +702,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8842468002",
       "location": "United Kingdom",
       "department": "Marketing",
-      "postedAt": "2026-11-16T13:23:43-05:00",
-      "state": "open"
-    },
-    {
-      "id": "9183e770e0e0d3c8a1c44733a497f35f",
-      "title": "Demand Generation Marketing Manager",
-      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8843484002",
-      "location": "United States - Remote",
-      "department": "Marketing",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:33:25-05:00",
       "state": "open"
     },
     {
@@ -801,7 +792,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8622282002",
       "location": "Mexico City - Hybrid",
       "department": "MM Emerging Sales",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:32:39-05:00",
       "state": "open"
     },
     {
@@ -819,7 +810,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8883191002",
       "location": "Hybrid - Islamabad & Lahore",
       "department": "Order Management",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:33:38-05:00",
       "state": "open"
     },
     {
@@ -828,7 +819,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8883193002",
       "location": "Hybrid - Islamabad & Lahore",
       "department": "Order Management",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:33:38-05:00",
       "state": "open"
     },
     {
@@ -837,7 +828,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8940839002",
       "location": "Pakistan - Remote",
       "department": "Order Management",
-      "postedAt": "2026-11-16T15:42:52-05:00",
+      "postedAt": "2026-11-19T15:33:55-05:00",
       "state": "open"
     },
     {
@@ -864,7 +855,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8191727002",
       "location": "United Kingdom",
       "department": "Product",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:30:29-05:00",
       "state": "open"
     },
     {
@@ -873,7 +864,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8235467002",
       "location": "Mexico City - Hybrid",
       "department": "Product",
-      "postedAt": "2026-11-17T17:01:21-05:00",
+      "postedAt": "2026-11-19T15:30:45-05:00",
       "state": "open"
     },
     {
@@ -882,7 +873,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8512462002",
       "location": "Bangalore, India",
       "department": "Product",
-      "postedAt": "2026-11-18T00:50:30-05:00",
+      "postedAt": "2026-11-19T15:32:18-05:00",
       "state": "open"
     },
     {
@@ -963,7 +954,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8738124002",
       "location": "Mexico City - Hybrid",
       "department": "Sales",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:32:52-05:00",
       "state": "open"
     },
     {
@@ -972,7 +963,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8419784002",
       "location": "Canada - Remote",
       "department": "Sales Canada",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:31:54-05:00",
       "state": "open"
     },
     {
@@ -981,7 +972,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8864587002",
       "location": "Canada - Remote",
       "department": "Sales Canada",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:33:30-05:00",
       "state": "open"
     },
     {
@@ -999,7 +990,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8895819002",
       "location": "Canada - Remote",
       "department": "Sales Canada",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:33:39-05:00",
       "state": "open"
     },
     {
@@ -1035,7 +1026,34 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8916786002",
       "location": "Canada - Remote",
       "department": "Sales Engineer Canada",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:33:51-05:00",
+      "state": "open"
+    },
+    {
+      "id": "6d6364f0d279865b96a9364d957d8755",
+      "title": "Associate Solutions Engineer, Commercial (Austin - Onsite)",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/7251832002",
+      "location": "Hybrid - Austin, Texas; United States - Austin, Texas",
+      "department": "Sales Engineer CMRL",
+      "postedAt": "2026-11-19T15:26:14-05:00",
+      "state": "open"
+    },
+    {
+      "id": "0dcbce2c7739f3b515bede5edea8f57e",
+      "title": "Senior Manager, Associate Solutions Engineering Academy (Austin, Hybrid)",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8913574002",
+      "location": "Hybrid - Austin, Texas",
+      "department": "Sales Engineer CMRL",
+      "postedAt": "2026-11-19T15:35:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "6bf30307851f3479576161bcd0b9440e",
+      "title": "Senior Manager, Associate Solutions Engineering Academy (Nashville, Hybrid)",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8928774002",
+      "location": "Hybrid - Nashville, Tennessee",
+      "department": "Sales Engineer CMRL",
+      "postedAt": "2026-11-19T15:35:43-05:00",
       "state": "open"
     },
     {
@@ -1062,7 +1080,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8709975002",
       "location": "Mexico City - Hybrid",
       "department": "Sales Engineer Mexico",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:32:50-05:00",
       "state": "open"
     },
     {
@@ -1071,7 +1089,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8769746002",
       "location": "Mexico City - Hybrid",
       "department": "Sales Engineer Mexico",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:32:55-05:00",
       "state": "open"
     },
     {
@@ -1080,24 +1098,6 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/7284384002",
       "location": "United States - Remote",
       "department": "Sales Engineer MM",
-      "postedAt": "2026-11-16T13:23:43-05:00",
-      "state": "open"
-    },
-    {
-      "id": "0dcbce2c7739f3b515bede5edea8f57e",
-      "title": "Senior Manager, Associate Solutions Engineering Academy (Austin, Hybrid)",
-      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8913574002",
-      "location": "Hybrid - Austin, Texas",
-      "department": "Sales Engineer Shared Service",
-      "postedAt": "2026-11-16T13:23:43-05:00",
-      "state": "open"
-    },
-    {
-      "id": "6bf30307851f3479576161bcd0b9440e",
-      "title": "Senior Manager, Associate Solutions Engineering Academy (Nashville, Hybrid)",
-      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8928774002",
-      "location": "Hybrid - Nashville, Tennessee",
-      "department": "Sales Engineer Shared Service",
       "postedAt": "2026-11-16T13:23:43-05:00",
       "state": "open"
     },
@@ -1152,7 +1152,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8534891002",
       "location": "Mexico City - Hybrid",
       "department": "Sales Mexico",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:32:22-05:00",
       "state": "open"
     },
     {
@@ -1161,7 +1161,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8706368002",
       "location": "Mexico City - Hybrid",
       "department": "Sales Mexico",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:32:50-05:00",
       "state": "open"
     },
     {
@@ -1170,7 +1170,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8922521002",
       "location": "Mexico City - Hybrid",
       "department": "Sales Mexico",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:33:52-05:00",
       "state": "open"
     },
     {
@@ -1260,7 +1260,16 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8912734002",
       "location": "United States - Remote",
       "department": "Sales Strategic",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T16:51:50-05:00",
+      "state": "open"
+    },
+    {
+      "id": "5d9dadd7ac6acb9f61e999b3f8fc9b02",
+      "title": "Enterprise Account Executive, Networks",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8950551002",
+      "location": "United States - Remote",
+      "department": "Sales Strategic",
+      "postedAt": "2026-11-19T16:50:15-05:00",
       "state": "open"
     },
     {
@@ -1269,7 +1278,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8922072002",
       "location": "Hybrid - United Kingdom; London, England",
       "department": "Sales UK",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:33:52-05:00",
       "state": "open"
     },
     {
@@ -1278,7 +1287,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8922329002",
       "location": "Hybrid - United Kingdom; London, England",
       "department": "Sales UK",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:33:52-05:00",
       "state": "open"
     },
     {
@@ -1287,7 +1296,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8767271002",
       "location": "Hybrid - Toronto",
       "department": "SDR Canada",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:32:54-05:00",
       "state": "open"
     },
     {
@@ -1296,7 +1305,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8923863002",
       "location": "Hybrid - Toronto",
       "department": "SDR Canada",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:33:52-05:00",
       "state": "open"
     },
     {
@@ -1314,7 +1323,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8703246002",
       "location": "Mexico City - Hybrid",
       "department": "SDR Mexico",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:32:50-05:00",
       "state": "open"
     },
     {
@@ -1323,7 +1332,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/7833105002",
       "location": "Pakistan - Remote",
       "department": "SDR MM",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:27:56-05:00",
       "state": "open"
     },
     {
@@ -1332,7 +1341,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8367923002",
       "location": "Pakistan - Remote",
       "department": "SDR MM",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:31:34-05:00",
       "state": "open"
     },
     {
@@ -1341,7 +1350,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8703240002",
       "location": "Mexico City - Hybrid",
       "department": "SDR MM",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:32:50-05:00",
       "state": "open"
     },
     {
@@ -1359,7 +1368,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8402722002",
       "location": "Canada - Remote",
       "department": "Security",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:31:53-05:00",
       "state": "open"
     },
     {
@@ -1368,7 +1377,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8752599002",
       "location": "Canada - Remote; Canada - Vancouver",
       "department": "Security",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:32:53-05:00",
       "state": "open"
     },
     {
@@ -1377,7 +1386,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8752600002",
       "location": "Canada - Remote; Hybrid - Toronto",
       "department": "Security",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:32:53-05:00",
       "state": "open"
     },
     {
@@ -1395,7 +1404,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8831546002",
       "location": "Canada - Hybrid",
       "department": "Security",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:33:24-05:00",
       "state": "open"
     },
     {
@@ -1404,7 +1413,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8915912002",
       "location": "Hybrid - Austin, Texas; Hybrid - Buffalo, New York; Hybrid - Nashville, Tennessee; Hybrid - San Francisco, California; Hybrid - Seattle",
       "department": "Security",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:33:51-05:00",
       "state": "open"
     },
     {
@@ -1422,7 +1431,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8325871002",
       "location": "Pakistan - Remote",
       "department": "S&M",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:31:09-05:00",
       "state": "open"
     },
     {
@@ -1431,7 +1440,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8344647002",
       "location": "Pakistan - Remote",
       "department": "S&M",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:31:15-05:00",
       "state": "open"
     },
     {
@@ -1440,7 +1449,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8930040002",
       "location": "Hybrid - Islamabad & Lahore; Pakistan - Remote",
       "department": "S&M",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:33:53-05:00",
       "state": "open"
     },
     {
@@ -1449,7 +1458,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8109192002",
       "location": "Hybrid - Bangalore",
       "department": "Software Engineering",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:29:48-05:00",
       "state": "open"
     },
     {
@@ -1462,12 +1471,12 @@
       "state": "open"
     },
     {
-      "id": "21bd1e71fa6a72256f6420ca3c7e203e",
-      "title": "Staff Software Engineer",
+      "id": "5e3e85ce749cc99a7cc4649a2969b66f",
+      "title": "Staff Software Engineer, Backend",
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8651445002",
       "location": "Hybrid - San Francisco, California",
       "department": "Software Engineering",
-      "postedAt": "2026-11-17T05:50:14-05:00",
+      "postedAt": "2026-11-20T02:41:18-05:00",
       "state": "open"
     },
     {
@@ -1543,15 +1552,6 @@
       "state": "open"
     },
     {
-      "id": "299c008975a590325aa74ff9060cf8c3",
-      "title": "Engineering Manager, IoT Platform",
-      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8910519002",
-      "location": "Hybrid - San Francisco, California",
-      "department": "Software Engineering",
-      "postedAt": "2026-11-18T10:28:53-05:00",
-      "state": "open"
-    },
-    {
       "id": "249870438beed58863025ca35ec6920f",
       "title": "Site Reliability Engineer (SRE)",
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8916410002",
@@ -1570,6 +1570,15 @@
       "state": "open"
     },
     {
+      "id": "35d8fac7d36d3f1c33d3eea3d7ded43a",
+      "title": "Software Engineer, Platform IOT",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8950900002",
+      "location": "Hybrid - San Francisco, California",
+      "department": "Software Engineering",
+      "postedAt": "2026-11-19T18:46:37-05:00",
+      "state": "open"
+    },
+    {
       "id": "90299aa87ddb0b58cb06d8c84992c4fb",
       "title": "Fulfillment and Logistics Manager",
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8889315002",
@@ -1584,7 +1593,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8893975002",
       "location": "Taiwan - Taipei",
       "department": "Supply Chain",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-19T15:33:39-05:00",
       "state": "open"
     },
     {
@@ -1639,6 +1648,24 @@
       "location": "United States - Remote",
       "department": "Trial Installations",
       "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "080af1e15741b47a4277da70ca4622fa",
+      "title": "Field Scoping Specialist",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8951503002",
+      "location": "United States - Remote",
+      "department": "Trial Installations",
+      "postedAt": "2026-11-19T13:11:09-05:00",
+      "state": "open"
+    },
+    {
+      "id": "022b086ebc97d8ed3703d8839f4cc386",
+      "title": "Field Scoping Manager",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8951505002",
+      "location": "United States - Remote",
+      "department": "Trial Installations",
+      "postedAt": "2026-11-19T12:58:41-05:00",
       "state": "open"
     }
   ]

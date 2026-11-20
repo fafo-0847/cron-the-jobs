@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://mission.dev/api/opportunities?page=1&perPage=12",
-  "fetchedAt": "2026-11-19T14:59:18.028299+00:00",
+  "fetchedAt": "2026-11-20T16:29:41.693270+00:00",
   "state": "open",
   "jobs": [
     {
@@ -65,22 +65,6 @@
       "missionName": "AI & Engineering Talent Wanted: Multiple Roles, All Levels",
       "missionDescription": "Specialized talent firm on a broad, multi-role hiring mandate across engineering, AI, and product. Openings span the full spectrum, from individual contributors like software developers, AI/ML engineers, MLOps and data engineers, and product designers to engineering managers and senior technology leaders. The focus is on production-ready professionals who have shipped real systems at scale and can contribute from day one. Supporting fast-moving tech companies building ambitious AI and software roadmaps. If you're looking for your next challenge with high-growth teams, we'd love to connect.",
       "postedAt": "2026-10-28T18:35:34Z",
-      "state": "open"
-    },
-    {
-      "id": "5d9a79d37fb36ae78353e8c268913f14",
-      "title": "Senior Software Engineer, Optimization",
-      "link": "",
-      "location": "United States of America",
-      "department": "AI Developer, Back-End Developer",
-      "jobType": "REMOTE",
-      "engagementType": "FULL_TIME_EMPLOYMENT",
-      "primarySkills": "Python",
-      "secondarySkills": "Gurobi, OR-Tools",
-      "slug": "SYNAISE001376",
-      "missionName": "AI & Engineering Talent Wanted: Multiple Roles, All Levels",
-      "missionDescription": "Specialized talent firm on a broad, multi-role hiring mandate across engineering, AI, and product. Openings span the full spectrum, from individual contributors like software developers, AI/ML engineers, MLOps and data engineers, and product designers to engineering managers and senior technology leaders. The focus is on production-ready professionals who have shipped real systems at scale and can contribute from day one. Supporting fast-moving tech companies building ambitious AI and software roadmaps. If you're looking for your next challenge with high-growth teams, we'd love to connect.",
-      "postedAt": "2026-10-27T20:00:49Z",
       "state": "open"
     },
     {

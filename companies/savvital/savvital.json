@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://savvital.breezy.hr",
-  "fetchedAt": "2026-11-19T15:02:14.199943+00:00",
+  "fetchedAt": "2026-11-20T16:32:32.660566+00:00",
   "state": "open",
   "jobs": [
     {
@@ -88,6 +88,17 @@
       "department": "Islamabad, PK",
       "jobType": "Full-Time",
       "remoteType": "Hybrid (Remote And In Person)",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "e387c3f902892fbbf760c09b37245e81",
+      "title": "Senior Accounting Associate",
+      "link": "https://savvital.breezy.hr/p/4c9232961171-senior-accounting-associate",
+      "location": "Islamabad, PK",
+      "department": "Islamabad, PK",
+      "jobType": "Full-Time",
+      "remoteType": "Remote (Any Location)",
       "postedAt": "",
       "state": "open"
     },

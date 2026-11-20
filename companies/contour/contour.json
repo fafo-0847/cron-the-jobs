@@ -1,14 +1,50 @@
 {
   "sourceUrl": "https://contour-software.com/jobs/",
-  "fetchedAt": "2026-11-19T14:54:10.895512+00:00",
+  "fetchedAt": "2026-11-20T16:25:13.290749+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "d8005db834b66a8b0b687b670b7130a3",
+      "title": "BI Administrator",
+      "link": "https://contour-software.com/job-detail/?jobPath=/job/PER---Lahore-PK/BI-Administrator_R55266",
+      "location": "PER - Lahore, PK",
+      "postedAt": "Posted Today",
+      "jobCode": "R55266",
+      "state": "open"
+    },
+    {
+      "id": "6a456acf16df212b41a78e845d04a61c",
+      "title": "DevSecOps Engineer",
+      "link": "https://contour-software.com/job-detail/?jobPath=/job/PER---Karachi-PK/DevSecOps-Engineer_R55240",
+      "location": "3 Locations",
+      "postedAt": "Posted Today",
+      "jobCode": "R55240",
+      "state": "open"
+    },
+    {
+      "id": "6cc4a508ff00fed9a7eb2be0d9777ccb",
+      "title": "Assistant Accountant",
+      "link": "https://contour-software.com/job-detail/?jobPath=/job/PER---Karachi-PK/Assistant-Accountant_R55648",
+      "location": "PER - Karachi, PK",
+      "postedAt": "Posted Today",
+      "jobCode": "R55648",
+      "state": "open"
+    },
+    {
+      "id": "658a492d965381b17922abaeabad4574",
+      "title": "Microsoft 365 & IT Infrastructure Engineer",
+      "link": "https://contour-software.com/job-detail/?jobPath=/job/PER---Lahore-PK/Microsoft-365---IT-Infrastructure-Engineer_R55612-1",
+      "location": "2 Locations",
+      "postedAt": "Posted Today",
+      "jobCode": "R55612",
+      "state": "open"
+    },
     {
       "id": "febb95321aad5fecd90c0560ed738483",
       "title": "Childcare Assistant",
       "link": "https://contour-software.com/job-detail/?jobPath=/job/PER---Karachi-PK/Childcare-Assistant_R47406",
       "location": "PER - Karachi, PK",
-      "postedAt": "Posted Today",
+      "postedAt": "Posted Yesterday",
       "jobCode": "R47406",
       "state": "open"
     },
@@ -17,7 +53,7 @@
       "title": "SQA Trainee",
       "link": "https://contour-software.com/job-detail/?jobPath=/job/PER---Lahore-PK/SQA-Trainee_R54064",
       "location": "PER - Lahore, PK",
-      "postedAt": "Posted Today",
+      "postedAt": "Posted Yesterday",
       "jobCode": "R54064",
       "state": "open"
     },
@@ -26,17 +62,8 @@
       "title": "Senior Software Developer (VB6, .NET)",
       "link": "https://contour-software.com/job-detail/?jobPath=/job/PER---Karachi-PK/Senior-Software-Developer--VB6--NET-_R55365",
       "location": "3 Locations",
-      "postedAt": "Posted Yesterday",
+      "postedAt": "Posted 2 Days Ago",
       "jobCode": "R55365",
-      "state": "open"
-    },
-    {
-      "id": "658a492d965381b17922abaeabad4574",
-      "title": "Microsoft 365 & IT Infrastructure Engineer",
-      "link": "https://contour-software.com/job-detail/?jobPath=/job/PER---Lahore-PK/Microsoft-365---IT-Infrastructure-Engineer_R55612-1",
-      "location": "2 Locations",
-      "postedAt": "Posted Yesterday",
-      "jobCode": "R55612",
       "state": "open"
     },
     {
@@ -44,7 +71,7 @@
       "title": "Client Experience Specialist (Construction Industry)",
       "link": "https://contour-software.com/job-detail/?jobPath=/job/PER---Lahore-PK/Client-Experience-Specialist--Construction-Industry-_R55614",
       "location": "3 Locations",
-      "postedAt": "Posted Yesterday",
+      "postedAt": "Posted 2 Days Ago",
       "jobCode": "R55614",
       "state": "open"
     },
@@ -53,7 +80,7 @@
       "title": "Client Experience Specialist",
       "link": "https://contour-software.com/job-detail/?jobPath=/job/PER---Lahore-PK/Client-Experience-Specialist_R54765",
       "location": "3 Locations",
-      "postedAt": "Posted Yesterday",
+      "postedAt": "Posted 2 Days Ago",
       "jobCode": "R54765",
       "state": "open"
     },
@@ -62,7 +89,7 @@
       "title": "Senior Software Developer (.NET)",
       "link": "https://contour-software.com/job-detail/?jobPath=/job/PER---Lahore-PK/Senior-Software-Developer--NET-_R55363",
       "location": "3 Locations",
-      "postedAt": "Posted Yesterday",
+      "postedAt": "Posted 2 Days Ago",
       "jobCode": "R55363",
       "state": "open"
     },
@@ -71,7 +98,7 @@
       "title": "Senior FullStack Developer",
       "link": "https://contour-software.com/job-detail/?jobPath=/job/PER---Lahore-PK/Senior-FullStack-Developer_R55312",
       "location": "3 Locations",
-      "postedAt": "Posted Yesterday",
+      "postedAt": "Posted 2 Days Ago",
       "jobCode": "R55312",
       "state": "open"
     },
@@ -80,35 +107,8 @@
       "title": "Accounting Trainee",
       "link": "https://contour-software.com/job-detail/?jobPath=/job/PER---Karachi-PK/Accounting-Trainee_R55613",
       "location": "PER - Karachi, PK",
-      "postedAt": "Posted 2 Days Ago",
+      "postedAt": "Posted 3 Days Ago",
       "jobCode": "R55613",
-      "state": "open"
-    },
-    {
-      "id": "b111558bc17b083093de6553aaa9fc0f",
-      "title": "Front Desk Officer/Receptionist",
-      "link": "https://contour-software.com/job-detail/?jobPath=/job/PER---Islamabad-PK/Front-Desk-Officer_R51061",
-      "location": "PER - Islamabad, PK",
-      "postedAt": "Posted 2 Days Ago",
-      "jobCode": "R51061",
-      "state": "open"
-    },
-    {
-      "id": "d8005db834b66a8b0b687b670b7130a3",
-      "title": "BI Administrator",
-      "link": "https://contour-software.com/job-detail/?jobPath=/job/PER---Lahore-PK/BI-Administrator_R55266",
-      "location": "2 Locations",
-      "postedAt": "Posted 6 Days Ago",
-      "jobCode": "R55266",
-      "state": "open"
-    },
-    {
-      "id": "d2c5a948d7f01def9237a79be53282b7",
-      "title": "Associate Director / Director, M&A Execution",
-      "link": "https://contour-software.com/job-detail/?jobPath=/job/Remote-Contour/Associate-Director---Director--M-A-Execution_R55579",
-      "location": "Remote-Contour",
-      "postedAt": "Posted 6 Days Ago",
-      "jobCode": "R55579",
       "state": "open"
     }
   ]

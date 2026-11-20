@@ -1,8 +1,18 @@
 {
   "sourceUrl": "https://www.datumlabs.io/careers",
-  "fetchedAt": "2026-11-19T14:54:22.544226+00:00",
+  "fetchedAt": "2026-11-20T16:25:25.032265+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "a88eab82a01afa7a88b5b19400c5fa6f",
+      "title": "Entry Level DevOps Engineer",
+      "link": "https://www.datumlabs.io/careers/entry-level-devops-engineer",
+      "location": "Lahore (On-Site)",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
     {
       "id": "92f942ccf0e6ecde1ca6212a510fe450",
       "title": "Engineering Manager - Data & AI",

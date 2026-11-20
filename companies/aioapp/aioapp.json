@@ -1,19 +1,8 @@
 {
   "sourceUrl": "https://www.aioapp.com/careers/islamabad",
-  "fetchedAt": "2026-11-19T14:49:49.852713+00:00",
+  "fetchedAt": "2026-11-20T16:21:21.360196+00:00",
   "state": "open",
   "jobs": [
-    {
-      "id": "76816f74cf9f089a41d5f90fb0ef43c1",
-      "title": "Account Executive",
-      "link": "https://aio-app-inc.breezy.hr/p/981922c718e9-account-executive",
-      "location": "Islamabad, PK",
-      "department": "",
-      "jobType": "Full-Time",
-      "jobLevel": "Onsite",
-      "postedAt": "",
-      "state": "open"
-    },
     {
       "id": "bd7d570e780d9689512522ea57b02241",
       "title": "Creative Associate",
@@ -30,17 +19,6 @@
       "title": "Graphic Design Associate",
       "link": "https://aio-app-inc.breezy.hr/p/516130568d68-graphic-design-associate",
       "location": "Islamabad, Islamabad Capital Territory",
-      "department": "",
-      "jobType": "Full-Time",
-      "jobLevel": "Onsite",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "edb9e8996abe101bb7da0a346ca7b71e",
-      "title": "Growth Associate",
-      "link": "https://aio-app-inc.breezy.hr/p/183636fcad38-growth-associate",
-      "location": "Islamabad, PK",
       "department": "",
       "jobType": "Full-Time",
       "jobLevel": "Onsite",
@@ -81,9 +59,20 @@
       "state": "open"
     },
     {
-      "id": "6efd719cbe5b8cd729007c54597eb968",
-      "title": "Product Lead - AI",
-      "link": "https://aio-app-inc.breezy.hr/p/1f6e6ad5eec5-product-lead-ai",
+      "id": "83622081164ad430b3cf39ba9d619a38",
+      "title": "Senior Graphic Design Specialist",
+      "link": "https://aio-app-inc.breezy.hr/p/2b963d34a6af-senior-graphic-design-specialist",
+      "location": "Islamabad, PK",
+      "department": "",
+      "jobType": "Full-Time",
+      "jobLevel": "Onsite",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "bfc934a06ae49b8388d51be6f2c744c6",
+      "title": "Senior Product Design Specialist",
+      "link": "https://aio-app-inc.breezy.hr/p/84050c6a4e5f-senior-product-design-specialist",
       "location": "Islamabad, PK",
       "department": "",
       "jobType": "Full-Time",
