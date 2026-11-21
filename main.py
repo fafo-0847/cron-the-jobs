@@ -3,11 +3,11 @@ from __future__ import annotations
 import asyncio
 import importlib
 import logging
-from datetime import datetime, timezone
 from pathlib import Path
 from typing import Iterable
 
 import diff
+import health
 import time
 
 
@@ -25,27 +25,50 @@ def iter_company_names(companies_dir: Path) -> Iterable[str]:
 			yield entry.name
 
 
-async def run_company(company_name: str, companies_dir: Path) -> list[dict]:
+def resolve_snapshot_path(module, company_name: str, companies_dir: Path) -> Path:
+	# Some scrapers store their snapshot under a different file name than the folder
+	# (e.g. phaedra/phaedrasolutions.json). Use the module's own path when it has one,
+	# otherwise every run would look like a first run and new jobs would never be reported.
+	module_snapshot_path = getattr(module, "snapshotPath", None)
+	if module_snapshot_path is not None:
+		return Path(module_snapshot_path)
+	return companies_dir / company_name / f"{company_name}.json"
+
+
+async def run_company(company_name: str, companies_dir: Path, collector: health.CompanyLogCollector) -> tuple[list[dict], dict | None]:
 	module_name = f"companies.{company_name}.{company_name}"
 	logger.info("Running %s", module_name)
 	module = importlib.import_module(module_name)
 
-	company_json_path = companies_dir / company_name / f"{company_name}.json"
+	company_json_path = resolve_snapshot_path(module, company_name, companies_dir)
 	is_first_run = not company_json_path.exists()
 
 	existing_snapshot = module.loadExistingSnapshot()
 	state = await module.fetchState()
-	new_jobs = diff.diffCompany(company_name, existing_snapshot["jobs"], state["jobs"], is_first_run)
-
-	snapshot = module.buildSnapshot(state, existing_snapshot)
+	old_jobs = existing_snapshot.get("jobs", [])
+	new_jobs_state = state.get("jobs", [])
+	# A scraper sets confirmedEmpty when the source answered correctly and really lists
+	# no openings (e.g. an ATS API returning an empty list). Then the old jobs are closed,
+	# not a failed scrape, so the snapshot is cleared instead of kept.
+	is_confirmed_empty = bool(state.get("confirmedEmpty")) and len(new_jobs_state) == 0
+	if is_confirmed_empty:
+		logger.info("%s: source confirmed 0 open jobs, clearing %d old job(s)", company_name, len(old_jobs))
+		new_jobs = []
+		snapshot = module.buildSnapshot(state, {"jobs": []})
+	else:
+		new_jobs = diff.diffCompany(company_name, old_jobs, new_jobs_state, is_first_run)
+		snapshot = module.buildSnapshot(state, existing_snapshot)
 	module.writeSnapshot(snapshot)
 
+	old_job_count_for_health = 0 if is_confirmed_empty else len(old_jobs)
+	error_entry = health.classifyCompanyRun(company_name, old_job_count_for_health, len(new_jobs_state), collector.records)
+
 	logger.info("Finished %s", module_name)
-	return new_jobs
+	return new_jobs, error_entry
 
 
 async def main() -> None:
-	
+
 	start_time = time.perf_counter()
 
 	companies_dir = Path(__file__).with_name("companies")
@@ -57,21 +80,26 @@ async def main() -> None:
 	batch_entries: list[dict] = []
 	error_entries: list[dict] = []
 
-	for company_name in company_names:
-		try:
-			new_jobs = await run_company(company_name, companies_dir)
-			batch_entries.extend(new_jobs)
-		except Exception as company_error:
-			logger.exception("Company scraper failed: %s", company_name)
-			failed_at = datetime.now(timezone.utc).isoformat()
-			error_record = {
-				"company": company_name,
-				"error": str(company_error),
-				"failedAt": failed_at,
-			}
-			error_entries.append(error_record)
+	collector = health.CompanyLogCollector()
+	root_logger = logging.getLogger()
+	root_logger.addHandler(collector)
 
-	run_date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+	try:
+		for company_name in company_names:
+			collector.reset()
+			try:
+				new_jobs, error_entry = await run_company(company_name, companies_dir, collector)
+				batch_entries.extend(new_jobs)
+			except Exception as company_error:
+				error_entry = health.classifyCompanyRun(company_name, 0, 0, collector.records, company_error)
+				logger.exception("Company scraper failed: %s", company_name)
+			if error_entry is not None:
+				logger.warning("Health: %s %s - %s", company_name, error_entry["type"], error_entry["reason"])
+				error_entries.append(error_entry)
+	finally:
+		root_logger.removeHandler(collector)
+
+	run_date = diff.getRunDate()
 	output_dir = Path(__file__).with_name("output")
 
 	batch_path = diff.getBatchFilePath(output_dir, run_date)

@@ -10,10 +10,15 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import urljoin
 
+import re
+
 from playwright.async_api import async_playwright
+
+from companies._shared import emptyboard
 
 
 sourceUrl = "https://confiz.simplicant.com/?country=PK"
+noResultsPattern = re.compile(r"No results were found", re.I)
 requestTimeoutSeconds = 60
 userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
 confizJsonPath = Path(__file__).with_name("confiz.json")
@@ -70,6 +75,7 @@ async def parseJobItems(page) -> list[dict[str, str]]:
 async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 	logger.info("Fetching Confiz jobs from %s", url)
 	allJobs: list[dict[str, str]] = []
+	confirmedEmpty = False
 
 	async with async_playwright() as playwright:
 		browser = await playwright.chromium.launch(headless=True)
@@ -77,18 +83,21 @@ async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 			page = await browser.new_page(user_agent=userAgent)
 			await page.goto(url, wait_until="domcontentloaded", timeout=requestTimeoutSeconds * 1000)
 
+			# Simplicant shows "No results were found according to your search criteria." when the
+			# country filter has no jobs (Nov 2026: Pakistan no longer appears in the country list).
 			try:
-				await page.wait_for_selector(".list-group.list-jobs .list-group-item", timeout=30000)
+				confirmedEmpty = await emptyboard.waitForJobsOrEmptyNotice(page, ".list-group.list-jobs .list-group-item", noResultsPattern, 30000)
 			except Exception:
 				logger.warning("No jobs found or timeout waiting for job listings.")
 				allJobs = []
 			else:
-				allJobs = await parseJobItems(page)
+				allJobs = [] if confirmedEmpty else await parseJobItems(page)
 				logger.info("Parsed %d total Confiz jobs", len(allJobs))
 
 		except Exception as error:
 			logger.exception("Failed to fetch Confiz jobs: %s", error)
 			allJobs = []
+			confirmedEmpty = False
 		finally:
 			await browser.close()
 
@@ -98,6 +107,7 @@ async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 		"fetchedAt": fetchedAt,
 		"state": "open",
 		"jobs": allJobs,
+		"confirmedEmpty": confirmedEmpty,
 	}
 	return state
 

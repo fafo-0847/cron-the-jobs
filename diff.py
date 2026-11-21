@@ -82,6 +82,11 @@ def diffCompany(companyName: str, oldJobs: list[dict], newJobs: list[dict], isFi
 	return taggedJobs
 
 
+def getRunDate() -> str:
+	runDate = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+	return runDate
+
+
 def getBatchFilePath(outputDir: Path, runDate: str) -> Path:
 	fileName = f"new_jobs_{runDate}.json"
 	batchPath = outputDir / fileName

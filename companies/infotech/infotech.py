@@ -7,6 +7,8 @@ from typing import Any
 
 from playwright.async_api import async_playwright
 
+from companies._shared import browser as sharedBrowser
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("infotech")
 
@@ -46,8 +48,8 @@ async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 	try:
 		async with async_playwright() as playwright:
 			browser = await playwright.chromium.launch()
-			page = await browser.new_page()
-			await page.goto(url, wait_until="domcontentloaded", timeout=30000)
+			page = await sharedBrowser.newPage(browser)
+			await sharedBrowser.gotoChecked(page, url, waitUntil="domcontentloaded", timeoutMs=30000)
 			await page.wait_for_selector(".ld-fancy-heading h3 a", timeout=20000)
 			titleLinkLocator = page.locator(".ld-fancy-heading h3 a")
 			titleLinkCount = await titleLinkLocator.count()

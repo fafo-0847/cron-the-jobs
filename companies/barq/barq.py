@@ -26,6 +26,16 @@ jobBlockPattern = re.compile(
 )
 
 
+# Nov 2026 redesign (CSS modules): <a class="careers_roleLink__x" href="/careers/<slug>"><div>
+# <h3 ...>Title</h3><p class="careers_summary__x ...">Summary</p></div>...</a>
+roleLinkPattern = re.compile(
+	r'<a class="careers_roleLink[^"]*"[^>]*href="(/careers/[^"]+)"[^>]*>\s*<div>\s*'
+	r'<h3[^>]*>(.*?)</h3>\s*(?:<p[^>]*>(.*?)</p>)?',
+	re.DOTALL,
+)
+tagPattern = re.compile(r"<[^>]+>")
+
+
 def generateJobId(title: str, stableId: str) -> str:
 	hasStableId = stableId != ""
 	if hasStableId:
@@ -57,6 +67,11 @@ def normalizeText(text: str) -> str:
 
 def parseJobsFromHtml(htmlText: str) -> list:
 	matches = jobBlockPattern.findall(htmlText)
+	if len(matches) == 0:
+		matches = [
+			(tagPattern.sub("", title), tagPattern.sub("", summary or ""), slug)
+			for slug, title, summary in roleLinkPattern.findall(htmlText)
+		]
 	newJobs = []
 	index = 0
 	while index < len(matches):
@@ -101,8 +116,10 @@ async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 			htmlText = await page.content()
 			await browser.close()
 	except Exception as error:
-		logger.warning("Failed to fetch %s: %s", companyName, error)
+		logger.exception("Failed to fetch %s: %s", companyName, error)
 	jobs = parseJobsFromHtml(htmlText)
+	if htmlText != "" and len(jobs) == 0:
+		logger.error("%s: careers page loaded but no roles parsed (layout changed?)", companyName)
 	state = {"jobs": jobs}
 	return state
 

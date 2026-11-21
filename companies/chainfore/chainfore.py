@@ -4,12 +4,15 @@ import json
 import logging
 from pathlib import Path
 from typing import Any
-from playwright.async_api import async_playwright
+import html as htmlLib
+import re
+
+import aiohttp
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("chainfore")
 
-sourceUrl = "https://chainfore.com/careers/"
+sourceUrl = "https://www.chainfore.com/careers"
 snapshotPath = Path(__file__).parent / "chainfore.json"
 
 
@@ -33,81 +36,71 @@ def loadExistingSnapshot() -> dict[str, Any]:
 	return existingSnapshot
 
 
+noOpeningsPattern = re.compile(r"No roles are open|no open (?:roles|positions)|no openings", re.I)
+openRolesSectionPattern = re.compile(r">\s*Open roles\s*</h2>(.*?)(?:<section|</main>)", re.S | re.I)
+roleHeadingPattern = re.compile(r"<(h3|h4)[^>]*>(.*?)</\1>", re.S | re.I)
+tagPattern = re.compile(r"<[^>]+>")
+userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+
+def stripTags(fragment: str) -> str:
+	text = htmlLib.unescape(tagPattern.sub(" ", fragment))
+	return normalizeText(text)
+
+
+def parseOpenRoles(html: str) -> dict[str, Any]:
+	"""Parses the 'Open roles' section of the Nov 2026 site.
+
+	Returns {"jobs": [...], "confirmedEmpty": bool}. Raises ValueError when the
+	section is missing, so a future redesign is reported instead of silently
+	looking like 'no jobs'.
+	"""
+	sectionMatch = openRolesSectionPattern.search(html)
+	if sectionMatch is None:
+		raise ValueError("chainfore: 'Open roles' section not found (layout changed)")
+	sectionHtml = sectionMatch.group(1)
+	sectionText = stripTags(sectionHtml)
+	if noOpeningsPattern.search(sectionText):
+		return {"jobs": [], "confirmedEmpty": True}
+	jobs: list[dict[str, Any]] = []
+	for headingMatch in roleHeadingPattern.finditer(sectionHtml):
+		title = stripTags(headingMatch.group(2))
+		if title == "":
+			continue
+		jobs.append({
+			"id": generateJobId(title, ""),
+			"title": title,
+			"link": sourceUrl,
+			"location": "",
+			"department": "",
+			"jobType": "",
+			"postedAt": "",
+			"state": "open",
+		})
+	if len(jobs) == 0:
+		raise ValueError(f"chainfore: roles section present but no role headings parsed: {sectionText[:200]}")
+	return {"jobs": jobs, "confirmedEmpty": False}
+
+
 async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 	jobs = []
+	confirmedEmpty = False
 	errorOccurred = False
 	try:
-		async with async_playwright() as playwright:
-			browser = await playwright.chromium.launch()
-			page = await browser.new_page()
-			await page.goto(url, wait_until="domcontentloaded", timeout=45000)
-			await page.wait_for_selector("div.grid.gap-6 > div", timeout=30000)
-			await page.wait_for_timeout(2000)
-			cardElements = await page.query_selector_all("div.grid.gap-6 > div")
-			cardIndex = 0
-			cardCount = len(cardElements)
-			while cardIndex < cardCount:
-				card = cardElements[cardIndex]
-				job = await parseCard(card)
-				jobFound = job is not None
-				if jobFound:
-					jobs.append(job)
-				cardIndex = cardIndex + 1
-			await browser.close()
+		timeout = aiohttp.ClientTimeout(total=45)
+		async with aiohttp.ClientSession(headers={"User-Agent": userAgent}, timeout=timeout) as session:
+			async with session.get(url) as response:
+				response.raise_for_status()
+				html = await response.text()
+		result = parseOpenRoles(html)
+		jobs = result["jobs"]
+		confirmedEmpty = result["confirmedEmpty"]
 	except Exception as fetchException:
 		errorOccurred = True
 		logger.exception("Failed to fetch chainfore jobs: %s", fetchException)
 	stateResult = "error" if errorOccurred else "open"
-	state = dict(jobs=jobs, state=stateResult)
+	state = dict(jobs=jobs, state=stateResult, confirmedEmpty=confirmedEmpty)
 	return state
-
-
-async def parseCard(card) -> dict[str, Any]:
-	parsedJob = None
-	try:
-		titleElement = await card.query_selector("h3")
-		titleElementExists = titleElement is not None
-		if not titleElementExists:
-			return parsedJob
-		rawTitle = await titleElement.inner_text()
-		title = normalizeText(rawTitle)
-		metaElement = await card.query_selector("h3 + div")
-		metaElementExists = metaElement is not None
-		if metaElementExists:
-			metaSpans = await metaElement.query_selector_all("span")
-			metaTexts = await extractSpanTexts(metaSpans)
-		else:
-			metaTexts = []
-		department = metaTexts[0] if len(metaTexts) > 0 else ""
-		location = metaTexts[1] if len(metaTexts) > 1 else ""
-		jobType = metaTexts[2] if len(metaTexts) > 2 else ""
-		compositeKey = title + "|" + department + "|" + location + "|" + jobType
-		jobId = generateJobId(title, compositeKey)
-		parsedJob = dict(
-			id=jobId,
-			title=title,
-			link="",
-			location=location,
-			department=department,
-			jobType=jobType,
-			postedAt="",
-			state="open",
-		)
-	except Exception as parseException:
-		logger.exception("Failed to parse chainfore card: %s", parseException)
-	return parsedJob
-
-
-async def extractSpanTexts(spanElements) -> list:
-	spanTexts = []
-	spanIndex = 0
-	spanCount = len(spanElements)
-	while spanIndex < spanCount:
-		spanElement = spanElements[spanIndex]
-		rawSpanText = await spanElement.inner_text()
-		spanTexts.append(normalizeText(rawSpanText))
-		spanIndex = spanIndex + 1
-	return spanTexts
 
 
 def normalizeText(text: str) -> str:

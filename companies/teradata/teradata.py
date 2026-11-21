@@ -6,10 +6,13 @@ from pathlib import Path
 from typing import Any
 from playwright.async_api import async_playwright
 
+from companies._shared import emptyboard
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("teradata")
 
 sourceUrl = "https://careers.teradata.com/jobs?location=Pakistan"
+noJobsPattern = re.compile(r"No Jobs Matching Criteria", re.I)
 snapshotPath = Path(__file__).parent / "teradata.json"
 
 
@@ -36,12 +39,15 @@ def loadExistingSnapshot() -> dict[str, Any]:
 async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 	jobs = []
 	errorOccurred = False
+	confirmedEmpty = False
 	try:
 		async with async_playwright() as playwright:
 			browser = await playwright.chromium.launch()
 			page = await browser.new_page()
 			await page.goto(url, wait_until="domcontentloaded", timeout=45000)
-			await page.wait_for_selector("article[data-cy='job-search-result-card']", timeout=30000)
+			# gr8people search pages say "Search Returned No Jobs Matching Criteria" when the
+			# Pakistan filter has nothing (seen Nov 2026), instead of rendering result cards.
+			confirmedEmpty = await emptyboard.waitForJobsOrEmptyNotice(page, "article[data-cy='job-search-result-card']", noJobsPattern, 30000)
 			await page.wait_for_timeout(2000)
 			cardElements = await page.query_selector_all("article[data-cy='job-search-result-card']")
 			cardIndex = 0
@@ -58,7 +64,7 @@ async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 		errorOccurred = True
 		logger.exception("Failed to fetch teradata jobs: %s", fetchException)
 	stateResult = "error" if errorOccurred else "open"
-	state = dict(jobs=jobs, state=stateResult)
+	state = dict(jobs=jobs, state=stateResult, confirmedEmpty=confirmedEmpty and not errorOccurred)
 	return state
 
 

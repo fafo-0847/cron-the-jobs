@@ -12,7 +12,7 @@ from typing import Any
 import aiohttp
 
 
-sourceUrl = "https://www.solitontechnologies.com/backend/public/api/getJobs"
+sourceUrl = "https://www.solitontechnologies.com/backend/api/getJobs"
 requestTimeoutSeconds = 30
 solitonJsonPath = Path(__file__).with_name("soliton.json")
 logging.basicConfig(level=logging.INFO, format="%(levelname)s:%(name)s:%(message)s")

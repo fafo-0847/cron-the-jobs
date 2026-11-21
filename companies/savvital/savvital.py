@@ -5,7 +5,7 @@ import datetime
 from pathlib import Path
 from typing import Any
 
-from playwright.async_api import async_playwright
+import aiohttp
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("savvital")
@@ -46,92 +46,54 @@ def normalizeText(rawText) -> str:
 	return normalized
 
 
+# Breezy HR publishes the board as JSON at <board>/json (what the board page renders from).
+# The li.position / h2.group-header markup stopped matching on GitHub runners in Nov 2026,
+# so read the JSON instead. stableId stays the Breezy position id, so ids do not change.
+breezyJsonUrl = baseUrl + "/json"
+userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+
+def parsePosition(position: dict) -> dict[str, Any] | None:
+	title = normalizeText(position.get("name") or "")
+	link = normalizeText(position.get("url") or "")
+	if title == "" or link == "":
+		return None
+	positionId = normalizeText(str(position.get("id") or "")) or extractStableId(link.replace(baseUrl, ""))
+	location = position.get("location") or {}
+	country = normalizeText((location.get("country") or {}).get("name") or "")
+	remoteDetails = location.get("remote_details") or {}
+	isRemote = bool(location.get("is_remote"))
+	remoteType = normalizeText(remoteDetails.get("label") or ("Remote" if isRemote else ""))
+	job = {
+		"id": generateJobId(title, positionId),
+		"title": title,
+		"link": link,
+		"location": country or normalizeText(location.get("name") or ""),
+		"department": normalizeText(position.get("department") or "") or country,
+		"jobType": normalizeText((position.get("type") or {}).get("name") or ""),
+		"remoteType": remoteType,
+		"postedAt": position.get("published_date") or "",
+		"state": "open",
+	}
+	return job
+
+
 async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 	jobs = []
+	confirmedEmpty = False
 	try:
-		async with async_playwright() as playwright:
-			browser = await playwright.chromium.launch()
-			page = await browser.new_page()
-			await page.goto(url, wait_until="domcontentloaded", timeout=30000)
-			await page.wait_for_selector("li.position", timeout=20000)
-			groupHeadingLocator = page.locator("h2.group-header")
-			groupHeadingCount = await groupHeadingLocator.count()
-			groupIndex = 0
-			while groupIndex < groupHeadingCount:
-				currentHeading = groupHeadingLocator.nth(groupIndex)
-				countryLocator = currentHeading.locator("span")
-				countryCount = await countryLocator.count()
-				hasCountry = countryCount > 0
-				if hasCountry:
-					countryText = await countryLocator.first.inner_text()
-					country = normalizeText(countryText)
-				else:
-					country = ""
-				siblingListLocator = currentHeading.locator("xpath=following-sibling::ul[1]")
-				positionLocator = siblingListLocator.locator("li.position")
-				positionCount = await positionLocator.count()
-				positionIndex = 0
-				while positionIndex < positionCount:
-					currentPosition = positionLocator.nth(positionIndex)
-					titleLocator = currentPosition.locator(".position-details a h2")
-					titleCount = await titleLocator.count()
-					hasTitle = titleCount > 0
-					if hasTitle:
-						titleText = await titleLocator.first.inner_text()
-						title = normalizeText(titleText)
-						anchorLocator = currentPosition.locator(".position-details a")
-						anchorCount = await anchorLocator.count()
-						hasAnchor = anchorCount > 0
-						if hasAnchor:
-							href = await anchorLocator.first.get_attribute("href")
-							hasHref = href is not None
-							if not hasHref:
-								href = ""
-						else:
-							href = ""
-						metaLocationLocator = currentPosition.locator("li.location span")
-						metaLocationCount = await metaLocationLocator.count()
-						hasMetaLocation = metaLocationCount > 0
-						if hasMetaLocation:
-							locationText = await metaLocationLocator.first.inner_text()
-							location = normalizeText(locationText)
-						else:
-							location = ""
-						hasRemoteType = metaLocationCount >= 2
-						if hasRemoteType:
-							remoteTypeText = await metaLocationLocator.nth(1).inner_text()
-							remoteType = normalizeText(remoteTypeText)
-						else:
-							remoteType = ""
-						typeLocator = currentPosition.locator("li.type span")
-						typeCount = await typeLocator.count()
-						hasType = typeCount > 0
-						if hasType:
-							typeText = await typeLocator.first.inner_text()
-							jobType = normalizeText(typeText)
-						else:
-							jobType = ""
-						stableId = extractStableId(href)
-						jobId = generateJobId(title, stableId)
-						link = baseUrl + href
-						job = {
-							"id": jobId,
-							"title": title,
-							"link": link,
-							"location": location,
-							"department": country,
-							"jobType": jobType,
-							"remoteType": remoteType,
-							"postedAt": "",
-							"state": "open",
-						}
-						jobs.append(job)
-					positionIndex = positionIndex + 1
-				groupIndex = groupIndex + 1
-			await browser.close()
+		timeout = aiohttp.ClientTimeout(total=30)
+		async with aiohttp.ClientSession(headers={"User-Agent": userAgent}, timeout=timeout) as session:
+			async with session.get(breezyJsonUrl) as response:
+				response.raise_for_status()
+				positions = await response.json(content_type=None)
+		if not isinstance(positions, list):
+			raise ValueError(f"unexpected Breezy payload: {str(positions)[:200]}")
+		jobs = [job for job in (parsePosition(position) for position in positions) if job is not None]
+		confirmedEmpty = len(positions) == 0
 	except Exception as error:
 		logger.exception("savvital: fetchState failed: %s", error)
-	state = {"jobs": jobs, "state": "open"}
+	state = {"jobs": jobs, "state": "open", "confirmedEmpty": confirmedEmpty}
 	return state
 
 

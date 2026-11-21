@@ -6,7 +6,8 @@ import logging
 import re
 from pathlib import Path
 from typing import Any
-from playwright.async_api import async_playwright
+
+import aiohttp
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("ocloud")
@@ -36,108 +37,92 @@ def loadExistingSnapshot() -> dict[str, Any]:
 	return existingSnapshot
 
 
+# The Gatsby careers page now renders "404" after hydration in a browser, so the old
+# DOM scrape never finds a card. The job posts come from a Gatsby static query; read
+# that JSON directly. Job posts are WordPress posts in category "job"; their excerpt
+# carries "key=value" lines (jobType, experience, location, googleFormLink).
+staticQueryUrl = "https://ocloudsolutions.net/page-data/sq/d/2367572342.json"
+careersPageDataUrl = "https://ocloudsolutions.net/page-data/careers/page-data.json"
+staticQueryHashPattern = re.compile(r'"staticQueryHashes"\s*:\s*\[([^\]]*)\]')
+excerptFieldPattern = re.compile(r"(\w+)=([^<\n]+)")
+
+
+def parseExcerptFields(excerpt: str) -> dict[str, str]:
+	fields: dict[str, str] = {}
+	for key, value in excerptFieldPattern.findall(excerpt or ""):
+		fields[key] = normalizeText(value)
+	return fields
+
+
+def parsePosts(posts: list[dict]) -> list[dict[str, Any]]:
+	jobs: list[dict[str, Any]] = []
+	for post in posts:
+		categoryNames = [(node.get("name") or "") for node in (post.get("categories") or {}).get("nodes", [])]
+		isJobPost = "job" in categoryNames
+		if not isJobPost:
+			continue
+		title = normalizeText(post.get("title") or "")
+		relayId = str(post.get("id") or "")
+		if title == "" or relayId == "":
+			continue
+		fields = parseExcerptFields(post.get("excerpt") or "")
+		department = next((name for name in categoryNames if name != "job" and not name.startswith("blog")), "")
+		href = f"/job/{relayId}/"
+		jobs.append(dict(
+			id=generateJobId(title, extractStableId(href)),
+			title=title,
+			link=buildAbsoluteLink(href),
+			location=fields.get("location", ""),
+			department=department,
+			jobType=fields.get("jobType", ""),
+			postedAt=post.get("date") or "",
+			state="open",
+		))
+	return jobs
+
+
+async def getJson(session: aiohttp.ClientSession, url: str) -> Any:
+	async with session.get(url) as response:
+		response.raise_for_status()
+		return await response.json(content_type=None)
+
+
+async def fetchPostsData(session: aiohttp.ClientSession) -> dict:
+	# Prefer the hash the careers page currently lists, since Gatsby re-hashes on rebuilds.
+	candidateUrls = []
+	try:
+		pageData = await getJson(session, careersPageDataUrl)
+		for queryHash in pageData.get("staticQueryHashes", []):
+			candidateUrls.append(f"{baseUrl}/page-data/sq/d/{queryHash}.json")
+	except Exception as error:
+		logger.warning("ocloud: could not read careers page-data, using known static query: %s", error)
+	if staticQueryUrl not in candidateUrls:
+		candidateUrls.append(staticQueryUrl)
+	for candidateUrl in candidateUrls:
+		data = (await getJson(session, candidateUrl)).get("data", {})
+		ocloudsData = data.get("ocloudsData") or {}
+		posts = (ocloudsData.get("posts") or {}).get("nodes")
+		if isinstance(posts, list):
+			return {"posts": posts}
+	raise ValueError("ocloud: no static query with ocloudsData.posts found")
+
+
 async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 	jobs = []
 	errorOccurred = False
+	confirmedEmpty = False
 	try:
-		async with async_playwright() as playwright:
-			browser = await playwright.chromium.launch()
-			page = await browser.new_page()
-			await page.goto(url, wait_until="domcontentloaded", timeout=45000)
-			await page.wait_for_selector("div[class*='categorySection']", timeout=30000)
-			await page.wait_for_timeout(2000)
-			categorySections = await page.query_selector_all("div[class*='categorySection']")
-			categoryIndex = 0
-			categoryCount = len(categorySections)
-			while categoryIndex < categoryCount:
-				categorySection = categorySections[categoryIndex]
-				categoryJobs = await parseCategorySection(categorySection)
-				jobIndex = 0
-				jobCount = len(categoryJobs)
-				while jobIndex < jobCount:
-					jobs.append(categoryJobs[jobIndex])
-					jobIndex = jobIndex + 1
-				categoryIndex = categoryIndex + 1
-			await browser.close()
+		timeout = aiohttp.ClientTimeout(total=45)
+		async with aiohttp.ClientSession(timeout=timeout) as session:
+			postsData = await fetchPostsData(session)
+		jobs = parsePosts(postsData["posts"])
+		confirmedEmpty = len(jobs) == 0
 	except Exception as fetchException:
 		errorOccurred = True
 		logger.exception("Failed to fetch ocloud jobs: %s", fetchException)
 	stateResult = "error" if errorOccurred else "open"
-	state = dict(jobs=jobs, state=stateResult)
+	state = dict(jobs=jobs, state=stateResult, confirmedEmpty=confirmedEmpty)
 	return state
-
-
-async def parseCategorySection(categorySection) -> list:
-	categoryJobs = []
-	try:
-		titleElement = await categorySection.query_selector("h2[class*='title']")
-		titleElementExists = titleElement is not None
-		if titleElementExists:
-			rawCategoryName = await titleElement.inner_text()
-			categoryName = normalizeText(rawCategoryName)
-		else:
-			categoryName = ""
-		cardElements = await categorySection.query_selector_all("div[class*='root-']")
-		cardIndex = 0
-		cardCount = len(cardElements)
-		while cardIndex < cardCount:
-			card = cardElements[cardIndex]
-			job = await parseCard(card, categoryName)
-			jobFound = job is not None
-			if jobFound:
-				categoryJobs.append(job)
-			cardIndex = cardIndex + 1
-	except Exception as sectionException:
-		logger.exception("Failed to parse ocloud category section: %s", sectionException)
-	return categoryJobs
-
-
-async def parseCard(card, categoryName: str) -> dict[str, Any]:
-	parsedJob = None
-	try:
-		titleElement = await card.query_selector("h2[class*='title-']")
-		titleElementExists = titleElement is not None
-		if not titleElementExists:
-			return parsedJob
-		rawTitle = await titleElement.inner_text()
-		title = normalizeText(rawTitle)
-		linkElement = await card.query_selector("a[class*='button-']")
-		linkElementExists = linkElement is not None
-		if not linkElementExists:
-			return parsedJob
-		hrefValue = await linkElement.get_attribute("href")
-		link = buildAbsoluteLink(hrefValue)
-		stableId = extractStableId(hrefValue)
-		pillElements = await card.query_selector_all("div[class*='pill-']")
-		pillTexts = await extractPillTexts(pillElements)
-		jobType = pillTexts[0] if len(pillTexts) > 0 else ""
-		location = pillTexts[2] if len(pillTexts) > 2 else ""
-		jobId = generateJobId(title, stableId)
-		parsedJob = dict(
-			id=jobId,
-			title=title,
-			link=link,
-			location=location,
-			department=categoryName,
-			jobType=jobType,
-			postedAt="",
-			state="open",
-		)
-	except Exception as parseException:
-		logger.exception("Failed to parse ocloud card: %s", parseException)
-	return parsedJob
-
-
-async def extractPillTexts(pillElements) -> list:
-	pillTexts = []
-	pillIndex = 0
-	pillCount = len(pillElements)
-	while pillIndex < pillCount:
-		pillElement = pillElements[pillIndex]
-		rawPillText = await pillElement.inner_text()
-		pillTexts.append(normalizeText(rawPillText))
-		pillIndex = pillIndex + 1
-	return pillTexts
 
 
 def extractStableId(hrefValue: str) -> str:

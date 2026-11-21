@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import html
 import json
 import logging
 import os
@@ -40,20 +41,25 @@ def loadJsonFile(filePath: Path) -> list[dict]:
 
 
 def buildJobRowHtml(job: dict) -> str:
-	company = job.get("company", "")
-	title = job.get("title", "")
-	location = job.get("location", "")
-	link = job.get("link", "")
+	company = html.escape(str(job.get("company", "")))
+	title = html.escape(str(job.get("title", "")))
+	location = html.escape(str(job.get("location", "")))
+	link = html.escape(str(job.get("link", "")), quote=True)
 
 	rowHtml = f"<tr><td>{company}</td><td><a href=\"{link}\">{title}</a></td><td>{location}</td></tr>"
 	return rowHtml
 
 
 def buildErrorRowHtml(errorEntry: dict) -> str:
-	company = errorEntry.get("company", "")
-	errorMessage = errorEntry.get("error", "")
+	company = html.escape(str(errorEntry.get("company", "")))
+	failureType = html.escape(str(errorEntry.get("type", "exception")))
+	reason = html.escape(str(errorEntry.get("reason", "")))
+	errorMessage = html.escape(str(errorEntry.get("error", "")))
+	oldJobCount = errorEntry.get("oldJobCount", "")
+	newJobCount = errorEntry.get("newJobCount", "")
+	jobCountText = html.escape(f"{oldJobCount} → {newJobCount}") if oldJobCount != "" else ""
 
-	rowHtml = f"<tr><td>{company}</td><td>{errorMessage}</td></tr>"
+	rowHtml = f"<tr><td>{company}</td><td>{failureType}</td><td>{reason}</td><td>{jobCountText}</td><td><small>{errorMessage}</small></td></tr>"
 	return rowHtml
 
 
@@ -94,7 +100,7 @@ def buildEmailHtml(newJobs: list[dict], errorEntries: list[dict], runDate: str) 
 		errorsSectionHtml = f"""
 		<h3>Scraper Errors ({errorCount})</h3>
 		<table border="1" cellpadding="6" cellspacing="0">
-			<tr><th>Company</th><th>Error</th></tr>
+			<tr><th>Company</th><th>Type</th><th>Reason</th><th>Jobs (before → now)</th><th>Error</th></tr>
 			{errorRowsHtml}
 		</table>
 		"""

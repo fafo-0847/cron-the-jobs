@@ -5,7 +5,7 @@ import datetime
 from pathlib import Path
 from typing import Any
 
-from playwright.async_api import async_playwright
+from companies._shared import rippling
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("justappraised")
@@ -42,71 +42,17 @@ def normalizeText(rawText: str) -> str:
 
 
 async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
+	# Rippling's markup is generated CSS-in-JS; the job list is read from the page's
+	# embedded __NEXT_DATA__ JSON instead (see companies/_shared/rippling.py).
 	jobs = []
+	confirmedEmpty = False
 	try:
-		async with async_playwright() as playwright:
-			browser = await playwright.chromium.launch()
-			page = await browser.new_page()
-			await page.goto(url, wait_until="domcontentloaded", timeout=30000)
-			await page.wait_for_selector("a[href*='/jobs/']", timeout=20000)
-			headingLocator = page.locator("h3")
-			headingCount = await headingLocator.count()
-			headingIndex = 0
-			while headingIndex < headingCount:
-				currentHeading = headingLocator.nth(headingIndex)
-				headingText = await currentHeading.inner_text()
-				groupName = normalizeText(headingText)
-				siblingLocator = currentHeading.locator("xpath=following-sibling::div[1]")
-				anchorLocator = siblingLocator.locator("a[href*='/jobs/']:not(:has(button))")
-				anchorCount = await anchorLocator.count()
-				anchorIndex = 0
-				while anchorIndex < anchorCount:
-					currentAnchor = anchorLocator.nth(anchorIndex)
-					titleText = await currentAnchor.inner_text()
-					title = normalizeText(titleText)
-					hasTitle = title != ""
-					if hasTitle:
-						href = await currentAnchor.get_attribute("href")
-						hasHref = href is not None
-						if not hasHref:
-							href = ""
-						entryLocator = currentAnchor.locator("xpath=ancestor::div[3]")
-						departmentIconLocator = entryLocator.locator("div:has(span[data-icon='DEPARTMENTS_OUTLINE'])")
-						departmentIconCount = await departmentIconLocator.count()
-						hasDepartmentIcon = departmentIconCount > 0
-						if hasDepartmentIcon:
-							departmentText = await departmentIconLocator.first.locator("p").first.inner_text()
-							department = normalizeText(departmentText)
-						else:
-							department = groupName
-						locationIconLocator = entryLocator.locator("div:has(span[data-icon='LOCATION_OUTLINE'])")
-						locationIconCount = await locationIconLocator.count()
-						hasLocationIcon = locationIconCount > 0
-						if hasLocationIcon:
-							locationText = await locationIconLocator.first.locator("p").first.inner_text()
-							location = normalizeText(locationText)
-						else:
-							location = ""
-						stableId = extractStableId(href)
-						jobId = generateJobId(title, stableId)
-						link = baseUrl + href
-						job = {
-							"id": jobId,
-							"title": title,
-							"link": link,
-							"location": location,
-							"department": department,
-							"jobType": "",
-							"postedAt": "",
-							"state": "open",
-						}
-						jobs.append(job)
-					anchorIndex = anchorIndex + 1
-				headingIndex = headingIndex + 1
-			await browser.close()
+		result = await rippling.fetchBoardJobs(url)
+		jobs = result["jobs"]
+		confirmedEmpty = result["confirmedEmpty"]
 	except Exception as error:
 		logger.exception("justappraised: fetchState failed: %s", error)
-	state = {"jobs": jobs, "state": "open"}
+	state = {"jobs": jobs, "state": "open", "confirmedEmpty": confirmedEmpty}
 	return state
 
 

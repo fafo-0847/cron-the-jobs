@@ -10,7 +10,7 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import urljoin
 
-from playwright.async_api import async_playwright
+import aiohttp
 
 
 sourceUrl = "https://jobs.dubizzlelabs.com"
@@ -27,71 +27,60 @@ def generateJobId(title: str, link: str) -> str:
 	return jobId
 
 
-async def parseJobCards(page) -> list[dict[str, str]]:
-	cards = page.locator("ul.positions.location li.position")
-	count = await cards.count()
+# Breezy HR board. Breezy exposes the published positions as JSON at <board>/json,
+# which is what the board page itself renders from; the old DOM selectors
+# (ul.positions.location li.position) never matched this board's markup.
+breezyJsonUrl = sourceUrl + "/json"
+
+
+def formatBreezyLocation(position: dict) -> str:
+	location = position.get("location") or {}
+	locationName = (location.get("name") or "").strip()
+	if locationName != "":
+		return locationName
+	city = (location.get("city") or "").strip()
+	country = ((location.get("country") or {}).get("name") or "").strip()
+	return ", ".join(part for part in [city, country] if part)
+
+
+def parsePositions(positions: list[dict]) -> list[dict[str, str]]:
 	jobs: list[dict[str, str]] = []
-
-	for i in range(count):
-		card = cards.nth(i)
-		details = card.locator("li.position-details a").first
-		if await details.count() == 0:
+	for position in positions:
+		title = (position.get("name") or "").strip()
+		link = (position.get("url") or "").strip()
+		if title == "" or link == "":
 			continue
-
-		href = (await details.get_attribute("href") or "").strip()
-		link = urljoin(sourceUrl, href)
-
-		titleEl = details.locator("h2")
-		title = (await titleEl.text_content() or "").strip()
-
-		locationEl = details.locator("li.location span")
-		location = (await locationEl.text_content() or "").strip() if await locationEl.count() > 0 else ""
-
-		departmentEl = details.locator("li.department span")
-		department = (await departmentEl.text_content() or "").strip() if await departmentEl.count() > 0 else ""
-
-		if not title or not link:
-			continue
-
-		jobId = generateJobId(title, link)
-
-		record = {
-			"id": jobId,
+		jobs.append({
+			"id": generateJobId(title, link),
 			"title": title,
 			"link": link,
-			"location": location,
-			"department": department,
-			"postedAt": "",
+			"location": formatBreezyLocation(position),
+			"department": (position.get("department") or "").strip(),
+			"jobType": ((position.get("type") or {}).get("name") or "").strip(),
+			"postedAt": position.get("published_date") or "",
 			"state": "open",
-		}
-		jobs.append(record)
-
+		})
 	return jobs
 
 
 async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
-	logger.info("Fetching Dubizzle jobs from %s", url)
-	async with async_playwright() as playwright:
-		browser = await playwright.chromium.launch(headless=True)
-		try:
-			page = await browser.new_page(user_agent=userAgent)
-			await page.goto(url, wait_until="domcontentloaded", timeout=requestTimeoutSeconds * 1000)
-
-			try:
-				await page.wait_for_selector("ul.positions.location li.position", timeout=30000)
-			except Exception:
-				logger.warning("No jobs found or timeout waiting for job listings.")
-				jobs = []
-			else:
-				# Single page layout, no visible pagination in the HTML sample
-				jobs = await parseJobCards(page)
-				
-			logger.info("Parsed %d total Dubizzle jobs", len(jobs))
-		except Exception as error:
-			logger.exception("Failed to fetch Dubizzle jobs: %s", error)
-			jobs = []
-		finally:
-			await browser.close()
+	logger.info("Fetching Dubizzle jobs from %s", breezyJsonUrl)
+	jobs: list[dict[str, str]] = []
+	confirmedEmpty = False
+	try:
+		timeout = aiohttp.ClientTimeout(total=requestTimeoutSeconds)
+		async with aiohttp.ClientSession(headers={"User-Agent": userAgent}, timeout=timeout) as session:
+			async with session.get(breezyJsonUrl) as response:
+				response.raise_for_status()
+				positions = await response.json(content_type=None)
+		if not isinstance(positions, list):
+			raise ValueError(f"unexpected Breezy payload: {str(positions)[:200]}")
+		jobs = parsePositions(positions)
+		confirmedEmpty = len(positions) == 0
+		logger.info("Parsed %d total Dubizzle jobs", len(jobs))
+	except Exception as error:
+		logger.exception("Failed to fetch Dubizzle jobs: %s", error)
+		jobs = []
 
 	fetchedAt = datetime.now(timezone.utc).isoformat()
 	state = {
@@ -99,6 +88,7 @@ async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 		"fetchedAt": fetchedAt,
 		"state": "open",
 		"jobs": jobs,
+		"confirmedEmpty": confirmedEmpty,
 	}
 	return state
 

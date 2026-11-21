@@ -9,10 +9,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from playwright.async_api import async_playwright
+import aiohttp
 
 
-sourceUrl = "https://purelogics.com/careers/"
+sourceUrl = "https://hiring.purelogics.com/careers"
 requestTimeoutSeconds = 60
 userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
 purelogicsJsonPath = Path(__file__).with_name("purelogics.json")
@@ -26,135 +26,75 @@ def generateJobId(title: str, link: str) -> str:
 	return jobId
 
 
-async def parseJobCards(page) -> list[dict[str, str]]:
-	cards = page.locator("li.job_listing")
-	count = await cards.count()
+# Nov 2026: purelogics.com/careers/ is a 404; the site links to a new in-house hiring
+# portal (hiring.purelogics.com/careers) backed by a public JSON API.
+apiUrl = "https://hiring.purelogics.com/api/public/tenant/purelogics/jobs"
+jobLinkTemplate = "https://hiring.purelogics.com/careers/job/{jobId}"
+apiPageSize = 50
+maxPages = 20
+
+
+def formatEnum(value: str) -> str:
+	return (value or "").replace("_", " ").title()
+
+
+def parseApiJobs(items: list[dict]) -> list[dict[str, str]]:
 	jobs: list[dict[str, str]] = []
-
-	for i in range(count):
-		card = cards.nth(i)
-
-		linkEl = card.locator("a").first
-		link = (await linkEl.get_attribute("href") or "").strip()
-
-		titleEl = card.locator("div.position h3")
-		title = (await titleEl.text_content() or "").strip()
-
-		locationEl = card.locator("div.location")
-		location = (await locationEl.text_content() or "").strip()
-
-		timeEl = card.locator("ul.meta li.date time")
-		if await timeEl.count() > 0:
-			postedAt = (await timeEl.get_attribute("datetime") or "").strip()
-			if not postedAt:
-				postedAt = (await timeEl.text_content() or "").strip()
-		else:
-			postedAt = ""
-
-		if not title or not link:
+	for item in items:
+		title = (item.get("title") or "").strip()
+		apiJobId = str(item.get("id") or "").strip()
+		if title == "" or apiJobId == "":
 			continue
-
-		jobId = generateJobId(title, link)
-
-		record = {
-			"id": jobId,
+		link = jobLinkTemplate.format(jobId=apiJobId)
+		jobTypeParts = [formatEnum(item.get("job_type") or ""), formatEnum(item.get("working_model") or "")]
+		jobs.append({
+			"id": generateJobId(title, link),
 			"title": title,
 			"link": link,
-			"location": location,
-			"postedAt": postedAt,
+			"location": (item.get("location") or "").strip(),
+			"department": (item.get("department_name") or "").strip(),
+			"jobType": ", ".join(part for part in jobTypeParts if part),
+			"postedAt": item.get("posted_at") or "",
 			"state": "open",
-		}
-		jobs.append(record)
-
+		})
 	return jobs
 
 
-async def collectAllJobs(page) -> list[dict[str, str]]:
-	allJobs: list[dict[str, str]] = []
-	seenIds: set[str] = set()
-
-	while True:
-		jobs = await parseJobCards(page)
-		newJobs = 0
-		for job in jobs:
-			if job["id"] not in seenIds:
-				seenIds.add(job["id"])
-				allJobs.append(job)
-				newJobs += 1
-		logger.info("Collected %d jobs so far (new on this page: %d)", len(allJobs), newJobs)
-
-		loadMoreBtn = page.locator("a.load_more_jobs")
-		btnExists = await loadMoreBtn.count()
-		
-		if btnExists == 0:
-			break
-			
-		isVisible = await loadMoreBtn.is_visible()
-		if not isVisible:
-			break
-
-		try:
-			await loadMoreBtn.click()
-		except Exception:
-			logger.warning("Failed to click load more button")
-			break
-
-		try:
-			previousCount = len(jobs)
-			await page.wait_for_function(
-				f"""() => {{
-					const els = document.querySelectorAll('li.job_listing');
-					const btn = document.querySelector('a.load_more_jobs');
-					return els.length > {previousCount} || !btn || btn.style.display === 'none' || btn.classList.contains('loading');
-				}}""",
-				timeout=15000,
-			)
-			# Small additional wait if there is a loading class that we need to wait to finish
-			await page.wait_for_function(
-				"""() => {
-					const btn = document.querySelector('a.load_more_jobs');
-					return !btn || !btn.classList.contains('loading');
-				}""",
-				timeout=15000,
-			)
-		except Exception:
-			logger.warning("Timed out waiting for next page to load")
-			break
-
-		await page.wait_for_timeout(500)
-
-	return allJobs
-
-
 async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
-	logger.info("Fetching PureLogics jobs from %s", url)
-	async with async_playwright() as playwright:
-		browser = await playwright.chromium.launch(headless=True)
-		try:
-			page = await browser.new_page(user_agent=userAgent)
-			await page.goto(url, wait_until="networkidle", timeout=requestTimeoutSeconds * 1000)
-
-			try:
-				await page.wait_for_selector("li.job_listing", timeout=30000)
-			except Exception:
-				logger.warning("No jobs found or timeout waiting for job listings.")
-				jobs = []
-			else:
-				jobs = await collectAllJobs(page)
-				
-			logger.info("Parsed %d total PureLogics jobs", len(jobs))
-		except Exception as error:
-			logger.exception("Failed to fetch PureLogics jobs: %s", error)
-			jobs = []
-		finally:
-			await browser.close()
+	logger.info("Fetching PureLogics jobs from %s", apiUrl)
+	allJobs: list[dict[str, str]] = []
+	confirmedEmpty = False
+	try:
+		timeout = aiohttp.ClientTimeout(total=requestTimeoutSeconds)
+		async with aiohttp.ClientSession(headers={"User-Agent": userAgent, "Accept": "application/json"}, timeout=timeout) as session:
+			pageNumber = 1
+			totalPages = 1
+			totalCount = 0
+			while pageNumber <= totalPages and pageNumber <= maxPages:
+				async with session.get(apiUrl, params={"page": str(pageNumber), "page_size": str(apiPageSize)}) as response:
+					response.raise_for_status()
+					payload = await response.json(content_type=None)
+				items = payload.get("items")
+				if not isinstance(items, list):
+					raise ValueError(f"unexpected PureLogics API payload: {str(payload)[:200]}")
+				totalPages = int(payload.get("total_pages") or 1)
+				totalCount = int(payload.get("total_count") or 0)
+				allJobs.extend(parseApiJobs(items))
+				pageNumber = pageNumber + 1
+		confirmedEmpty = len(allJobs) == 0 and totalCount == 0
+		logger.info("Parsed %d total PureLogics jobs", len(allJobs))
+	except Exception as error:
+		logger.exception("Failed to fetch PureLogics jobs: %s", error)
+		allJobs = []
+		confirmedEmpty = False
 
 	fetchedAt = datetime.now(timezone.utc).isoformat()
 	state = {
 		"sourceUrl": url,
 		"fetchedAt": fetchedAt,
 		"state": "open",
-		"jobs": jobs,
+		"jobs": allJobs,
+		"confirmedEmpty": confirmedEmpty,
 	}
 	return state
 

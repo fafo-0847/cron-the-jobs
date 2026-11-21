@@ -5,13 +5,18 @@ import datetime
 from pathlib import Path
 from typing import Any
 
+import re
+
 from playwright.async_api import async_playwright
+
+from companies._shared import emptyboard
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("automotive")
 
 sourceUrl = "https://www.automotive-ai.com/jobs"
 baseUrl = "https://www.automotive-ai.com"
+noOpeningsPattern = re.compile(r"no open job opportunities", re.I)
 companyDir = Path(__file__).parent
 snapshotPath = companyDir / "automotive.json"
 
@@ -49,12 +54,14 @@ def normalizeText(rawText: str) -> str:
 
 async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 	jobs = []
+	confirmedEmpty = False
 	try:
 		async with async_playwright() as playwright:
 			browser = await playwright.chromium.launch()
 			page = await browser.new_page()
 			await page.goto(url, wait_until="domcontentloaded", timeout=30000)
-			await page.wait_for_selector("#jobs_grid .card", timeout=20000)
+			# The Odoo jobs page says "There are currently no open job opportunities" when empty.
+			confirmedEmpty = await emptyboard.waitForJobsOrEmptyNotice(page, "#jobs_grid .card", noOpeningsPattern, 20000)
 			cardLocator = page.locator("#jobs_grid .card")
 			cardCount = await cardLocator.count()
 			index = 0
@@ -146,7 +153,8 @@ async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 			await browser.close()
 	except Exception as error:
 		logger.exception("automotive: fetchState failed: %s", error)
-	state = {"jobs": jobs, "state": "open"}
+		confirmedEmpty = False
+	state = {"jobs": jobs, "state": "open", "confirmedEmpty": confirmedEmpty}
 	return state
 
 

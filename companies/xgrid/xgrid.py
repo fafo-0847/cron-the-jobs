@@ -45,9 +45,15 @@ async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 	jobs = []
 	errorOccurred = False
 	try:
-		request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+		requestHeaders = {"User-Agent": "Mozilla/5.0", "Origin": "https://www.xgrid.co", "Referer": "https://www.xgrid.co/"}
+		request = urllib.request.Request(url, headers=requestHeaders)
 		response = urllib.request.urlopen(request, timeout=30)
 		responseBody = response.read()
+		isInvalidDomainPage = b"invalid-domain" in responseBody[:3000]
+		if isInvalidDomainPage:
+			# Seen since Nov 2026: the Freshteam account behind xgrid.co/open-positions no longer
+			# exists, so xgrid's own site lists no jobs either. Needs a new source when they pick one.
+			raise ValueError("xgrid Freshteam account not found (Freshteam 'invalid domain' page); xgrid.co/open-positions shows no jobs")
 		payload = json.loads(responseBody)
 		rawJobs = payload.get("jobs", [])
 		jobIndex = 0

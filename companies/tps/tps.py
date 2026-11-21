@@ -57,8 +57,15 @@ async def fetchJobsFromApi() -> list[dict[str, str]]:
 			responseText = await response.text()
 
 	payload = json.loads(responseText)
-	data = payload.get("Data", {})
-	jobPosts = data.get("OpenJobPosts", [])
+	apiError = payload.get("Error")
+	if apiError:
+		# Seen since Nov 2026: {"Status":0,"Error":"ORG_NOT_FOUND"}. The WebHR org "tps" was
+		# removed; tpsworldwide.com/careers embeds the same (now dead) WebHR widget.
+		raise ValueError(f"WebHR API error: {apiError} (TPS careers widget on tpsworldwide.com/careers is also empty)")
+	data = payload.get("Data")
+	if not isinstance(data, dict) or not isinstance(data.get("OpenJobPosts"), list):
+		raise ValueError(f"unexpected WebHR payload: {responseText[:200]}")
+	jobPosts = data["OpenJobPosts"]
 
 	jobIndex = 0
 	while jobIndex < len(jobPosts):

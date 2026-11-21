@@ -12,6 +12,8 @@ from urllib.parse import urljoin
 
 from playwright.async_api import async_playwright
 
+from companies._shared import browser as sharedBrowser
+
 
 sourceUrl = "https://careers.tkxel.com/jobs/"
 requestTimeoutSeconds = 60
@@ -80,8 +82,8 @@ async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 	async with async_playwright() as playwright:
 		browser = await playwright.chromium.launch(headless=True)
 		try:
-			page = await browser.new_page(user_agent=userAgent)
-			await page.goto(url, wait_until="domcontentloaded", timeout=requestTimeoutSeconds * 1000)
+			page = await sharedBrowser.newPage(browser)
+			await sharedBrowser.gotoChecked(page, url, waitUntil="domcontentloaded", timeoutMs=requestTimeoutSeconds * 1000)
 
 			try:
 				await page.wait_for_selector(".jobs-cards-wrp .job-card", timeout=30000)

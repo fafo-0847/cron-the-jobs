@@ -5,12 +5,13 @@ import datetime
 from pathlib import Path
 from typing import Any
 
-from playwright.async_api import async_playwright
+from companies._shared import joincom
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("hivebuy")
 
 sourceUrl = "https://www.hivebuy.com/en/career"
+joinCompanySlug = "hivebuy"
 companyDir = Path(__file__).parent
 snapshotPath = companyDir / "hivebuy.json"
 
@@ -47,56 +48,17 @@ def normalizeText(rawText: str) -> str:
 
 
 async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
+	# hivebuy.com/en/career only links out to JOIN; the JOIN board is the source of truth
+	# (and tells us reliably when there are 0 openings, which the HubSpot page cannot).
 	jobs = []
+	confirmedEmpty = False
 	try:
-		async with async_playwright() as playwright:
-			browser = await playwright.chromium.launch()
-			page = await browser.new_page()
-			await page.goto(url, wait_until="domcontentloaded", timeout=30000)
-			await page.wait_for_selector(".feature-icon .inner-icon", timeout=20000)
-			cardLocator = page.locator(".feature-icon .inner-icon")
-			cardCount = await cardLocator.count()
-			index = 0
-			while index < cardCount:
-				currentCard = cardLocator.nth(index)
-				titleLocator = currentCard.locator(".title")
-				titleCount = await titleLocator.count()
-				hasTitle = titleCount > 0
-				if hasTitle:
-					titleText = await titleLocator.first.inner_text()
-					title = normalizeText(titleText)
-					applyLinkLocator = currentCard.locator("a.btntext")
-					applyLinkCount = await applyLinkLocator.count()
-					hasApplyLink = applyLinkCount > 0
-					if hasApplyLink:
-						href = await applyLinkLocator.first.get_attribute("href")
-						hasHref = href is not None
-						if not hasHref:
-							href = ""
-					else:
-						href = ""
-					stableId = extractStableId(href)
-					isRealJobPosting = stableId != ""
-					if isRealJobPosting:
-						jobId = generateJobId(title, stableId)
-						job = {
-							"id": jobId,
-							"title": title,
-							"link": href,
-							"location": "",
-							"department": "",
-							"jobType": "",
-							"postedAt": "",
-							"state": "open",
-						}
-						jobs.append(job)
-					else:
-						logger.info("hivebuy: skipping non-job CTA '%s' (%s)", title, href)
-				index = index + 1
-			await browser.close()
+		result = await joincom.fetchBoardJobs(joinCompanySlug, generateJobId)
+		jobs = result["jobs"]
+		confirmedEmpty = result["confirmedEmpty"]
 	except Exception as error:
 		logger.exception("hivebuy: fetchState failed: %s", error)
-	state = {"jobs": jobs, "state": "open"}
+	state = {"jobs": jobs, "state": "open", "confirmedEmpty": confirmedEmpty}
 	return state
 
 

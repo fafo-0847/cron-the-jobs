@@ -10,7 +10,7 @@ from playwright.async_api import async_playwright
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("togetherwork")
 
-sourceUrl = "https://www.togetherwork.com/jobs/"
+sourceUrl = "https://www.togetherwork.com/jobs/togetherwork/"
 companyDir = Path(__file__).parent
 snapshotPath = companyDir / "togetherwork.json"
 
@@ -43,54 +43,69 @@ def normalizeText(rawText) -> str:
 	return normalized
 
 
+# Nov 2026: /jobs/ now 404s. Listings moved to the WordPress archive /jobs/togetherwork/
+# (article.post > h2.entry-title > a, 10 per page, /page/N/ pagination). The site serves a
+# bot-check stub to plain HTTP clients, so this still uses a real browser.
+maxPages = 10
+userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+
+def buildPageUrl(url: str, pageNumber: int) -> str:
+	baseUrl = url.rstrip("/") + "/"
+	return baseUrl if pageNumber == 1 else f"{baseUrl}page/{pageNumber}/"
+
+
+async def parseArchivePage(page) -> list[dict[str, Any]]:
+	jobs = []
+	articleLocator = page.locator("article.post")
+	articleCount = await articleLocator.count()
+	for index in range(articleCount):
+		article = articleLocator.nth(index)
+		titleLinkLocator = article.locator("h2.entry-title a")
+		if await titleLinkLocator.count() == 0:
+			continue
+		title = normalizeText(await titleLinkLocator.first.inner_text())
+		href = await titleLinkLocator.first.get_attribute("href") or ""
+		if title == "" or "/jobs/" not in href:
+			continue
+		summaryLocator = article.locator("p")
+		description = normalizeText(await summaryLocator.first.inner_text()) if await summaryLocator.count() > 0 else ""
+		jobs.append({
+			"id": generateJobId(title, extractStableId(href)),
+			"title": title,
+			"link": href,
+			"location": "",
+			"department": "",
+			"jobType": "",
+			"description": description,
+			"postedAt": "",
+			"state": "open",
+		})
+	return jobs
+
+
 async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 	jobs = []
 	try:
 		async with async_playwright() as playwright:
 			browser = await playwright.chromium.launch()
-			page = await browser.new_page()
-			await page.goto(url, wait_until="domcontentloaded", timeout=30000)
-			await page.wait_for_selector(".irongforce-job-listing", timeout=20000)
-			cardLocator = page.locator(".irongforce-job-listing")
-			cardCount = await cardLocator.count()
-			index = 0
-			while index < cardCount:
-				currentCard = cardLocator.nth(index)
-				titleLinkLocator = currentCard.locator(".irongforce-job-title a")
-				titleLinkCount = await titleLinkLocator.count()
-				hasTitleLink = titleLinkCount > 0
-				if hasTitleLink:
-					titleText = await titleLinkLocator.first.inner_text()
-					title = normalizeText(titleText)
-					hasNonEmptyTitle = title != ""
-					if hasNonEmptyTitle:
-						href = await titleLinkLocator.first.get_attribute("href")
-						hasHref = href is not None
-						if not hasHref:
-							href = ""
-						summaryLocator = currentCard.locator(".irongforce-job-summary")
-						summaryCount = await summaryLocator.count()
-						hasSummary = summaryCount > 0
-						if hasSummary:
-							summaryText = await summaryLocator.first.inner_text()
-							description = normalizeText(summaryText)
-						else:
-							description = ""
-						stableId = extractStableId(href)
-						jobId = generateJobId(title, stableId)
-						job = {
-							"id": jobId,
-							"title": title,
-							"link": href,
-							"location": "",
-							"department": "",
-							"jobType": "",
-							"description": description,
-							"postedAt": "",
-							"state": "open",
-						}
-						jobs.append(job)
-				index = index + 1
+			page = await browser.new_page(user_agent=userAgent)
+			seenLinks: set[str] = set()
+			for pageNumber in range(1, maxPages + 1):
+				response = await page.goto(buildPageUrl(url, pageNumber), wait_until="domcontentloaded", timeout=30000)
+				isMissingPage = response is not None and response.status == 404
+				if isMissingPage and pageNumber > 1:
+					break
+				await page.wait_for_selector("article.post h2.entry-title a", timeout=20000)
+				pageJobs = [job for job in await parseArchivePage(page) if job["link"] not in seenLinks]
+				if len(pageJobs) == 0:
+					break
+				for job in pageJobs:
+					seenLinks.add(job["link"])
+					jobs.append(job)
+				hasNextPage = await page.locator(f"a[href*='/page/{pageNumber + 1}/']").count() > 0
+				if not hasNextPage:
+					break
 			await browser.close()
 	except Exception as error:
 		logger.exception("togetherwork: fetchState failed: %s", error)

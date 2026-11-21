@@ -5,7 +5,10 @@ import datetime
 from pathlib import Path
 from typing import Any
 
-from playwright.async_api import async_playwright
+import html as htmlLib
+import re
+
+import aiohttp
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("phaedrasolutions")
@@ -43,81 +46,65 @@ def normalizeText(rawText) -> str:
 	return normalized
 
 
+# Nov 2026: site moved from Webflow (.career-card) to WordPress + Elementor. Each job is an
+# Elementor loop item tagged "type-job department-<slug>" with widgets jc0loc1 (location),
+# jc0exp1 (experience), jc0ttl1 (title) and jc0btn1 (ClickUp apply link). Server-rendered.
+loopItemSplitPattern = re.compile(r'<div data-elementor-type="loop-item"')
+jobClassPattern = re.compile(r'class="[^"]*\btype-job\b[^"]*"')
+departmentClassPattern = re.compile(r"\bdepartment-([a-z0-9-]+)")
+userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+
+def widgetText(itemHtml: str, widgetId: str) -> str:
+	match = re.search(r'elementor-element-' + widgetId + r'\b.*?<(?:p|h\d)[^>]*>(.*?)</(?:p|h\d)>', itemHtml, re.S)
+	if match is None:
+		return ""
+	return normalizeText(htmlLib.unescape(re.sub(r"<[^>]+>", "", match.group(1))))
+
+
+def widgetHref(itemHtml: str, widgetId: str) -> str:
+	match = re.search(r'elementor-element-' + widgetId + r'\b.*?<a[^>]*href="([^"]+)"', itemHtml, re.S)
+	return htmlLib.unescape(match.group(1)) if match else ""
+
+
+def parseJobsHtml(html: str) -> list[dict[str, Any]]:
+	jobs = []
+	for chunk in loopItemSplitPattern.split(html)[1:]:
+		header = chunk[:600]
+		classMatch = jobClassPattern.search(header)
+		if classMatch is None:
+			continue
+		title = widgetText(chunk, "jc0ttl1")
+		if title == "":
+			continue
+		departmentMatch = departmentClassPattern.search(classMatch.group(0))
+		department = departmentMatch.group(1).replace("-", " ").title() if departmentMatch else ""
+		href = widgetHref(chunk, "jc0btn1")
+		jobs.append({
+			"id": generateJobId(title, extractStableId(href)),
+			"title": title,
+			"link": href,
+			"location": widgetText(chunk, "jc0loc1"),
+			"department": department,
+			"jobType": "",
+			"experience": widgetText(chunk, "jc0exp1"),
+			"postedAt": "",
+			"state": "open",
+		})
+	return jobs
+
+
 async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 	jobs = []
 	try:
-		async with async_playwright() as playwright:
-			browser = await playwright.chromium.launch()
-			page = await browser.new_page()
-			await page.goto(url, wait_until="domcontentloaded", timeout=30000)
-			await page.wait_for_selector(".career-card", timeout=20000)
-			groupLocator = page.locator(".career-card-block")
-			groupCount = await groupLocator.count()
-			groupIndex = 0
-			while groupIndex < groupCount:
-				currentGroup = groupLocator.nth(groupIndex)
-				departmentLocator = currentGroup.locator(".heading-97")
-				departmentCount = await departmentLocator.count()
-				hasDepartment = departmentCount > 0
-				if hasDepartment:
-					departmentText = await departmentLocator.first.inner_text()
-					department = normalizeText(departmentText)
-				else:
-					department = ""
-				jobCardLocator = currentGroup.locator(".career-card")
-				jobCardCount = await jobCardLocator.count()
-				jobIndex = 0
-				while jobIndex < jobCardCount:
-					currentJobCard = jobCardLocator.nth(jobIndex)
-					titleLocator = currentJobCard.locator(".career-card-text")
-					titleCount = await titleLocator.count()
-					hasTitle = titleCount > 0
-					if hasTitle:
-						titleText = await titleLocator.first.inner_text()
-						title = normalizeText(titleText)
-						hasNonEmptyTitle = title != ""
-						if hasNonEmptyTitle:
-							metaLocator = currentJobCard.locator(".div-block-106 > div")
-							metaCount = await metaLocator.count()
-							hasLocation = metaCount >= 1
-							if hasLocation:
-								locationText = await metaLocator.nth(0).inner_text()
-								location = normalizeText(locationText)
-							else:
-								location = ""
-							hasExperience = metaCount >= 2
-							if hasExperience:
-								experienceText = await metaLocator.nth(1).inner_text()
-								experience = normalizeText(experienceText)
-							else:
-								experience = ""
-							applyLinkLocator = currentJobCard.locator("a.inner-btn")
-							applyLinkCount = await applyLinkLocator.count()
-							hasApplyLink = applyLinkCount > 0
-							if hasApplyLink:
-								href = await applyLinkLocator.first.get_attribute("href")
-								hasHref = href is not None
-								if not hasHref:
-									href = ""
-							else:
-								href = ""
-							stableId = extractStableId(href)
-							jobId = generateJobId(title, stableId)
-							job = {
-								"id": jobId,
-								"title": title,
-								"link": href,
-								"location": location,
-								"department": department,
-								"jobType": "",
-								"experience": experience,
-								"postedAt": "",
-								"state": "open",
-							}
-							jobs.append(job)
-					jobIndex = jobIndex + 1
-				groupIndex = groupIndex + 1
-			await browser.close()
+		timeout = aiohttp.ClientTimeout(total=30)
+		async with aiohttp.ClientSession(headers={"User-Agent": userAgent}, timeout=timeout) as session:
+			async with session.get(url) as response:
+				response.raise_for_status()
+				html = await response.text()
+		jobs = parseJobsHtml(html)
+		if len(jobs) == 0:
+			logger.error("phaedrasolutions: no Elementor job loop items found (layout changed?)")
 	except Exception as error:
 		logger.exception("phaedrasolutions: fetchState failed: %s", error)
 	state = {"jobs": jobs, "state": "open"}
