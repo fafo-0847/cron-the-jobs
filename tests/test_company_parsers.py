@@ -147,3 +147,14 @@ def test_harmonic_ashby_job():
 		"employmentType": "FullTime", "jobUrl": "https://jobs.ashbyhq.com/harmonic-ai/e3b5", "publishedAt": "2026-11-01"})
 	assert job["link"] == "https://jobs.ashbyhq.com/harmonic-ai/e3b5" and job["department"] == "Sales"
 	assert harmonicai.parseAshbyJob({"title": ""}) is None
+
+
+def test_barq_new_role_links_keep_old_ids():
+	from companies.barq import barq
+	html = ('<ul role="list" class="careers_roles__JilSM"><li><a class="careers_roleLink__mHZAk" aria-labelledby="x" href="/careers/marketing-intern"><div>'
+		'<h3 id="role-title-marketing-intern" class="rc-display careers_roleTitle__tYxte">Marketing Intern</h3>'
+		'<p class="careers_summary__w3oeL line-clamp-3">Barq Dev is hiring.</p></div><span>View role</span></a></li></ul>')
+	job = barq.parseJobsFromHtml(html)[0]
+	assert job["id"] == "073111fd8612f607aa544719e9161786"
+	assert job["link"] == "https://barq.dev/careers/marketing-intern"
+	assert job["description"] == "Barq Dev is hiring."

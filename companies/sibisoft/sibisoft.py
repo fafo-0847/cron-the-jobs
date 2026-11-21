@@ -10,12 +10,15 @@ from typing import Any
 
 from playwright.async_api import async_playwright
 
+from companies._shared import emptyboard
+
 logger = logging.getLogger(__name__)
 
 companyName = "sibisoft"
 companyDir = Path(__file__).parent
 snapshotPath = companyDir / f"{companyName}.json"
 
+noVacanciesPattern = re.compile(r"no vacancies available", re.I)
 sourceUrl = "https://app.myhcm.pk/CareerPortal/Careers?q=S57nvxmYbMdN17VpCEUmkA%3D%3D&lang=null"
 
 jobCardMarker = 'class="hcm-jpp-job"'
@@ -106,6 +109,7 @@ def parseJobsFromHtml(htmlText: str) -> list:
 
 async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 	htmlText = ""
+	confirmedEmpty = False
 	try:
 		async with async_playwright() as playwright:
 			browser = await playwright.chromium.launch()
@@ -116,14 +120,16 @@ async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 				)
 			)
 			await page.goto(url, wait_until="networkidle", timeout=45000)
-			await page.wait_for_selector(".hcm-jpp-job", timeout=20000)
+			# MiHCM shows "There are no vacancies available at this time." when empty (seen Nov 2026).
+			confirmedEmpty = await emptyboard.waitForJobsOrEmptyNotice(page, ".hcm-jpp-job", noVacanciesPattern, 20000)
 			await page.wait_for_timeout(1500)
 			htmlText = await page.content()
 			await browser.close()
 	except Exception as error:
-		logger.warning("Failed to fetch %s: %s", companyName, error)
-	jobs = parseJobsFromHtml(htmlText)
-	state = {"jobs": jobs}
+		logger.exception("Failed to fetch %s: %s", companyName, error)
+		confirmedEmpty = False
+	jobs = [] if confirmedEmpty else parseJobsFromHtml(htmlText)
+	state = {"jobs": jobs, "confirmedEmpty": confirmedEmpty and len(jobs) == 0}
 	return state
 
 
