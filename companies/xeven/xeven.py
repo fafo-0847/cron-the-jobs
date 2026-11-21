@@ -9,10 +9,13 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from playwright.async_api import async_playwright
+import html as htmlLib
+import re
+
+import aiohttp
 
 
-sourceUrl = "https://www.xevensolutions.com/careers/"
+sourceUrl = "https://www.xevensolutions.com/careers"
 requestTimeoutSeconds = 60
 userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
 xevenJsonPath = Path(__file__).with_name("xeven.json")
@@ -26,80 +29,58 @@ def generateJobId(title: str, jobType: str, location: str) -> str:
 	return jobId
 
 
-async def parseJobCards(page) -> list[dict[str, str]]:
-	cards = page.locator("ul.mt-8 > li")
-	count = await cards.count()
+# 2026 redesign: roles are <div class="role-row"><h4>Title</h4><span class="meta">Team</span>
+# <span class="meta">Location</span></div> inside <div class="roles">, server-rendered, no per-role links.
+roleRowPattern = re.compile(r'<div class="role-row">(.*?)</div>', re.S)
+roleTitlePattern = re.compile(r"<h4[^>]*>(.*?)</h4>", re.S)
+roleMetaPattern = re.compile(r'<span class="meta">(.*?)</span>', re.S)
+
+
+def cleanText(fragment: str) -> str:
+	text = htmlLib.unescape(re.sub(r"<[^>]+>", " ", fragment))
+	return re.sub(r"\s+", " ", text).strip()
+
+
+def parseRolesHtml(html: str, url: str = sourceUrl) -> list[dict[str, str]]:
 	jobs: list[dict[str, str]] = []
-
-	cardIndex = 0
-	while cardIndex < count:
-		card = cards.nth(cardIndex)
-
-		titleEl = card.locator("h3").first
-		title = (await titleEl.inner_text() or "").strip() if await titleEl.count() > 0 else ""
-
-		detailSpans = card.locator("div.flex.flex-wrap.gap-x-4.gap-y-1 span")
-		spanCount = await detailSpans.count()
-
-		jobType = ""
-		location = ""
-
-		hasJobType = spanCount >= 1
-		if hasJobType:
-			jobTypeText = await detailSpans.nth(0).inner_text()
-			jobType = (jobTypeText or "").strip()
-
-		hasLocation = spanCount >= 3
-		if hasLocation:
-			locationText = await detailSpans.nth(2).inner_text()
-			location = (locationText or "").strip()
-
-		if not title:
-			cardIndex = cardIndex + 1
+	for rowMatch in roleRowPattern.finditer(html):
+		rowHtml = rowMatch.group(1)
+		titleMatch = roleTitlePattern.search(rowHtml)
+		title = cleanText(titleMatch.group(1)) if titleMatch else ""
+		if title == "":
 			continue
-
-		jobId = generateJobId(title, jobType, location)
-
-		record = {
-			"id": jobId,
+		metas = [cleanText(text) for text in roleMetaPattern.findall(rowHtml)]
+		department = metas[0] if len(metas) > 0 else ""
+		location = metas[1] if len(metas) > 1 else ""
+		jobs.append({
+			"id": generateJobId(title, department, location),
 			"title": title,
-			"link": sourceUrl,
+			"link": url,
 			"location": location,
-			"department": "",
-			"jobType": jobType,
+			"department": department,
+			"jobType": "",
 			"postedAt": "",
 			"state": "open",
-		}
-		jobs.append(record)
-		cardIndex = cardIndex + 1
-
+		})
 	return jobs
 
 
 async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 	logger.info("Fetching Xeven jobs from %s", url)
 	allJobs: list[dict[str, str]] = []
-
-	async with async_playwright() as playwright:
-		browser = await playwright.chromium.launch(headless=True)
-		try:
-			page = await browser.new_page(user_agent=userAgent)
-			await page.goto(url, wait_until="domcontentloaded", timeout=requestTimeoutSeconds * 1000)
-
-			try:
-				await page.wait_for_selector("ul.mt-8 > li", timeout=30000)
-			except Exception:
-				logger.warning("No jobs found or timeout waiting for job listings.")
-				allJobs = []
-			else:
-				allJobs = await parseJobCards(page)
-				logger.info("Parsed %d total Xeven jobs", len(allJobs))
-
-		except Exception as error:
-			logger.exception("Failed to fetch Xeven jobs: %s", error)
-			allJobs = []
-		finally:
-			await browser.close()
+	try:
+		timeout = aiohttp.ClientTimeout(total=requestTimeoutSeconds)
+		async with aiohttp.ClientSession(headers={"User-Agent": userAgent}, timeout=timeout) as session:
+			async with session.get(url) as response:
+				response.raise_for_status()
+				html = await response.text()
+		allJobs = parseRolesHtml(html, url)
+		if len(allJobs) == 0:
+			logger.error("Xeven: no role rows found on careers page (layout changed?)")
+		logger.info("Parsed %d total Xeven jobs", len(allJobs))
+	except Exception as error:
+		logger.exception("Failed to fetch Xeven jobs: %s", error)
+		allJobs = []
 
 	fetchedAt = datetime.now(timezone.utc).isoformat()
 	state = {

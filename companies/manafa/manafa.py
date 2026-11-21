@@ -5,12 +5,16 @@ import logging
 import re
 from pathlib import Path
 from typing import Any
+
 from playwright.async_api import async_playwright
+
+from companies._shared import emptyboard
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("manafa")
 
 sourceUrl = "https://manafatechnologies.applytojob.com"
+noOpeningsPattern = re.compile(r"There are no open positions", re.I)
 snapshotPath = Path(__file__).parent / "manafa.json"
 
 
@@ -37,12 +41,14 @@ def loadExistingSnapshot() -> dict[str, Any]:
 async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 	jobs = []
 	errorOccurred = False
+	confirmedEmpty = False
 	try:
 		async with async_playwright() as playwright:
 			browser = await playwright.chromium.launch()
 			page = await browser.new_page()
 			await page.goto(url, wait_until="domcontentloaded", timeout=45000)
-			await page.wait_for_selector("ul.list-group li.list-group-item", timeout=30000)
+			# JazzHR boards say "There are no open positions at this time." when empty.
+			confirmedEmpty = await emptyboard.waitForJobsOrEmptyNotice(page, "ul.list-group li.list-group-item", noOpeningsPattern, 30000)
 			await page.wait_for_timeout(2000)
 			cardElements = await page.query_selector_all("ul.list-group li.list-group-item")
 			cardIndex = 0
@@ -59,7 +65,7 @@ async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 		errorOccurred = True
 		logger.exception("Failed to fetch manafa jobs: %s", fetchException)
 	stateResult = "error" if errorOccurred else "open"
-	state = dict(jobs=jobs, state=stateResult)
+	state = dict(jobs=jobs, state=stateResult, confirmedEmpty=confirmedEmpty and not errorOccurred)
 	return state
 
 

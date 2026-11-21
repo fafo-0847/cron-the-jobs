@@ -10,7 +10,7 @@ from playwright.async_api import async_playwright
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("briskdev")
 
-sourceUrl = "https://briskdev.co/career/"
+sourceUrl = "https://briskdev.co/careers/"
 companyDir = Path(__file__).parent
 snapshotPath = companyDir / "briskdev.json"
 
@@ -29,6 +29,21 @@ def normalizeText(rawText) -> str:
 	return normalized
 
 
+# Nov 2026: /career/ is a WordPress 404 ("Page not found"); the new site is a client-rendered
+# React app at /careers/. Each role is <a href="/careers/<slug>"><h3>Title</h3>
+# <p>Team · Location · Type</p></a>. The slug is used as the stable id.
+siteUrl = "https://briskdev.co"
+roleLinkSelector = "a[href^='/careers/']:has(h3)"
+
+
+def parseMetaLine(metaText: str) -> tuple[str, str, str]:
+	parts = [part.strip() for part in metaText.split("·")]
+	department = parts[0] if len(parts) > 0 else ""
+	location = parts[1] if len(parts) > 1 else ""
+	jobType = parts[2] if len(parts) > 2 else ""
+	return department, location, jobType
+
+
 async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 	jobs = []
 	try:
@@ -36,42 +51,29 @@ async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 			browser = await playwright.chromium.launch()
 			page = await browser.new_page()
 			await page.goto(url, wait_until="domcontentloaded", timeout=30000)
-			await page.wait_for_selector(".ct-fancy-box", timeout=20000)
-			cardLocator = page.locator(".ct-fancy-box")
-			cardCount = await cardLocator.count()
-			index = 0
-			while index < cardCount:
-				currentCard = cardLocator.nth(index)
-				titleLocator = currentCard.locator(".item--title")
-				titleCount = await titleLocator.count()
-				hasTitle = titleCount > 0
-				if hasTitle:
-					titleText = await titleLocator.first.inner_text()
-					title = normalizeText(titleText)
-					hasNonEmptyTitle = title != ""
-					if hasNonEmptyTitle:
-						descriptionLocator = currentCard.locator(".item--description")
-						descriptionCount = await descriptionLocator.count()
-						hasDescription = descriptionCount > 0
-						if hasDescription:
-							descriptionText = await descriptionLocator.first.inner_text()
-							description = normalizeText(descriptionText)
-						else:
-							description = ""
-						jobId = generateJobId(title, description)
-						job = {
-							"id": jobId,
-							"title": title,
-							"link": "",
-							"location": "",
-							"department": "",
-							"jobType": "",
-							"description": description,
-							"postedAt": "",
-							"state": "open",
-						}
-						jobs.append(job)
-				index = index + 1
+			await page.wait_for_selector(roleLinkSelector, state="attached", timeout=20000)
+			roleLocator = page.locator(roleLinkSelector)
+			roleCount = await roleLocator.count()
+			for index in range(roleCount):
+				role = roleLocator.nth(index)
+				title = normalizeText(await role.locator("h3").first.text_content())
+				href = await role.get_attribute("href") or ""
+				if title == "" or href == "":
+					continue
+				metaLocator = role.locator("p")
+				metaText = normalizeText(await metaLocator.first.text_content()) if await metaLocator.count() > 0 else ""
+				department, location, jobType = parseMetaLine(metaText)
+				slug = href.rstrip("/").split("/")[-1]
+				jobs.append({
+					"id": generateJobId(title, slug),
+					"title": title,
+					"link": siteUrl + href,
+					"location": location,
+					"department": department,
+					"jobType": jobType,
+					"postedAt": "",
+					"state": "open",
+				})
 			await browser.close()
 	except Exception as error:
 		logger.exception("briskdev: fetchState failed: %s", error)

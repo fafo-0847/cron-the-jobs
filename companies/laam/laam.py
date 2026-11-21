@@ -10,7 +10,7 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import urljoin
 
-from playwright.async_api import async_playwright
+from companies._shared import peopleforce
 
 
 sourceUrl = "https://laam.peopleforce.io/careers"
@@ -44,107 +44,18 @@ def parseMetaLine(metaText: str) -> tuple[str, str, str]:
 	return department, jobType, location
 
 
-async def parseJobCards(page) -> list[dict[str, str]]:
-	cards = page.locator("#results .row.gy-3 > .col-12")
-	count = await cards.count()
-	jobs: list[dict[str, str]] = []
-
-	cardIndex = 0
-	while cardIndex < count:
-		card = cards.nth(cardIndex)
-		linkEl = card.locator("a.stretched-link").first
-		hasLink = await linkEl.count() > 0
-		if not hasLink:
-			cardIndex = cardIndex + 1
-			continue
-
-		href = (await linkEl.get_attribute("href") or "").strip()
-		link = urljoin(sourceUrl, href)
-		title = (await linkEl.text_content() or "").strip()
-
-		metaEl = card.locator(".tw-text-neutral-dark-80.small").first
-		hasMeta = await metaEl.count() > 0
-		metaText = (await metaEl.text_content() or "").strip() if hasMeta else ""
-
-		department, jobType, location = parseMetaLine(metaText)
-
-		if not title or not link:
-			cardIndex = cardIndex + 1
-			continue
-
-		jobId = generateJobId(title, link)
-
-		record = {
-			"id": jobId,
-			"title": title,
-			"link": link,
-			"location": location,
-			"department": department,
-			"jobType": jobType,
-			"postedAt": "",
-			"state": "open",
-		}
-		jobs.append(record)
-		cardIndex = cardIndex + 1
-
-	return jobs
-
-
-async def getLastPageNumber(page) -> int:
-	pageLinks = page.locator("nav.pagy-bootstrap-nav .page-item .page-link")
-	count = await pageLinks.count()
-	highestPage = 1
-
-	linkIndex = 0
-	while linkIndex < count:
-		linkEl = pageLinks.nth(linkIndex)
-		linkText = (await linkEl.text_content() or "").strip()
-		if linkText.isdigit():
-			pageNumber = int(linkText)
-			if pageNumber > highestPage:
-				highestPage = pageNumber
-		linkIndex = linkIndex + 1
-
-	return highestPage
-
-
 async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 	logger.info("Fetching Laam jobs from %s", url)
 	allJobs: list[dict[str, str]] = []
-
-	async with async_playwright() as playwright:
-		browser = await playwright.chromium.launch(headless=True)
-		try:
-			page = await browser.new_page(user_agent=userAgent)
-			await page.goto(url, wait_until="domcontentloaded", timeout=requestTimeoutSeconds * 1000)
-
-			try:
-				await page.wait_for_selector("#results .row.gy-3", timeout=30000)
-			except Exception:
-				logger.warning("No jobs found or timeout waiting for job listings.")
-				allJobs = []
-			else:
-				lastPage = await getLastPageNumber(page)
-				logger.info("Detected %d total pages", lastPage)
-
-				currentPageNumber = 1
-				while currentPageNumber <= lastPage:
-					if currentPageNumber > 1:
-						pageUrl = f"{url}?page={currentPageNumber}"
-						await page.goto(pageUrl, wait_until="domcontentloaded", timeout=requestTimeoutSeconds * 1000)
-						await page.wait_for_selector("#results .row.gy-3", timeout=30000)
-
-					pageJobs = await parseJobCards(page)
-					allJobs.extend(pageJobs)
-					logger.info("Parsed %d jobs from page %d", len(pageJobs), currentPageNumber)
-					currentPageNumber = currentPageNumber + 1
-
-			logger.info("Parsed %d total Laam jobs", len(allJobs))
-		except Exception as error:
-			logger.exception("Failed to fetch Laam jobs: %s", error)
-			allJobs = []
-		finally:
-			await browser.close()
+	confirmedEmpty = False
+	try:
+		result = await peopleforce.fetchCareersJobs(url, generateJobId)
+		allJobs = result["jobs"]
+		confirmedEmpty = result["confirmedEmpty"]
+		logger.info("Parsed %d total Laam jobs", len(allJobs))
+	except Exception as error:
+		logger.exception("Failed to fetch Laam jobs: %s", error)
+		allJobs = []
 
 	fetchedAt = datetime.now(timezone.utc).isoformat()
 	state = {
@@ -152,6 +63,7 @@ async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 		"fetchedAt": fetchedAt,
 		"state": "open",
 		"jobs": allJobs,
+		"confirmedEmpty": confirmedEmpty,
 	}
 	return state
 

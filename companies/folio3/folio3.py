@@ -10,10 +10,12 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import urljoin
 
-from playwright.async_api import async_playwright
+import aiohttp
+
+from companies._shared import nextjs
 
 
-sourceUrl = "https://folio3.com/careers/"
+sourceUrl = "https://www.folio3.com/careers"
 requestTimeoutSeconds = 60
 userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
 folio3JsonPath = Path(__file__).with_name("folio3.json")
@@ -27,82 +29,57 @@ def generateJobId(title: str, link: str) -> str:
 	return jobId
 
 
-async def parseJobCards(page) -> list[dict[str, str]]:
-	cards = page.locator(".jobs-section-accordion .jobs-box.acc__card")
-	count = await cards.count()
+def parseJobsFromHtml(html: str, baseUrl: str) -> list[dict[str, str]]:
+	# The Next.js site (Nov 2026 redesign) streams the job list as JSON objects
+	# {id, slug, title, division, location, jobType, summary} in its flight data.
+	flightText = nextjs.extractFlightText(html)
+	rawJobs = nextjs.findJsonObjects(flightText, ["slug", "title", "jobType"])
 	jobs: list[dict[str, str]] = []
-
-	cardIndex = 0
-	while cardIndex < count:
-		card = cards.nth(cardIndex)
-
-		titleAttr = await card.get_attribute("data-title")
-		title = (titleAttr or "").strip()
-
-		divisionAttr = await card.get_attribute("data-division")
-		department = (divisionAttr or "").strip()
-
-		locationAttr = await card.get_attribute("data-location")
-		location = (locationAttr or "").strip()
-
-		typeAttr = await card.get_attribute("data-type")
-		jobType = (typeAttr or "").strip()
-
-		linkEl = card.locator("a").first
-		hasLink = await linkEl.count() > 0
-		if not hasLink:
-			cardIndex = cardIndex + 1
+	seenSlugs: set[str] = set()
+	for rawJob in rawJobs:
+		title = str(rawJob.get("title") or "").replace("\xa0", " ").strip()
+		slug = str(rawJob.get("slug") or "").strip()
+		if title == "" or slug == "" or slug in seenSlugs:
 			continue
-
-		href = (await linkEl.get_attribute("href") or "").strip()
-		link = urljoin(sourceUrl, href)
-
-		if not title or not link:
-			cardIndex = cardIndex + 1
-			continue
-
-		jobId = generateJobId(title, link)
-
+		seenSlugs.add(slug)
+		link = urljoin(baseUrl, f"/careers/{slug}")
 		record = {
-			"id": jobId,
+			"id": generateJobId(title, link),
 			"title": title,
 			"link": link,
-			"location": location,
-			"department": department,
-			"jobType": jobType,
+			"location": str(rawJob.get("location") or "").strip(),
+			"department": str(rawJob.get("division") or "").strip(),
+			"jobType": str(rawJob.get("jobType") or "").strip(),
 			"postedAt": "",
 			"state": "open",
 		}
 		jobs.append(record)
-		cardIndex = cardIndex + 1
-
 	return jobs
+
+
+async def fetchHtml(url: str) -> str:
+	headers = {"User-Agent": userAgent, "Accept": "text/html"}
+	timeout = aiohttp.ClientTimeout(total=requestTimeoutSeconds)
+	async with aiohttp.ClientSession(headers=headers, timeout=timeout) as session:
+		async with session.get(url) as response:
+			response.raise_for_status()
+			html = await response.text()
+	return html
 
 
 async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 	logger.info("Fetching Folio3 jobs from %s", url)
 	allJobs: list[dict[str, str]] = []
 
-	async with async_playwright() as playwright:
-		browser = await playwright.chromium.launch(headless=True)
-		try:
-			page = await browser.new_page(user_agent=userAgent)
-			await page.goto(url, wait_until="domcontentloaded", timeout=requestTimeoutSeconds * 1000)
-
-			try:
-				await page.wait_for_selector(".jobs-section-accordion .jobs-box.acc__card", timeout=30000)
-			except Exception:
-				logger.warning("No jobs found or timeout waiting for job listings.")
-				allJobs = []
-			else:
-				allJobs = await parseJobCards(page)
-				logger.info("Parsed %d total Folio3 jobs", len(allJobs))
-
-		except Exception as error:
-			logger.exception("Failed to fetch Folio3 jobs: %s", error)
-			allJobs = []
-		finally:
-			await browser.close()
+	try:
+		html = await fetchHtml(url)
+		allJobs = parseJobsFromHtml(html, url)
+		if len(allJobs) == 0:
+			logger.error("Folio3: no job objects found in page data (layout may have changed)")
+		logger.info("Parsed %d total Folio3 jobs", len(allJobs))
+	except Exception as error:
+		logger.exception("Failed to fetch Folio3 jobs: %s", error)
+		allJobs = []
 
 	fetchedAt = datetime.now(timezone.utc).isoformat()
 	state = {

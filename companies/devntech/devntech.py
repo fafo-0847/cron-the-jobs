@@ -5,7 +5,10 @@ import datetime
 from pathlib import Path
 from typing import Any
 
-from playwright.async_api import async_playwright
+import html as htmlLib
+import re
+
+import aiohttp
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("devntech")
@@ -58,70 +61,63 @@ def stripExperienceLabel(rawText: str) -> str:
 	return normalized
 
 
+rolesSectionPattern = re.compile(r'<section id="roles"[^>]*>(.*?)</section>', re.S)
+roleCardSplitPattern = re.compile(r'<div class="[^"]*\bflex h-full flex-col\b[^"]*">')
+paragraphPattern = re.compile(r"<p[^>]*>(.*?)</p>", re.S)
+tagSpanPattern = re.compile(r'<span class="rounded-md[^"]*">(.*?)</span>', re.S)
+applyLinkPattern = re.compile(r'href="(https://[^"]*\.odoo\.com/jobs/[^"]+)"')
+userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+
+def cleanHtmlText(fragment: str) -> str:
+	return normalizeText(htmlLib.unescape(re.sub(r"<[^>]+>", " ", fragment)))
+
+
+def parseRolesHtml(html: str) -> list[dict[str, Any]]:
+	"""2026 layout: each role card is <div class="flex h-full flex-col ..."> with a title <p>,
+	tag <span>s (work mode, experience), a description <p> and an Odoo apply link."""
+	sectionMatch = rolesSectionPattern.search(html)
+	if sectionMatch is None:
+		raise ValueError("devntech: <section id=roles> not found (layout changed)")
+	jobs: list[dict[str, Any]] = []
+	cardChunks = roleCardSplitPattern.split(sectionMatch.group(1))[1:]
+	for chunk in cardChunks:
+		linkMatch = applyLinkPattern.search(chunk)
+		paragraphs = [cleanHtmlText(text) for text in paragraphPattern.findall(chunk)]
+		if linkMatch is None or len(paragraphs) == 0 or paragraphs[0] == "":
+			continue
+		href = linkMatch.group(1)
+		title = paragraphs[0]
+		tags = [cleanHtmlText(text) for text in tagSpanPattern.findall(chunk)]
+		location = tags[0] if len(tags) > 0 else ""
+		experience = stripExperienceLabel(tags[1]) if len(tags) > 1 else ""
+		description = paragraphs[1] if len(paragraphs) > 1 else ""
+		jobs.append({
+			"id": generateJobId(title, extractStableId(href)),
+			"title": title,
+			"link": href,
+			"location": location,
+			"department": "",
+			"jobType": "",
+			"experience": experience,
+			"description": description,
+			"postedAt": "",
+			"state": "open",
+		})
+	return jobs
+
+
 async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 	jobs = []
 	try:
-		async with async_playwright() as playwright:
-			browser = await playwright.chromium.launch()
-			page = await browser.new_page()
-			await page.goto(url, wait_until="domcontentloaded", timeout=30000)
-			await page.wait_for_selector("a[href*='.odoo.com/jobs/']", timeout=20000)
-			applyLinkLocator = page.locator("a[href*='.odoo.com/jobs/']")
-			applyLinkCount = await applyLinkLocator.count()
-			index = 0
-			while index < applyLinkCount:
-				currentLink = applyLinkLocator.nth(index)
-				href = await currentLink.get_attribute("href")
-				hasHref = href is not None
-				if not hasHref:
-					href = ""
-				cardLocator = currentLink.locator("xpath=ancestor::div[contains(@class,'bg-white')][1]")
-				cardCount = await cardLocator.count()
-				hasCard = cardCount > 0
-				if hasCard:
-					paragraphLocator = cardLocator.first.locator(".flex.flex-col p")
-					paragraphCount = await paragraphLocator.count()
-					hasTitle = paragraphCount >= 1
-					if hasTitle:
-						titleText = await paragraphLocator.nth(0).inner_text()
-						title = normalizeText(titleText)
-						hasNonEmptyTitle = title != ""
-						if hasNonEmptyTitle:
-							hasLocation = paragraphCount >= 2
-							if hasLocation:
-								locationText = await paragraphLocator.nth(1).inner_text()
-								location = normalizeText(locationText)
-							else:
-								location = ""
-							hasExperience = paragraphCount >= 3
-							if hasExperience:
-								experienceText = await paragraphLocator.nth(2).inner_text()
-								experience = stripExperienceLabel(experienceText)
-							else:
-								experience = ""
-							hasDescription = paragraphCount >= 4
-							if hasDescription:
-								descriptionText = await paragraphLocator.nth(3).inner_text()
-								description = normalizeText(descriptionText)
-							else:
-								description = ""
-							stableId = extractStableId(href)
-							jobId = generateJobId(title, stableId)
-							job = {
-								"id": jobId,
-								"title": title,
-								"link": href,
-								"location": location,
-								"department": "",
-								"jobType": "",
-								"experience": experience,
-								"description": description,
-								"postedAt": "",
-								"state": "open",
-							}
-							jobs.append(job)
-				index = index + 1
-			await browser.close()
+		timeout = aiohttp.ClientTimeout(total=30)
+		async with aiohttp.ClientSession(headers={"User-Agent": userAgent}, timeout=timeout) as session:
+			async with session.get(url) as response:
+				response.raise_for_status()
+				html = await response.text()
+		jobs = parseRolesHtml(html)
+		if len(jobs) == 0:
+			logger.error("devntech: roles section has no parsable role cards")
 	except Exception as error:
 		logger.exception("devntech: fetchState failed: %s", error)
 	state = {"jobs": jobs, "state": "open"}

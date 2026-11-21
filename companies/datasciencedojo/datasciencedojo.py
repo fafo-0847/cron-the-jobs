@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from playwright.async_api import async_playwright
+import aiohttp
 
 logger = logging.getLogger(__name__)
 
@@ -18,9 +18,14 @@ snapshotPath = companyDir / f"{companyName}.json"
 
 sourceUrl = "https://datasciencedojo.com/about/careers/"
 
-jobItemMarker = 'class="elementor-icon-list-item"'
-jobLinkPattern = re.compile(r'<a href="([^"]+)"', re.DOTALL)
-jobTitlePattern = re.compile(r'<span class="elementor-icon-list-text">(.*?)</span>', re.DOTALL)
+siteUrl = "https://datasciencedojo.com"
+userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+# Site moved from Elementor (WordPress) to Astro in 2026. Each role is an <a class="role">
+# card with role-category / role-title / role-meta spans; the page also carries a JSON-LD
+# ItemList "#open-roles" which we use as a fallback and as a role count cross-check.
+roleCardPattern = re.compile(r'<a href="(?P<href>[^"]*/jobs/[^"]+)" class="role"[^>]*>(?P<body>.*?)</a>', re.DOTALL)
+roleSpanPattern = re.compile(r'<span class="role-(?P<kind>category|title|meta)"[^>]*>(?P<text>.*?)</span>', re.DOTALL)
+jsonLdPattern = re.compile(r'<script type="application/ld\+json"[^>]*>(.*?)</script>', re.DOTALL)
 
 
 def generateJobId(title: str, stableId: str) -> str:
@@ -66,60 +71,78 @@ def extractSlugFromLink(link: str) -> str:
 	return slug
 
 
+def buildJob(title: str, link: str, department: str = "", meta: str = "") -> dict:
+	absoluteLink = link if link.startswith("http") else siteUrl + link
+	metaParts = [part.strip() for part in meta.split("·")] if meta else []
+	location = metaParts[0] if len(metaParts) > 0 else ""
+	jobType = metaParts[1] if len(metaParts) > 1 else ""
+	stableId = extractSlugFromLink(absoluteLink)
+	job = {
+		"id": generateJobId(title, stableId),
+		"title": title,
+		"link": absoluteLink,
+		"location": location,
+		"department": department,
+		"jobType": jobType,
+		"postedAt": "",
+		"state": "open",
+	}
+	return job
+
+
+def parseJsonLdRoles(htmlText: str) -> list | None:
+	"""Returns the ItemList entries for #open-roles, or None when the list is absent."""
+	for match in jsonLdPattern.finditer(htmlText):
+		try:
+			data = json.loads(match.group(1))
+		except json.JSONDecodeError:
+			continue
+		graph = data.get("@graph", [data]) if isinstance(data, dict) else data
+		for node in graph:
+			isRolesList = isinstance(node, dict) and node.get("@type") == "ItemList" and "open-roles" in str(node.get("@id", ""))
+			if isRolesList:
+				return node.get("itemListElement", [])
+	return None
+
+
 def parseJobsFromHtml(htmlText: str) -> list:
-	jobChunks = htmlText.split(jobItemMarker)
 	newJobs = []
-	index = 1
-	while index < len(jobChunks):
-		chunk = jobChunks[index]
-		linkMatch = jobLinkPattern.search(chunk)
-		link = ""
-		if linkMatch is not None:
-			link = linkMatch.group(1)
-		titleMatch = jobTitlePattern.search(chunk)
-		rawTitle = ""
-		if titleMatch is not None:
-			rawTitle = titleMatch.group(1)
-		title = normalizeText(rawTitle)
-		isJobLink = "/jobs/" in link
-		hasTitleAndLink = title != "" and link != ""
-		if hasTitleAndLink and isJobLink:
-			stableId = extractSlugFromLink(link)
-			jobId = generateJobId(title, stableId)
-			job = {
-				"id": jobId,
-				"title": title,
-				"link": link,
-				"location": "",
-				"department": "",
-				"jobType": "",
-				"postedAt": "",
-				"state": "open",
-			}
-			newJobs.append(job)
-		index = index + 1
+	for cardMatch in roleCardPattern.finditer(htmlText):
+		fields = {spanMatch.group("kind"): normalizeText(spanMatch.group("text")) for spanMatch in roleSpanPattern.finditer(cardMatch.group("body"))}
+		title = fields.get("title", "")
+		if title == "":
+			continue
+		newJobs.append(buildJob(title, cardMatch.group("href"), fields.get("category", ""), fields.get("meta", "")))
+	if len(newJobs) == 0:
+		for item in parseJsonLdRoles(htmlText) or []:
+			title = normalizeText(str(item.get("name", "")))
+			link = str(item.get("url", ""))
+			if title != "" and link != "":
+				newJobs.append(buildJob(title, link))
 	return newJobs
 
 
+async def fetchHtml(url: str) -> str:
+	timeout = aiohttp.ClientTimeout(total=45)
+	async with aiohttp.ClientSession(headers={"User-Agent": userAgent}, timeout=timeout) as session:
+		async with session.get(url) as response:
+			response.raise_for_status()
+			return await response.text()
+
+
 async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
-	htmlText = ""
+	jobs = []
+	confirmedEmpty = False
 	try:
-		async with async_playwright() as playwright:
-			browser = await playwright.chromium.launch()
-			page = await browser.new_page(
-				user_agent=(
-					"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-					"(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-				)
-			)
-			await page.goto(url, wait_until="networkidle", timeout=45000)
-			await page.wait_for_timeout(1500)
-			htmlText = await page.content()
-			await browser.close()
+		htmlText = await fetchHtml(url)
+		jobs = parseJobsFromHtml(htmlText)
+		jsonLdRoles = parseJsonLdRoles(htmlText)
+		confirmedEmpty = len(jobs) == 0 and jsonLdRoles is not None and len(jsonLdRoles) == 0
+		if len(jobs) == 0 and not confirmedEmpty:
+			logger.error("%s: no role cards or JSON-LD roles found (layout changed)", companyName)
 	except Exception as error:
-		logger.warning("Failed to fetch %s: %s", companyName, error)
-	jobs = parseJobsFromHtml(htmlText)
-	state = {"jobs": jobs}
+		logger.exception("Failed to fetch %s: %s", companyName, error)
+	state = {"jobs": jobs, "confirmedEmpty": confirmedEmpty}
 	return state
 
 

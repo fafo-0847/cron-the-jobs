@@ -5,12 +5,13 @@ import datetime
 from pathlib import Path
 from typing import Any
 
-from playwright.async_api import async_playwright
+from companies._shared import bamboohr
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("algo")
 
 sourceUrl = "https://www.algo.com/careers/#open-positions"
+bambooCompany = "algomus"
 companyDir = Path(__file__).parent
 snapshotPath = companyDir / "algo.json"
 
@@ -50,73 +51,17 @@ def normalizeLink(href: str) -> str:
 
 
 async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
+	# algo.com embeds the BambooHR widget for "algomus"; read its public JSON instead of the
+	# rendered widget (.BambooHR-ATS-* markup), which algo.com stopped rendering reliably.
 	jobs = []
+	confirmedEmpty = False
 	try:
-		async with async_playwright() as playwright:
-			browser = await playwright.chromium.launch()
-			page = await browser.new_page()
-			await page.goto(url, wait_until="domcontentloaded", timeout=30000)
-			await page.wait_for_selector(".BambooHR-ATS-Jobs-Item", timeout=20000)
-			departmentLocator = page.locator(".BambooHR-ATS-Department-Item")
-			departmentCount = await departmentLocator.count()
-			departmentIndex = 0
-			while departmentIndex < departmentCount:
-				currentDepartment = departmentLocator.nth(departmentIndex)
-				headerLocator = currentDepartment.locator(".BambooHR-ATS-Department-Header")
-				headerCount = await headerLocator.count()
-				hasHeader = headerCount > 0
-				if hasHeader:
-					headerText = await headerLocator.first.inner_text()
-					department = normalizeText(headerText)
-				else:
-					department = ""
-				jobItemLocator = currentDepartment.locator(".BambooHR-ATS-Jobs-Item")
-				jobItemCount = await jobItemLocator.count()
-				jobIndex = 0
-				while jobIndex < jobItemCount:
-					currentJobItem = jobItemLocator.nth(jobIndex)
-					elementId = await currentJobItem.get_attribute("id")
-					hasElementId = elementId is not None
-					if not hasElementId:
-						elementId = ""
-					linkLocator = currentJobItem.locator("a")
-					linkCount = await linkLocator.count()
-					hasLink = linkCount > 0
-					if hasLink:
-						titleText = await linkLocator.first.inner_text()
-						title = normalizeText(titleText)
-						href = await linkLocator.first.get_attribute("href")
-						hasHref = href is not None
-						if not hasHref:
-							href = ""
-						link = normalizeLink(href)
-						locationLocator = currentJobItem.locator(".BambooHR-ATS-Location")
-						locationCount = await locationLocator.count()
-						hasLocation = locationCount > 0
-						if hasLocation:
-							locationText = await locationLocator.first.inner_text()
-							location = normalizeText(locationText)
-						else:
-							location = ""
-						stableId = extractStableId(elementId)
-						jobId = generateJobId(title, stableId)
-						job = {
-							"id": jobId,
-							"title": title,
-							"link": link,
-							"location": location,
-							"department": department,
-							"jobType": "",
-							"postedAt": "",
-							"state": "open",
-						}
-						jobs.append(job)
-					jobIndex = jobIndex + 1
-				departmentIndex = departmentIndex + 1
-			await browser.close()
+		result = await bamboohr.fetchOpenings(bambooCompany, generateJobId)
+		jobs = result["jobs"]
+		confirmedEmpty = result["confirmedEmpty"]
 	except Exception as error:
 		logger.exception("algo: fetchState failed: %s", error)
-	state = {"jobs": jobs, "state": "open"}
+	state = {"jobs": jobs, "state": "open", "confirmedEmpty": confirmedEmpty}
 	return state
 
 

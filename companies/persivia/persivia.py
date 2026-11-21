@@ -6,12 +6,14 @@ import re
 from pathlib import Path
 from typing import Any
 
-from playwright.async_api import async_playwright
+import html as htmlLib
+
+import aiohttp
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("persivia")
 
-sourceUrl = "https://wp.persivia.com/careers/"
+sourceUrl = "https://persivia.com/careers"
 companyDir = Path(__file__).parent
 snapshotPath = companyDir / "persivia.json"
 
@@ -42,75 +44,49 @@ def normalizeText(rawText) -> str:
 	return normalized
 
 
+jobListPattern = re.compile(r'<ul class="job-list">(.*?)</ul>', re.S)
+jobTitlePattern = re.compile(r'<span class="job-list__title">(.*?)</span>', re.S)
+userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+
+def parseJobList(html: str) -> list[dict[str, str]]:
+	"""Parses the Nov 2026 site: a plain <ul class="job-list"> of titles, applications go
+	through one HubSpot form on the same page (no per-job pages or locations)."""
+	listMatch = jobListPattern.search(html)
+	if listMatch is None:
+		raise ValueError("persivia: job list (ul.job-list) not found (layout changed)")
+	jobs: list[dict[str, str]] = []
+	for titleMatch in jobTitlePattern.finditer(listMatch.group(1)):
+		title = normalizeText(htmlLib.unescape(re.sub(r"<[^>]+>", "", titleMatch.group(1))))
+		if title == "":
+			continue
+		jobs.append({
+			"id": generateJobId(title, ""),
+			"title": title,
+			"link": sourceUrl + "#openings",
+			"location": "",
+			"department": "Persivia Inc",
+			"jobType": "",
+			"postedAt": "",
+			"state": "open",
+		})
+	return jobs
+
+
 async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 	jobs = []
+	confirmedEmpty = False
 	try:
-		async with async_playwright() as playwright:
-			browser = await playwright.chromium.launch()
-			page = await browser.new_page()
-			await page.goto(url, wait_until="domcontentloaded", timeout=30000)
-			await page.wait_for_selector(".tt-job", timeout=20000)
-			cardLocator = page.locator(".tt-job")
-			cardCount = await cardLocator.count()
-			index = 0
-			while index < cardCount:
-				currentCard = cardLocator.nth(index)
-				containerClass = await currentCard.get_attribute("class")
-				hasContainerClass = containerClass is not None
-				if not hasContainerClass:
-					containerClass = ""
-				titleLinkLocator = currentCard.locator(".tt-job__title a")
-				titleLinkCount = await titleLinkLocator.count()
-				hasTitleLink = titleLinkCount > 0
-				if hasTitleLink:
-					titleText = await titleLinkLocator.first.inner_text()
-					title = normalizeText(titleText)
-					hasNonEmptyTitle = title != ""
-					if hasNonEmptyTitle:
-						href = await titleLinkLocator.first.get_attribute("href")
-						hasHref = href is not None
-						if not hasHref:
-							href = ""
-						jobTypeLocator = currentCard.locator(".tt-job__type-text")
-						jobTypeCount = await jobTypeLocator.count()
-						hasJobType = jobTypeCount > 0
-						if hasJobType:
-							jobTypeText = await jobTypeLocator.first.inner_text()
-							jobType = normalizeText(jobTypeText)
-						else:
-							jobType = ""
-						infoItemLocator = currentCard.locator(".tt-job__info li .tt-job__info-text")
-						infoItemCount = await infoItemLocator.count()
-						hasCompanyInfo = infoItemCount >= 1
-						if hasCompanyInfo:
-							companyText = await infoItemLocator.nth(0).inner_text()
-							companyName = normalizeText(companyText)
-						else:
-							companyName = ""
-						hasLocationInfo = infoItemCount >= 2
-						if hasLocationInfo:
-							locationText = await infoItemLocator.nth(1).inner_text()
-							location = normalizeText(locationText)
-						else:
-							location = ""
-						stableId = extractStableId(containerClass)
-						jobId = generateJobId(title, stableId)
-						job = {
-							"id": jobId,
-							"title": title,
-							"link": href,
-							"location": location,
-							"department": companyName,
-							"jobType": jobType,
-							"postedAt": "",
-							"state": "open",
-						}
-						jobs.append(job)
-				index = index + 1
-			await browser.close()
+		timeout = aiohttp.ClientTimeout(total=30)
+		async with aiohttp.ClientSession(headers={"User-Agent": userAgent}, timeout=timeout) as session:
+			async with session.get(url) as response:
+				response.raise_for_status()
+				html = await response.text()
+		jobs = parseJobList(html)
+		confirmedEmpty = len(jobs) == 0
 	except Exception as error:
 		logger.exception("persivia: fetchState failed: %s", error)
-	state = {"jobs": jobs, "state": "open"}
+	state = {"jobs": jobs, "state": "open", "confirmedEmpty": confirmedEmpty}
 	return state
 
 

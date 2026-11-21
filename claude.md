@@ -53,3 +53,41 @@ Use this file as the working context for future company scrape tasks.
 - If a native dependency causes problems, fall back to a stdlib-compatible path when possible.
 - Use `python -m package.module` when running modules.
 
+
+## Failure Reporting (added Nov 2026)
+
+- Scrapers catch their own errors and keep the old snapshot on a zero-job scrape, so `main.py`
+  does not rely on exceptions alone. `health.py` collects every WARNING+/ERROR log line emitted
+  while a company runs and writes an entry to `output/errors_<date>.json` (and the email) when:
+  - `exception`: the scraper raised,
+  - `zero_jobs`: it had jobs before and returned 0 now,
+  - `error_no_jobs`: it returned 0 jobs and logged an ERROR,
+  - `partial_error`: it returned jobs but also logged an ERROR.
+- Each entry has `company`, `type`, `reason` (classified: Cloudflare, DNS, 401/403/404/5xx, non-JSON, timeout, ...),
+  `error`, `details`, `oldJobCount`, `newJobCount`.
+- `python failure_report.py [N]` summarises the last N runs (default 30): failures per company and reasons.
+- So that errors are reported, log failures with `logger.exception` / `logger.error`, not `warning`.
+
+## Empty Boards
+
+- When a source answers correctly and really lists no openings, return `"confirmedEmpty": True`
+  in the `fetchState` state. `main.py` then clears the snapshot instead of keeping stale jobs, and
+  does not report an error. Only set it on positive evidence (ATS API returned an empty list, or
+  the page shows its "no open positions" notice) — never on a timeout.
+- Playwright pages: use `companies/_shared/emptyboard.waitForJobsOrEmptyNotice(page, jobSelector, noticePattern)`.
+
+## Shared Helpers (`companies/_shared/`, skipped by main.py)
+
+- `rippling.py` (ats.rippling.com, reads `__NEXT_DATA__`), `joincom.py` (join.com), `peopleforce.py`,
+  `jazzhr.py` (*.applytojob.com), `bamboohr.py` (*.bamboohr.com/careers/list), `nextjs.py`
+  (read job JSON out of Next.js App Router flight data), `browser.py` (desktop UA, retries,
+  readable 4xx/5xx/Cloudflare errors), `emptyboard.py`.
+- Prefer an ATS JSON endpoint or server-rendered HTML over Playwright selectors: CSS-in-JS / Tailwind
+  class names change on every redesign. Keep job ids stable (`md5(title + stableId)`) when switching
+  sources so existing jobs are not re-reported as new.
+- `main.py` uses the module's `snapshotPath` to decide first-run; keep `snapshotPath` defined.
+
+## Tests
+
+- `python -m pytest -q tests` (offline parser tests with markup captured from live pages; the
+  `emptyboard` test uses headless Chromium and skips if it is not installed).

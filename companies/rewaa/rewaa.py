@@ -74,9 +74,14 @@ def parseJobPosting(posting: dict) -> dict[str, str]:
 async def fetchState(url: str = apiUrl) -> dict[str, Any]:
 	logger.info("Fetching Rewaa jobs from %s", url)
 	allJobs: list[dict[str, str]] = []
+	confirmedEmpty = False
 
 	try:
 		postings = await getJson(url)
+		isValidPayload = isinstance(postings, list)
+		if not isValidPayload:
+			raise ValueError(f"unexpected Lever payload: {str(postings)[:200]}")
+		confirmedEmpty = len(postings) == 0
 		jobIndex = 0
 		while jobIndex < len(postings):
 			posting = postings[jobIndex]
@@ -87,6 +92,7 @@ async def fetchState(url: str = apiUrl) -> dict[str, Any]:
 	except Exception as error:
 		logger.exception("Failed to fetch Rewaa jobs: %s", error)
 		allJobs = []
+		confirmedEmpty = False
 
 	fetchedAt = datetime.now(timezone.utc).isoformat()
 	state = {
@@ -94,6 +100,7 @@ async def fetchState(url: str = apiUrl) -> dict[str, Any]:
 		"fetchedAt": fetchedAt,
 		"state": "open",
 		"jobs": allJobs,
+		"confirmedEmpty": confirmedEmpty,
 	}
 	return state
 

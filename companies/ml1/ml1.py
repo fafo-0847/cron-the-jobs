@@ -83,7 +83,13 @@ async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 			try:
 				await page.wait_for_selector(".sjb-without-logo", timeout=30000)
 			except Exception:
-				logger.warning("No jobs found or timeout waiting for job listings.")
+				# Seen Nov 2026: the careers page no longer renders a Simple Job Board listing at all
+				# and old /jobs/<slug>/ pages 404, i.e. ML1 removed its public job board.
+				hasJobBoardMarkup = await page.locator(".sjb-listing, .sjb-filters, [class*='sjb-job']").count() > 0
+				if hasJobBoardMarkup:
+					logger.warning("No jobs found or timeout waiting for job listings.")
+				else:
+					logger.error("ML1 careers page has no job board listing (Simple Job Board removed; old job URLs 404)")
 				allJobs = []
 			else:
 				allJobs = await parseJobListing(page)

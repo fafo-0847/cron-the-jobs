@@ -36,11 +36,17 @@ def normalizeText(rawText) -> str:
 
 async def fetchState(url: str = apiUrl) -> dict[str, Any]:
 	jobs = []
+	confirmedEmpty = False
 	try:
 		async with aiohttp.ClientSession() as session:
 			async with session.get(url, timeout=aiohttp.ClientTimeout(total=30)) as response:
+				response.raise_for_status()
 				payload = await response.json()
-		rawJobs = payload.get("jobs", [])
+		rawJobs = payload.get("jobs")
+		isValidPayload = isinstance(rawJobs, list)
+		if not isValidPayload:
+			raise ValueError(f"unexpected Ashby payload keys: {list(payload)[:5]}")
+		confirmedEmpty = len(rawJobs) == 0
 		index = 0
 		while index < len(rawJobs):
 			rawJob = rawJobs[index]
@@ -84,7 +90,8 @@ async def fetchState(url: str = apiUrl) -> dict[str, Any]:
 			index = index + 1
 	except Exception as error:
 		logger.exception("noon: fetchState failed: %s", error)
-	state = {"jobs": jobs, "state": "open"}
+		confirmedEmpty = False
+	state = {"jobs": jobs, "state": "open", "confirmedEmpty": confirmedEmpty}
 	return state
 
 

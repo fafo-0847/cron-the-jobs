@@ -10,6 +10,8 @@ from typing import Any
 
 from playwright.async_api import async_playwright
 
+from companies._shared import browser as sharedBrowser
+
 logger = logging.getLogger(__name__)
 
 companyName = "cinnova"
@@ -97,7 +99,7 @@ async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 					"(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 				)
 			)
-			await page.goto(url, wait_until="networkidle", timeout=45000)
+			await sharedBrowser.gotoChecked(page, url, waitUntil="networkidle", timeoutMs=45000)
 			await page.wait_for_selector(".sjb-listing", timeout=20000)
 			await page.wait_for_timeout(1500)
 			htmlText = await page.content()

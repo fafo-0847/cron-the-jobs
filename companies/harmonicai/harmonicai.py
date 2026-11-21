@@ -10,7 +10,9 @@ import aiohttp
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("harmonic")
 
-sourceUrl = "https://boards-api.greenhouse.io/v1/boards/harmonic/jobs?content=true"
+# Harmonic moved from Greenhouse (boards/harmonic now 404s) to Ashby in Nov 2026.
+apiUrl = "https://api.ashbyhq.com/posting-api/job-board/harmonic-ai"
+sourceUrl = "https://jobs.ashbyhq.com/harmonic-ai"
 companyDir = Path(__file__).parent
 snapshotPath = companyDir / "harmonic.json"
 
@@ -33,61 +35,52 @@ def normalizeText(rawText) -> str:
 	return normalized
 
 
-async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
+def parseAshbyJob(rawJob: dict) -> dict | None:
+	title = normalizeText(rawJob.get("title", ""))
+	hasTitle = title != ""
+	if not hasTitle:
+		return None
+	stableId = normalizeText(str(rawJob.get("id", "")))
+	department = normalizeText(rawJob.get("department") or rawJob.get("team") or "")
+	location = normalizeText(rawJob.get("location") or "")
+	jobType = normalizeText(rawJob.get("employmentType") or "")
+	link = normalizeText(rawJob.get("jobUrl") or rawJob.get("applyUrl") or "")
+	postedAt = rawJob.get("publishedAt") or ""
+	jobId = generateJobId(title, stableId)
+	job = {
+		"id": jobId,
+		"title": title,
+		"link": link,
+		"location": location,
+		"department": department,
+		"jobType": jobType,
+		"postedAt": postedAt,
+		"state": "open",
+	}
+	return job
+
+
+async def fetchState(url: str = apiUrl) -> dict[str, Any]:
 	jobs = []
+	confirmedEmpty = False
 	try:
 		async with aiohttp.ClientSession() as session:
 			async with session.get(url, timeout=aiohttp.ClientTimeout(total=30)) as response:
+				response.raise_for_status()
 				payload = await response.json()
-		rawJobs = payload.get("jobs", [])
-		index = 0
-		while index < len(rawJobs):
-			rawJob = rawJobs[index]
-			titleRaw = rawJob.get("title", "")
-			title = normalizeText(titleRaw)
-			hasTitle = title != ""
-			if hasTitle:
-				stableId = str(rawJob.get("id", ""))
-				linkRaw = rawJob.get("absolute_url", "")
-				link = normalizeText(linkRaw)
-				locationData = rawJob.get("location", {})
-				hasLocationData = locationData is not None
-				if hasLocationData:
-					locationName = locationData.get("name", "")
-				else:
-					locationName = ""
-				location = normalizeText(locationName)
-				departmentsData = rawJob.get("departments", [])
-				hasDepartments = len(departmentsData) > 0
-				if hasDepartments:
-					departmentName = departmentsData[0].get("name", "")
-				else:
-					departmentName = ""
-				department = normalizeText(departmentName)
-				postedAtRaw = rawJob.get("first_published", "")
-				hasPostedAtRaw = postedAtRaw is not None
-				if hasPostedAtRaw:
-					postedAt = postedAtRaw
-				else:
-					postedAt = ""
-				requisitionId = rawJob.get("requisition_id", "")
-				jobId = generateJobId(title, stableId)
-				job = {
-					"id": jobId,
-					"title": title,
-					"link": link,
-					"location": location,
-					"department": department,
-					"jobType": "",
-					"requisitionId": requisitionId,
-					"postedAt": postedAt,
-					"state": "open",
-				}
+		rawJobs = payload.get("jobs")
+		isValidPayload = isinstance(rawJobs, list)
+		if not isValidPayload:
+			raise ValueError(f"unexpected Ashby payload keys: {list(payload)[:5]}")
+		confirmedEmpty = len(rawJobs) == 0
+		for rawJob in rawJobs:
+			job = parseAshbyJob(rawJob)
+			if job is not None:
 				jobs.append(job)
-			index = index + 1
 	except Exception as error:
 		logger.exception("harmonic: fetchState failed: %s", error)
-	state = {"jobs": jobs, "state": "open"}
+		confirmedEmpty = False
+	state = {"jobs": jobs, "state": "open", "confirmedEmpty": confirmedEmpty}
 	return state
 
 

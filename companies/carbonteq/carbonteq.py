@@ -5,6 +5,7 @@ import asyncio
 import hashlib
 import json
 import logging
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -12,10 +13,16 @@ from urllib.parse import urljoin
 
 import aiohttp
 
+from companies._shared import nextjs
 
-sourceUrl = "https://carbonteq.com/careers/"
-apiUrl = "https://api.resumatorapi.com/v1/jobs/status/open?apikey=Y5uJhnJlBk1AdkHa5e0G1tie1v0ARW8d"
-boardCode = "ImhgOLzP8U"
+
+# JazzHR (resumator) account was deactivated in 2026 ("This account is no longer active"),
+# so the old API key returns 401. Roles now live on the Next.js careers site, one page
+# per track, each with a "#roles" section.
+sourceUrl = "https://www.carbonteq.com/careers"
+siteUrl = "https://www.carbonteq.com"
+trackSlugs = ["engineering", "talent", "product", "design", "ai-ml", "marketing"]
+userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 requestTimeoutSeconds = 60
 carbonteqJsonPath = Path(__file__).with_name("carbonteq.json")
 logging.basicConfig(level=logging.INFO, format="%(levelname)s:%(name)s:%(message)s")
@@ -28,78 +35,68 @@ def generateJobId(title: str, jobApiId: str) -> str:
 	return jobId
 
 
-def buildJobLink(boardCode: str, jobApiId: str) -> str:
-	link = f"https://carbonteq.resumatorsite.com/apply/{boardCode}/{jobApiId}"
-	return link
+# A role card in the flight data: title <p>, location <p>, then the Apply link.
+roleCardPattern = re.compile(
+	r'"children":"(?P<title>[^"]+)"\}\],\["\$","p",null,\{[^{}]*"children":"(?P<location>[^"]*)"\}\]\]\}\],'
+	r'\["\$","\$L\w+",null,\{"href":"(?P<href>/careers/jobs/(?P<jobUuid>[0-9a-fA-F-]+)/apply)"'
+)
+tagPattern = re.compile(r'\["\$","\$L\w+",null,\{"children":"([^"]+)"\}\]')
+noRolesPattern = re.compile(r"No open roles right now", re.I)
 
 
-def parseJobsFromApi(apiResponse: list) -> list[dict[str, str]]:
+def parseTrackPage(html: str, track: str) -> dict[str, Any]:
+	"""Returns {"jobs": [...], "empty": bool}; raises if the page has neither roles nor the empty notice."""
+	flightText = nextjs.extractFlightText(html)
+	matches = list(roleCardPattern.finditer(flightText))
 	jobs: list[dict[str, str]] = []
-
-	jobIndex = 0
-	while jobIndex < len(apiResponse):
-		jobData = apiResponse[jobIndex]
-
-		jobApiId = jobData.get("id", "")
-		title = jobData.get("title", "").strip()
-		country = jobData.get("country_id", "").strip()
-		city = jobData.get("city", "").strip()
-		state = jobData.get("state", "").strip()
-		department = jobData.get("department", "").strip()
-		jobType = jobData.get("type", "").strip()
-		postedAt = jobData.get("original_open_date", "").strip()
-
-		locationParts: list[str] = []
-		if city:
-			locationParts.append(city)
-		if state:
-			locationParts.append(state)
-		if country:
-			locationParts.append(country)
-		location = ", ".join(locationParts)
-
-		link = buildJobLink(boardCode, jobApiId)
-
-		if not title or not jobApiId:
-			jobIndex = jobIndex + 1
-			continue
-
-		jobId = generateJobId(title, jobApiId)
-
-		record = {
-			"id": jobId,
+	for index, match in enumerate(matches):
+		nextStart = matches[index + 1].start() if index + 1 < len(matches) else min(len(flightText), match.end() + 3000)
+		tags = tagPattern.findall(flightText[match.end():nextStart])
+		title = match.group("title").strip()
+		jobUuid = match.group("jobUuid")
+		jobs.append({
+			"id": generateJobId(title, jobUuid),
 			"title": title,
-			"link": link,
-			"location": location,
-			"department": department,
-			"jobType": jobType,
-			"postedAt": postedAt,
+			"link": siteUrl + match.group("href"),
+			"location": match.group("location").strip(),
+			"department": track,
+			"jobType": ", ".join(tag for tag in tags if tag.lower() != "apply"),
+			"postedAt": "",
 			"state": "open",
-		}
-		jobs.append(record)
-		jobIndex = jobIndex + 1
+		})
+	isEmpty = len(jobs) == 0 and noRolesPattern.search(html) is not None
+	if len(jobs) == 0 and not isEmpty:
+		raise ValueError(f"carbonteq: no roles and no 'No open roles' notice on {track} page (layout changed)")
+	return {"jobs": jobs, "empty": isEmpty}
 
-	return jobs
+
+async def fetchTrackHtml(session: aiohttp.ClientSession, track: str) -> str:
+	async with session.get(f"{sourceUrl}/{track}") as response:
+		response.raise_for_status()
+		return await response.text()
 
 
-async def fetchState(url: str = apiUrl) -> dict[str, Any]:
-	logger.info("Fetching CarbonTeq jobs from API %s", url)
+async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
+	logger.info("Fetching CarbonTeq jobs from %s", url)
 	allJobs: list[dict[str, str]] = []
+	confirmedEmpty = False
 
 	try:
 		timeout = aiohttp.ClientTimeout(total=requestTimeoutSeconds)
-		async with aiohttp.ClientSession(timeout=timeout) as session:
-			async with session.get(url) as response:
-				if response.status == 200:
-					apiData = await response.json()
-					allJobs = parseJobsFromApi(apiData)
-					logger.info("Parsed %d total CarbonTeq jobs", len(allJobs))
-				else:
-					logger.warning("API returned status %d", response.status)
-					allJobs = []
+		async with aiohttp.ClientSession(timeout=timeout, headers={"User-Agent": userAgent}) as session:
+			pages = await asyncio.gather(*(fetchTrackHtml(session, track) for track in trackSlugs))
+		seenIds: set[str] = set()
+		for track, html in zip(trackSlugs, pages):
+			for job in parseTrackPage(html, track)["jobs"]:
+				if job["id"] not in seenIds:
+					seenIds.add(job["id"])
+					allJobs.append(job)
+		confirmedEmpty = len(allJobs) == 0
+		logger.info("Parsed %d total CarbonTeq jobs", len(allJobs))
 	except Exception as error:
-		logger.exception("Failed to fetch CarbonTeq jobs from API: %s", error)
+		logger.exception("Failed to fetch CarbonTeq jobs: %s", error)
 		allJobs = []
+		confirmedEmpty = False
 
 	fetchedAt = datetime.now(timezone.utc).isoformat()
 	state = {
@@ -107,6 +104,7 @@ async def fetchState(url: str = apiUrl) -> dict[str, Any]:
 		"fetchedAt": fetchedAt,
 		"state": "open",
 		"jobs": allJobs,
+		"confirmedEmpty": confirmedEmpty,
 	}
 	return state
 
@@ -159,7 +157,7 @@ def writeSnapshot(snapshot: dict[str, Any]) -> None:
 	carbonteqJsonPath.write_text(output + "\n", encoding="utf-8")
 
 
-async def updateSnapshot(url: str = apiUrl) -> dict[str, Any]:
+async def updateSnapshot(url: str = sourceUrl) -> dict[str, Any]:
 	existingSnapshot = loadExistingSnapshot()
 	try:
 		state = await fetchState(url)
@@ -176,7 +174,7 @@ async def updateSnapshot(url: str = apiUrl) -> dict[str, Any]:
 
 async def runMain() -> None:
 	parser = argparse.ArgumentParser()
-	parser.add_argument("--url", default=apiUrl)
+	parser.add_argument("--url", default=sourceUrl)
 	args = parser.parse_args()
 
 	snapshot = await updateSnapshot(args.url)

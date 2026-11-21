@@ -5,12 +5,13 @@ import datetime
 from pathlib import Path
 from typing import Any
 
-from playwright.async_api import async_playwright
+from companies._shared import jazzhr
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("cloudelligent")
 
-sourceUrl = "https://cloudelligent.com/careers/"
+sourceUrl = "https://cloudelligent.applytojob.com/apply"
+jazzCompany = "cloudelligent"
 companyDir = Path(__file__).parent
 snapshotPath = companyDir / "cloudelligent.json"
 
@@ -55,66 +56,17 @@ def stripLabel(rawText: str) -> str:
 
 
 async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
+	# cloudelligent.com/careers embeds the JazzHR (resumator) widget, which no longer renders
+	# any .resumator-job cards there. The JazzHR board itself is the source of truth.
 	jobs = []
+	confirmedEmpty = False
 	try:
-		async with async_playwright() as playwright:
-			browser = await playwright.chromium.launch()
-			page = await browser.new_page()
-			await page.goto(url, wait_until="domcontentloaded", timeout=30000)
-			await page.wait_for_selector(".resumator-job", timeout=20000)
-			cardLocator = page.locator(".resumator-job")
-			cardCount = await cardLocator.count()
-			index = 0
-			while index < cardCount:
-				currentCard = cardLocator.nth(index)
-				containerId = await currentCard.get_attribute("id")
-				hasContainerId = containerId is not None
-				if not hasContainerId:
-					containerId = ""
-				titleLocator = currentCard.locator(".resumator-job-title")
-				titleCount = await titleLocator.count()
-				hasTitle = titleCount > 0
-				if hasTitle:
-					titleText = await titleLocator.first.inner_text()
-					title = normalizeText(titleText)
-					hasNonEmptyTitle = title != ""
-					if hasNonEmptyTitle:
-						locationLocator = currentCard.locator(".resumator-job-info")
-						locationCount = await locationLocator.count()
-						hasLocation = locationCount > 0
-						if hasLocation:
-							locationText = await locationLocator.first.inner_text()
-							location = stripLabel(locationText)
-						else:
-							location = ""
-						linkLocator = currentCard.locator("a.resumator-job-link")
-						linkCount = await linkLocator.count()
-						hasLink = linkCount > 0
-						if hasLink:
-							href = await linkLocator.first.get_attribute("href")
-							hasHref = href is not None
-							if not hasHref:
-								href = ""
-						else:
-							href = ""
-						stableId = extractStableId(containerId)
-						jobId = generateJobId(title, stableId)
-						job = {
-							"id": jobId,
-							"title": title,
-							"link": href,
-							"location": location,
-							"department": "",
-							"jobType": "",
-							"postedAt": "",
-							"state": "open",
-						}
-						jobs.append(job)
-				index = index + 1
-			await browser.close()
+		result = await jazzhr.fetchBoardJobs(jazzCompany, generateJobId)
+		jobs = result["jobs"]
+		confirmedEmpty = result["confirmedEmpty"]
 	except Exception as error:
 		logger.exception("cloudelligent: fetchState failed: %s", error)
-	state = {"jobs": jobs, "state": "open"}
+	state = {"jobs": jobs, "state": "open", "confirmedEmpty": confirmedEmpty}
 	return state
 
 

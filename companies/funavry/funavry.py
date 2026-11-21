@@ -5,12 +5,15 @@ import datetime
 from pathlib import Path
 from typing import Any
 
-from playwright.async_api import async_playwright
+import html as htmlLib
+import re
+
+import aiohttp
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("funavry")
 
-sourceUrl = "https://www.funavry.com/career.html"
+sourceUrl = "https://www.funavry.com/careers"
 companyDir = Path(__file__).parent
 snapshotPath = companyDir / "funavry.json"
 
@@ -36,50 +39,64 @@ def parseDetailLine(text: str) -> dict[str, str]:
 	return details
 
 
+# Nov 2026: career.html is a 404; the Next.js site lists roles at /careers as
+# <a href="/careers/<slug>"> cards: <h3> title, work-mode pill, "Posted <date>",
+# lucide map-pin span (location) and briefcase span (job type). Server-rendered.
+siteUrl = "https://www.funavry.com"
+userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+roleCardPattern = re.compile(r'<a href="(?P<href>/careers/[a-z0-9-]+)"[^>]*>(?P<body>.*?)</a>', re.S)
+titlePattern = re.compile(r"<h3[^>]*>(.*?)</h3>", re.S)
+workModePattern = re.compile(r"</h3><span[^>]*>(.*?)</span>", re.S)
+postedPattern = re.compile(r">Posted (?:<!-- -->)?([^<]+)<", re.S)
+iconTextPattern = re.compile(r'lucide-(?P<icon>map-pin|briefcase)[^"]*".*?</svg>(?P<text>[^<]*)</span>', re.S)
+
+
+def cleanText(fragment: str) -> str:
+	text = htmlLib.unescape(re.sub(r"<[^>]+>", " ", fragment))
+	return re.sub(r"\s+", " ", text).replace("\xa0", " ").strip()
+
+
+def parseRolesHtml(html: str) -> list[dict[str, Any]]:
+	jobs = []
+	seenLinks: set[str] = set()
+	for cardMatch in roleCardPattern.finditer(html):
+		body = cardMatch.group("body")
+		titleMatch = titlePattern.search(body)
+		title = cleanText(titleMatch.group(1)) if titleMatch else ""
+		link = siteUrl + cardMatch.group("href")
+		if title == "" or link in seenLinks:
+			continue
+		seenLinks.add(link)
+		icons = {match.group("icon"): cleanText(match.group("text")) for match in iconTextPattern.finditer(body)}
+		location = re.sub(r"\s+,", ",", icons.get("map-pin", ""))
+		jobType = icons.get("briefcase", "")
+		workModeMatch = workModePattern.search(body)
+		postedMatch = postedPattern.search(body)
+		jobs.append({
+			"id": generateJobId(title, location, jobType),
+			"title": title,
+			"link": link,
+			"location": location,
+			"department": "",
+			"jobType": jobType,
+			"workMode": cleanText(workModeMatch.group(1)) if workModeMatch else "",
+			"postedAt": cleanText(postedMatch.group(1)) if postedMatch else "",
+			"state": "open",
+		})
+	return jobs
+
+
 async def fetchState(url: str = sourceUrl) -> dict[str, Any]:
 	jobs = []
 	try:
-		async with async_playwright() as playwright:
-			browser = await playwright.chromium.launch()
-			page = await browser.new_page()
-			await page.goto(url, wait_until="domcontentloaded", timeout=30000)
-			await page.wait_for_selector("#v-pills-tab a.nav-link", timeout=20000)
-			navLinkLocator = page.locator("#v-pills-tab a.nav-link")
-			navLinkCount = await navLinkLocator.count()
-			index = 0
-			while index < navLinkCount:
-				currentLink = navLinkLocator.nth(index)
-				headingLocator = currentLink.locator("h3")
-				paragraphLocator = currentLink.locator("p")
-				headingCount = await headingLocator.count()
-				paragraphCount = await paragraphLocator.count()
-				hasHeading = headingCount > 0
-				hasParagraph = paragraphCount > 0
-				if hasHeading and hasParagraph:
-					headingText = await headingLocator.first.inner_text()
-					paragraphText = await paragraphLocator.first.inner_text()
-					title = headingText.replace("\xa0", " ").strip()
-					details = parseDetailLine(paragraphText)
-					location = details.get("location", "")
-					jobType = details.get("job type", "")
-					experience = details.get("experience", "")
-					jobShift = details.get("job shift", "")
-					jobId = generateJobId(title, location, jobType)
-					job = {
-						"id": jobId,
-						"title": title,
-						"link": url,
-						"location": location,
-						"department": "",
-						"jobType": jobType,
-						"experience": experience,
-						"jobShift": jobShift,
-						"postedAt": "",
-						"state": "open",
-					}
-					jobs.append(job)
-				index = index + 1
-			await browser.close()
+		timeout = aiohttp.ClientTimeout(total=30)
+		async with aiohttp.ClientSession(headers={"User-Agent": userAgent}, timeout=timeout) as session:
+			async with session.get(url) as response:
+				response.raise_for_status()
+				html = await response.text()
+		jobs = parseRolesHtml(html)
+		if len(jobs) == 0:
+			logger.error("funavry: no /careers/<slug> role cards found (layout changed?)")
 	except Exception as error:
 		logger.exception("funavry: fetchState failed: %s", error)
 	state = {"jobs": jobs, "state": "open"}
