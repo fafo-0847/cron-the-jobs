@@ -1,17 +1,6 @@
 {
+  "jobs": [],
   "sourceUrl": "https://confiz.simplicant.com/?country=PK",
-  "fetchedAt": "2026-08-12T09:14:39.568793+00:00",
-  "state": "open",
-  "jobs": [
-    {
-      "id": "4272cd80e934a1582c04881f9b578be4",
-      "title": "AI Solution Architect",
-      "link": "https://confiz.simplicant.com/jobs/61211-ai-solution-architect/detail",
-      "location": "",
-      "department": "Delivery",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    }
-  ]
+  "fetchedAt": "2026-11-21T17:12:46.470541+00:00",
+  "state": "open"
 }

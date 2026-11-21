@@ -1,6 +1,6 @@
 {
-  "sourceUrl": "https://www.solitontechnologies.com/backend/public/api/getJobs",
-  "fetchedAt": "2026-11-04T16:11:34.772603+00:00",
+  "sourceUrl": "https://www.solitontechnologies.com/backend/api/getJobs",
+  "fetchedAt": "2026-11-21T17:16:11.882894+00:00",
   "state": "open",
   "jobs": [
     {

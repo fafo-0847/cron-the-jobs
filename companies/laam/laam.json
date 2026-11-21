@@ -1,6 +1,387 @@
 {
   "sourceUrl": "https://laam.peopleforce.io/careers",
-  "fetchedAt": "2026-11-21T15:41:55.299702+00:00",
+  "fetchedAt": "2026-11-21T17:14:05.788573+00:00",
   "state": "open",
-  "jobs": []
+  "jobs": [
+    {
+      "id": "13b7d2d10f25c3bd50969ecc7c4d1dd5",
+      "title": "Creative Director",
+      "link": "https://laam.peopleforce.io/careers/v/251727-creative-director",
+      "location": "NASTP, Lahore",
+      "department": "Marketing",
+      "jobType": "Individual Contributor",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "54148fa1451ef8745bbe7d90014b4ede",
+      "title": "Account Executive - Warehouse (Finance)",
+      "link": "https://laam.peopleforce.io/careers/v/244556-account-executive-warehouse-finance",
+      "location": "NASTP, Lahore",
+      "department": "Finance",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "e204f39e386832f9b5e2c7a00e3d21b7",
+      "title": "Account Payables Specialist (Finance)",
+      "link": "https://laam.peopleforce.io/careers/v/241685-account-payables-specialist-finance",
+      "location": "NASTP, Lahore",
+      "department": "Finance",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "dc93e94914d510f2ef4a35a346b0b3e3",
+      "title": "LAAM Internship Program",
+      "link": "https://laam.peopleforce.io/careers/v/232452-laam-internship-program",
+      "location": "NASTP, Lahore",
+      "department": "Commercials",
+      "jobType": "Individual Contributor",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "e0139ce74dc232b9019f17eb6b2bab69",
+      "title": "Video Editor / Animator",
+      "link": "https://laam.peopleforce.io/careers/v/229188-video-editor-animator",
+      "location": "NASTP, Lahore",
+      "department": "Marketing",
+      "jobType": "Contractual",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "8128b35cb377315e85c687ebe2fa3c96",
+      "title": "Content Creator",
+      "link": "https://laam.peopleforce.io/careers/v/229187-content-creator",
+      "location": "NASTP, Lahore",
+      "department": "Marketing",
+      "jobType": "Contractual",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "36e16785758d2018a38993193125145f",
+      "title": "HRBP – Warehouse, Supply Chain & Operations",
+      "link": "https://laam.peopleforce.io/careers/v/229180-hrbp-warehouse-supply-chain-operations",
+      "location": "Gajju Matah - Lahore",
+      "department": "People Strategy",
+      "jobType": "Individual Contributor",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "0157e43747ffe7d095ace1dd6ed7318d",
+      "title": "Partnerships — B2B (online & offline, local & international)",
+      "link": "https://laam.peopleforce.io/careers/v/224278-partnerships-b2b-online-offline-local-international",
+      "location": "NASTP, Lahore",
+      "department": "Commercials",
+      "jobType": "Individual Contributor",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "1e90b72822fea28d362324b96cd2c85d",
+      "title": "Event & Operations Manager",
+      "link": "https://laam.peopleforce.io/careers/v/222959-event-operations-manager",
+      "location": "LFW Office, Model Town",
+      "department": "LFP",
+      "jobType": "Contractual",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "06ac621e53773933918a0f57d6d7f052",
+      "title": "Design & Brand Coordinator",
+      "link": "https://laam.peopleforce.io/careers/v/222954-design-brand-coordinator",
+      "location": "LFW Office, Model Town",
+      "department": "LFP",
+      "jobType": "Contractual",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "08df5cc4ebc5537f5b29c16e8499d67d",
+      "title": "Account Onboarding Specialist",
+      "link": "https://laam.peopleforce.io/careers/v/192838-account-onboarding-specialist",
+      "location": "NASTP, Lahore",
+      "department": "Commercials",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "b92f2878fda41d6904a24a42e2f2200c",
+      "title": "CCTV Technician",
+      "link": "https://laam.peopleforce.io/careers/v/179324-cctv-technician",
+      "location": "Gajju Matah - Lahore",
+      "department": "Administration",
+      "jobType": "Individual Contributor",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "b8c255a31e1bfa25f623891377add7dc",
+      "title": "Customer Experience",
+      "link": "https://laam.peopleforce.io/careers/v/172852-customer-experience",
+      "location": "NASTP, Lahore",
+      "department": "Customer Experience",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "002d21b023581a6a0029e8ce16d98df1",
+      "title": "DevOps Engineer",
+      "link": "https://laam.peopleforce.io/careers/v/162829-devops-engineer",
+      "location": "NASTP, Lahore",
+      "department": "Engineering",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "380ae7441a9e34678ecd8d5ee6db1757",
+      "title": "Warehouse Associate/ Executive/ Manager",
+      "link": "https://laam.peopleforce.io/careers/v/159464-warehouse-associate-executive-manager",
+      "location": "Gajju Matah - Lahore",
+      "department": "Warehouse and Supply Chain Management",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "6e3525b78bbe0e005bd02a529b253051",
+      "title": "Data Engineer",
+      "link": "https://laam.peopleforce.io/careers/v/155065-data-engineer",
+      "location": "NASTP, Lahore",
+      "department": "Engineering",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "e0b8ab3358e0ed0e37e86aa966fe984b",
+      "title": "Seller Success & Experience",
+      "link": "https://laam.peopleforce.io/careers/v/154525-seller-success-experience",
+      "location": "NASTP, Lahore",
+      "department": "Commercials",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "c8e029ccb01269c8a7481ccf43cea734",
+      "title": "Business Development — Commercials (Local & International)",
+      "link": "https://laam.peopleforce.io/careers/v/150166-business-development-commercials-local-international",
+      "location": "NASTP, Lahore",
+      "department": "Commercials",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "1c58e42b48adeaa532891574afe15329",
+      "title": "Finance Intern",
+      "link": "https://laam.peopleforce.io/careers/v/147257-finance-intern",
+      "location": "NASTP, Lahore",
+      "department": "Finance",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "188e050633d92cf3c13d0fd5b65d310e",
+      "title": "Tax & Corporate Compliance Associate/Executive",
+      "link": "https://laam.peopleforce.io/careers/v/145622-tax-corporate-compliance-associateexecutive",
+      "location": "NASTP, Lahore",
+      "department": "Finance",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "97207d5c6d0fcabcf38174af24dca06f",
+      "title": "Financial Planning and Analysis (FP&A) Specialist",
+      "link": "https://laam.peopleforce.io/careers/v/139651-financial-planning-and-analysis-fpa-specialist",
+      "location": "NASTP, Lahore",
+      "department": "Finance",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "899b21aa869a2422b6b81d45303edc32",
+      "title": "Performance Marketing Lead",
+      "link": "https://laam.peopleforce.io/careers/v/139076-performance-marketing-lead",
+      "location": "NASTP, Lahore",
+      "department": "Marketing",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "8451bd6f5edad15d8b759f08d56bfa32",
+      "title": "Software Engineer - Backend",
+      "link": "https://laam.peopleforce.io/careers/v/137384-software-engineer-backend",
+      "location": "NASTP, Lahore",
+      "department": "Engineering",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "9dc29decec8a4dca18980dc8b5570ac4",
+      "title": "Software Engineer - Frontend",
+      "link": "https://laam.peopleforce.io/careers/v/137380-software-engineer-frontend",
+      "location": "NASTP, Lahore",
+      "department": "Engineering",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "34cdfeec9200aa2f36aab2bde2e74745",
+      "title": "Software Engineer - Fullstack",
+      "link": "https://laam.peopleforce.io/careers/v/137368-software-engineer-fullstack",
+      "location": "NASTP, Lahore",
+      "department": "Engineering",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "b3b3260f76a42a819b4d1f6fc98f4885",
+      "title": "Potential Opportunity at LAAM",
+      "link": "https://laam.peopleforce.io/careers/v/135670-potential-opportunity-at-laam",
+      "location": "NASTP, Lahore",
+      "department": "Marketing",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "06b3c6202603f3d2ddec6c38450f4574",
+      "title": "Brand Manager",
+      "link": "https://laam.peopleforce.io/careers/v/135472-brand-manager",
+      "location": "NASTP, Lahore",
+      "department": "Marketing",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "6d03ed078e2b62c343ef1afa5c00ef9a",
+      "title": "CRM Operations Specialist",
+      "link": "https://laam.peopleforce.io/careers/v/134608-crm-operations-specialist",
+      "location": "NASTP, Lahore",
+      "department": "Growth Strategy",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "c312ea1fd9d087b6e6edec80d4b22da5",
+      "title": "Product Specialist",
+      "link": "https://laam.peopleforce.io/careers/v/134500-product-specialist",
+      "location": "NASTP, Lahore",
+      "department": "Product",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "119ecc4895f49b5960df36e0b15722a3",
+      "title": "People Experience Specialist",
+      "link": "https://laam.peopleforce.io/careers/v/134077-people-experience-specialist",
+      "location": "NASTP, Lahore",
+      "department": "People Strategy",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "0859e0ea5d140ac12da818fe7b0ab7ee",
+      "title": "Marketing Graduate Trainee",
+      "link": "https://laam.peopleforce.io/careers/v/133255-marketing-graduate-trainee",
+      "location": "NASTP, Lahore",
+      "department": "Marketing",
+      "jobType": "Marketing Graduate Trainee",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "2efacc24e592c65632f70dee39773a71",
+      "title": "Brand Creative Partner/ Graphic Designer",
+      "link": "https://laam.peopleforce.io/careers/v/133253-brand-creative-partner-graphic-designer",
+      "location": "NASTP, Lahore",
+      "department": "Marketing",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "c73efea6e992e8ed0a66203b5e7b58e0",
+      "title": "Account Management - Key Accounts & Mid-market (Commercials)",
+      "link": "https://laam.peopleforce.io/careers/v/133247-account-management-key-accounts-mid-market-commercials",
+      "location": "NASTP, Lahore",
+      "department": "Commercials",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "5d5894b70ce5ed20c4ff1c4d5ad11616",
+      "title": "Social Media Executive",
+      "link": "https://laam.peopleforce.io/careers/v/133245-social-media-executive",
+      "location": "NASTP, Lahore",
+      "department": "Marketing",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "9027b01543b57364b36c57f318575826",
+      "title": "First Mile Logistics Executive",
+      "link": "https://laam.peopleforce.io/careers/v/133240-first-mile-logistics-executive",
+      "location": "Gajju Matah - Lahore",
+      "department": "Warehouse and Supply Chain Management",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "91c36f56de3edb0c71b5b7b3eb4998c5",
+      "title": "PR & Affiliate Partner",
+      "link": "https://laam.peopleforce.io/careers/v/133237-pr-affiliate-partner",
+      "location": "NASTP, Lahore",
+      "department": "Marketing",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "4030d8a10db2945b80bc96ea8906eef4",
+      "title": "Product Manager",
+      "link": "https://laam.peopleforce.io/careers/v/132757-product-manager",
+      "location": "NASTP, Lahore",
+      "department": "Product",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "6d5cdb80fa103f2e57566faa8ba9be06",
+      "title": "Software Engineer - React Native",
+      "link": "https://laam.peopleforce.io/careers/v/124675-software-engineer-react-native",
+      "location": "NASTP, Lahore",
+      "department": "Engineering",
+      "jobType": "Full-time",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
 }

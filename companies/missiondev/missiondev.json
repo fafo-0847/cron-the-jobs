@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://mission.dev/api/opportunities?page=1&perPage=12",
-  "fetchedAt": "2026-11-21T15:42:56.392472+00:00",
+  "fetchedAt": "2026-11-21T17:14:16.844592+00:00",
   "state": "open",
   "jobs": [
     {
@@ -215,7 +215,7 @@
       "id": "01447c0d81b7270baad96ec726700333",
       "title": "Senior Cybersecurity Engineer",
       "link": "",
-      "location": "India, Egypt, Japan, Nigeria, Qatar, Saudi Arabia",
+      "location": "Saudi Arabia, Egypt, Japan, Nigeria, Qatar, India",
       "department": "DevOps Engineer",
       "jobType": "REMOTE",
       "engagementType": "DEDICATED",
@@ -231,7 +231,7 @@
       "id": "0179a69db3bee64d6fcbc90ef9c18fc4",
       "title": "Senior Database Administrator (Oracle, PostgreSQL, and MySQL)",
       "link": "",
-      "location": "India, Egypt, Nigeria, Pakistan, Qatar, Saudi Arabia",
+      "location": "Saudi Arabia, Egypt, Nigeria, Pakistan, India, Qatar",
       "department": "Data Engineer, DevOps Engineer",
       "jobType": "REMOTE",
       "engagementType": "DEDICATED",
@@ -247,7 +247,7 @@
       "id": "5ec29dcc3b1494186fcd236eab8a4cb7",
       "title": "Senior DevOps Engineer",
       "link": "",
-      "location": "India, Egypt, Nigeria, Pakistan, Saudi Arabia, South Africa",
+      "location": "Pakistan, India, Egypt, Nigeria, South Africa, Saudi Arabia",
       "department": "DevOps Engineer",
       "jobType": "REMOTE",
       "engagementType": "DEDICATED",

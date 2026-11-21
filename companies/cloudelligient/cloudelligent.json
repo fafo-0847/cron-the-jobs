@@ -1,6 +1,77 @@
 {
-  "sourceUrl": "https://cloudelligent.com/careers/",
-  "fetchedAt": "2026-11-21T15:37:23.512648+00:00",
+  "sourceUrl": "https://cloudelligent.applytojob.com/apply",
+  "fetchedAt": "2026-11-21T17:12:06.287885+00:00",
   "state": "open",
-  "jobs": []
+  "jobs": [
+    {
+      "id": "fd9be4d36dad22b0b406900bf1038e6b",
+      "title": "HR Generalist",
+      "link": "https://cloudelligent.applytojob.com/apply/mtmGYAhb30/HR-Generalist",
+      "location": "Lahore, Lahore, Pakistan",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "7ceddb0285d26ab344e08afd4bbbbe3b",
+      "title": "Sr. AWS AI Engineer",
+      "link": "https://cloudelligent.applytojob.com/apply/mSxR8pvLzv/Sr-AWS-AI-Engineer",
+      "location": "Islamabad, Islamabad Capital Territory, Pakistan",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "37dcd85b10191f8e50d6310727b07aa0",
+      "title": "Sr. AWS AI Engineer",
+      "link": "https://cloudelligent.applytojob.com/apply/Eu7IATznx1/Sr-AWS-AI-Engineer",
+      "location": "Lahore, Punjab, Pakistan",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "6e1ff98916587aea6f6282f3f2100ff2",
+      "title": "Sr. AWS AI Engineer",
+      "link": "https://cloudelligent.applytojob.com/apply/HzXEKApTsW/Sr-AWS-AI-Engineer",
+      "location": "Karachi, Sindh, Pakistan",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "6c076b4660acef0575eabaac4c4ab518",
+      "title": "Sr. AWS DevOps Engineer- Kubernetes Expertise",
+      "link": "https://cloudelligent.applytojob.com/apply/4pvmGpqzv0/Sr-AWS-DevOps-Engineer-Kubernetes-Expertise",
+      "location": "Karachi, Sindh, Pakistan",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "577588a06bc605ff88454211714c2297",
+      "title": "Sr. AWS DevOps Engineer- Kubernetes Expertise",
+      "link": "https://cloudelligent.applytojob.com/apply/erbS3WHJwS/Sr-AWS-DevOps-Engineer-Kubernetes-Expertise",
+      "location": "Lahore, Punjab, Pakistan",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "e40d755b2979aa55167fe51fd753fa22",
+      "title": "Sr. AWS DevOps Engineer- Kubernetes Expertise",
+      "link": "https://cloudelligent.applytojob.com/apply/s2L1sIVftR/Sr-AWS-DevOps-Engineer-Kubernetes-Expertise",
+      "location": "Islamabad, Islamabad Capital Territory, Pakistan",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
 }

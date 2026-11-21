@@ -1,12 +1,32 @@
 {
-  "sourceUrl": "https://folio3.com/careers/",
-  "fetchedAt": "2026-10-12T17:32:22.260496+00:00",
+  "sourceUrl": "https://www.folio3.com/careers",
+  "fetchedAt": "2026-11-21T17:13:15.927758+00:00",
   "state": "open",
   "jobs": [
     {
-      "id": "35bfe5d1bc61f13adc6b3e7ddc0f76a6",
-      "title": "associate system engineer",
-      "link": "https://folio3.com/jobs/associate-system-engineer/",
+      "id": "61d74aa5d6f09d80b23566aa99fe457d",
+      "title": "Microsoft Power Automate / RPA Developer",
+      "link": "https://www.folio3.com/careers/microsoft-power-automate-rpa-developer",
+      "location": "Riyadh, Saudi Arabia",
+      "department": "Dynamics",
+      "jobType": "Regular",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "7a0dcb34f132b84c38d57631a508e205",
+      "title": "Functional Consultant",
+      "link": "https://www.folio3.com/careers/functional-consultant",
+      "location": "USA",
+      "department": "NetSuite",
+      "jobType": "Regular",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "f983f78f085b1e8a09a38f88b5b739c7",
+      "title": "IT Support Engineer",
+      "link": "https://www.folio3.com/careers/it-support-engineer",
       "location": "Pakistan",
       "department": "IT",
       "jobType": "Regular",
@@ -14,29 +34,9 @@
       "state": "open"
     },
     {
-      "id": "515a35b600b956e18dc350d9094ae726",
-      "title": "functional consultant – netsuite",
-      "link": "https://folio3.com/jobs/senior-functional-consultant-3/",
-      "location": "Pakistan",
-      "department": "NetSuite",
-      "jobType": "Regular",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "2d74d7ea0f57d177b1315762d868dfc7",
-      "title": "it support engineer",
-      "link": "https://folio3.com/jobs/it-support-engineer/",
-      "location": "Pakistan",
-      "department": "IT",
-      "jobType": "Regular",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "1756b0f924b123ec2188ce7159173762",
-      "title": "senior seo executive",
-      "link": "https://folio3.com/jobs/senior-seo-executive-3/",
+      "id": "a305da57e4fe22667b1be7a169c3e56c",
+      "title": "Digital Marketing Manager",
+      "link": "https://www.folio3.com/careers/digital-marketing-manager",
       "location": "Pakistan",
       "department": "Marketing",
       "jobType": "Regular",
@@ -44,61 +44,11 @@
       "state": "open"
     },
     {
-      "id": "00dd46f061cc6462fb9c1737010d8cae",
-      "title": "senior functional consultant",
-      "link": "https://folio3.com/jobs/senior-functional-consultant-2/",
-      "location": "Pakistan",
-      "department": "NetSuite",
-      "jobType": "Regular",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "3f7c6e18113ffd348a4df1face98e27e",
-      "title": "content marketer",
-      "link": "https://folio3.com/jobs/content-marketer/",
-      "location": "Pakistan",
-      "department": "Marketing",
-      "jobType": "Regular",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "67470117fb5dfc180237c69866df2c27",
-      "title": "digital marketing manager",
-      "link": "https://folio3.com/jobs/digital-marketing-manager/",
-      "location": "Pakistan",
-      "department": "Marketing",
-      "jobType": "Regular",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "1b12f927c75021af084b59eca5aa625b",
-      "title": "trainee functional consultant – dynamics",
-      "link": "https://folio3.com/jobs/trainee-functional-consultant-dynamics/",
+      "id": "f2461f5c1b655bc3dc89b19d9054b2f5",
+      "title": "Trainee Functional Consultant – Dynamics",
+      "link": "https://www.folio3.com/careers/trainee-functional-consultant-dynamics",
       "location": "Pakistan",
       "department": "Dynamics",
-      "jobType": "Contract",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "474f16d01bc5c0f34cd62832986ed86f",
-      "title": "marketing intern",
-      "link": "https://folio3.com/jobs/marketing-intern-3/",
-      "location": "Pakistan",
-      "department": "Marketing",
-      "jobType": "Regular",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "9642af9690fc67ee32ff2e24543ec6fd",
-      "title": "trainee functional consultant – netsuite",
-      "link": "https://folio3.com/jobs/trainee-functional-consultant/",
-      "location": "Pakistan",
-      "department": "NetSuite",
       "jobType": "Contract",
       "postedAt": "",
       "state": "open"

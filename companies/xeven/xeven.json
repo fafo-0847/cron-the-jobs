@@ -1,25 +1,65 @@
 {
-  "sourceUrl": "https://www.xevensolutions.com/careers/",
-  "fetchedAt": "2026-08-02T10:07:44.059114+00:00",
+  "sourceUrl": "https://www.xevensolutions.com/careers",
+  "fetchedAt": "2026-11-21T17:17:35.536549+00:00",
   "state": "open",
   "jobs": [
     {
-      "id": "d6a6b6bd1a594353d08b2d075a1d14ef",
-      "title": "ML Engineer",
-      "link": "https://www.xevensolutions.com/careers/",
-      "location": "Lahore, Pakistan",
-      "department": "",
-      "jobType": "Full Time",
+      "id": "09c2df4fe420ce0ab9383f8b72af197d",
+      "title": "Senior AI/ML Engineer",
+      "link": "https://www.xevensolutions.com/careers",
+      "location": "Lahore / Remote",
+      "department": "Engineering",
+      "jobType": "",
       "postedAt": "",
       "state": "open"
     },
     {
-      "id": "8aec8d7a73e4f8a4ff2ba30166b5cbef",
-      "title": "UI/UX Developer",
-      "link": "https://www.xevensolutions.com/careers/",
-      "location": "Lahore, Pakistan",
-      "department": "",
-      "jobType": "Full Time",
+      "id": "9c52126976c0d22a8700ff40fd13f905",
+      "title": "Frontend Engineer (React)",
+      "link": "https://www.xevensolutions.com/careers",
+      "location": "Lahore / Remote",
+      "department": "Engineering",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "7beb2f84dc8db1c9643b26f292c0045e",
+      "title": "Product Designer",
+      "link": "https://www.xevensolutions.com/careers",
+      "location": "Lahore",
+      "department": "Design",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "0790e4092ec80965e7ec8f4376020fc9",
+      "title": "AI Solutions Architect",
+      "link": "https://www.xevensolutions.com/careers",
+      "location": "Lahore / Hybrid",
+      "department": "Engineering",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "2b6e1c65bb05ff1fca8b8142bbe1a14f",
+      "title": "Business Development Manager",
+      "link": "https://www.xevensolutions.com/careers",
+      "location": "Lahore / Gulf",
+      "department": "Growth",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "5faa3d5d2f66a5796eb970d9b696cd92",
+      "title": "Data Engineer",
+      "link": "https://www.xevensolutions.com/careers",
+      "location": "Lahore / Remote",
+      "department": "Data",
+      "jobType": "",
       "postedAt": "",
       "state": "open"
     }

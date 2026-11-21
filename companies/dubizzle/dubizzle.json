@@ -1,6 +1,87 @@
 {
   "sourceUrl": "https://jobs.dubizzlelabs.com",
-  "fetchedAt": "2026-11-21T15:39:02.944767+00:00",
+  "fetchedAt": "2026-11-21T17:13:05.274583+00:00",
   "state": "open",
-  "jobs": []
+  "jobs": [
+    {
+      "id": "700b5a4cd14a8e4491356c8e7f06da75",
+      "title": "Admin Officer",
+      "link": "https://dubizzlelabs.breezy.hr/p/fc3f4909d09601-admin-officer",
+      "location": "Lahore, PK",
+      "department": "Admin",
+      "jobType": "Full-Time",
+      "postedAt": "2026-11-20T11:08:05.231Z",
+      "state": "open"
+    },
+    {
+      "id": "5a60964d8e9f0071e7c2f0c5c1253fb7",
+      "title": "Android Developer",
+      "link": "https://dubizzlelabs.breezy.hr/p/3466afff651801-android-developer",
+      "location": "Lahore, PK",
+      "department": "Mobile Apps",
+      "jobType": "Full-Time",
+      "postedAt": "2026-07-14T07:49:29.935Z",
+      "state": "open"
+    },
+    {
+      "id": "5c523490a0e68647378de960ee4851b0",
+      "title": "Associate Marketing Analyst",
+      "link": "https://dubizzlelabs.breezy.hr/p/1d14327549f201-associate-marketing-analyst",
+      "location": "Lahore, PK",
+      "department": "Branding",
+      "jobType": "Full-Time",
+      "postedAt": "2026-11-04T05:31:57.174Z",
+      "state": "open"
+    },
+    {
+      "id": "55f0c7346f2d35cb6520d2e35862660a",
+      "title": "Operation & Customer Support Executive",
+      "link": "https://dubizzlelabs.breezy.hr/p/002b610edb4001-operation-customer-support-executive",
+      "location": "Lahore, PK",
+      "department": "Commercial",
+      "jobType": "Full-Time",
+      "postedAt": "2026-11-18T08:07:36.442Z",
+      "state": "open"
+    },
+    {
+      "id": "2c1b689f47d0619e26684ea5197e3a6f",
+      "title": "Principal Full Stack Developer",
+      "link": "https://dubizzlelabs.breezy.hr/p/d58eed3efbf701-principal-full-stack-developer",
+      "location": "Lahore, PK",
+      "department": "",
+      "jobType": "Full-Time",
+      "postedAt": "2026-10-30T04:32:40.859Z",
+      "state": "open"
+    },
+    {
+      "id": "de9cd5d98e18ad72fe41efe636139bcc",
+      "title": "SQA Engineer",
+      "link": "https://dubizzlelabs.breezy.hr/p/04f6dc661fd801-sqa-engineer",
+      "location": "Lahore, PK",
+      "department": "Software Quality Assurance",
+      "jobType": "Full-Time",
+      "postedAt": "2026-10-30T04:33:47.379Z",
+      "state": "open"
+    },
+    {
+      "id": "a9582e5d54346b1a55c2cd6661f68357",
+      "title": "SQA Engineer - Mobile",
+      "link": "https://dubizzlelabs.breezy.hr/p/33c122784a2f01-sqa-engineer-mobile",
+      "location": "Lahore, PK",
+      "department": "Software Quality Assurance",
+      "jobType": "Full-Time",
+      "postedAt": "2026-10-19T04:27:42.327Z",
+      "state": "open"
+    },
+    {
+      "id": "b5fc7603dd2d26f6abe7fcc9112cd020",
+      "title": "Senior Software Engineer - Laravel",
+      "link": "https://dubizzlelabs.breezy.hr/p/21f5f66ec3cc01-senior-software-engineer-laravel",
+      "location": "Lahore, PK",
+      "department": "Engineering",
+      "jobType": "Full-Time",
+      "postedAt": "2026-10-30T04:32:39.398Z",
+      "state": "open"
+    }
+  ]
 }

@@ -1,56 +1,26 @@
 {
   "sourceUrl": "https://ocloudsolutions.net/careers/",
-  "fetchedAt": "2026-07-17T22:46:00.032526+00:00",
+  "fetchedAt": "2026-11-21T17:15:02.650752+00:00",
   "state": "open",
   "jobs": [
     {
-      "id": "8025e9d3ea6db756870013e0cd2062c0",
-      "title": "Ruby On Rails Developer",
-      "link": "https://ocloudsolutions.net/job/cG9zdDoyMzIx/",
+      "id": "0e493b5cacdc372a3753bdaab6865184",
+      "title": "Data Engineer",
+      "link": "https://ocloudsolutions.net/job/cG9zdDozMjYy/",
       "location": "Lahore",
       "department": "Developers",
-      "jobType": "Full Time",
-      "postedAt": "",
+      "jobType": "Full time",
+      "postedAt": "2026-09-16T12:16:59",
       "state": "open"
     },
     {
-      "id": "13774004080ab8a5fcd35ae5599f5026",
-      "title": "Python Developer",
-      "link": "https://ocloudsolutions.net/job/cG9zdDoyMDk4/",
-      "location": "Lahore",
-      "department": "Developers",
-      "jobType": "Full Time",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "b22347ac81a53b0059abdf2cf4064821",
-      "title": "Lead Mobile Developer",
-      "link": "https://ocloudsolutions.net/job/cG9zdDoxMzEx/",
-      "location": "Lahore",
-      "department": "Developers",
-      "jobType": "Full Time",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "2e4ededfffb1979885ca4fc6ef45d289",
-      "title": "Software Engineer / MERN Stack Developer",
-      "link": "https://ocloudsolutions.net/job/cG9zdDo1OTU=/",
-      "location": "Lahore",
-      "department": "Developers",
-      "jobType": "Full Time",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "e2efa752cb1c203de667976dbedd2b04",
-      "title": "Business Development Manager",
+      "id": "e2b3827c2a1f0b1a43e99d88deddacc9",
+      "title": "Business Development Executive (Upwork)",
       "link": "https://ocloudsolutions.net/job/cG9zdDoyMTAx/",
       "location": "Lahore",
       "department": "Business Development",
-      "jobType": "Full Time",
-      "postedAt": "",
+      "jobType": "Full time",
+      "postedAt": "2025-08-18T14:07:17",
       "state": "open"
     }
   ]

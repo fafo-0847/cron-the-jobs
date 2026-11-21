@@ -1,6 +1,117 @@
 {
-  "sourceUrl": "https://purelogics.com/careers/",
-  "fetchedAt": "2026-11-21T15:45:18.393926+00:00",
+  "sourceUrl": "https://hiring.purelogics.com/careers",
+  "fetchedAt": "2026-11-21T17:15:17.112467+00:00",
   "state": "open",
-  "jobs": []
+  "jobs": [
+    {
+      "id": "9390be4d390f7c800a64ee2d82a47b46",
+      "title": "Associate BD (LinkedIn + Email)",
+      "link": "https://hiring.purelogics.com/careers/job/2282",
+      "location": "Lahore",
+      "department": "Business Development / LinkedIn",
+      "jobType": "Full Time, Onsite",
+      "postedAt": "2026-11-11T12:02:02.406074",
+      "state": "open"
+    },
+    {
+      "id": "c3db939a6c0dcb16de7f0c4d1d36074e",
+      "title": "Senior Frontend Engineer (Angular & React Native)",
+      "link": "https://hiring.purelogics.com/careers/job/2281",
+      "location": "Lahore",
+      "department": "Development",
+      "jobType": "Full Time, Onsite",
+      "postedAt": "2026-11-10T08:35:33.371528",
+      "state": "open"
+    },
+    {
+      "id": "b51d687b008d971c19eecd64e76142b6",
+      "title": "Business Development Executive",
+      "link": "https://hiring.purelogics.com/careers/job/2280",
+      "location": "Lahore",
+      "department": "Business Development / LinkedIn",
+      "jobType": "Full Time, Onsite",
+      "postedAt": "2026-11-06T13:44:13.027670",
+      "state": "open"
+    },
+    {
+      "id": "572eb7b84d42db40bdb268a2eff46313",
+      "title": "Sr. DevSecOps Engineer",
+      "link": "https://hiring.purelogics.com/careers/job/2279",
+      "location": "Lahore",
+      "department": "Sr DevSecOps Engineer",
+      "jobType": "Full Time, Onsite",
+      "postedAt": "2026-11-05T12:56:36.122042",
+      "state": "open"
+    },
+    {
+      "id": "af3a2769e8ad17296ced853e426d74e6",
+      "title": "Sr. Business Development Executive",
+      "link": "https://hiring.purelogics.com/careers/job/2278",
+      "location": "Lahore",
+      "department": "Business Development / LinkedIn",
+      "jobType": "Full Time, Onsite",
+      "postedAt": "2026-11-05T12:41:14.402070",
+      "state": "open"
+    },
+    {
+      "id": "f4e5ab31d6042172773e45a03559c9f1",
+      "title": "Government Contracts / Proposal Lead",
+      "link": "https://hiring.purelogics.com/careers/job/2277",
+      "location": "Lahore",
+      "department": "RFP",
+      "jobType": "Full Time, Onsite",
+      "postedAt": "2026-11-05T10:12:38.044063",
+      "state": "open"
+    },
+    {
+      "id": "1f7ddc9833f9c9f078166042913d66bf",
+      "title": "Sr. Account Executive (Sales)",
+      "link": "https://hiring.purelogics.com/careers/job/2276",
+      "location": "Lahore",
+      "department": "Account Executive",
+      "jobType": "Full Time, Onsite",
+      "postedAt": "2026-11-05T10:12:35.122852",
+      "state": "open"
+    },
+    {
+      "id": "892cc820867afb59fc0ea58215c57684",
+      "title": "Sales Development Representative (SDR)",
+      "link": "https://hiring.purelogics.com/careers/job/2275",
+      "location": "Lahore",
+      "department": "Sales Development Representatives",
+      "jobType": "Full Time, Onsite",
+      "postedAt": "2026-11-05T10:12:28.286410",
+      "state": "open"
+    },
+    {
+      "id": "077bad0c3cd173688a65bba3a1e318b0",
+      "title": "International Recruitment Growth Specialist (BD Focused)",
+      "link": "https://hiring.purelogics.com/careers/job/2274",
+      "location": "Lahore",
+      "department": "Recruitment",
+      "jobType": "Full Time, Onsite",
+      "postedAt": "2026-11-05T09:41:40.284004",
+      "state": "open"
+    },
+    {
+      "id": "ca695d83aaf3886840b668101cbc3beb",
+      "title": "Email Marketing Expert",
+      "link": "https://hiring.purelogics.com/careers/job/2265",
+      "location": "Lahore",
+      "department": "Business Development / LinkedIn",
+      "jobType": "Full Time, Onsite",
+      "postedAt": "2026-10-21T09:23:34.810432",
+      "state": "open"
+    },
+    {
+      "id": "0d307c9434f34b28cde3bc3fffb9993e",
+      "title": "Meta Ad Expert",
+      "link": "https://hiring.purelogics.com/careers/job/2263",
+      "location": "Lahore",
+      "department": "Marketing / Social Media",
+      "jobType": "Full Time, Onsite",
+      "postedAt": "2026-10-20T10:47:25.518238",
+      "state": "open"
+    }
+  ]
 }

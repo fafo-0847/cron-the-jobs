@@ -1,6 +1,47 @@
 {
   "sourceUrl": "https://careers.zones.com/search/jobs?cfm3=Information%20Technology&ns_category=information-technology",
-  "fetchedAt": "2026-11-21T15:50:44.548813+00:00",
+  "fetchedAt": "2026-11-21T17:18:08.721143+00:00",
   "state": "open",
-  "jobs": []
+  "jobs": [
+    {
+      "id": "ab6beda7b9218793896b30e4217b4594",
+      "title": "Technical Support Manager — D365 CE or FNO",
+      "link": "https://careers.zones.com/jobs/18430129-technical-support-manager-d365-ce-or-fno",
+      "location": "Bombay, India",
+      "department": "",
+      "jobType": "",
+      "postedAt": "2026-10-30",
+      "state": "open"
+    },
+    {
+      "id": "a46feeb56e5033a2f9b221b90d4f4fed",
+      "title": "Technical Support Manager — D365 CE or FNO",
+      "link": "https://careers.zones.com/jobs/18430128-technical-support-manager-d365-ce-or-fno",
+      "location": "Pune, India",
+      "department": "",
+      "jobType": "",
+      "postedAt": "2026-10-30",
+      "state": "open"
+    },
+    {
+      "id": "40d64a87b47ccd28572941b5e0f0d4df",
+      "title": "Technical Support Manager — D365 CE or FNO",
+      "link": "https://careers.zones.com/jobs/18430127-technical-support-manager-d365-ce-or-fno",
+      "location": "Noida, India",
+      "department": "",
+      "jobType": "",
+      "postedAt": "2026-10-30",
+      "state": "open"
+    },
+    {
+      "id": "7bde05594402c8ea96481211a9e905df",
+      "title": "Technical Support Manager — D365 CE or FNO",
+      "link": "https://careers.zones.com/jobs/18430126-technical-support-manager-d365-ce-or-fno",
+      "location": "Bangalore, India",
+      "department": "",
+      "jobType": "",
+      "postedAt": "2026-10-30",
+      "state": "open"
+    }
+  ]
 }

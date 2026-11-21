@@ -1,37 +1,6 @@
 {
   "sourceUrl": "https://www.automotive-ai.com/jobs",
-  "fetchedAt": "2026-11-04T16:00:44.391288+00:00",
+  "fetchedAt": "2026-11-21T17:10:59.185655+00:00",
   "state": "open",
-  "jobs": [
-    {
-      "id": "ab58688a74cf4e30c19a9254972d2197",
-      "title": "Junior Project Manager (m/f/d)",
-      "link": "https://www.automotive-ai.com/jobs/junior-project-manager-m-f-d-7",
-      "location": "Berlin, Germany",
-      "department": "Sales & Marketing",
-      "jobType": "Permanent",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "6a0b5a25a7eb4b83b9e8631a8567ea4c",
-      "title": "Test Driver (m/f/d) – Automotive Testing",
-      "link": "https://www.automotive-ai.com/jobs/test-driver-m-f-d-automotive-testing-8",
-      "location": "Berlin, Germany",
-      "department": "Administration / Engineering",
-      "jobType": "Temporary",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "123b8ca6db28072e35d72216034e0fe2",
-      "title": "Sales Manager (m/w/d)",
-      "link": "https://www.automotive-ai.com/jobs/sales-manager-m-w-d-2",
-      "location": "Berlin, Germany",
-      "department": "Sales & Marketing",
-      "jobType": "Permanent",
-      "postedAt": "",
-      "state": "open"
-    }
-  ]
+  "jobs": []
 }

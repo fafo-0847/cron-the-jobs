@@ -1,15 +1,15 @@
 {
   "sourceUrl": "https://ats.rippling.com/just-appraised-jobs/jobs",
-  "fetchedAt": "2026-10-23T13:14:48.382074+00:00",
+  "fetchedAt": "2026-11-21T17:14:00.545296+00:00",
   "state": "open",
   "jobs": [
     {
-      "id": "6b953c551d6eac0ff7954f5931db0724",
+      "id": "5253ace709039e9878e613a71d6ffddf",
       "title": "Customer Success Manager",
-      "link": "https://ats.rippling.com/just-appraised-jobs/jobs/f62af676-fa3f-4f75-915e-b104ff5c845c",
-      "location": "Customer Experience",
+      "link": "https://ats.rippling.com/just-appraised-jobs/jobs/448bc728-dc7e-4f80-aa38-fad4ae6678a3",
+      "location": "Remote (United States)",
       "department": "Customer Experience",
-      "jobType": "",
+      "jobType": "REMOTE",
       "postedAt": "",
       "state": "open"
     },
@@ -17,9 +17,39 @@
       "id": "c6b2012688844da7607a64af536ba6ed",
       "title": "Customer Engineer",
       "link": "https://ats.rippling.com/just-appraised-jobs/jobs/c224bc39-251f-47ba-b6f8-45b187c40471",
-      "location": "Engineering (All)",
+      "location": "Remote (United States)",
       "department": "Engineering (All)",
-      "jobType": "",
+      "jobType": "REMOTE",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "7b20b9774752ef927c44592ee0402a93",
+      "title": "Engineering Manager",
+      "link": "https://ats.rippling.com/just-appraised-jobs/jobs/263be5d3-8e88-4aca-ae90-5c85e368d760",
+      "location": "Remote (United States)",
+      "department": "Engineering (All)",
+      "jobType": "REMOTE",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "c0a09315c393d911ecb629fbfaf5d9b8",
+      "title": "Product Engineer",
+      "link": "https://ats.rippling.com/just-appraised-jobs/jobs/6dec900b-f9d1-4b8b-bbfd-c5fb2d512383",
+      "location": "Remote (United States)",
+      "department": "Engineering (All)",
+      "jobType": "REMOTE",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "20f83ef0f45a6c1344fac0c868c684e9",
+      "title": "Staff Accountant",
+      "link": "https://ats.rippling.com/just-appraised-jobs/jobs/f8af93e3-b3f4-4e64-82af-1699d319318c",
+      "location": "Remote (United States)",
+      "department": "Executives & G&A",
+      "jobType": "REMOTE",
       "postedAt": "",
       "state": "open"
     },
@@ -27,9 +57,9 @@
       "id": "bd1d6cfa5f4ae5ae6a19d2973d1c6ec6",
       "title": "Account Executive",
       "link": "https://ats.rippling.com/just-appraised-jobs/jobs/cdc6394e-7bfa-400a-93c1-7201d2ec3436",
-      "location": "Sales",
+      "location": "Remote (United States)",
       "department": "Sales",
-      "jobType": "",
+      "jobType": "REMOTE",
       "postedAt": "",
       "state": "open"
     }
