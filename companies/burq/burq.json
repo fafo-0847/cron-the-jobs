@@ -1,8 +1,18 @@
 {
   "sourceUrl": "https://apply.workable.com/burq/",
-  "fetchedAt": "2026-11-20T16:23:15.491118+00:00",
+  "fetchedAt": "2026-11-21T15:36:13.796814+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "f9f4a1a926badf92688bd48598c3dd14",
+      "title": "VP of Finance",
+      "link": "https://apply.workable.com/burq/j/4D385B6031/",
+      "location": "United States Canada",
+      "department": "Finance",
+      "jobType": "Full time",
+      "postedAt": "",
+      "state": "open"
+    },
     {
       "id": "5ec54fb0999563a4d3740137e0b37914",
       "title": "Manager, Supply Strategy & Operations",
@@ -49,16 +59,6 @@
       "link": "https://apply.workable.com/burq/j/E6732FD50E/",
       "location": "United States Canada",
       "department": "",
-      "jobType": "Full time",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "f9f4a1a926badf92688bd48598c3dd14",
-      "title": "VP of Finance",
-      "link": "https://apply.workable.com/burq/j/4D385B6031/",
-      "location": "United States Canada",
-      "department": "Finance",
       "jobType": "Full time",
       "postedAt": "",
       "state": "open"

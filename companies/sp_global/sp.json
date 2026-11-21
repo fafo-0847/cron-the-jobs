@@ -1,8 +1,28 @@
 {
   "sourceUrl": "https://spglobalcareers.dejobs.org/locations/pak/jobs/",
-  "fetchedAt": "2026-11-20T16:33:08.756795+00:00",
+  "fetchedAt": "2026-11-21T15:46:41.421911+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "1a899e1a3f2bcbea674dd356fb2a7cd1",
+      "title": "Associate, Client Support",
+      "link": "https://spglobalcareers.dejobs.org/islamabad-pak/associate-client-support/8AC26DB8C1B54752841BE0B77B319ECC/job/",
+      "location": "Islamabad, PAK",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "e82463e32803957f8332670bed0a9083",
+      "title": "Product Consultant, Channels CX",
+      "link": "https://spglobalcareers.dejobs.org/islamabad-pak/product-consultant-channels-cx/3FEA215F92434A67BFE2FC9DAD668E86/job/",
+      "location": "Islamabad, PAK",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
     {
       "id": "dc723a6ac71717e4817b406374d65a78",
       "title": "Commercial Development Representative",

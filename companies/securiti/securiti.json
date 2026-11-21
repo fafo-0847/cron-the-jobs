@@ -1,8 +1,18 @@
 {
   "sourceUrl": "https://careers.veeam.com/search-jobs?acm=ALL&alrpm=ALL&ascf=[%7B\"key\":\"Team\",\"value\":\"Securiti+AI\"%7D]",
-  "fetchedAt": "2026-11-20T16:32:47.780683+00:00",
+  "fetchedAt": "2026-11-21T15:46:03.795439+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "3d1f07631ff98d91c2c4f17a8120177a",
+      "title": "Sales Specialist - Data & AI Security",
+      "link": "https://careers.veeam.com/job/bengaluru/sales-specialist-data-and-ai-security/22681/91677244544",
+      "location": "Bengaluru, Karnataka",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
     {
       "id": "a93cebedf56fad1153cec039400cd48f",
       "title": "Senior Forward Deployed Engineer",
@@ -148,16 +158,6 @@
       "title": "Senior Software Engineer, Test",
       "link": "https://careers.veeam.com/job/karachi/senior-software-engineer-test/22681/103152579568",
       "location": "Karachi, Sindh",
-      "department": "Securiti AI",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "36e29bb96d00102898bc27b5f31d31e6",
-      "title": "Director, Identity, Entitlements & Activity",
-      "link": "https://careers.veeam.com/job/san-jose/director-identity-entitlements-and-activity/22681/103127217520",
-      "location": "San Jose, CA",
       "department": "Securiti AI",
       "jobType": "",
       "postedAt": "",

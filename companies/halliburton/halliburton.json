@@ -1,8 +1,28 @@
 {
   "sourceUrl": "https://careers.halliburton.com/category/engineering-science-technology-jobs/543/8646032/1",
-  "fetchedAt": "2026-11-20T16:27:39.632668+00:00",
+  "fetchedAt": "2026-11-21T15:40:49.299367+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "d527b83a49e26a4e8a8b179abd73ca14",
+      "title": "Data Scientist, Energy Software (Eng - Senior) Landmark",
+      "link": "https://careers.halliburton.com/job/houston/data-scientist-energy-software-eng-senior-landmark/543/103564663056",
+      "location": "Houston, TX , United States",
+      "department": "Engineering/Science/Technology",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "e4e3adfb35e9255cae51215313d846e6",
+      "title": "Laboratory Technician (Associate-Senior) - Chemistry",
+      "link": "https://careers.halliburton.com/job/williston/laboratory-technician-associate-senior-chemistry/543/103564662944",
+      "location": "Williston, ND , United States",
+      "department": "Engineering/Science/Technology",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
     {
       "id": "51f46c594fd3bbfcd3a1fcc86906b709",
       "title": "Tech Prof-Completions, Assoc",
@@ -154,26 +174,6 @@
       "state": "open"
     },
     {
-      "id": "565cb48d23822e147090fa4cad4017f1",
-      "title": "Technical Professional -Coiled Tubing, Sr",
-      "link": "https://careers.halliburton.com/job/ortona/technical-professional-coiled-tubing-sr/543/101559981968",
-      "location": "Ortona, Abruzzo , Italy",
-      "department": "Engineering/Science/Technology",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "48b98d3c254c8fb3f5c60af80f38f74e",
-      "title": "Aberdeen - Field Prof-Optimization, II",
-      "link": "https://careers.halliburton.com/job/aberdeen/aberdeen-field-prof-optimization-ii/543/99747663984",
-      "location": "Aberdeen, Scotland , United Kingdom",
-      "department": "Engineering/Science/Technology",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
       "id": "d8d5982cab6aea92ae420a6ad3925a34",
       "title": "Associate Technical Professional",
       "link": "https://careers.halliburton.com/job/khobar/associate-technical-professional/543/103199895088",
@@ -258,26 +258,6 @@
       "title": "Technical Professional Associate",
       "link": "https://careers.halliburton.com/job/khobar/technical-professional-associate/543/102764785520",
       "location": "31952, Al Khobar, Saudi Arabia , Saudi Arabia",
-      "department": "Engineering/Science/Technology",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "84ebbdb6dcd13255c255867fb3103aa9",
-      "title": "Unit Mgr-SDL",
-      "link": "https://careers.halliburton.com/job/baku/unit-mgr-sdl/543/102758370304",
-      "location": "Baku, Baku City , Azerbaijan",
-      "department": "Engineering/Science/Technology",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "383110fd65031e0eef359472d6c8287a",
-      "title": "Field Prof-MWD, II",
-      "link": "https://careers.halliburton.com/job/cairo/field-prof-mwd-ii/543/102758370288",
-      "location": "Cairo, Cairo Governorate , Egypt",
       "department": "Engineering/Science/Technology",
       "jobType": "",
       "postedAt": "",

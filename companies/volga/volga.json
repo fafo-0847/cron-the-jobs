@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://apply.workable.com/api/v1/widget/accounts/volga-partners",
-  "fetchedAt": "2026-11-20T16:35:34.113661+00:00",
+  "fetchedAt": "2026-11-21T15:49:09.914565+00:00",
   "state": "open",
   "jobs": [
     {
@@ -34,7 +34,7 @@
       "title": "AI/ML Engineer - Production AI & LLM Systems (India)",
       "link": "https://apply.workable.com/j/61F7CCDF5B",
       "location": "India",
-      "department": "Solibra Technologies",
+      "department": "Volga Partners",
       "jobType": "Full-time",
       "postedAt": "2026-11-18",
       "state": "open",

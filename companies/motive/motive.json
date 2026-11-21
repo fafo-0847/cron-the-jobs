@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/gomotive/departments",
-  "fetchedAt": "2026-11-20T16:30:15.157745+00:00",
+  "fetchedAt": "2026-11-21T15:43:30.482091+00:00",
   "state": "open",
   "jobs": [
     {
@@ -342,7 +342,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8928319002",
       "location": "Pakistan - Remote",
       "department": "Financial Products G&A",
-      "postedAt": "2026-11-19T15:33:53-05:00",
+      "postedAt": "2026-11-20T13:34:19-05:00",
       "state": "open"
     },
     {
@@ -377,15 +377,6 @@
       "title": "Business Strategy and Operations Analyst II (RevOps)",
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/7761424002",
       "location": "Pakistan - Islamabad",
-      "department": "GTM Strategy and Sales Operations",
-      "postedAt": "2026-11-16T13:23:43-05:00",
-      "state": "open"
-    },
-    {
-      "id": "62652f8a8016d6aeaef4fe14a0ba4447",
-      "title": "Business Operations Manager",
-      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8672520002",
-      "location": "United States - Remote",
       "department": "GTM Strategy and Sales Operations",
       "postedAt": "2026-11-16T13:23:43-05:00",
       "state": "open"
@@ -436,6 +427,15 @@
       "state": "open"
     },
     {
+      "id": "353f71fa2f341831caaca6b11998307e",
+      "title": "Business Operations Manager",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8949125002",
+      "location": "United States - Remote",
+      "department": "GTM Strategy and Sales Operations",
+      "postedAt": "2026-11-20T16:08:26-05:00",
+      "state": "open"
+    },
+    {
       "id": "ae2b1372012156320c58a8317018e66c",
       "title": "Telematics Coverage Engineer",
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8783131002",
@@ -451,6 +451,15 @@
       "location": "Taiwan - Taipei",
       "department": "Hardware Engineering",
       "postedAt": "2026-11-19T15:33:39-05:00",
+      "state": "open"
+    },
+    {
+      "id": "b3f35dbd952622862c0b4d4d940743bf",
+      "title": "Manager, Technical Program Management",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8895563002",
+      "location": "Hybrid - San Francisco, California",
+      "department": "Hardware Engineering",
+      "postedAt": "2026-11-21T00:49:01-05:00",
       "state": "open"
     },
     {
@@ -937,15 +946,6 @@
       "location": "Hybrid - Austin, Texas; Hybrid - Nashville, Tennessee; Hybrid - San Francisco, California; Hybrid - Seattle",
       "department": "Product",
       "postedAt": "2026-11-18T18:54:48-05:00",
-      "state": "open"
-    },
-    {
-      "id": "d15ccfc331ad4ab23ea37f7c428950e9",
-      "title": "Sales Recruiter II",
-      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8918232002",
-      "location": "United States - Remote",
-      "department": "Recruiting",
-      "postedAt": "2026-11-16T13:23:43-05:00",
       "state": "open"
     },
     {
@@ -1462,6 +1462,24 @@
       "state": "open"
     },
     {
+      "id": "45ed3ea1dc4fc44e21ced5b94f6cf606",
+      "title": "Staff Agentic AI Platform Engineer",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8371597002",
+      "location": "Hybrid - San Francisco, California",
+      "department": "Software Engineering",
+      "postedAt": "2026-11-20T12:58:38-05:00",
+      "state": "open"
+    },
+    {
+      "id": "40479c61f224fed38e14f7dbe37db481",
+      "title": "Staff Agentic AI Platform Engineer",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8504960002",
+      "location": "Hybrid - Toronto; Hybrid - Vancouver",
+      "department": "Software Engineering",
+      "postedAt": "2026-11-20T12:58:40-05:00",
+      "state": "open"
+    },
+    {
       "id": "633def70173bf951ececd338e54c8f82",
       "title": "Staff Software Engineer - Backend ",
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8651443002",
@@ -1552,6 +1570,15 @@
       "state": "open"
     },
     {
+      "id": "7075f5525adfa021cc85c5aaab0cd869",
+      "title": "Senior Engineering Manager, Platform",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8910519002",
+      "location": "Hybrid - San Francisco, California",
+      "department": "Software Engineering",
+      "postedAt": "2026-11-20T15:32:54-05:00",
+      "state": "open"
+    },
+    {
       "id": "249870438beed58863025ca35ec6920f",
       "title": "Site Reliability Engineer (SRE)",
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8916410002",
@@ -1567,6 +1594,15 @@
       "location": "Hybrid - Seattle",
       "department": "Software Engineering",
       "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "0191150c0d868f4079c1a59323f25ff2",
+      "title": "Staff Agentic AI Platform Engineer",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8925281002",
+      "location": "Hybrid - Seattle",
+      "department": "Software Engineering",
+      "postedAt": "2026-11-20T12:58:43-05:00",
       "state": "open"
     },
     {
@@ -1656,7 +1692,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8951503002",
       "location": "United States - Remote",
       "department": "Trial Installations",
-      "postedAt": "2026-11-19T13:11:09-05:00",
+      "postedAt": "2026-11-20T13:02:45-05:00",
       "state": "open"
     },
     {

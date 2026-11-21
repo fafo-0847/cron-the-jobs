@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://apply.workable.com/codeninjapk",
-  "fetchedAt": "2026-11-20T16:24:33.916764+00:00",
+  "fetchedAt": "2026-11-21T15:37:34.296908+00:00",
   "state": "open",
   "jobs": [
     {
@@ -10,17 +10,27 @@
       "location": "Riyadh, Riyadh Province, Saudi Arabia",
       "department": "Professional Services",
       "jobType": "",
-      "postedAt": "Posted 13 days ago",
+      "postedAt": "Posted 14 days ago",
       "state": "open"
     },
     {
       "id": "4e3e4d0eb0c78af71cc8f8b9579bd755",
       "title": "Senior SQA Automation Engineer",
       "link": "https://apply.workable.com/codeninjapk/j/61999E76E1/",
-      "location": "Dallas, Texas, United States",
-      "department": "Sales",
+      "location": "India",
+      "department": "Professional Services",
       "jobType": "Full time",
       "postedAt": "Posted 18 days ago",
+      "state": "open"
+    },
+    {
+      "id": "c3d9eb857cca19e67218ffe8b925eae4",
+      "title": "Senior SQA Automation Engineer",
+      "link": "https://apply.workable.com/codeninjapk/j/6DA9FC5661/",
+      "location": "Riyadh, Riyadh Province, Saudi Arabia",
+      "department": "Professional Services",
+      "jobType": "Full time",
+      "postedAt": "Posted 19 days ago",
       "state": "open"
     }
   ]

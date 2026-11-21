@@ -1,8 +1,19 @@
 {
   "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/moniepoint/jobs?content=true",
-  "fetchedAt": "2026-11-20T16:30:15.077781+00:00",
+  "fetchedAt": "2026-11-21T15:43:30.398289+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "c831f596f188ab5ced819b3587b296a5",
+      "title": "Analytics Manager",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4941696101",
+      "location": "Remote, Spain",
+      "department": "Marketing & Sales",
+      "jobType": "",
+      "requisitionId": null,
+      "postedAt": "2026-07-30T09:06:28-04:00",
+      "state": "open"
+    },
     {
       "id": "7bb3eade24a18f6a29aa825536c5b775",
       "title": "Analytics Manager",
@@ -23,17 +34,6 @@
       "jobType": "",
       "requisitionId": null,
       "postedAt": "2026-09-15T04:43:27-04:00",
-      "state": "open"
-    },
-    {
-      "id": "c831f596f188ab5ced819b3587b296a5",
-      "title": "Analytics Manager",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4941696101",
-      "location": "Remote, Spain",
-      "department": "Marketing & Sales",
-      "jobType": "",
-      "requisitionId": null,
-      "postedAt": "2026-07-30T09:06:28-04:00",
       "state": "open"
     },
     {
@@ -125,17 +125,6 @@
       "state": "open"
     },
     {
-      "id": "e53d8af77dda6c5bf65272a022901e48",
-      "title": "Engineering Relations Partner",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4874410101",
-      "location": "Remote, India; Remote, Kenya; Remote, Lagos, Nigeria; Remote, Pakistan; Remote, Poland; Remote, South Africa; Remote, Spain",
-      "department": "Pool: Engineering",
-      "jobType": "",
-      "requisitionId": "1496",
-      "postedAt": "2026-05-25T05:52:00-04:00",
-      "state": "open"
-    },
-    {
       "id": "13b4107cf58d452cb91c7efc3a234f9d",
       "title": "Engineering Relations Partner",
       "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4997794101",
@@ -144,6 +133,17 @@
       "jobType": "",
       "requisitionId": "1496",
       "postedAt": "2026-10-05T11:33:43-04:00",
+      "state": "open"
+    },
+    {
+      "id": "e53d8af77dda6c5bf65272a022901e48",
+      "title": "Engineering Relations Partner",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4874410101",
+      "location": "Remote, India; Remote, Kenya; Remote, Lagos, Nigeria; Remote, Pakistan; Remote, Poland; Remote, South Africa; Remote, Spain",
+      "department": "Pool: Engineering",
+      "jobType": "",
+      "requisitionId": "1496",
+      "postedAt": "2026-05-25T05:52:00-04:00",
       "state": "open"
     },
     {
@@ -334,6 +334,17 @@
       "state": "open"
     },
     {
+      "id": "214a75b67732da4a5144514cd4de7c2d",
+      "title": "Implementation Officer (Lagos)",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4827872101",
+      "location": "Lagos, Nigeria",
+      "department": "Moniebook Business Management Tools",
+      "jobType": "",
+      "requisitionId": "1430",
+      "postedAt": "2026-04-01T03:11:53-04:00",
+      "state": "open"
+    },
+    {
       "id": "1cf66135967a29fe87ad3fe46f1c996c",
       "title": "Inbound Sales Officer (Lagos)",
       "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4828536101",
@@ -400,17 +411,6 @@
       "state": "open"
     },
     {
-      "id": "30dc1ea794dba19ebf173916ce259101",
-      "title": "Performance Marketing Manager",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4244613101",
-      "location": "Remote, Spain",
-      "department": "Digital Marketing",
-      "jobType": "",
-      "requisitionId": "820",
-      "postedAt": "2023-11-09T07:20:28-05:00",
-      "state": "open"
-    },
-    {
       "id": "62bb51c14e869cff235b3a5c175065d1",
       "title": "Performance Marketing Manager",
       "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5028342101",
@@ -419,6 +419,17 @@
       "jobType": "",
       "requisitionId": "820",
       "postedAt": "2026-11-05T04:52:14-05:00",
+      "state": "open"
+    },
+    {
+      "id": "30dc1ea794dba19ebf173916ce259101",
+      "title": "Performance Marketing Manager",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4244613101",
+      "location": "Remote, Spain",
+      "department": "Digital Marketing",
+      "jobType": "",
+      "requisitionId": "820",
+      "postedAt": "2023-11-09T07:20:28-05:00",
       "state": "open"
     },
     {
@@ -510,28 +521,6 @@
       "state": "open"
     },
     {
-      "id": "7f3586b9386836e8a935a6997c2d2899",
-      "title": "Senior Business Analyst",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4936515101",
-      "location": "Remote, Poland",
-      "department": "",
-      "jobType": "",
-      "requisitionId": null,
-      "postedAt": "2026-07-24T07:02:26-04:00",
-      "state": "open"
-    },
-    {
-      "id": "046e30e17f8cc66c7e37c5adfcd9f4df",
-      "title": "Senior Business Analyst",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4944062101",
-      "location": "Remote, Spain",
-      "department": "",
-      "jobType": "",
-      "requisitionId": null,
-      "postedAt": "2026-08-04T03:31:18-04:00",
-      "state": "open"
-    },
-    {
       "id": "a7b6692027a942af8ae35bcc0afe0285",
       "title": "Senior Business Analyst",
       "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4912941101",
@@ -554,6 +543,28 @@
       "state": "open"
     },
     {
+      "id": "7f3586b9386836e8a935a6997c2d2899",
+      "title": "Senior Business Analyst",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4936515101",
+      "location": "Remote, Poland",
+      "department": "",
+      "jobType": "",
+      "requisitionId": null,
+      "postedAt": "2026-07-24T07:02:26-04:00",
+      "state": "open"
+    },
+    {
+      "id": "046e30e17f8cc66c7e37c5adfcd9f4df",
+      "title": "Senior Business Analyst",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4944062101",
+      "location": "Remote, Spain",
+      "department": "",
+      "jobType": "",
+      "requisitionId": null,
+      "postedAt": "2026-08-04T03:31:18-04:00",
+      "state": "open"
+    },
+    {
       "id": "c643dd5fcf2bcd41c31c3500d516caba",
       "title": "Senior Principal, Talent Marketing",
       "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4980860101",
@@ -573,17 +584,6 @@
       "jobType": "",
       "requisitionId": "1588",
       "postedAt": "2026-10-26T01:42:37-04:00",
-      "state": "open"
-    },
-    {
-      "id": "47a8738fdb077b63381014cbd1a5f756",
-      "title": "Senior Product Designer (UX)",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4612209101",
-      "location": "Remote, Nigeria",
-      "department": "Product Design",
-      "jobType": "",
-      "requisitionId": "1012",
-      "postedAt": "2025-06-25T04:23:17-04:00",
       "state": "open"
     },
     {
