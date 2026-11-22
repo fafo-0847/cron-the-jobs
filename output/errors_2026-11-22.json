@@ -1,0 +1,124 @@
+[
+  {
+    "company": "asendia",
+    "type": "zero_jobs",
+    "reason": "HTTP 404 Not Found (page or endpoint moved)",
+    "error": "asendia: fetchState failed: HTTP 404 for https://asendia.ai/jobs-board (page removed or site down)",
+    "details": [
+      "asendia: fetchState failed: HTTP 404 for https://asendia.ai/jobs-board (page removed or site down)"
+    ],
+    "oldJobCount": 12,
+    "newJobCount": 0,
+    "failedAt": "2026-11-22T15:37:54.509235+00:00"
+  },
+  {
+    "company": "cinnova",
+    "type": "zero_jobs",
+    "reason": "HTTP2 protocol error (often bot protection)",
+    "error": "Retrying https://careers.cinnova.pk/current-openings/ after transient failure (attempt 1/2): Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://careers.cinnova.pk/current-openings/",
+    "details": [
+      "Retrying https://careers.cinnova.pk/current-openings/ after transient failure (attempt 1/2): Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://careers.cinnova.pk/current-openings/",
+      "Failed to fetch cinnova: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://careers.cinnova.pk/current-openings/",
+      "Suspicious zero-job scrape, keeping old snapshot. Old=11 New=0"
+    ],
+    "oldJobCount": 11,
+    "newJobCount": 0,
+    "failedAt": "2026-11-22T15:38:25.265809+00:00"
+  },
+  {
+    "company": "codeninja",
+    "type": "zero_jobs",
+    "reason": "Timed out waiting for job listings (page layout may have changed)",
+    "error": "Failed to fetch CodeNinja jobs: Locator.inner_text: Timeout 30000ms exceeded.",
+    "details": [
+      "Failed to fetch CodeNinja jobs: Locator.inner_text: Timeout 30000ms exceeded."
+    ],
+    "oldJobCount": 3,
+    "newJobCount": 0,
+    "failedAt": "2026-11-22T15:39:18.459219+00:00"
+  },
+  {
+    "company": "infotech",
+    "type": "zero_jobs",
+    "reason": "HTTP2 protocol error (often bot protection)",
+    "error": "infotech: fetchState failed: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://infotechgroup.com/jobs-at-infotech/",
+    "details": [
+      "infotech: fetchState failed: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://infotechgroup.com/jobs-at-infotech/"
+    ],
+    "oldJobCount": 5,
+    "newJobCount": 0,
+    "failedAt": "2026-11-22T15:40:21.437092+00:00"
+  },
+  {
+    "company": "ml1",
+    "type": "zero_jobs",
+    "reason": "HTTP 404 Not Found (page or endpoint moved)",
+    "error": "ML1 careers page has no job board listing (Simple Job Board removed; old job URLs 404)",
+    "details": [
+      "ML1 careers page has no job board listing (Simple Job Board removed; old job URLs 404)"
+    ],
+    "oldJobCount": 6,
+    "newJobCount": 0,
+    "failedAt": "2026-11-22T15:41:20.929219+00:00"
+  },
+  {
+    "company": "qbatch",
+    "type": "zero_jobs",
+    "reason": "Domain does not resolve (DNS)",
+    "error": "qbatch: fetchState failed: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.qbatch.com/jobs",
+    "details": [
+      "qbatch: fetchState failed: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.qbatch.com/jobs"
+    ],
+    "oldJobCount": 5,
+    "newJobCount": 0,
+    "failedAt": "2026-11-22T15:41:49.355566+00:00"
+  },
+  {
+    "company": "swius",
+    "type": "zero_jobs",
+    "reason": "Timed out waiting for job listings (page layout may have changed)",
+    "error": "swius: fetchState failed: Page.wait_for_selector: Timeout 20000ms exceeded.",
+    "details": [
+      "swius: fetchState failed: Page.wait_for_selector: Timeout 20000ms exceeded."
+    ],
+    "oldJobCount": 30,
+    "newJobCount": 0,
+    "failedAt": "2026-11-22T15:43:18.391785+00:00"
+  },
+  {
+    "company": "tkxel",
+    "type": "zero_jobs",
+    "reason": "HTTP 5xx server error",
+    "error": "Failed to fetch TKXEL jobs: HTTP 520 for https://careers.tkxel.com/jobs/ (page removed or site down)",
+    "details": [
+      "Failed to fetch TKXEL jobs: HTTP 520 for https://careers.tkxel.com/jobs/ (page removed or site down)"
+    ],
+    "oldJobCount": 35,
+    "newJobCount": 0,
+    "failedAt": "2026-11-22T15:43:53.654344+00:00"
+  },
+  {
+    "company": "tps",
+    "type": "zero_jobs",
+    "reason": "Failed to fetch TPS jobs: WebHR API error: ORG_NOT_FOUND (TPS careers widget on tpsworldwide.com/careers is also empty)",
+    "error": "Failed to fetch TPS jobs: WebHR API error: ORG_NOT_FOUND (TPS careers widget on tpsworldwide.com/careers is also empty)",
+    "details": [
+      "Failed to fetch TPS jobs: WebHR API error: ORG_NOT_FOUND (TPS careers widget on tpsworldwide.com/careers is also empty)"
+    ],
+    "oldJobCount": 17,
+    "newJobCount": 0,
+    "failedAt": "2026-11-22T15:43:55.449707+00:00"
+  },
+  {
+    "company": "xgrid",
+    "type": "zero_jobs",
+    "reason": "HTTP 404 Not Found (page or endpoint moved)",
+    "error": "Failed to fetch xgrid jobs: xgrid Freshteam account not found (Freshteam 'invalid domain' page); xgrid.co/open-positions shows no jobs",
+    "details": [
+      "Failed to fetch xgrid jobs: xgrid Freshteam account not found (Freshteam 'invalid domain' page); xgrid.co/open-positions shows no jobs"
+    ],
+    "oldJobCount": 7,
+    "newJobCount": 0,
+    "failedAt": "2026-11-22T15:44:25.832518+00:00"
+  }
+]

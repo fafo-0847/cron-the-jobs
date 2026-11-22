@@ -1,8 +1,28 @@
 {
   "sourceUrl": "https://careers.halliburton.com/category/engineering-science-technology-jobs/543/8646032/1",
-  "fetchedAt": "2026-11-21T17:13:33.090563+00:00",
+  "fetchedAt": "2026-11-22T15:40:05.108051+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "5a1461e3998e624c10e85632f89297c3",
+      "title": "Tech Prof-Baroid",
+      "link": "https://careers.halliburton.com/job/hassi-messaoud/tech-prof-baroid/543/103643291744",
+      "location": "Hassi Messaoud, Ouargla Province , Algeria",
+      "department": "Engineering/Science/Technology",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "fb924008e9dad05005db59e8591ba27c",
+      "title": "Directional Drilling Engineer",
+      "link": "https://careers.halliburton.com/job/al-ahmadi/directional-drilling-engineer/543/103637081184",
+      "location": "Al Ahmadi, Al Aḩmadī , Kuwait",
+      "department": "Engineering/Science/Technology",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
     {
       "id": "d527b83a49e26a4e8a8b179abd73ca14",
       "title": "Data Scientist, Energy Software (Eng - Senior) Landmark",
@@ -318,16 +338,6 @@
       "title": "Cost Recovery Advisor",
       "link": "https://careers.halliburton.com/job/basra/cost-recovery-advisor/543/102543188704",
       "location": "Basra, Basra , Iraq",
-      "department": "Engineering/Science/Technology",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "a2defe98fd91b281c97eaf361e100755",
-      "title": "Field Prof-MWD, Assoc",
-      "link": "https://careers.halliburton.com/job/hassi-messaoud/field-prof-mwd-assoc/543/102500623040",
-      "location": "Hassi Messaoud, Ouargla Province , Algeria",
       "department": "Engineering/Science/Technology",
       "jobType": "",
       "postedAt": "",

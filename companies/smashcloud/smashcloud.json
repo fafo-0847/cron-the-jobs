@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://v2.smashcloud.com/api/career?populate[0]=WorkatSmashCloud&populate[1]=CurrentOpenings&populate[2]=JobPost&populate[3]=apply_nows",
-  "fetchedAt": "2026-11-21T17:16:10.836587+00:00",
+  "fetchedAt": "2026-11-22T15:42:49.342749+00:00",
   "state": "open",
   "jobs": [
     {
