@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://next.invozone.com/jobs",
-  "fetchedAt": "2026-11-22T15:40:30.970889+00:00",
+  "fetchedAt": "2026-11-23T19:35:40.142294+00:00",
   "state": "open",
   "jobs": [
     {
@@ -12,6 +12,17 @@
       "jobType": "",
       "postedAt": "",
       "closingDate": "",
+      "state": "open"
+    },
+    {
+      "id": "597550cf3845f0a541de1f361fbfb4f9",
+      "title": "C2C Business Development Lead",
+      "link": "https://next.invozone.com/jobs",
+      "location": "",
+      "department": "BD Fast Sales - IZ",
+      "jobType": "Full-time",
+      "postedAt": "1 day ago",
+      "closingDate": "9 Dec, 2026",
       "state": "open"
     },
     {

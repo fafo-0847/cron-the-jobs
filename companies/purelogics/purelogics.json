@@ -1,16 +1,16 @@
 {
   "sourceUrl": "https://hiring.purelogics.com/careers",
-  "fetchedAt": "2026-11-22T15:41:48.837386+00:00",
+  "fetchedAt": "2026-11-23T19:37:01.742383+00:00",
   "state": "open",
   "jobs": [
     {
-      "id": "9390be4d390f7c800a64ee2d82a47b46",
-      "title": "Associate BD (LinkedIn + Email)",
-      "link": "https://hiring.purelogics.com/careers/job/2282",
+      "id": "0bc6a555d9dd774636aa421d212d6923",
+      "title": "Sr. Business Development Executive",
+      "link": "https://hiring.purelogics.com/careers/job/2284",
       "location": "Lahore",
       "department": "Business Development / LinkedIn",
       "jobType": "Full Time, Onsite",
-      "postedAt": "2026-11-11T12:02:02.406074",
+      "postedAt": "2026-11-23T12:49:14.606286",
       "state": "open"
     },
     {
@@ -24,16 +24,6 @@
       "state": "open"
     },
     {
-      "id": "b51d687b008d971c19eecd64e76142b6",
-      "title": "Business Development Executive",
-      "link": "https://hiring.purelogics.com/careers/job/2280",
-      "location": "Lahore",
-      "department": "Business Development / LinkedIn",
-      "jobType": "Full Time, Onsite",
-      "postedAt": "2026-11-06T13:44:13.027670",
-      "state": "open"
-    },
-    {
       "id": "572eb7b84d42db40bdb268a2eff46313",
       "title": "Sr. DevSecOps Engineer",
       "link": "https://hiring.purelogics.com/careers/job/2279",
@@ -41,16 +31,6 @@
       "department": "Sr DevSecOps Engineer",
       "jobType": "Full Time, Onsite",
       "postedAt": "2026-11-05T12:56:36.122042",
-      "state": "open"
-    },
-    {
-      "id": "af3a2769e8ad17296ced853e426d74e6",
-      "title": "Sr. Business Development Executive",
-      "link": "https://hiring.purelogics.com/careers/job/2278",
-      "location": "Lahore",
-      "department": "Business Development / LinkedIn",
-      "jobType": "Full Time, Onsite",
-      "postedAt": "2026-11-05T12:41:14.402070",
       "state": "open"
     },
     {

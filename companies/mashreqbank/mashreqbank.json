@@ -1,8 +1,38 @@
 {
   "sourceUrl": "https://hcld.fa.em2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,locationId=300000000300311,sortBy=POSTING_DATES_DESC,offset=0",
-  "fetchedAt": "2026-11-22T15:40:44.681712+00:00",
+  "fetchedAt": "2026-11-23T19:35:54.102906+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "173b916506b2f742711ecc099ff9d5fe",
+      "title": "Senior Fraud Control Analyst",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7015",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-11-23",
+      "state": "open"
+    },
+    {
+      "id": "3fd4b01a40bb3cfe5d8a997990288b4c",
+      "title": "Manager - Global Neo Analytics.MGN Pak - RBG - Analytics.Retail Banking Group-PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7357",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-11-23",
+      "state": "open"
+    },
+    {
+      "id": "a88b31c080e85ba1042a4bf2bad415cd",
+      "title": "Head of Neo (Retail)- NEO - MBP-Retail Banking Group-MBPKLTD",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7371",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-11-23",
+      "state": "open"
+    },
     {
       "id": "f42af0c544975cf15d9351d7276a2141",
       "title": "QA Engineer (Mashreq Global Network, Pakistan) - Retail Banking Group",
@@ -131,16 +161,6 @@
       "department": "",
       "jobType": "Remote work (RW)",
       "postedAt": "2026-11-10",
-      "state": "open"
-    },
-    {
-      "id": "1ba90747c417ddaad9141ee2aa6193bc",
-      "title": "Senior Manager Security Assurance",
-      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7146",
-      "location": "Pakistan",
-      "department": "",
-      "jobType": "Fulltime office (FTO)",
-      "postedAt": "2026-11-09",
       "state": "open"
     },
     {
@@ -361,16 +381,6 @@
       "department": "",
       "jobType": "Remote work (RW)",
       "postedAt": "2026-09-24",
-      "state": "open"
-    },
-    {
-      "id": "2da47ae69b94ad853d4c59d7764872e6",
-      "title": "Senior Associate.MGN Pak - RBG - Incentive Processing.RBG-MGNPAK",
-      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6779",
-      "location": "Pakistan",
-      "department": "",
-      "jobType": "Remote work (RW)",
-      "postedAt": "2026-09-22",
       "state": "open"
     },
     {

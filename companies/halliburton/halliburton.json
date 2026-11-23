@@ -1,8 +1,38 @@
 {
   "sourceUrl": "https://careers.halliburton.com/category/engineering-science-technology-jobs/543/8646032/1",
-  "fetchedAt": "2026-11-22T15:40:05.108051+00:00",
+  "fetchedAt": "2026-11-23T19:35:12.129653+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "09123c444f7f875a1e97146e88872575",
+      "title": "Tech Prof-Completions, Assoc",
+      "link": "https://careers.halliburton.com/job/ploiesti/tech-prof-completions-assoc/543/101072660976",
+      "location": "Ploieşti, Prahova , Romania",
+      "department": "Engineering/Science/Technology",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "7badfa8b4e50ead9297cfe09c79b9bd9",
+      "title": "Tech Prof-Completions, Principal - Aberdeen",
+      "link": "https://careers.halliburton.com/job/aberdeen/tech-prof-completions-principal-aberdeen/543/100304748272",
+      "location": "Aberdeen, Scotland , United Kingdom",
+      "department": "Engineering/Science/Technology",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "8a30e01d84c7e69d603fe9dba6b01ae6",
+      "title": "Tech Prof-DES, III",
+      "link": "https://careers.halliburton.com/job/cairo/tech-prof-des-iii/543/103679655376",
+      "location": "Cairo, Cairo Governorate , Egypt",
+      "department": "Engineering/Science/Technology",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
     {
       "id": "5a1461e3998e624c10e85632f89297c3",
       "title": "Tech Prof-Baroid",

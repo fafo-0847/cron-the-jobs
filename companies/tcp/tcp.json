@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://tcpsoftware.com/careers/",
-  "fetchedAt": "2026-11-22T15:43:27.638349+00:00",
+  "fetchedAt": "2026-11-23T19:38:26.019602+00:00",
   "state": "open",
   "jobs": [
     {
@@ -160,16 +160,6 @@
       "location": "Plano, Texas, United States",
       "department": "Sales",
       "jobType": "Remote",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "bef8c996d4a597875e951c4d578a0be5",
-      "title": "DevOps Engineer III",
-      "link": "https://tcpsoftware.com/careers/?job=185C5E22DE",
-      "location": "Lahore, Punjab, Pakistan",
-      "department": "COGS: CLOUDOPS: DevOps",
-      "jobType": "On-site",
       "postedAt": "",
       "state": "open"
     },

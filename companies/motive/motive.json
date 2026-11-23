@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/gomotive/departments",
-  "fetchedAt": "2026-11-22T15:41:21.495395+00:00",
+  "fetchedAt": "2026-11-23T19:36:31.512566+00:00",
   "state": "open",
   "jobs": [
     {
@@ -22,39 +22,12 @@
       "state": "open"
     },
     {
-      "id": "e26985aebf2dc3bca3045a63053dca86",
-      "title": "Senior Collections Analyst",
+      "id": "c4f8b47ab997f01e600a8ee4a0f1e176",
+      "title": "Enterprise Collections Manager ",
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8886671002",
       "location": "United States - Remote",
       "department": "Billing/Collections",
-      "postedAt": "2026-11-18T12:46:28-05:00",
-      "state": "open"
-    },
-    {
-      "id": "da36aa520f7827fb53120f73dfe12ab4",
-      "title": "Senior Analytics Engineer",
-      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8783282002",
-      "location": "Mexico City - Hybrid",
-      "department": "Business Intelligence",
-      "postedAt": "2026-11-19T15:33:19-05:00",
-      "state": "open"
-    },
-    {
-      "id": "d086ef9b1bdf7479df1894af07381ab6",
-      "title": "Senior Analytics Engineer - GTM",
-      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8842739002",
-      "location": "Canada - Hybrid",
-      "department": "Business Intelligence",
-      "postedAt": "2026-11-19T15:33:25-05:00",
-      "state": "open"
-    },
-    {
-      "id": "f3e96e3e80b894454bc474885322e498",
-      "title": "Senior Analytics Engineer - GTM",
-      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8900270002",
-      "location": "Hybrid - Austin, Texas; Hybrid - Buffalo, New York; Hybrid - Nashville, Tennessee; Hybrid - San Francisco, California; Hybrid - Seattle",
-      "department": "Business Intelligence",
-      "postedAt": "2026-11-19T15:33:39-05:00",
+      "postedAt": "2026-11-23T13:00:16-05:00",
       "state": "open"
     },
     {
@@ -382,6 +355,15 @@
       "state": "open"
     },
     {
+      "id": "c65c71237600932320074f84ca028c98",
+      "title": "Senior Project Manager - Services",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8372084002",
+      "location": "Pakistan - Remote",
+      "department": "GTM Strategy and Sales Operations",
+      "postedAt": "2026-11-23T11:32:15-05:00",
+      "state": "open"
+    },
+    {
       "id": "50f8639aa285da16e9d55a12450c8f96",
       "title": "Business Strategy & Operations Analyst II",
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8686675002",
@@ -526,12 +508,12 @@
       "state": "open"
     },
     {
-      "id": "70e4dcc1eecf801c56644b0a2b871c78",
-      "title": "Employee Relations Business Partner",
+      "id": "9b95fe997847336dc0632a09175c6c0f",
+      "title": "Employee Relations HR Business Partner",
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8838180002",
       "location": "Hybrid - Islamabad; Hybrid - Islamabad & Lahore; Hybrid - Lahore",
       "department": "HR",
-      "postedAt": "2026-11-17T09:48:06-05:00",
+      "postedAt": "2026-11-23T11:45:25-05:00",
       "state": "open"
     },
     {
@@ -549,7 +531,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8952913002",
       "location": "Canada - Remote",
       "department": "HR",
-      "postedAt": "2026-11-19T15:15:34-05:00",
+      "postedAt": "2026-11-23T10:00:50-05:00",
       "state": "open"
     },
     {
@@ -657,7 +639,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8720994002",
       "location": "United States - Remote",
       "department": "Marketing",
-      "postedAt": "2026-11-19T15:46:14-05:00",
+      "postedAt": "2026-11-22T22:31:09-05:00",
       "state": "open"
     },
     {
@@ -675,7 +657,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8739420002",
       "location": "United States - Remote",
       "department": "Marketing",
-      "postedAt": "2026-11-19T15:46:14-05:00",
+      "postedAt": "2026-11-22T22:31:09-05:00",
       "state": "open"
     },
     {
@@ -1480,12 +1462,12 @@
       "state": "open"
     },
     {
-      "id": "633def70173bf951ececd338e54c8f82",
-      "title": "Staff Software Engineer - Backend ",
+      "id": "1b0c2ab113eb14b40aa917de732787cb",
+      "title": "Senior Software Engineer - Backend ",
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8651443002",
       "location": "Hybrid - San Francisco, California",
       "department": "Software Engineering",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-23T12:57:14-05:00",
       "state": "open"
     },
     {
@@ -1561,12 +1543,12 @@
       "state": "open"
     },
     {
-      "id": "2a008b2fba6460674f0d01e6980a1805",
-      "title": "Staff Software Engineer - Backend",
+      "id": "d452935e1de9bd5a8785318ff7f21a18",
+      "title": "Senior Software Engineer - Backend",
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8820960002",
       "location": "Hybrid - Vancouver",
       "department": "Software Engineering",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-23T12:57:12-05:00",
       "state": "open"
     },
     {
@@ -1588,12 +1570,12 @@
       "state": "open"
     },
     {
-      "id": "b010199f2f87c1cb04425a9554648adf",
-      "title": "Staff Software Engineer - Backend Services",
+      "id": "cbb9f20b78bf9e519bfa5578078c2e59",
+      "title": "Senior Software Engineer - Backend Services",
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8925237002",
       "location": "Hybrid - Seattle",
       "department": "Software Engineering",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-23T12:57:18-05:00",
       "state": "open"
     },
     {
@@ -1621,6 +1603,15 @@
       "location": "Mexico City - Hybrid",
       "department": "Supply Chain",
       "postedAt": "2026-11-16T13:23:43-05:00",
+      "state": "open"
+    },
+    {
+      "id": "7319f59d9606bd93f55a55d106e9f6fa",
+      "title": "Logistics Coordinator",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8893076002",
+      "location": "United States - Louisville, Kentucky",
+      "department": "Supply Chain",
+      "postedAt": "2026-11-23T09:45:09-05:00",
       "state": "open"
     },
     {

@@ -1,18 +1,8 @@
 {
   "sourceUrl": "https://vfairs.zohorecruit.com/jobs/careers?",
-  "fetchedAt": "2026-11-22T15:44:14.199074+00:00",
+  "fetchedAt": "2026-11-23T19:39:33.455053+00:00",
   "state": "open",
   "jobs": [
-    {
-      "id": "768ac63ed25801a93436d3ba1d5ada97",
-      "title": "Project Manager (KSA)",
-      "link": "https://vfairs.zohorecruit.com/jobs/careers/619320000002173005/Project-Manager-KSA-?source=CareerSite",
-      "location": "Riyadh, Ar Riyad, Saudi Arabia",
-      "department": "",
-      "jobType": "Full time",
-      "postedAt": "09/07/2026",
-      "state": "open"
-    },
     {
       "id": "f023b7f8da77d8711fe1409f6af702a7",
       "title": "Principal Software Engineer",
@@ -21,16 +11,6 @@
       "department": "",
       "jobType": "Full time",
       "postedAt": "09/23/2026",
-      "state": "open"
-    },
-    {
-      "id": "85c0c23725cbbcc391c08600e7fe0c0e",
-      "title": "Account Executive (Australia)",
-      "link": "https://vfairs.zohorecruit.com/jobs/careers/619320000000676128/Account-Executive-Australia-?source=CareerSite",
-      "location": "Remote Job",
-      "department": "",
-      "jobType": "Full time",
-      "postedAt": "10/15/2026",
       "state": "open"
     },
     {
@@ -44,13 +24,23 @@
       "state": "open"
     },
     {
-      "id": "3b42c53cd819b58178caaffd515f6285",
-      "title": "Product Manager",
-      "link": "https://vfairs.zohorecruit.com/jobs/careers/619320000005786020/Product-Manager?source=CareerSite",
+      "id": "f869a30d986efc0779aecc4bedc8d3bd",
+      "title": "Product Marketer",
+      "link": "https://vfairs.zohorecruit.com/jobs/careers/619320000000676051/Product-Marketer?source=CareerSite",
       "location": "Lahore, Punjab, Pakistan",
       "department": "",
       "jobType": "Full time",
-      "postedAt": "10/09/2026",
+      "postedAt": "09/30/2026",
+      "state": "open"
+    },
+    {
+      "id": "85c0c23725cbbcc391c08600e7fe0c0e",
+      "title": "Account Executive (Australia)",
+      "link": "https://vfairs.zohorecruit.com/jobs/careers/619320000000676128/Account-Executive-Australia-?source=CareerSite",
+      "location": "Remote Job",
+      "department": "",
+      "jobType": "Full time",
+      "postedAt": "10/15/2026",
       "state": "open"
     },
     {
@@ -64,13 +54,33 @@
       "state": "open"
     },
     {
-      "id": "f869a30d986efc0779aecc4bedc8d3bd",
-      "title": "Product Marketer",
-      "link": "https://vfairs.zohorecruit.com/jobs/careers/619320000000676051/Product-Marketer?source=CareerSite",
+      "id": "ed9e43a595aac1df459bb8b11a6f4ba6",
+      "title": "Account Executive (UK)",
+      "link": "https://vfairs.zohorecruit.com/jobs/careers/619320000005440168/Account-Executive-UK-?source=CareerSite",
+      "location": "Remote Job",
+      "department": "",
+      "jobType": "Full time",
+      "postedAt": "10/20/2026",
+      "state": "open"
+    },
+    {
+      "id": "768ac63ed25801a93436d3ba1d5ada97",
+      "title": "Project Manager (KSA)",
+      "link": "https://vfairs.zohorecruit.com/jobs/careers/619320000002173005/Project-Manager-KSA-?source=CareerSite",
+      "location": "Riyadh, Ar Riyad, Saudi Arabia",
+      "department": "",
+      "jobType": "Full time",
+      "postedAt": "09/07/2026",
+      "state": "open"
+    },
+    {
+      "id": "3b42c53cd819b58178caaffd515f6285",
+      "title": "Product Manager",
+      "link": "https://vfairs.zohorecruit.com/jobs/careers/619320000005786020/Product-Manager?source=CareerSite",
       "location": "Lahore, Punjab, Pakistan",
       "department": "",
       "jobType": "Full time",
-      "postedAt": "09/30/2026",
+      "postedAt": "10/09/2026",
       "state": "open"
     },
     {
@@ -81,16 +91,6 @@
       "department": "",
       "jobType": "Full time",
       "postedAt": "11/05/2026",
-      "state": "open"
-    },
-    {
-      "id": "ed9e43a595aac1df459bb8b11a6f4ba6",
-      "title": "Account Executive (UK)",
-      "link": "https://vfairs.zohorecruit.com/jobs/careers/619320000005440168/Account-Executive-UK-?source=CareerSite",
-      "location": "Remote Job",
-      "department": "",
-      "jobType": "Full time",
-      "postedAt": "10/20/2026",
       "state": "open"
     }
   ]

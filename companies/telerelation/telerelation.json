@@ -1,32 +1,8 @@
 {
   "sourceUrl": "https://telerelation.com/careers",
-  "fetchedAt": "2026-11-22T15:43:38.041818+00:00",
+  "fetchedAt": "2026-11-23T19:38:36.320096+00:00",
   "state": "open",
   "jobs": [
-    {
-      "id": "837330ccd38d298c9ec75ce244f477d4",
-      "title": "Delivery Manager – Construction",
-      "link": "https://telerelation.com/careers?job=delivery-manager-construction-53",
-      "location": "Islamabad",
-      "department": "OPERATIONS",
-      "jobType": "Full Time",
-      "postedAt": "",
-      "state": "open",
-      "experience": "Experience flexible",
-      "workMode": "Onsite"
-    },
-    {
-      "id": "a761dd0120d000dff9870898faa3192c",
-      "title": "Civil Project Manager",
-      "link": "https://telerelation.com/careers?job=civil-project-manager-52",
-      "location": "Islamabad",
-      "department": "CIVIL ENGINEERING",
-      "jobType": "Full Time",
-      "postedAt": "",
-      "state": "open",
-      "experience": "5-7+",
-      "workMode": "Onsite"
-    },
     {
       "id": "655a642162f729d4144cadf60f66c3cb",
       "title": "Sales & Business Development Executive",
@@ -61,54 +37,6 @@
       "postedAt": "",
       "state": "open",
       "experience": "3-5+",
-      "workMode": "Onsite"
-    },
-    {
-      "id": "99fbee6386f90209278963039b52ade8",
-      "title": "Deputy Project Manager",
-      "link": "https://telerelation.com/careers?job=Deputy-PM",
-      "location": "Islamabad",
-      "department": "MECHANICAL ENGINEERING",
-      "jobType": "Full Time",
-      "postedAt": "",
-      "state": "open",
-      "experience": "6-8+",
-      "workMode": "Onsite"
-    },
-    {
-      "id": "c490f558e0cf49b140f3f0c4147134f5",
-      "title": "Deputy Estimation Manager",
-      "link": "https://telerelation.com/careers?job=Estimation-Engineer",
-      "location": "Islamabad",
-      "department": "MECHANICAL ENGINEERING",
-      "jobType": "Full Time",
-      "postedAt": "",
-      "state": "open",
-      "experience": "5+",
-      "workMode": "Onsite"
-    },
-    {
-      "id": "83773279a42e95dd3429b1eaa973d107",
-      "title": "Mechanical Intern",
-      "link": "https://telerelation.com/careers?job=Mechanical-Intern",
-      "location": "Islamabad",
-      "department": "MECHANICAL ENGINEERING",
-      "jobType": "Internship",
-      "postedAt": "",
-      "state": "open",
-      "experience": "0-1",
-      "workMode": "Onsite"
-    },
-    {
-      "id": "c5c91bc5eb91893a115db5474066ed17",
-      "title": "Assistant Project Manager",
-      "link": "https://telerelation.com/careers?job=APM-HVAC",
-      "location": "Islamabad",
-      "department": "MECHANICAL ENGINEERING",
-      "jobType": "Full Time",
-      "postedAt": "",
-      "state": "open",
-      "experience": "4-6",
       "workMode": "Onsite"
     }
   ]

@@ -1,8 +1,38 @@
 {
   "sourceUrl": "https://www.folio3.com/careers",
-  "fetchedAt": "2026-11-22T15:39:49.879033+00:00",
+  "fetchedAt": "2026-11-23T19:34:53.823127+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "d20b1fc779e7c718554b84a87432fe95",
+      "title": "Sales Executive – Cattle Industry Technology Services",
+      "link": "https://www.folio3.com/careers/sales-executive-cattle-industry-technology-services",
+      "location": "USA",
+      "department": "AgTech",
+      "jobType": "Regular",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "8c4454151aad76edba6cc410ff9ba4e8",
+      "title": "Sales Executive – Tree Nut Technology Services",
+      "link": "https://www.folio3.com/careers/sales-executive",
+      "location": "USA",
+      "department": "AgTech",
+      "jobType": "Regular",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "7e835f75b8590993923c5b1ebbf6795d",
+      "title": "Software Product Engineer",
+      "link": "https://www.folio3.com/careers/software-product-engineer",
+      "location": "Pakistan",
+      "department": "NetSuite",
+      "jobType": "Regular",
+      "postedAt": "",
+      "state": "open"
+    },
     {
       "id": "61d74aa5d6f09d80b23566aa99fe457d",
       "title": "Microsoft Power Automate / RPA Developer",

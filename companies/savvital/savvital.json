@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://savvital.breezy.hr",
-  "fetchedAt": "2026-11-22T15:42:17.311346+00:00",
+  "fetchedAt": "2026-11-23T19:37:28.066233+00:00",
   "state": "open",
   "jobs": [
     {
@@ -11,7 +11,7 @@
       "department": "Pakistan",
       "jobType": "Full-Time",
       "remoteType": "",
-      "postedAt": "2026-11-17T20:16:48.260Z",
+      "postedAt": "2026-11-23T16:34:56.593Z",
       "state": "open"
     },
     {
@@ -26,14 +26,36 @@
       "state": "open"
     },
     {
-      "id": "44d23511b9580d0875ef2372bea96120",
-      "title": "Insurance Associate - Pakistan",
-      "link": "https://savvital.breezy.hr/p/22fdae1df6d3-insurance-associate-pakistan",
+      "id": "4068c4f714b1e7cc870b2aac31813a6d",
+      "title": "Commercial Lines Account Associate",
+      "link": "https://savvital.breezy.hr/p/c2c4939e5e02-commercial-lines-account-associate",
       "location": "Pakistan",
       "department": "Pakistan",
       "jobType": "Full-Time",
-      "remoteType": "Hybrid (Some remote, some in person)",
-      "postedAt": "2026-11-19T19:16:13.495Z",
+      "remoteType": "Fully remote, no location restrictions",
+      "postedAt": "2026-11-23T18:27:24.726Z",
+      "state": "open"
+    },
+    {
+      "id": "227d9b563928029688b1f34a81e6934e",
+      "title": "Commercial Lines Account Associate (Bilingual – English & Spanish)",
+      "link": "https://savvital.breezy.hr/p/767600966312-commercial-lines-account-associate-bilingual-english-spanish",
+      "location": "Peru",
+      "department": "Peru",
+      "jobType": "Full-Time",
+      "remoteType": "Fully remote, no location restrictions",
+      "postedAt": "2026-11-23T18:27:50.206Z",
+      "state": "open"
+    },
+    {
+      "id": "4312a5156bf51ccc94f9bb17b30efdea",
+      "title": "Commercial Lines Account Associate (Bilingual – English & Spanish)",
+      "link": "https://savvital.breezy.hr/p/3339ec72db38-commercial-lines-account-associate-bilingual-english-spanish",
+      "location": "Guatemala",
+      "department": "Guatemala",
+      "jobType": "Full-Time",
+      "remoteType": "Fully remote, no location restrictions",
+      "postedAt": "2026-11-23T18:28:49.579Z",
       "state": "open"
     },
     {

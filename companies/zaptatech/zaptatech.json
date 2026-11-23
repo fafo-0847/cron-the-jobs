@@ -1,9 +1,19 @@
 {
   "sourceUrl": "https://career.zaptatech.com",
-  "fetchedAt": "2026-11-22T15:44:41.646047+00:00",
+  "fetchedAt": "2026-11-23T19:40:00.860038+00:00",
   "state": "open",
   "jobs": [
     {
+      "id": "e0aee0d5fcc837c08d598aba75423a4b",
+      "title": "Associate Technical Recruiter",
+      "link": "https://career.zaptatech.com/job-detail/associate-technical-recruiter",
+      "location": "ZAPTA Technologies Private Limited- Lahore",
+      "department": "HR Executive",
+      "jobType": "",
+      "postedAt": "23/11/2026",
+      "state": "open"
+    },
+    {
       "id": "8ae21806fe478b65d736be3e67fb7d37",
       "title": "DevOps Engineer",
       "link": "https://career.zaptatech.com/job-detail/devops-engineer1",
@@ -84,13 +94,13 @@
       "state": "open"
     },
     {
-      "id": "42406db491093c9979af89a6a7a48a72",
-      "title": "Business Development Manager",
-      "link": "https://career.zaptatech.com/job-detail/business-development-manager",
-      "location": "ZeeFrames Private Limited - Lahore",
-      "department": "Business Development - ZeeFrames",
+      "id": "e0aee0d5fcc837c08d598aba75423a4b",
+      "title": "Associate Technical Recruiter",
+      "link": "https://career.zaptatech.com/job-detail/associate-technical-recruiter",
+      "location": "ZAPTA Technologies Private Limited- Lahore",
+      "department": "HR Executive",
       "jobType": "",
-      "postedAt": "20/11/2026",
+      "postedAt": "23/11/2026",
       "state": "open"
     },
     {
@@ -169,16 +179,6 @@
       "link": "https://career.zaptatech.com/job-detail/lead-product-engineer-full-stack",
       "location": "ZAPTA Technologies Private Limited- Lahore",
       "department": "Developer",
-      "jobType": "",
-      "postedAt": "20/11/2026",
-      "state": "open"
-    },
-    {
-      "id": "42406db491093c9979af89a6a7a48a72",
-      "title": "Business Development Manager",
-      "link": "https://career.zaptatech.com/job-detail/business-development-manager",
-      "location": "ZeeFrames Private Limited - Lahore",
-      "department": "Business Development - ZeeFrames",
       "jobType": "",
       "postedAt": "20/11/2026",
       "state": "open"

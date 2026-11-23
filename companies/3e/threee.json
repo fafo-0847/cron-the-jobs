@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://jobs.ashbyhq.com/3e",
-  "fetchedAt": "2026-11-22T15:37:34.889215+00:00",
+  "fetchedAt": "2026-11-23T19:32:40.560003+00:00",
   "state": "open",
   "jobs": [
     {
@@ -27,19 +27,6 @@
       "workplaceType": "Hybrid",
       "compensation": "€18K – €26K",
       "postedAt": "2026-11-11T16:08:57.478+00:00",
-      "state": "open"
-    },
-    {
-      "id": "58a39c4e806bbcfef6699d16f9837627",
-      "title": "HR Manager",
-      "link": "https://jobs.ashbyhq.com/3E/58f3a939-62dd-4d30-a7ce-bc4288755103",
-      "location": "Lancaster, UK",
-      "department": "Human Resources",
-      "team": "Human Resources",
-      "jobType": "FullTime",
-      "workplaceType": "Hybrid",
-      "compensation": "",
-      "postedAt": "2026-09-09T18:00:52.398+00:00",
       "state": "open"
     },
     {

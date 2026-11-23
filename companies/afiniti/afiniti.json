@@ -1,36 +1,56 @@
 {
   "sourceUrl": "https://www.afiniti.com/jobs/",
-  "fetchedAt": "2026-11-22T15:37:39.757010+00:00",
+  "fetchedAt": "2026-11-23T19:32:48.594450+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "09541f34c9b387a9e838b673577f5f1c",
+      "title": "System Reliability Engineer",
+      "link": "https://www.afiniti.com/job/?title=2422-system-reliability-engineer&gnk=job&gni=8a7885aca1f5f45201a207c2f1636d81",
+      "location": "Romania",
+      "department": "",
+      "jobType": "",
+      "postedAt": "11/23/2026",
+      "state": "open"
+    },
+    {
+      "id": "bdb11ccd8cced2a9bf6f41a6245ff6b1",
+      "title": "Data Scientist II",
+      "link": "https://www.afiniti.com/job/?title=2420-data-scientist-ii&gnk=job&gni=8a7885aca1f5f45201a207bb19296d39",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "",
+      "postedAt": "11/23/2026",
+      "state": "open"
+    },
+    {
+      "id": "cd7c95bacf99eb2251eeb66bfa3b24f5",
+      "title": "Data Engineer II",
+      "link": "https://www.afiniti.com/job/?title=2421-data-engineer-ii&gnk=job&gni=8a7885aca1f5f45201a207bc096d6d45",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "",
+      "postedAt": "11/23/2026",
+      "state": "open"
+    },
+    {
+      "id": "aab65f46014c233412594f00d6550ec0",
+      "title": "Data Scientist II",
+      "link": "https://www.afiniti.com/job/?title=2419-data-scientist-ii&gnk=job&gni=8a7885aca1f5f45201a207ba34aa6d33",
+      "location": "Canada",
+      "department": "",
+      "jobType": "",
+      "postedAt": "11/23/2026",
+      "state": "open"
+    },
     {
       "id": "7d755d1604383ff505ab7da150162d21",
       "title": "Director Product Management",
       "link": "https://www.afiniti.com/job/?title=2418-director-product-management&gnk=job&gni=8a7883a8a184746e01a1894087642ea2",
-      "location": "United States",
-      "department": "",
-      "jobType": "",
-      "postedAt": "10/29/2026",
-      "state": "open"
-    },
-    {
-      "id": "a14b01ff33d8bd9c4052550776176c4e",
-      "title": "Associate General Counsel, Commercial Contracts",
-      "link": "https://www.afiniti.com/job/?title=2417-associate-general-counsel-commercial-contracts&gnk=job&gni=8a7885a8a0abfd5001a0ec93dab63411",
       "location": "Ireland",
       "department": "",
       "jobType": "",
-      "postedAt": "09/29/2026",
-      "state": "open"
-    },
-    {
-      "id": "b0fe43fd4b528d852f302150a1cf1ab6",
-      "title": "Director, Enterprise Sales",
-      "link": "https://www.afiniti.com/job/?title=2413-director-enterprise-sales&gnk=job&gni=8a78879e9f4435c7019f60d4805405c0",
-      "location": "United Kingdom",
-      "department": "",
-      "jobType": "",
-      "postedAt": "07/14/2026",
+      "postedAt": "10/29/2026",
       "state": "open"
     }
   ]

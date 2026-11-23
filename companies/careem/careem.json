@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/careem/departments",
-  "fetchedAt": "2026-11-22T15:38:21.328842+00:00",
+  "fetchedAt": "2026-11-23T19:33:41.926691+00:00",
   "state": "open",
   "jobs": [
     {
@@ -99,7 +99,16 @@
       "link": "https://boards.greenhouse.io/careem/jobs/8899591002?gh_jid=8899591002",
       "location": "Dubai, United Arab Emirates",
       "department": "Shops - UAE",
-      "postedAt": "2026-11-11T00:19:36-05:00",
+      "postedAt": "2026-11-23T02:42:34-05:00",
+      "state": "open"
+    },
+    {
+      "id": "2a8bcbe69e6e8113095b3aaf0aa4aa6c",
+      "title": "Supply Planning Lead",
+      "link": "https://boards.greenhouse.io/careem/jobs/8916303002?gh_jid=8916303002",
+      "location": "Karachi, Pakistan",
+      "department": "Supply Chain & Store Operations",
+      "postedAt": "2026-11-23T00:13:22-05:00",
       "state": "open"
     }
   ]

@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://curemd.wd1.myworkdayjobs.com/en-US/CureMD",
-  "fetchedAt": "2026-11-22T15:39:31.713494+00:00",
+  "fetchedAt": "2026-11-23T19:34:36.702395+00:00",
   "state": "open",
   "jobs": [
     {
@@ -8,17 +8,8 @@
       "title": "Senior Medical Coder",
       "link": "https://curemd.wd1.myworkdayjobs.com/en-US/CureMD/job/Lahore/Senior-Medical-Coder_JR102325",
       "location": "Lahore",
-      "postedAt": "Posted 16 Days Ago",
+      "postedAt": "Posted 17 Days Ago",
       "jobCode": "JR102325",
-      "state": "open"
-    },
-    {
-      "id": "03012cf08c520082a01346a94294ce48",
-      "title": "Software Engineer",
-      "link": "https://curemd.wd1.myworkdayjobs.com/en-US/CureMD/job/Lahore/Software-Engineer_JR102204",
-      "location": "Lahore",
-      "postedAt": "Posted 19 Days Ago",
-      "jobCode": "JR102204",
       "state": "open"
     },
     {
@@ -58,11 +49,20 @@
       "state": "open"
     },
     {
+      "id": "1a50da7cc232dc141fced4bfed85daf6",
+      "title": "Lead HR Business Partner - Services",
+      "link": "https://curemd.wd1.myworkdayjobs.com/en-US/CureMD/job/Lahore/Lead-HR-Business-Partner---Services_JR102399",
+      "location": "Lahore",
+      "postedAt": "Posted Today",
+      "jobCode": "JR102399",
+      "state": "open"
+    },
+    {
       "id": "ce3dfe4cd33e7c7d39ae55288cb758b9",
       "title": "Legal Associate",
       "link": "https://curemd.wd1.myworkdayjobs.com/en-US/CureMD/job/Lahore/Legal-Associate_JR102220",
       "location": "Lahore",
-      "postedAt": "Posted 3 Days Ago",
+      "postedAt": "Posted 4 Days Ago",
       "jobCode": "JR102220",
       "state": "open"
     },
@@ -71,7 +71,7 @@
       "title": "Software Engineer - FHIR Integration",
       "link": "https://curemd.wd1.myworkdayjobs.com/en-US/CureMD/job/Lahore/Software-Engineer---FHIR-Integration_JR102396",
       "location": "Lahore",
-      "postedAt": "Posted 6 Days Ago",
+      "postedAt": "Posted 7 Days Ago",
       "jobCode": "JR102396",
       "state": "open"
     },
@@ -80,17 +80,8 @@
       "title": "Oncology Implementation Specialist",
       "link": "https://curemd.wd1.myworkdayjobs.com/en-US/CureMD/job/New-York/Implementation-Specialist_JR102397",
       "location": "New York",
-      "postedAt": "Posted 9 Days Ago",
+      "postedAt": "Posted 10 Days Ago",
       "jobCode": "JR102397",
-      "state": "open"
-    },
-    {
-      "id": "5c9e51101181376ec6358e5dc987b870",
-      "title": "Associate - Talent Enablement (Audit & Compliance)",
-      "link": "https://curemd.wd1.myworkdayjobs.com/en-US/CureMD/job/Lahore/Associate---Talent-Enablement--Audit---Compliance-_JR102337",
-      "location": "Lahore",
-      "postedAt": "Posted 12 Days Ago",
-      "jobCode": "JR102337",
       "state": "open"
     },
     {
@@ -98,7 +89,7 @@
       "title": "Implementation Associate",
       "link": "https://curemd.wd1.myworkdayjobs.com/en-US/CureMD/job/North-Carolina/Implementation-Associate_JR102384",
       "location": "North Carolina",
-      "postedAt": "Posted 12 Days Ago",
+      "postedAt": "Posted 13 Days Ago",
       "jobCode": "JR102384",
       "state": "open"
     },
@@ -107,7 +98,7 @@
       "title": "Branding Lead",
       "link": "https://curemd.wd1.myworkdayjobs.com/en-US/CureMD/job/Lahore/Branding-Lead_JR102268",
       "location": "Lahore",
-      "postedAt": "Posted 16 Days Ago",
+      "postedAt": "Posted 17 Days Ago",
       "jobCode": "JR102268",
       "state": "open"
     },
@@ -116,17 +107,8 @@
       "title": "Recruiting Coordinator",
       "link": "https://curemd.wd1.myworkdayjobs.com/en-US/CureMD/job/Lahore/Recruiting-Coordinator_JR102387",
       "location": "Lahore",
-      "postedAt": "Posted 19 Days Ago",
+      "postedAt": "Posted 20 Days Ago",
       "jobCode": "JR102387",
-      "state": "open"
-    },
-    {
-      "id": "016326758a8f1f4823f14aaf38daefce",
-      "title": "SQA Engineer",
-      "link": "https://curemd.wd1.myworkdayjobs.com/en-US/CureMD/job/Lahore/SQA-Engineer_JR102206",
-      "location": "Lahore",
-      "postedAt": "Posted 25 Days Ago",
-      "jobCode": "JR102206",
       "state": "open"
     },
     {
@@ -134,7 +116,7 @@
       "title": "Associate HR Business Partner - Services",
       "link": "https://curemd.wd1.myworkdayjobs.com/en-US/CureMD/job/Lahore/Associate-HR-Business-Partner---Services_JR102272",
       "location": "Lahore",
-      "postedAt": "Posted 25 Days Ago",
+      "postedAt": "Posted 26 Days Ago",
       "jobCode": "JR102272",
       "state": "open"
     },
@@ -143,7 +125,7 @@
       "title": "Application Security Analyst",
       "link": "https://curemd.wd1.myworkdayjobs.com/en-US/CureMD/job/Lahore/Application-Security-Analyst_JR102295",
       "location": "Lahore",
-      "postedAt": "Posted 26 Days Ago",
+      "postedAt": "Posted 27 Days Ago",
       "jobCode": "JR102295",
       "state": "open"
     },
@@ -152,7 +134,7 @@
       "title": "Operations Analyst",
       "link": "https://curemd.wd1.myworkdayjobs.com/en-US/CureMD/job/Lahore/Operations-Analyst_JR102264",
       "location": "Lahore",
-      "postedAt": "Posted 30 Days Ago",
+      "postedAt": "Posted 30+ Days Ago",
       "jobCode": "JR102264",
       "state": "open"
     },
@@ -181,6 +163,24 @@
       "location": "Lahore",
       "postedAt": "Posted 30+ Days Ago",
       "jobCode": "JR102161",
+      "state": "open"
+    },
+    {
+      "id": "92450c64a0433c40f3a7db513e2433f4",
+      "title": "Sales Development Associate",
+      "link": "https://curemd.wd1.myworkdayjobs.com/en-US/CureMD/job/Lahore/Sales-Development-Associate_JR102238",
+      "location": "Lahore",
+      "postedAt": "Posted 30+ Days Ago",
+      "jobCode": "JR102238",
+      "state": "open"
+    },
+    {
+      "id": "30670df31894ba34da216c66eebfc77a",
+      "title": "Director - Engineering",
+      "link": "https://curemd.wd1.myworkdayjobs.com/en-US/CureMD/job/Lahore/Director---Engineering_JR102382",
+      "location": "Lahore",
+      "postedAt": "Posted 30+ Days Ago",
+      "jobCode": "JR102382",
       "state": "open"
     }
   ]

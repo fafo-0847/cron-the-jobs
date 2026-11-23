@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/nakisa/jobs?content=true",
-  "fetchedAt": "2026-11-22T15:41:21.621275+00:00",
+  "fetchedAt": "2026-11-23T19:36:31.587010+00:00",
   "state": "open",
   "jobs": [
     {
@@ -81,8 +81,8 @@
       "state": "open"
     },
     {
-      "id": "34d506f20cae38c890c8db8ca3a9c2a5",
-      "title": "Software Developer - Cloud Platform",
+      "id": "8c66809c7c24055eb0a8808e4bc400af",
+      "title": "Software Developer - Platform",
       "link": "https://nakisa.com/career-opportunities/?gh_jid=4941144101",
       "location": "Montréal, Quebec, Canada",
       "department": "R&D",

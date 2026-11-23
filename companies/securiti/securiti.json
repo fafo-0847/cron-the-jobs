@@ -1,8 +1,18 @@
 {
   "sourceUrl": "https://careers.veeam.com/search-jobs?acm=ALL&alrpm=ALL&ascf=[%7B\"key\":\"Team\",\"value\":\"Securiti+AI\"%7D]",
-  "fetchedAt": "2026-11-22T15:42:34.713034+00:00",
+  "fetchedAt": "2026-11-23T19:37:44.495675+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "360f0890592a69d8ff9baa5ac568e6e3",
+      "title": "Senior Sales Engineer - Data & AI Security",
+      "link": "https://careers.veeam.com/job/seoul/senior-sales-engineer-data-and-ai-security/22681/98777400304",
+      "location": "Seoul, KR",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
     {
       "id": "3d1f07631ff98d91c2c4f17a8120177a",
       "title": "Sales Specialist - Data & AI Security",
