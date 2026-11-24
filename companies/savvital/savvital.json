@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://savvital.breezy.hr",
-  "fetchedAt": "2026-11-23T19:37:28.066233+00:00",
+  "fetchedAt": "2026-11-24T19:09:55.169459+00:00",
   "state": "open",
   "jobs": [
     {
@@ -100,6 +100,28 @@
       "jobType": "Full-Time",
       "remoteType": "Fully remote, no location restrictions",
       "postedAt": "2026-11-20T14:30:54.121Z",
+      "state": "open"
+    },
+    {
+      "id": "f4d17fb1fa28b2e0e192d473a1e0b747",
+      "title": "Tax Administrative Assistant",
+      "link": "https://savvital.breezy.hr/p/4eb1a898623f-tax-administrative-assistant",
+      "location": "Pakistan",
+      "department": "Pakistan",
+      "jobType": "Full-Time",
+      "remoteType": "Hybrid (Some remote, some in person)",
+      "postedAt": "2026-11-24T17:36:00.502Z",
+      "state": "open"
+    },
+    {
+      "id": "1d9fb679616da0f503cd53a543379bb8",
+      "title": "U.S. Tax Preparer",
+      "link": "https://savvital.breezy.hr/p/4095bdd36b1a-u-s-tax-preparer",
+      "location": "Pakistan",
+      "department": "Pakistan",
+      "jobType": "Full-Time",
+      "remoteType": "Hybrid (Some remote, some in person)",
+      "postedAt": "2026-11-24T17:28:38.003Z",
       "state": "open"
     }
   ]

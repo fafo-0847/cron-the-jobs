@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://apply.workable.com/api/v1/widget/accounts/devsinc-17",
-  "fetchedAt": "2026-11-23T19:34:40.970914+00:00",
+  "fetchedAt": "2026-11-24T19:06:26.661582+00:00",
   "state": "open",
   "jobs": [
     {
@@ -547,19 +547,6 @@
       "state": "open",
       "experience": "Entry level",
       "education": "Bachelor's Degree",
-      "isRemote": false
-    },
-    {
-      "id": "7fdbcebaa010beee360afd806a1ea49a",
-      "title": "Software Engineering Intern",
-      "link": "https://apply.workable.com/j/DA41CF8008",
-      "location": "Lahore, Pakistan",
-      "department": "",
-      "jobType": "Other",
-      "postedAt": "2026-11-17",
-      "state": "open",
-      "experience": "Internship",
-      "education": "",
       "isRemote": false
     },
     {

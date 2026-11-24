@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://laam.peopleforce.io/careers",
-  "fetchedAt": "2026-11-23T19:35:45.351321+00:00",
+  "fetchedAt": "2026-11-24T19:07:51.159192+00:00",
   "state": "open",
   "jobs": [
     {
@@ -110,16 +110,6 @@
       "location": "NASTP, Lahore",
       "department": "Commercials",
       "jobType": "Full-time",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "b92f2878fda41d6904a24a42e2f2200c",
-      "title": "CCTV Technician",
-      "link": "https://laam.peopleforce.io/careers/v/179324-cctv-technician",
-      "location": "Gajju Matah - Lahore",
-      "department": "Administration",
-      "jobType": "Individual Contributor",
       "postedAt": "",
       "state": "open"
     },
@@ -269,16 +259,6 @@
       "link": "https://laam.peopleforce.io/careers/v/135472-brand-manager",
       "location": "NASTP, Lahore",
       "department": "Marketing",
-      "jobType": "Full-time",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "6d03ed078e2b62c343ef1afa5c00ef9a",
-      "title": "CRM Operations Specialist",
-      "link": "https://laam.peopleforce.io/careers/v/134608-crm-operations-specialist",
-      "location": "NASTP, Lahore",
-      "department": "Growth Strategy",
       "jobType": "Full-time",
       "postedAt": "",
       "state": "open"

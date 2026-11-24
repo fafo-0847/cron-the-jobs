@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://careers.veeam.com/search-jobs?acm=ALL&alrpm=ALL&ascf=[%7B\"key\":\"Team\",\"value\":\"Securiti+AI\"%7D]",
-  "fetchedAt": "2026-11-23T19:37:44.495675+00:00",
+  "fetchedAt": "2026-11-24T19:10:07.999216+00:00",
   "state": "open",
   "jobs": [
     {
@@ -314,36 +314,6 @@
       "state": "open"
     },
     {
-      "id": "8a457c75b58b85532303497ab0211607",
-      "title": "Senior Forward Deployed Engineer",
-      "link": "https://careers.veeam.com/job/north-sydney/senior-forward-deployed-engineer/22681/100154712336",
-      "location": "North Sydney, New South Wales",
-      "department": "Securiti AI",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "da8dc4af17374bbef61eb3c7d028e18b",
-      "title": "Senior Forward Deployed Engineer",
-      "link": "https://careers.veeam.com/job/melbourne/senior-forward-deployed-engineer/22681/98077177264",
-      "location": "Melbourne, Victoria",
-      "department": "Securiti AI",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "9fdb00655ee8653c7a4d27aa93feaac3",
-      "title": "Senior Forward Deployed Engineer",
-      "link": "https://careers.veeam.com/job/brisbane/senior-forward-deployed-engineer/22681/98074630720",
-      "location": "Brisbane, Queensland",
-      "department": "Securiti AI",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
       "id": "e29356017ff00416257b18cb229e834f",
       "title": "Senior Engineer - Hyperscale Analytics",
       "link": "https://careers.veeam.com/job/san-jose/senior-engineer-hyperscale-analytics/22681/100632516864",
@@ -358,16 +328,6 @@
       "title": "Senior Engineer - Access Entitlements",
       "link": "https://careers.veeam.com/job/british-columbia/senior-engineer-access-entitlements/22681/100624014048",
       "location": "British Columbia, CA",
-      "department": "Securiti AI",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "f169d9c53eb886f97f9cf7b3bd6b018b",
-      "title": "Senior Director, Product Management",
-      "link": "https://careers.veeam.com/job/san-jose/senior-director-product-management/22681/99811331040",
-      "location": "San Jose, CA",
       "department": "Securiti AI",
       "jobType": "",
       "postedAt": "",

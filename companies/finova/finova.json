@@ -1,8 +1,18 @@
 {
   "sourceUrl": "https://careers.finova.tech/#jobs",
-  "fetchedAt": "2026-11-23T19:34:51.833772+00:00",
+  "fetchedAt": "2026-11-24T19:06:39.392739+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "9f87b57ba152e9d3f8338456e1ab5de7",
+      "title": "Customer Success Account Manager",
+      "link": "https://careers.finova.tech/jobs/8790084-customer-success-account-manager",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
     {
       "id": "19ad588c95869e7bd50f8332c2c9a227",
       "title": "Technical Delivery Manager (12 month FTC)",

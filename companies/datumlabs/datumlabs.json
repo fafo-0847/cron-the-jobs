@@ -1,18 +1,8 @@
 {
   "sourceUrl": "https://www.datumlabs.io/careers",
-  "fetchedAt": "2026-11-23T19:34:40.528766+00:00",
+  "fetchedAt": "2026-11-24T19:06:26.210148+00:00",
   "state": "open",
   "jobs": [
-    {
-      "id": "a88eab82a01afa7a88b5b19400c5fa6f",
-      "title": "Entry Level DevOps Engineer",
-      "link": "https://www.datumlabs.io/careers/entry-level-devops-engineer",
-      "location": "Lahore (On-Site)",
-      "department": "",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
     {
       "id": "92f942ccf0e6ecde1ca6212a510fe450",
       "title": "Engineering Manager - Data & AI",
@@ -68,6 +58,16 @@
       "title": "Zoho CRM Developer",
       "link": "https://www.datumlabs.io/careers/zoho-crm-developer",
       "location": "Lahore (On-Site)",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "63edf4d32ee0b6a1808b923eb7d7fb51",
+      "title": "Account Executive",
+      "link": "https://www.datumlabs.io/careers/account-executive-sales-delivery",
+      "location": "Lahore (On-Site/Hybrid)",
       "department": "",
       "jobType": "",
       "postedAt": "",

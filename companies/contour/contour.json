@@ -1,14 +1,41 @@
 {
   "sourceUrl": "https://contour-software.com/jobs/",
-  "fetchedAt": "2026-11-23T19:34:31.803586+00:00",
+  "fetchedAt": "2026-11-24T19:06:18.076369+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "5ca611d776fffd261697f7b55698fda2",
+      "title": "SQA Analyst",
+      "link": "https://contour-software.com/job-detail/?jobPath=/job/PER---Karachi-PK/SQA-Analyst_R55711",
+      "location": "PER - Karachi, PK",
+      "postedAt": "Posted Today",
+      "jobCode": "R55711",
+      "state": "open"
+    },
+    {
+      "id": "839c8bb2c2166b147e667d89ffeae6a3",
+      "title": "Trainee Software Developer",
+      "link": "https://contour-software.com/job-detail/?jobPath=/job/PER---Lahore-PK/Trainee-Software-Developer_R55682",
+      "location": "3 Locations",
+      "postedAt": "Posted Today",
+      "jobCode": "R55682",
+      "state": "open"
+    },
+    {
+      "id": "f285c3914ddaddd30b9850abc04dcb86",
+      "title": "Senior Software Developer (MAUI and Blazor)",
+      "link": "https://contour-software.com/job-detail/?jobPath=/job/PER---Lahore-PK/Senior-Software-Developer--MAUI-and-Blazor-_R55658",
+      "location": "PER - Lahore, PK",
+      "postedAt": "Posted Today",
+      "jobCode": "R55658",
+      "state": "open"
+    },
     {
       "id": "325cbb5761a600e2047a38942a8e4d7a",
       "title": "Software Developer",
       "link": "https://contour-software.com/job-detail/?jobPath=/job/PER---Lahore-PK/Software-Developer_R55624",
       "location": "2 Locations",
-      "postedAt": "Posted Today",
+      "postedAt": "Posted Yesterday",
       "jobCode": "R55624",
       "state": "open"
     },
@@ -17,7 +44,7 @@
       "title": "Senior SQA Automation Analyst",
       "link": "https://contour-software.com/job-detail/?jobPath=/job/PER---Lahore-PK/Senior-SQA-Automation-Analyst_R55657",
       "location": "PER - Lahore, PK",
-      "postedAt": "Posted Today",
+      "postedAt": "Posted Yesterday",
       "jobCode": "R55657",
       "state": "open"
     },
@@ -26,7 +53,7 @@
       "title": "BI Administrator",
       "link": "https://contour-software.com/job-detail/?jobPath=/job/PER---Lahore-PK/BI-Administrator_R55266",
       "location": "PER - Lahore, PK",
-      "postedAt": "Posted 3 Days Ago",
+      "postedAt": "Posted 4 Days Ago",
       "jobCode": "R55266",
       "state": "open"
     },
@@ -35,7 +62,7 @@
       "title": "DevSecOps Engineer",
       "link": "https://contour-software.com/job-detail/?jobPath=/job/PER---Karachi-PK/DevSecOps-Engineer_R55240",
       "location": "3 Locations",
-      "postedAt": "Posted 3 Days Ago",
+      "postedAt": "Posted 4 Days Ago",
       "jobCode": "R55240",
       "state": "open"
     },
@@ -44,7 +71,7 @@
       "title": "Assistant Accountant",
       "link": "https://contour-software.com/job-detail/?jobPath=/job/PER---Karachi-PK/Assistant-Accountant_R55648",
       "location": "PER - Karachi, PK",
-      "postedAt": "Posted 3 Days Ago",
+      "postedAt": "Posted 4 Days Ago",
       "jobCode": "R55648",
       "state": "open"
     },
@@ -53,7 +80,7 @@
       "title": "Microsoft 365 & IT Infrastructure Engineer",
       "link": "https://contour-software.com/job-detail/?jobPath=/job/PER---Lahore-PK/Microsoft-365---IT-Infrastructure-Engineer_R55612-1",
       "location": "2 Locations",
-      "postedAt": "Posted 3 Days Ago",
+      "postedAt": "Posted 4 Days Ago",
       "jobCode": "R55612",
       "state": "open"
     },
@@ -62,7 +89,7 @@
       "title": "Childcare Assistant",
       "link": "https://contour-software.com/job-detail/?jobPath=/job/PER---Karachi-PK/Childcare-Assistant_R47406",
       "location": "PER - Karachi, PK",
-      "postedAt": "Posted 4 Days Ago",
+      "postedAt": "Posted 5 Days Ago",
       "jobCode": "R47406",
       "state": "open"
     },
@@ -71,7 +98,7 @@
       "title": "SQA Trainee",
       "link": "https://contour-software.com/job-detail/?jobPath=/job/PER---Lahore-PK/SQA-Trainee_R54064",
       "location": "PER - Lahore, PK",
-      "postedAt": "Posted 4 Days Ago",
+      "postedAt": "Posted 5 Days Ago",
       "jobCode": "R54064",
       "state": "open"
     },
@@ -80,35 +107,8 @@
       "title": "Senior Software Developer (VB6, .NET)",
       "link": "https://contour-software.com/job-detail/?jobPath=/job/PER---Karachi-PK/Senior-Software-Developer--VB6--NET-_R55365",
       "location": "3 Locations",
-      "postedAt": "Posted 5 Days Ago",
+      "postedAt": "Posted 6 Days Ago",
       "jobCode": "R55365",
-      "state": "open"
-    },
-    {
-      "id": "d4d42f5a13e2ff6d372bf3747a96963f",
-      "title": "Client Experience Specialist (Construction Industry)",
-      "link": "https://contour-software.com/job-detail/?jobPath=/job/PER---Lahore-PK/Client-Experience-Specialist--Construction-Industry-_R55614",
-      "location": "3 Locations",
-      "postedAt": "Posted 5 Days Ago",
-      "jobCode": "R55614",
-      "state": "open"
-    },
-    {
-      "id": "d62f83c1289607eee7ff331b2fdbc49f",
-      "title": "Client Experience Specialist",
-      "link": "https://contour-software.com/job-detail/?jobPath=/job/PER---Lahore-PK/Client-Experience-Specialist_R54765",
-      "location": "3 Locations",
-      "postedAt": "Posted 5 Days Ago",
-      "jobCode": "R54765",
-      "state": "open"
-    },
-    {
-      "id": "a7336d692fc563926dd9a6c3d23b3d2d",
-      "title": "Senior Software Developer (.NET)",
-      "link": "https://contour-software.com/job-detail/?jobPath=/job/PER---Lahore-PK/Senior-Software-Developer--NET-_R55363",
-      "location": "3 Locations",
-      "postedAt": "Posted 5 Days Ago",
-      "jobCode": "R55363",
       "state": "open"
     }
   ]

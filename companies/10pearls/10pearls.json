@@ -1,8 +1,28 @@
 {
   "sourceUrl": "https://api.resumatorapi.com/v1/jobs?apikey=jB0b57gnKdU9rqBWvqQpxzITAPrHUFaz",
-  "fetchedAt": "2026-11-23T19:32:40.433335+00:00",
+  "fetchedAt": "2026-11-24T19:04:30.079776+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "b701cb114935b1e7cd9ff733c1bddaa5",
+      "title": "Senior DevOps Consultant - Azure",
+      "link": "https://10pearls.resumatorsite.com/apply/XGW7T3qJht/job_20261124121911_KUGTGYIPZFWGOLNX",
+      "location": "Karachi, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-11-24",
+      "state": "open"
+    },
+    {
+      "id": "cd6c4c3ff05bf3cd65a2adafd063202e",
+      "title": "Integration Test Manager",
+      "link": "https://10pearls.resumatorsite.com/apply/vn0lzc1hRw/job_20261124101337_XWJAJ6YRNJQPR7VM",
+      "location": "Karachi, Lahore, Islamabad, Pakistan",
+      "department": "",
+      "jobType": "Contracted",
+      "postedAt": "2026-11-24",
+      "state": "open"
+    },
     {
       "id": "ff97b4d74ff041521cd9da2ab2b092da",
       "title": "Staff DevSecOps Consultant - Afternoon Shift",
@@ -14,10 +34,10 @@
       "state": "open"
     },
     {
-      "id": "de9f34d3ed482d64ae09908847435faa",
-      "title": "Test Manager - ERP",
-      "link": "https://10pearls.resumatorsite.com/apply/38qmE3SUDd/job_20261119121615_KI4BB3IJHE0DNZZD",
-      "location": "Lahore, Karachi, Islamabad, Pakistan",
+      "id": "58ec133d44399bc8360ea794204ddf59",
+      "title": "Principal/Staff Software Consultant - PHP",
+      "link": "https://10pearls.resumatorsite.com/apply/tW4oyU5yst/job_20261119135103_7YM6YVL9VCQQI1PH",
+      "location": "Karachi, Pakistan",
       "department": "",
       "jobType": "Full Time",
       "postedAt": "2026-11-19",
@@ -27,17 +47,17 @@
       "id": "4fd5faa2f2b12c04ace02fe4dee91c80",
       "title": "Staff/Senior Software Consultant - Android + IOS",
       "link": "https://10pearls.resumatorsite.com/apply/rUGMjuKjw4/job_20261119121316_ANX3WTZIJGBSXFOT",
-      "location": "Lahore,Karachi,Islamabad, Pakistan",
+      "location": "Karachi, Pakistan",
       "department": "",
       "jobType": "Full Time",
       "postedAt": "2026-11-19",
       "state": "open"
     },
     {
-      "id": "58ec133d44399bc8360ea794204ddf59",
-      "title": "Principal/Staff Software Consultant - PHP",
-      "link": "https://10pearls.resumatorsite.com/apply/tW4oyU5yst/job_20261119135103_7YM6YVL9VCQQI1PH",
-      "location": "Karachi, Pakistan",
+      "id": "2613691428c258f2a8d7798397e3a76b",
+      "title": "Test Manager - Microsoft Dynamics 365 (ERP)",
+      "link": "https://10pearls.resumatorsite.com/apply/38qmE3SUDd/job_20261119121615_KI4BB3IJHE0DNZZD",
+      "location": "Lahore, Karachi, Islamabad, Pakistan",
       "department": "",
       "jobType": "Full Time",
       "postedAt": "2026-11-19",
@@ -54,20 +74,20 @@
       "state": "open"
     },
     {
-      "id": "7354f1ff06890ab9ad659d10e94ecf67",
-      "title": "Staff/Senior Software Engineer (Elixir + Frontend)",
-      "link": "https://10pearls.resumatorsite.com/apply/Hk1vNMDpv4/job_20261117064430_IRDN8KDR95B94BG3",
-      "location": "Lahore/Karachi/Islamabad, Pakistan",
+      "id": "b9e2a8ce091a2a7eb2197df15886a307",
+      "title": "Delivery Manager",
+      "link": "https://10pearls.resumatorsite.com/apply/K9bL50C003/job_20261117054425_LRRZBMW73WYWRNH2",
+      "location": "London, United Kingdom",
       "department": "",
       "jobType": "Full Time",
       "postedAt": "2026-11-17",
       "state": "open"
     },
     {
-      "id": "b9e2a8ce091a2a7eb2197df15886a307",
-      "title": "Delivery Manager",
-      "link": "https://10pearls.resumatorsite.com/apply/K9bL50C003/job_20261117054425_LRRZBMW73WYWRNH2",
-      "location": "London, United Kingdom",
+      "id": "7354f1ff06890ab9ad659d10e94ecf67",
+      "title": "Staff/Senior Software Engineer (Elixir + Frontend)",
+      "link": "https://10pearls.resumatorsite.com/apply/Hk1vNMDpv4/job_20261117064430_IRDN8KDR95B94BG3",
+      "location": "Lahore/Karachi/Islamabad, Pakistan",
       "department": "",
       "jobType": "Full Time",
       "postedAt": "2026-11-17",
@@ -141,16 +161,6 @@
       "department": "",
       "jobType": "Full Time",
       "postedAt": "2026-10-28",
-      "state": "open"
-    },
-    {
-      "id": "da03556d60e06469e7c0957070426c6d",
-      "title": "Manager Administration",
-      "link": "https://10pearls.resumatorsite.com/apply/yINLnnQOdS/job_20261027091716_5BPDHPQRACBH53KX",
-      "location": "Lahore, Pakistan",
-      "department": "",
-      "jobType": "Full Time",
-      "postedAt": "2026-10-27",
       "state": "open"
     },
     {
@@ -991,16 +1001,6 @@
       "department": "",
       "jobType": "Full Time",
       "postedAt": "2025-04-28",
-      "state": "open"
-    },
-    {
-      "id": "57defef76e32456910e109be32e2188c",
-      "title": "Lead/Senior Executive – Community & Outreach",
-      "link": "https://10pearls.resumatorsite.com/apply/YcwDbhCBYN/job_20250424085136_K1SPQLM9ABYY3I9X",
-      "location": "Lahore, Karachi, Pakistan",
-      "department": "",
-      "jobType": "Full Time",
-      "postedAt": "2025-04-24",
       "state": "open"
     }
   ]

@@ -1,8 +1,18 @@
 {
   "sourceUrl": "https://api.resumatorapi.com/v1/jobs/status/open?apikey=9xmcuwVUT7G1mbVPmcL25yZ74FLkAqq8",
-  "fetchedAt": "2026-11-23T19:36:42.682405+00:00",
+  "fetchedAt": "2026-11-24T19:08:53.035610+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "8f01d41fbfa84dab4d54580b38d8df83",
+      "title": "Network Security Engineer (L3)",
+      "link": "https://northbay.resumatorsite.com/apply/m1bHiZFBzd/job_20261124092142_CYNCZZT20ZO8TBUT",
+      "location": "Dubai, United Arab Emirates",
+      "department": "Infrastructure",
+      "jobType": "Full Time",
+      "postedAt": "2026-11-24",
+      "state": "open"
+    },
     {
       "id": "b22c359a63b02ca4d44de8e6bc59ea93",
       "title": "Devops Engineer - AWS",
@@ -991,16 +1001,6 @@
       "department": "Development Team",
       "jobType": "Full Time",
       "postedAt": "2025-11-18",
-      "state": "open"
-    },
-    {
-      "id": "e5421ee761b32d918991498a217433db",
-      "title": "Senior AI Engineer",
-      "link": "https://northbay.resumatorsite.com/apply/32qfQ3OWtD/job_20251029205655_4JC4NFYSBF3E370Z",
-      "location": "Karachi, Pakistan",
-      "department": "",
-      "jobType": "Full Time",
-      "postedAt": "2025-10-29",
       "state": "open"
     }
   ]

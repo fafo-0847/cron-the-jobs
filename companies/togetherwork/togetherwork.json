@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://www.togetherwork.com/jobs/togetherwork/",
-  "fetchedAt": "2026-11-23T19:39:12.846838+00:00",
+  "fetchedAt": "2026-11-24T19:12:07.804481+00:00",
   "state": "open",
   "jobs": [
     {
@@ -158,17 +158,6 @@
       "state": "open"
     },
     {
-      "id": "b824f41393fa0f7afabc05af39fd8fa9",
-      "title": "Revenue Systems Manager, Salesforce",
-      "link": "https://www.togetherwork.com/jobs/togetherwork/revenue-systems-manager-salesforce/",
-      "location": "",
-      "department": "",
-      "jobType": "",
-      "description": "Revenue Systems Manager, Salesforce Location: Austin, TX (Hybrid, 3 days per week onsite)Relocation: Nationwide candidates welcome; relocation assistance may be availableEmployment Type: Full-Time About TogetherWork TogetherWork is a $250M recurring revenue SaaS business with more than 33 software applications serving 12+ vertical markets. We exist to help communities, organizations, and businesses thrive by delivering software […]",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
       "id": "e7d1def58aa5ae1366dd6ded9d23c89d",
       "title": "Content Writer",
       "link": "https://www.togetherwork.com/jobs/togetherwork/content-writer/",
@@ -220,17 +209,6 @@
       "department": "",
       "jobType": "",
       "description": "Senior Project Manager Location: Austin, TX (Hybrid) or Remote (US) What You’ll Do: The Senior Project Manager is accountable for the successful delivery of complex, high-impact customer projects across Togetherwork’s Professional Services portfolio. This role leads large-scale, multi-workstream initiatives from initiation through closeout, ensuring outcomes are delivered on time, within budget, and aligned with customer […]",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "50e92a22a0015403b8072f3a1492ad5f",
-      "title": "Revenue Systems Manager",
-      "link": "https://www.togetherwork.com/jobs/togetherwork/revenue-systems-manager/",
-      "location": "",
-      "department": "",
-      "jobType": "",
-      "description": "Revenue Systems Manager Location: Austin, TX (Hybrid, 3 days/week onsite) Candidates must be authorized to work in the United States for the duration of employment without requiring current or future employer sponsorship of any kind, including but not limited to OPT, STEM OPT, H-1B, or any other visa classification. About Us TogetherWork is a $250M […]",
       "postedAt": "",
       "state": "open"
     },

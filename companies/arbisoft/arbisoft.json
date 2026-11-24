@@ -1,8 +1,17 @@
 {
   "sourceUrl": "https://arbisoft.hirestream.io/api/v1/jobs/published-jobs/?timezone=Asia%2FKarachi&offset=0&limit=20&order=featured",
-  "fetchedAt": "2026-11-23T19:32:55.185110+00:00",
+  "fetchedAt": "2026-11-24T19:04:45.684590+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "d3f3e146a4a552ffd984453421990f03",
+      "title": "Project Manager",
+      "link": "https://arbisoft.hirestream.io/jobs/6d578a20-8c4c-4f99-9ba0-dbe11dfdb57f",
+      "location": "Arbisoft Germany, Berlin",
+      "department": "Software Engineering",
+      "postedAt": "2026-11-24T07:54:58.172855Z",
+      "state": "open"
+    },
     {
       "id": "0a00e4ad219ffd40e3a8a9e29f1ebc18",
       "title": "Finance Executive",
@@ -28,15 +37,6 @@
       "location": "Westwood Office, Lahore",
       "department": "Product Management",
       "postedAt": "2026-11-23T09:26:52.984591Z",
-      "state": "open"
-    },
-    {
-      "id": "d3f3e146a4a552ffd984453421990f03",
-      "title": "Project Manager",
-      "link": "https://arbisoft.hirestream.io/jobs/6d578a20-8c4c-4f99-9ba0-dbe11dfdb57f",
-      "location": "Arbisoft Germany, Berlin",
-      "department": "Software Engineering",
-      "postedAt": "2026-11-23T06:23:36.859823Z",
       "state": "open"
     },
     {

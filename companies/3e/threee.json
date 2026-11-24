@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://jobs.ashbyhq.com/3e",
-  "fetchedAt": "2026-11-23T19:32:40.560003+00:00",
+  "fetchedAt": "2026-11-24T19:04:30.228970+00:00",
   "state": "open",
   "jobs": [
     {
@@ -118,6 +118,19 @@
       "workplaceType": "OnSite",
       "compensation": "",
       "postedAt": "2026-11-19T21:16:30.034+00:00",
+      "state": "open"
+    },
+    {
+      "id": "cf754a850034657c8c7501d403eeb67a",
+      "title": "Eco Toxicologist Risk Assessment Consultant",
+      "link": "https://jobs.ashbyhq.com/3E/e33c7ad4-7a9b-416c-8e82-b8d1cbad8420",
+      "location": "Lancaster, UK",
+      "department": "Professional Services",
+      "team": "Yordas",
+      "jobType": "FullTime",
+      "workplaceType": "Remote",
+      "compensation": "",
+      "postedAt": "2026-11-24T12:36:14.421+00:00",
       "state": "open"
     },
     {

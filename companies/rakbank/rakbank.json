@@ -1,8 +1,48 @@
 {
   "sourceUrl": "https://iacqey.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC,offset=0",
-  "fetchedAt": "2026-11-23T19:37:05.632196+00:00",
+  "fetchedAt": "2026-11-24T19:09:14.741060+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "60618c555d9855968f8f5591bcce38b8",
+      "title": "Associate Vice President - Trade Finance Products",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/958",
+      "location": "DCO Corp.Office- 8th FLOOR",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-11-24",
+      "state": "open"
+    },
+    {
+      "id": "430d3730380c991def66c0d868e818de",
+      "title": "Business Development Manager - Commercial Elite Business Banking Liabilities",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/974",
+      "location": "DCO Corp.Office- 3rd  FLOOR",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-11-24",
+      "state": "open"
+    },
+    {
+      "id": "e430f2759d758991463375bc732a02d8",
+      "title": "Associate Vice President & Solution Architect-Wealth",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/998",
+      "location": "RAKBANK Corporate Office Dubai",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-11-24",
+      "state": "open"
+    },
+    {
+      "id": "cf349288cd4a9cd4935ae65c999e7cb2",
+      "title": "Relationship Manager - Commercial Liabilities",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1009",
+      "location": "Dubai",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-11-24",
+      "state": "open"
+    },
     {
       "id": "70e65f81872af20f50afe5223a7094ff",
       "title": "Relationship Manager- FIGP",
@@ -10,16 +50,6 @@
       "location": "DCO Corp.Office- 3rd  FLOOR",
       "department": "",
       "jobType": "On-site",
-      "postedAt": "2026-11-23",
-      "state": "open"
-    },
-    {
-      "id": "36f144d815fec36f1049e6d2210f0ea3",
-      "title": "Relationship Manager - Commercial Assets Coverage",
-      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/997",
-      "location": "Omniah Tower",
-      "department": "",
-      "jobType": "Hybrid",
       "postedAt": "2026-11-23",
       "state": "open"
     },

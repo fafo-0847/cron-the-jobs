@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://telerelation.com/careers",
-  "fetchedAt": "2026-11-23T19:38:36.320096+00:00",
+  "fetchedAt": "2026-11-24T19:11:03.514866+00:00",
   "state": "open",
   "jobs": [
     {
@@ -37,6 +37,18 @@
       "postedAt": "",
       "state": "open",
       "experience": "3-5+",
+      "workMode": "Onsite"
+    },
+    {
+      "id": "c490f558e0cf49b140f3f0c4147134f5",
+      "title": "Deputy Estimation Manager",
+      "link": "https://telerelation.com/careers?job=Estimation-Engineer",
+      "location": "Islamabad",
+      "department": "MECHANICAL ENGINEERING",
+      "jobType": "Full Time",
+      "postedAt": "",
+      "state": "open",
+      "experience": "5+",
       "workMode": "Onsite"
     }
   ]

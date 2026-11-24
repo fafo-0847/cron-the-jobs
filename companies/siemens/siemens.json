@@ -1,8 +1,18 @@
 {
   "sourceUrl": "https://jobs.siemens.com/en_US/externaljobs/SearchJobs/?42414=%5B812046%5D&42414_format=17570&listFilterMode=1&folderRecordsPerPage=6&",
-  "fetchedAt": "2026-11-23T19:37:58.661612+00:00",
+  "fetchedAt": "2026-11-24T19:10:22.050657+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "289e46bfbbaa3a07a280e8cb46ccba50",
+      "title": "Lead Incentive Compensation Analyst",
+      "link": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/525431",
+      "location": "Multiple Locations",
+      "department": "Sales",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
     {
       "id": "422a6e58388cc3da26091f662c942475",
       "title": "People & Organization People Partner \u2013 Karachi, Pakistan",
@@ -49,16 +59,6 @@
       "link": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/523162",
       "location": "Multiple Locations",
       "department": "Finance",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "4e11fd0936fadf72a3a071b49c959343",
-      "title": "Automation Projects and Bids Manager \u2013 Lahore or Karachi, Pakistan",
-      "link": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/519999",
-      "location": "Multiple Locations",
-      "department": "Customer Services",
       "jobType": "",
       "postedAt": "",
       "state": "open"

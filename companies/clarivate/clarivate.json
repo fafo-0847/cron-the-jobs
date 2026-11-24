@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://careers.clarivate.com/c/technology-jobs",
-  "fetchedAt": "2026-11-23T19:33:59.572170+00:00",
+  "fetchedAt": "2026-11-24T19:05:55.579195+00:00",
   "state": "open",
   "jobs": [
     {
@@ -26,17 +26,6 @@
       "state": "open"
     },
     {
-      "id": "4faa7c61c207313260090871ead1cedc",
-      "title": "Senior Infrastructure Engineer (Storage, Backup)",
-      "link": "https://careers.clarivate.com/job/JREQ136726/Senior-Infrastructure-Engineer-Storage-Backup",
-      "location": "Karnātaka, India",
-      "department": "IT Services",
-      "jobType": "On-Site",
-      "jobCode": "JREQ136726",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
       "id": "e2a576d8cfff3b80755115e4f1337a5a",
       "title": "Technical Architect (ServiceNow)",
       "link": "https://careers.clarivate.com/job/JREQ136335/Technical-Architect-ServiceNow",
@@ -44,6 +33,17 @@
       "department": "IT Services",
       "jobType": "Hybrid",
       "jobCode": "JREQ136335",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "4faa7c61c207313260090871ead1cedc",
+      "title": "Senior Infrastructure Engineer (Storage, Backup)",
+      "link": "https://careers.clarivate.com/job/JREQ136726/Senior-Infrastructure-Engineer-Storage-Backup",
+      "location": "Karnātaka, India",
+      "department": "IT Services",
+      "jobType": "On-Site",
+      "jobCode": "JREQ136726",
       "postedAt": "",
       "state": "open"
     },
@@ -59,17 +59,6 @@
       "state": "open"
     },
     {
-      "id": "3aa4806cfaafa15dd4027a3fed0e8534",
-      "title": "Senior Software Engineer - Java",
-      "link": "https://careers.clarivate.com/job/JREQ136412/Senior-Software-Engineer-Java",
-      "location": "Karnātaka, India",
-      "department": "Intellectual Property",
-      "jobType": "Hybrid",
-      "jobCode": "JREQ136412",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
       "id": "356be21c782b40b5d6b85b9485112f04",
       "title": "Senior Cloud Operations Engineer",
       "link": "https://careers.clarivate.com/job/JREQ136638/Senior-Cloud-Operations-Engineer",
@@ -81,28 +70,6 @@
       "state": "open"
     },
     {
-      "id": "04665f964ad3affda4f0bcefe160eb04",
-      "title": "Principal Enterprise Architect",
-      "link": "https://careers.clarivate.com/job/JREQ136830/Principal-Enterprise-Architect",
-      "location": "",
-      "department": "IT Services",
-      "jobType": "Hybrid",
-      "jobCode": "JREQ136830",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "c8256d57d0d9dcaa20f4a948273a01ec",
-      "title": "Lead Software Engineer",
-      "link": "https://careers.clarivate.com/job/JREQ135892/Lead-Software-Engineer",
-      "location": "Bangalore, Karnātaka, India",
-      "department": "IT Services",
-      "jobType": "Hybrid",
-      "jobCode": "JREQ135892",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
       "id": "6a8b306516da5b941a9f8fa5e8da5207",
       "title": "Lead Software Engineer",
       "link": "https://careers.clarivate.com/job/JREQ134655/Lead-Software-Engineer",
@@ -110,6 +77,17 @@
       "department": "Intellectual Property",
       "jobType": "Hybrid",
       "jobCode": "JREQ134655",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "04665f964ad3affda4f0bcefe160eb04",
+      "title": "Principal Enterprise Architect",
+      "link": "https://careers.clarivate.com/job/JREQ136830/Principal-Enterprise-Architect",
+      "location": "",
+      "department": "IT Services",
+      "jobType": "Hybrid",
+      "jobCode": "JREQ136830",
       "postedAt": "",
       "state": "open"
     },
@@ -136,28 +114,6 @@
       "state": "open"
     },
     {
-      "id": "a8a50f4675f14d4c1483cb707a3a37f7",
-      "title": "Senior Director, Software Engineering-  Annuities",
-      "link": "https://careers.clarivate.com/job/JREQ137111/Senior-Director-Software-Engineering-Annuities",
-      "location": "",
-      "department": "Intellectual Property",
-      "jobType": "Hybrid",
-      "jobCode": "JREQ137111",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "3d360c26ace6acc510e847845d7fbd68",
-      "title": "Senior Infrastructure Engineer (macOS management - JAMF)",
-      "link": "https://careers.clarivate.com/job/JREQ135710/Senior-Infrastructure-Engineer-macOS-management-JAMF",
-      "location": "Karnātaka, India",
-      "department": "IT Services",
-      "jobType": "Hybrid",
-      "jobCode": "JREQ135710",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
       "id": "75197a2ab3c006f3491343f102fe4d92",
       "title": "Lead Release Manager",
       "link": "https://careers.clarivate.com/job/JREQ136831/Lead-Release-Manager",
@@ -180,13 +136,35 @@
       "state": "open"
     },
     {
-      "id": "6086dcedd02def4354278047c632a1c6",
-      "title": "Sr. Director, Quality Assurance",
-      "link": "https://careers.clarivate.com/job/JREQ137110/Sr-Director-Quality-Assurance",
-      "location": "Noida, Uttar Pradesh, India",
+      "id": "c8256d57d0d9dcaa20f4a948273a01ec",
+      "title": "Lead Software Engineer",
+      "link": "https://careers.clarivate.com/job/JREQ135892/Lead-Software-Engineer",
+      "location": "Bangalore, Karnātaka, India",
+      "department": "IT Services",
+      "jobType": "Hybrid",
+      "jobCode": "JREQ135892",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "3aa4806cfaafa15dd4027a3fed0e8534",
+      "title": "Senior Software Engineer - Java",
+      "link": "https://careers.clarivate.com/job/JREQ136412/Senior-Software-Engineer-Java",
+      "location": "Karnātaka, India",
       "department": "Intellectual Property",
       "jobType": "Hybrid",
-      "jobCode": "JREQ137110",
+      "jobCode": "JREQ136412",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "3d360c26ace6acc510e847845d7fbd68",
+      "title": "Senior Infrastructure Engineer (macOS management - JAMF)",
+      "link": "https://careers.clarivate.com/job/JREQ135710/Senior-Infrastructure-Engineer-macOS-management-JAMF",
+      "location": "Karnātaka, India",
+      "department": "IT Services",
+      "jobType": "Hybrid",
+      "jobCode": "JREQ135710",
       "postedAt": "",
       "state": "open"
     },
@@ -213,6 +191,17 @@
       "state": "open"
     },
     {
+      "id": "a8a50f4675f14d4c1483cb707a3a37f7",
+      "title": "Senior Director, Software Engineering-  Annuities",
+      "link": "https://careers.clarivate.com/job/JREQ137111/Senior-Director-Software-Engineering-Annuities",
+      "location": "",
+      "department": "Intellectual Property",
+      "jobType": "Hybrid",
+      "jobCode": "JREQ137111",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
       "id": "6bcfe3173213c6089106aaca5b8186a1",
       "title": "Business Systems Analyst",
       "link": "https://careers.clarivate.com/job/JREQ137104/Business-Systems-Analyst",
@@ -220,17 +209,6 @@
       "department": "IT Services",
       "jobType": "Hybrid",
       "jobCode": "JREQ137104",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "d5dadc19ea7f1c10f7dbd27d91bd3559",
-      "title": "Senior Software Engineer",
-      "link": "https://careers.clarivate.com/job/JREQ137186/Senior-Software-Engineer",
-      "location": "Jerusalem, Israel",
-      "department": "Academia & Government",
-      "jobType": "Hybrid",
-      "jobCode": "JREQ137186",
       "postedAt": "",
       "state": "open"
     },
@@ -257,17 +235,6 @@
       "state": "open"
     },
     {
-      "id": "808a3662939bba87bd8e14012a624920",
-      "title": "Lead Software Engineer",
-      "link": "https://careers.clarivate.com/job/JREQ137191/Lead-Software-Engineer",
-      "location": "Belgrade, Serbia",
-      "department": "Academia & Government",
-      "jobType": "Hybrid",
-      "jobCode": "JREQ137191",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
       "id": "67c00f61a2e47a23f0d1ecb5b85b2e12",
       "title": "Senior Development Operations Engineer - FINOPS",
       "link": "https://careers.clarivate.com/job/JREQ137121/Senior-Development-Operations-Engineer-FINOPS",
@@ -286,6 +253,50 @@
       "department": "IT Services",
       "jobType": "Hybrid",
       "jobCode": "JREQ135946",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "d5dadc19ea7f1c10f7dbd27d91bd3559",
+      "title": "Senior Software Engineer",
+      "link": "https://careers.clarivate.com/job/JREQ137186/Senior-Software-Engineer",
+      "location": "Jerusalem, Israel",
+      "department": "Academia & Government",
+      "jobType": "Hybrid",
+      "jobCode": "JREQ137186",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "808a3662939bba87bd8e14012a624920",
+      "title": "Lead Software Engineer",
+      "link": "https://careers.clarivate.com/job/JREQ137191/Lead-Software-Engineer",
+      "location": "Belgrade, Serbia",
+      "department": "Academia & Government",
+      "jobType": "Hybrid",
+      "jobCode": "JREQ137191",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "f241187d16d46b9cbd16e7c6acc7b237",
+      "title": "Manager, Software Engineering (AI-Assisted Engineering)",
+      "link": "https://careers.clarivate.com/job/JREQ137146/Manager-Software-Engineering-AI-Assisted-Engineering",
+      "location": "Belgrade, Serbia",
+      "department": "Academia & Government",
+      "jobType": "Hybrid",
+      "jobCode": "JREQ137146",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "03718b8bb3ae588fcfdfe5574c54a4c2",
+      "title": "Lead Software Engineer (AI-Assisted Engineering)",
+      "link": "https://careers.clarivate.com/job/JREQ137147/Lead-Software-Engineer-AI-Assisted-Engineering",
+      "location": "Belgrade, Serbia",
+      "department": "Academia & Government",
+      "jobType": "Hybrid",
+      "jobCode": "JREQ137147",
       "postedAt": "",
       "state": "open"
     },
@@ -319,28 +330,6 @@
       "department": "Academia & Government",
       "jobType": "Hybrid",
       "jobCode": "JREQ137145",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "f241187d16d46b9cbd16e7c6acc7b237",
-      "title": "Manager, Software Engineering (AI-Assisted Engineering)",
-      "link": "https://careers.clarivate.com/job/JREQ137146/Manager-Software-Engineering-AI-Assisted-Engineering",
-      "location": "Belgrade, Serbia",
-      "department": "Academia & Government",
-      "jobType": "Hybrid",
-      "jobCode": "JREQ137146",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "03718b8bb3ae588fcfdfe5574c54a4c2",
-      "title": "Lead Software Engineer (AI-Assisted Engineering)",
-      "link": "https://careers.clarivate.com/job/JREQ137147/Lead-Software-Engineer-AI-Assisted-Engineering",
-      "location": "",
-      "department": "",
-      "jobType": "",
-      "jobCode": "JREQ137147",
       "postedAt": "",
       "state": "open"
     }

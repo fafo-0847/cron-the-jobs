@@ -1,8 +1,18 @@
 {
   "sourceUrl": "https://www.solitontechnologies.com/backend/api/getJobs",
-  "fetchedAt": "2026-11-23T19:37:59.916866+00:00",
+  "fetchedAt": "2026-11-24T19:10:22.600653+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "98a26eb020cbca091f3a400d6b233ead",
+      "title": "Junior Software Engineer",
+      "link": "https://www.solitontechnologies.com/careers/146",
+      "location": "On-Site",
+      "department": "",
+      "jobType": "0",
+      "postedAt": "",
+      "state": "open"
+    },
     {
       "id": "5a29056b646c3a19552ba1939a9f6f0e",
       "title": "Senior Account/Product Specialist - HL7, EMR",

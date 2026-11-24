@@ -1,8 +1,48 @@
 {
   "sourceUrl": "https://careers.halliburton.com/category/engineering-science-technology-jobs/543/8646032/1",
-  "fetchedAt": "2026-11-23T19:35:12.129653+00:00",
+  "fetchedAt": "2026-11-24T19:07:01.665029+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "e0ada9acd8d93692c12351d2daea3351",
+      "title": "Brazil - RJ - Macaé: Técnico de Laboratório - Baroid",
+      "link": "https://careers.halliburton.com/job/macae/brazil-rj-macae-tecnico-de-laboratorio-baroid/543/103736085296",
+      "location": "Macaé, Rio de Janeiro , Brazil",
+      "department": "Engineering/Science/Technology",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "1885bb0ead854a75560db7612495425d",
+      "title": "Brazil - RJ - Rio de Janeiro: Técnico de Laboratório - Baroid",
+      "link": "https://careers.halliburton.com/job/rio-de-janeiro/brazil-rj-rio-de-janeiro-tecnico-de-laboratorio-baroid/543/103736085280",
+      "location": "Rio de Janeiro, Rio de Janeiro , Brazil",
+      "department": "Engineering/Science/Technology",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "3e3decde64c36c991765a90b7a07e859",
+      "title": "Senior Data Scientist - Landmark",
+      "link": "https://careers.halliburton.com/job/houston/senior-data-scientist-landmark/543/103736085264",
+      "location": "Houston, TX , United States",
+      "department": "Engineering/Science/Technology",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "5fc79b38c3f87619d571739751e4dc48",
+      "title": "Tech Prof-PPS, Assoc",
+      "link": "https://careers.halliburton.com/job/maputo/tech-prof-pps-assoc/543/103736085200",
+      "location": "Maputo, Cidade de Maputo , Mozambique",
+      "department": "Engineering/Science/Technology",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
     {
       "id": "09123c444f7f875a1e97146e88872575",
       "title": "Tech Prof-Completions, Assoc",
@@ -327,16 +367,6 @@
       "id": "c8dc6457be1871e25d0dba116f4be3d2",
       "title": "Field Svc Spec, I",
       "link": "https://careers.halliburton.com/job/cairo/field-svc-spec-i/543/102758370256",
-      "location": "Cairo, Cairo Governorate , Egypt",
-      "department": "Engineering/Science/Technology",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "b6c11f53443196b5a1347cf3fad251cd",
-      "title": "Well Engineer, Assoc II",
-      "link": "https://careers.halliburton.com/job/cairo/well-engineer-assoc-ii/543/102758370240",
       "location": "Cairo, Cairo Governorate , Egypt",
       "department": "Engineering/Science/Technology",
       "jobType": "",
@@ -1098,16 +1128,6 @@
       "title": "Senior Architect - Landmark",
       "link": "https://careers.halliburton.com/job/houston/senior-architect-landmark/543/94330336928",
       "location": "Houston, TX , United States",
-      "department": "Engineering/Science/Technology",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "aab717cbcfff0e28d63e54917a01ff1e",
-      "title": "Senior Platform Engineer - AI Platforms & Deployment - Landmark",
-      "link": "https://careers.halliburton.com/job/calgary/senior-platform-engineer-ai-platforms-and-deployment-landmark/543/98232007904",
-      "location": "Calgary, Alberta , Canada",
       "department": "Engineering/Science/Technology",
       "jobType": "",
       "postedAt": "",

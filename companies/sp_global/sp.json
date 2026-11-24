@@ -1,8 +1,18 @@
 {
   "sourceUrl": "https://spglobalcareers.dejobs.org/locations/pak/jobs/",
-  "fetchedAt": "2026-11-23T19:38:03.452599+00:00",
+  "fetchedAt": "2026-11-24T19:10:26.689779+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "25b4c54e521bcf1ed686816ca802ee17",
+      "title": "Senior Software Developer",
+      "link": "https://spglobalcareers.dejobs.org/islamabad-pak/senior-software-developer/0760314C70714BB4B132D0085A774647/job/",
+      "location": "Islamabad, PAK",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
     {
       "id": "1a899e1a3f2bcbea674dd356fb2a7cd1",
       "title": "Associate, Client Support",

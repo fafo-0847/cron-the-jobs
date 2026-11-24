@@ -1,18 +1,8 @@
 {
   "sourceUrl": "https://acemoneytransfer.applytojob.com/apply",
-  "fetchedAt": "2026-11-23T19:32:46.168661+00:00",
+  "fetchedAt": "2026-11-24T19:04:36.669760+00:00",
   "state": "open",
   "jobs": [
-    {
-      "id": "9dd3acf9bae6e73d4d74dc7799e369dc",
-      "title": "Acquisition Growth Analyst",
-      "link": "https://acemoneytransfer.applytojob.com/apply/y2QQyVYWfd/Acquisition-Growth-Analyst",
-      "location": "Lahore, Punjab, Pakistan",
-      "department": "Growth",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
     {
       "id": "bbd4496a1bad58f87b72ea6d5ec59214",
       "title": "Chief Information Officer - PCF 49",
@@ -39,16 +29,6 @@
       "link": "https://acemoneytransfer.applytojob.com/apply/wc7dJTCFvH/Compliance-Post-Assurance-Officer",
       "location": "Lahore, Punjab, Pakistan",
       "department": "Compliance",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "982113930ae5ea28a748a8df4d5d56de",
-      "title": "Customer Experience Officer /Executive",
-      "link": "https://acemoneytransfer.applytojob.com/apply/xdJEmBmPV3/Customer-Experience-Officer-Executive",
-      "location": "Jhelum, Punjab, Pakistan",
-      "department": "Customer Xperience",
       "jobType": "",
       "postedAt": "",
       "state": "open"
@@ -149,6 +129,16 @@
       "link": "https://acemoneytransfer.applytojob.com/apply/4IyRjsqQVp/Senior-Finance-Executive",
       "location": "Lahore, Punjab, Pakistan",
       "department": "Accounts & Finance",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "e3bf6dba9429bfe61843fdbbe861d42e",
+      "title": "Senior Procurement Executive",
+      "link": "https://acemoneytransfer.applytojob.com/apply/4WGs86JhXF/Senior-Procurement-Executive",
+      "location": "Jhelum, Punjab, Pakistan, Pakistan",
+      "department": "Administration",
       "jobType": "",
       "postedAt": "",
       "state": "open"

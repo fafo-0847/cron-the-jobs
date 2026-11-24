@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/moniepoint/jobs?content=true",
-  "fetchedAt": "2026-11-23T19:36:30.661900+00:00",
+  "fetchedAt": "2026-11-24T19:08:40.145304+00:00",
   "state": "open",
   "jobs": [
     {
@@ -147,17 +147,6 @@
       "state": "open"
     },
     {
-      "id": "e53d8af77dda6c5bf65272a022901e48",
-      "title": "Engineering Relations Partner",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4874410101",
-      "location": "Remote, India; Remote, Kenya; Remote, Lagos, Nigeria; Remote, Pakistan; Remote, Poland; Remote, South Africa; Remote, Spain",
-      "department": "Pool: Engineering",
-      "jobType": "",
-      "requisitionId": "1496",
-      "postedAt": "2026-05-25T05:52:00-04:00",
-      "state": "open"
-    },
-    {
       "id": "13b4107cf58d452cb91c7efc3a234f9d",
       "title": "Engineering Relations Partner",
       "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4997794101",
@@ -166,6 +155,17 @@
       "jobType": "",
       "requisitionId": "1496",
       "postedAt": "2026-10-05T11:33:43-04:00",
+      "state": "open"
+    },
+    {
+      "id": "e53d8af77dda6c5bf65272a022901e48",
+      "title": "Engineering Relations Partner",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4874410101",
+      "location": "Remote, India; Remote, Kenya; Remote, Lagos, Nigeria; Remote, Pakistan; Remote, Poland; Remote, South Africa; Remote, Spain",
+      "department": "Pool: Engineering",
+      "jobType": "",
+      "requisitionId": "1496",
+      "postedAt": "2026-05-25T05:52:00-04:00",
       "state": "open"
     },
     {
@@ -422,17 +422,6 @@
       "state": "open"
     },
     {
-      "id": "30dc1ea794dba19ebf173916ce259101",
-      "title": "Performance Marketing Manager",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4244613101",
-      "location": "Remote, Spain",
-      "department": "Digital Marketing",
-      "jobType": "",
-      "requisitionId": "820",
-      "postedAt": "2023-11-09T07:20:28-05:00",
-      "state": "open"
-    },
-    {
       "id": "79da89db960bb1c7f8f49c9ad9a90485",
       "title": "Performance Marketing Manager",
       "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5017181101",
@@ -452,6 +441,17 @@
       "jobType": "",
       "requisitionId": "820",
       "postedAt": "2026-11-05T04:52:14-05:00",
+      "state": "open"
+    },
+    {
+      "id": "30dc1ea794dba19ebf173916ce259101",
+      "title": "Performance Marketing Manager",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4244613101",
+      "location": "Remote, Spain",
+      "department": "Digital Marketing",
+      "jobType": "",
+      "requisitionId": "820",
+      "postedAt": "2023-11-09T07:20:28-05:00",
       "state": "open"
     },
     {
@@ -485,6 +485,17 @@
       "jobType": "",
       "requisitionId": "158",
       "postedAt": "2021-11-26T02:32:36-05:00",
+      "state": "open"
+    },
+    {
+      "id": "ac532679edeec231beaf3c5c3e6d3efb",
+      "title": "Regional Repair Operations Manager - LRC 1",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5035617101",
+      "location": "Lagos, Nigeria",
+      "department": "Repairs and Insurance",
+      "jobType": "",
+      "requisitionId": "1627",
+      "postedAt": "2026-11-24T02:47:21-05:00",
       "state": "open"
     },
     {
@@ -532,17 +543,6 @@
       "state": "open"
     },
     {
-      "id": "7f3586b9386836e8a935a6997c2d2899",
-      "title": "Senior Business Analyst",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4936515101",
-      "location": "Remote, Poland",
-      "department": "",
-      "jobType": "",
-      "requisitionId": null,
-      "postedAt": "2026-07-24T07:02:26-04:00",
-      "state": "open"
-    },
-    {
       "id": "046e30e17f8cc66c7e37c5adfcd9f4df",
       "title": "Senior Business Analyst",
       "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4944062101",
@@ -554,14 +554,14 @@
       "state": "open"
     },
     {
-      "id": "a6d98f0804af19b2d3be157cb8ca1599",
+      "id": "7f3586b9386836e8a935a6997c2d2899",
       "title": "Senior Business Analyst",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4912592101",
-      "location": "Remote, London, United Kingdom",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4936515101",
+      "location": "Remote, Poland",
       "department": "",
       "jobType": "",
       "requisitionId": null,
-      "postedAt": "2026-06-30T02:34:01-04:00",
+      "postedAt": "2026-07-24T07:02:26-04:00",
       "state": "open"
     },
     {
@@ -576,14 +576,14 @@
       "state": "open"
     },
     {
-      "id": "c643dd5fcf2bcd41c31c3500d516caba",
-      "title": "Senior Principal, Talent Marketing",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4980860101",
-      "location": "Remote, Poland",
-      "department": "Talent Acquisition",
+      "id": "a6d98f0804af19b2d3be157cb8ca1599",
+      "title": "Senior Business Analyst",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4912592101",
+      "location": "Remote, London, United Kingdom",
+      "department": "",
       "jobType": "",
-      "requisitionId": "1588",
-      "postedAt": "2026-09-21T07:37:37-04:00",
+      "requisitionId": null,
+      "postedAt": "2026-06-30T02:34:01-04:00",
       "state": "open"
     },
     {
@@ -598,6 +598,17 @@
       "state": "open"
     },
     {
+      "id": "c643dd5fcf2bcd41c31c3500d516caba",
+      "title": "Senior Principal, Talent Marketing",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4980860101",
+      "location": "Remote, Poland",
+      "department": "Talent Acquisition",
+      "jobType": "",
+      "requisitionId": "1588",
+      "postedAt": "2026-09-21T07:37:37-04:00",
+      "state": "open"
+    },
+    {
       "id": "66c2a253aecdd5979d5cd4680fc7d3f3",
       "title": "Service Center Operations Manager",
       "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4776246101",
@@ -609,14 +620,14 @@
       "state": "open"
     },
     {
-      "id": "4a27c8199e3a5769b010d861adb6fb31",
-      "title": "State Inventory Officer (Delta)",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4998881101",
-      "location": "Delta, Nigeria",
+      "id": "ad7152504b040c91e5efc3770fe97dc7",
+      "title": "State Inventory Officer (Adamawa)",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4998886101",
+      "location": "Adamawa, Nigeria",
       "department": "Distribution Network Sales",
       "jobType": "",
       "requisitionId": null,
-      "postedAt": "2026-10-06T10:21:23-04:00",
+      "postedAt": "2026-10-06T10:21:26-04:00",
       "state": "open"
     },
     {

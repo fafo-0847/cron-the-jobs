@@ -1,8 +1,38 @@
 {
   "sourceUrl": "https://careers.bat.com/en/search-jobs/Pakistan/1045/2/1168579/30/70/50/2",
-  "fetchedAt": "2026-11-23T19:33:28.726800+00:00",
+  "fetchedAt": "2026-11-24T19:05:09.907293+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "18b98a917c1906befd6232fc1a85716f",
+      "title": "Senior Comms Manager",
+      "link": "https://careers.bat.com/en/job/islamabad/senior-comms-manager/1045/47195724032",
+      "location": "Islamabad, Islamabad",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "12c3e351a0997f71aecfd546e9a73556",
+      "title": "Key Account Executive - Lahore",
+      "link": "https://careers.bat.com/en/job/lahore/key-account-executive-lahore/1045/47193124992",
+      "location": "Lahore, Punjab",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "c6ac392e05a53fa598c2d64112bf94d4",
+      "title": "Territory Sales Manager - Rahim Yar Khan",
+      "link": "https://careers.bat.com/en/job/rahim-yar-khan/territory-sales-manager-rahim-yar-khan/1045/47186616896",
+      "location": "Rahim Yar Khan, Punjab",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
     {
       "id": "f864d6dfcb003230e631027bc02a770d",
       "title": "Team Lead - Velo",

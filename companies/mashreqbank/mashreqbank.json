@@ -1,8 +1,58 @@
 {
   "sourceUrl": "https://hcld.fa.em2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,locationId=300000000300311,sortBy=POSTING_DATES_DESC,offset=0",
-  "fetchedAt": "2026-11-23T19:35:54.102906+00:00",
+  "fetchedAt": "2026-11-24T19:08:03.296506+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "74821194fc0d6650a754f8fcae7b2c60",
+      "title": "AVP - Network Security Architect.MGN Pak - TECH - Data Centre and ATMs.MIT - PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2904",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-11-24",
+      "state": "open"
+    },
+    {
+      "id": "b5a3dfe9bbbeb3091614913957a3abbd",
+      "title": "Solution Architect.MGN Pak - TECH - Architecture and Devops.MIT - PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/5582",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-11-24",
+      "state": "open"
+    },
+    {
+      "id": "7d2feba37d9d009281fd36a212c89a3e",
+      "title": "VP, Data & AI Architect.MGN Pak - TECH - GenAI.MIT - PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/5819",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-11-24",
+      "state": "open"
+    },
+    {
+      "id": "c9707046f030de606572c2f0b2638893",
+      "title": "AVP - Enterprise Architect.MGN PAK - Tech - Enterprise Architecture.MIT - PAKCOE",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6144",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-11-24",
+      "state": "open"
+    },
+    {
+      "id": "1ba90747c417ddaad9141ee2aa6193bc",
+      "title": "Senior Manager Security Assurance",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7146",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-11-24",
+      "state": "open"
+    },
     {
       "id": "173b916506b2f742711ecc099ff9d5fe",
       "title": "Senior Fraud Control Analyst",
@@ -154,16 +204,6 @@
       "state": "open"
     },
     {
-      "id": "21c644a62275430cfa0ce8b80bbc7311",
-      "title": "Dev Engineer (Frontend) MGN Pak -  Retail Banking Group",
-      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7237",
-      "location": "Pakistan",
-      "department": "",
-      "jobType": "Remote work (RW)",
-      "postedAt": "2026-11-10",
-      "state": "open"
-    },
-    {
       "id": "b761956cfdf404c040fbc948fcd0e83b",
       "title": "Assistant Manager - Data Center.MGN Pak - TECH - Infrastructure.MIT - PAKCOE",
       "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3484",
@@ -224,16 +264,6 @@
       "state": "open"
     },
     {
-      "id": "50080ab99dd17c7c64098a68a90f5422",
-      "title": "Assistant Manger Settlement Card Operations.Card Operations - MBP.Operations Group-MBPKLTD",
-      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7045",
-      "location": "Pakistan",
-      "department": "",
-      "jobType": "Hybrid",
-      "postedAt": "2026-10-20",
-      "state": "open"
-    },
-    {
       "id": "684357bc4cdd7d375696d00940555af2",
       "title": "Assistant Manager - Big Data Administrator.MGN Pak - Digital Data Platforms.MIT - PAKCOE",
       "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6790",
@@ -250,16 +280,6 @@
       "location": "Pakistan",
       "department": "",
       "jobType": "Fulltime office (FTO)",
-      "postedAt": "2026-10-15",
-      "state": "open"
-    },
-    {
-      "id": "5038938cedde6aeeb381315d38ae271a",
-      "title": "Senior Associate - FTC Factoring Ops",
-      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6945",
-      "location": "Pakistan",
-      "department": "",
-      "jobType": "Remote work (RW)",
       "postedAt": "2026-10-15",
       "state": "open"
     },
