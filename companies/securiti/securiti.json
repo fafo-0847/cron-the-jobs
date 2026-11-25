@@ -1,8 +1,58 @@
 {
   "sourceUrl": "https://careers.veeam.com/search-jobs?acm=ALL&alrpm=ALL&ascf=[%7B\"key\":\"Team\",\"value\":\"Securiti+AI\"%7D]",
-  "fetchedAt": "2026-11-24T19:10:07.999216+00:00",
+  "fetchedAt": "2026-11-25T18:14:35.006300+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "8166042d2186017070ee8d06d13dccb4",
+      "title": "Sr. Tech Lead - Graph & Graph APIs",
+      "link": "https://careers.veeam.com/job/san-jose/sr-tech-lead-graph-and-graph-apis/22681/103778893456",
+      "location": "San Jose, CA",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "1ad4f6757c6be29b693a55a901536c60",
+      "title": "Senior Forward Deployed Engineer",
+      "link": "https://careers.veeam.com/job/melbourne/senior-forward-deployed-engineer/22681/103766144720",
+      "location": "Melbourne, Victoria",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "e10ada4b024ce0fbedf320e450dc65ac",
+      "title": "Senior Forward Deployed Engineer",
+      "link": "https://careers.veeam.com/job/brisbane/senior-forward-deployed-engineer/22681/103766144656",
+      "location": "Brisbane, Queensland",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "d357bf078ee44516724f0278bf25b63e",
+      "title": "Senior Forward Deployed Engineer",
+      "link": "https://careers.veeam.com/job/north-sydney/senior-forward-deployed-engineer/22681/100705500512",
+      "location": "North Sydney, New South Wales",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "2a3b6e00add6bb8e61581efdf16b5bbc",
+      "title": "Staff Software Engineer, Connectors (DPSM)",
+      "link": "https://careers.veeam.com/job/san-jose/staff-software-engineer-connectors-dpsm/22681/103741620144",
+      "location": "San Jose, CA",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
     {
       "id": "360f0890592a69d8ff9baa5ac568e6e3",
       "title": "Senior Sales Engineer - Data & AI Security",

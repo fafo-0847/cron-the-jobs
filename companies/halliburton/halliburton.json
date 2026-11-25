@@ -1,8 +1,28 @@
 {
   "sourceUrl": "https://careers.halliburton.com/category/engineering-science-technology-jobs/543/8646032/1",
-  "fetchedAt": "2026-11-24T19:07:01.665029+00:00",
+  "fetchedAt": "2026-11-25T18:12:06.626856+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "7edf77711aa50abdb2b7899e2232bf68",
+      "title": "Brazil - RJ - Data Management Consultant - Landmark",
+      "link": "https://careers.halliburton.com/job/rio-de-janeiro/brazil-rj-data-management-consultant-landmark/543/103179519584",
+      "location": "Rio de Janeiro, Rio de Janeiro , Brazil",
+      "department": "Engineering/Science/Technology",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "aa8eedb46ac87b6f810c12ea45454980",
+      "title": "Field Prof-DD, II",
+      "link": "https://careers.halliburton.com/job/cairo/field-prof-dd-ii/543/103766550640",
+      "location": "Cairo, Cairo Governorate , Egypt",
+      "department": "Engineering/Science/Technology",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
     {
       "id": "e0ada9acd8d93692c12351d2daea3351",
       "title": "Brazil - RJ - Macaé: Técnico de Laboratório - Baroid",
@@ -744,16 +764,6 @@
       "state": "open"
     },
     {
-      "id": "3387844d13dbf0948024589da2ef9ff9",
-      "title": "Geologist with Relationship Management Experience",
-      "link": "https://careers.halliburton.com/job/abingdon/geologist-with-relationship-management-experience/543/97462701072",
-      "location": "Abingdon, Oxfordshire, England , United Kingdom",
-      "department": "Engineering/Science/Technology",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
       "id": "4227e72fcc30ceaad9ccbef3efa276bc",
       "title": "Release Management Associate",
       "link": "https://careers.halliburton.com/job/bengaluru/release-management-associate/543/101079990352",
@@ -1139,16 +1149,6 @@
       "link": "https://careers.halliburton.com/job/houston/reliability-engineer-iiot-and-connected-assets/543/97523527632",
       "location": "Houston, TX , United States",
       "department": "Engineering/Science/Technology|Maintenance",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "df5dbc49cb71e8407c7f517a1e6d2a79",
-      "title": "Brazil - Hybrid: Senior Software Developer - Platform & Complex Systems",
-      "link": "https://careers.halliburton.com/job/rio-de-janeiro/brazil-hybrid-senior-software-developer-platform-and-complex-systems/543/93987126944",
-      "location": "Rio de Janeiro, Rio de Janeiro , Brazil",
-      "department": "Engineering/Science/Technology",
       "jobType": "",
       "postedAt": "",
       "state": "open"

@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://telerelation.com/careers",
-  "fetchedAt": "2026-11-24T19:11:03.514866+00:00",
+  "fetchedAt": "2026-11-25T18:15:25.002394+00:00",
   "state": "open",
   "jobs": [
     {
@@ -49,6 +49,18 @@
       "postedAt": "",
       "state": "open",
       "experience": "5+",
+      "workMode": "Onsite"
+    },
+    {
+      "id": "c13c011b7617a864bfba3126d0e79e8c",
+      "title": "Customer Support Analyst",
+      "link": "https://telerelation.com/careers?job=Customer-Support-Analyst",
+      "location": "Islamabad",
+      "department": "OPERATIONS",
+      "jobType": "Full Time",
+      "postedAt": "",
+      "state": "open",
+      "experience": "1-4+",
       "workMode": "Onsite"
     }
   ]

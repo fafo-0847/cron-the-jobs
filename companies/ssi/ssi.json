@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://strategic-systems-international.breezy.hr",
-  "fetchedAt": "2026-11-24T19:10:28.251429+00:00",
+  "fetchedAt": "2026-11-25T18:14:55.325234+00:00",
   "state": "open",
   "jobs": [
     {
@@ -97,6 +97,16 @@
       "id": "94c6023dbc68c19bc665e56cd15cd10e",
       "title": "Senior Software Engineer (Java)",
       "link": "https://strategic-systems-international.breezy.hr/p/5a19f9ebcb52-senior-software-engineer-java",
+      "location": "Lahore, PK",
+      "department": "",
+      "jobType": "Full-Time",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "e57c11c9833fae00a3c6efb75f6e100c",
+      "title": "Senior Software Engineer / .NET Developer",
+      "link": "https://strategic-systems-international.breezy.hr/p/448de34e13c3-senior-software-engineer-net-developer",
       "location": "Lahore, PK",
       "department": "",
       "jobType": "Full-Time",

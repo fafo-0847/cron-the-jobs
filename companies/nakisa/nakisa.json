@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/nakisa/jobs?content=true",
-  "fetchedAt": "2026-11-24T19:08:40.287463+00:00",
+  "fetchedAt": "2026-11-25T18:13:23.222468+00:00",
   "state": "open",
   "jobs": [
     {
@@ -23,17 +23,6 @@
       "jobType": "",
       "requisitionId": "117",
       "postedAt": "2026-08-27T17:18:19-04:00",
-      "state": "open"
-    },
-    {
-      "id": "a660526d8cf1840b5c754dec97e57052",
-      "title": "Product Manager - Accounting",
-      "link": "https://nakisa.com/career-opportunities/?gh_jid=4963628101",
-      "location": "Montréal, Quebec, Canada",
-      "department": "Product Management",
-      "jobType": "",
-      "requisitionId": "119",
-      "postedAt": "2026-09-11T10:28:12-04:00",
       "state": "open"
     },
     {

@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://apply.workable.com/api/v1/widget/accounts/devsinc-17",
-  "fetchedAt": "2026-11-24T19:06:26.661582+00:00",
+  "fetchedAt": "2026-11-25T18:11:35.404758+00:00",
   "state": "open",
   "jobs": [
     {
@@ -13,19 +13,6 @@
       "postedAt": "2026-09-03",
       "state": "open",
       "experience": "",
-      "education": "Bachelor's Degree",
-      "isRemote": false
-    },
-    {
-      "id": "ecc6e8c5c1d333c84812492a38b0972f",
-      "title": "Associate Functional Consultant - Microsoft Dynamics 365 Finance & Operations",
-      "link": "https://apply.workable.com/j/3F21775CBA",
-      "location": "Lahore, Pakistan",
-      "department": "Cluster Head",
-      "jobType": "Full-time",
-      "postedAt": "2026-09-25",
-      "state": "open",
-      "experience": "Mid-Senior level",
       "education": "Bachelor's Degree",
       "isRemote": false
     },
@@ -108,19 +95,6 @@
       "isRemote": false
     },
     {
-      "id": "d27243d4d11e66fde21dfe6fcb4c3be5",
-      "title": "Cloud Technical Consultant",
-      "link": "https://apply.workable.com/j/B706EF615D",
-      "location": "Lahore, Pakistan",
-      "department": "Cluster Head",
-      "jobType": "",
-      "postedAt": "2026-09-02",
-      "state": "open",
-      "experience": "",
-      "education": "",
-      "isRemote": false
-    },
-    {
       "id": "46871cbda56459c6b94abf1dbf17246d",
       "title": "Data Scraper",
       "link": "https://apply.workable.com/j/C1166B6A46",
@@ -186,19 +160,6 @@
       "isRemote": false
     },
     {
-      "id": "fed7121035a4c8fa1e779d297d45085b",
-      "title": "Microsoft Dynamics CRM & Power Platform Consultant",
-      "link": "https://apply.workable.com/j/4A7DB2ECF6",
-      "location": "Lahore, Pakistan",
-      "department": "Cluster Head",
-      "jobType": "",
-      "postedAt": "2026-09-14",
-      "state": "open",
-      "experience": "",
-      "education": "",
-      "isRemote": false
-    },
-    {
       "id": "dea7c5216a214d7de844144d39393a65",
       "title": "NLP Engineer - Arabic Language Focus",
       "link": "https://apply.workable.com/j/6C4B811895",
@@ -232,19 +193,6 @@
       "department": "Global B2B Sales and Business Development",
       "jobType": "",
       "postedAt": "2026-08-16",
-      "state": "open",
-      "experience": "",
-      "education": "",
-      "isRemote": false
-    },
-    {
-      "id": "b94e4fbe398bd1fff5aabc624ab2f0b5",
-      "title": "Sales Development Representative Intern",
-      "link": "https://apply.workable.com/j/662D92EE6B",
-      "location": "Lahore, Pakistan",
-      "department": "Pre Sales",
-      "jobType": "",
-      "postedAt": "2026-11-12",
       "state": "open",
       "experience": "",
       "education": "",
@@ -313,19 +261,6 @@
       "state": "open",
       "experience": "",
       "education": "",
-      "isRemote": false
-    },
-    {
-      "id": "79a715e8ea598b422fdfb10611b92dd9",
-      "title": "Senior Functional Consultant - Microsoft Dynamics 365 Finance & Operations",
-      "link": "https://apply.workable.com/j/2473479343",
-      "location": "Lahore, Pakistan",
-      "department": "Cluster Head",
-      "jobType": "Full-time",
-      "postedAt": "2026-09-25",
-      "state": "open",
-      "experience": "Mid-Senior level",
-      "education": "Bachelor's Degree",
       "isRemote": false
     },
     {

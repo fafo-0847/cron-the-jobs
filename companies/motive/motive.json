@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/gomotive/departments",
-  "fetchedAt": "2026-11-24T19:08:40.215061+00:00",
+  "fetchedAt": "2026-11-25T18:13:23.150172+00:00",
   "state": "open",
   "jobs": [
     {
@@ -760,6 +760,15 @@
       "state": "open"
     },
     {
+      "id": "5f5bf1dfe1b4a8ea8a429528e3634759",
+      "title": "Senior Field Marketing Manager",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8958621002",
+      "location": "United States - Remote",
+      "department": "Marketing",
+      "postedAt": "2026-11-24T18:18:43-05:00",
+      "state": "open"
+    },
+    {
       "id": "39fffa1b5294617e25b7a9d1d39c475b",
       "title": "Mid-Market Regional Sales Manager ",
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8891542002",
@@ -801,7 +810,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8883191002",
       "location": "Hybrid - Islamabad & Lahore",
       "department": "Order Management",
-      "postedAt": "2026-11-19T15:33:38-05:00",
+      "postedAt": "2026-11-25T11:31:11-05:00",
       "state": "open"
     },
     {
@@ -810,7 +819,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8883193002",
       "location": "Hybrid - Islamabad & Lahore",
       "department": "Order Management",
-      "postedAt": "2026-11-19T15:33:38-05:00",
+      "postedAt": "2026-11-25T11:31:13-05:00",
       "state": "open"
     },
     {
@@ -828,7 +837,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8697087002",
       "location": "United States - Remote",
       "department": "Post Sale Operations",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-25T10:31:15-05:00",
       "state": "open"
     },
     {
@@ -837,7 +846,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8841992002",
       "location": "Canada - Remote",
       "department": "Post Sale Operations",
-      "postedAt": "2026-11-16T13:23:43-05:00",
+      "postedAt": "2026-11-25T10:31:15-05:00",
       "state": "open"
     },
     {

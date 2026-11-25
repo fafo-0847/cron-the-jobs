@@ -1,8 +1,28 @@
 {
   "sourceUrl": "https://jobs.siemens.com/en_US/externaljobs/SearchJobs/?42414=%5B812046%5D&42414_format=17570&listFilterMode=1&folderRecordsPerPage=6&",
-  "fetchedAt": "2026-11-24T19:10:22.050657+00:00",
+  "fetchedAt": "2026-11-25T18:14:48.918080+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "7ca6e593badb9e1b61b63672b90eb3c4",
+      "title": "Learning Program Manager for Partner Enablement - m/f/d",
+      "link": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/524585",
+      "location": "Multiple Locations",
+      "department": "Customer Services",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "1a35b1320df99fae9b2a7f31ae07241c",
+      "title": "QA Test Engineer",
+      "link": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/530624",
+      "location": "Multiple Locations",
+      "department": "Research & Development",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
     {
       "id": "289e46bfbbaa3a07a280e8cb46ccba50",
       "title": "Lead Incentive Compensation Analyst",
@@ -39,26 +59,6 @@
       "link": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/524586",
       "location": "Multiple Locations",
       "department": "Customer Services",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "49eee3c215ff3fbaf58f32ee17ae3726",
-      "title": "Power System Consultant - Karachi, Pakistan",
-      "link": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/526108",
-      "location": "Karachi, Sindh, Pakistan",
-      "department": "Engineering",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "b4db255c244a7e55753f45d9e5336442",
-      "title": "Analista Controladoria Projetos Pleno (CPM)",
-      "link": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/523162",
-      "location": "Multiple Locations",
-      "department": "Finance",
       "jobType": "",
       "postedAt": "",
       "state": "open"

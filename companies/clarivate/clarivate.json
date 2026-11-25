@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://careers.clarivate.com/c/technology-jobs",
-  "fetchedAt": "2026-11-24T19:05:55.579195+00:00",
+  "fetchedAt": "2026-11-25T18:11:09.281650+00:00",
   "state": "open",
   "jobs": [
     {
@@ -103,17 +103,6 @@
       "state": "open"
     },
     {
-      "id": "e484dbb69bf63e421421292fc5f60316",
-      "title": "Senior Software Engineer",
-      "link": "https://careers.clarivate.com/job/JREQ136706/Senior-Software-Engineer",
-      "location": "Karnātaka, India",
-      "department": "IT Services",
-      "jobType": "Hybrid",
-      "jobCode": "JREQ136706",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
       "id": "75197a2ab3c006f3491343f102fe4d92",
       "title": "Lead Release Manager",
       "link": "https://careers.clarivate.com/job/JREQ136831/Lead-Release-Manager",
@@ -169,17 +158,6 @@
       "state": "open"
     },
     {
-      "id": "7b6e842f2f3bea8a12432d109b4bc303",
-      "title": "Lead Software Engineer (Salesforce)",
-      "link": "https://careers.clarivate.com/job/JREQ136809/Lead-Software-Engineer-Salesforce",
-      "location": "Karnātaka, India",
-      "department": "IT Services",
-      "jobType": "Hybrid",
-      "jobCode": "JREQ136809",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
       "id": "589bb19b35443fc90e0bba945f3c4523",
       "title": "Senior Storage Engineer",
       "link": "https://careers.clarivate.com/job/JREQ136835/Senior-Storage-Engineer",
@@ -198,17 +176,6 @@
       "department": "Intellectual Property",
       "jobType": "Hybrid",
       "jobCode": "JREQ137111",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "6bcfe3173213c6089106aaca5b8186a1",
-      "title": "Business Systems Analyst",
-      "link": "https://careers.clarivate.com/job/JREQ137104/Business-Systems-Analyst",
-      "location": "",
-      "department": "IT Services",
-      "jobType": "Hybrid",
-      "jobCode": "JREQ137104",
       "postedAt": "",
       "state": "open"
     },
@@ -319,6 +286,28 @@
       "department": "Intellectual Property",
       "jobType": "Hybrid",
       "jobCode": "JREQ136483",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "5eda01fba25145fe435c07be771571d4",
+      "title": "Manager, Solutions Analysis",
+      "link": "https://careers.clarivate.com/job/JREQ137202/Manager-Solutions-Analysis",
+      "location": "Belgrade, Serbia",
+      "department": "Academia & Government",
+      "jobType": "Hybrid",
+      "jobCode": "JREQ137202",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "9d611eb5cca6f7eb25904f2b08a9b6b1",
+      "title": "Quality Assurance Engineer",
+      "link": "https://careers.clarivate.com/job/JREQ137206/Quality-Assurance-Engineer",
+      "location": "Jerusalem, Israel",
+      "department": "Academia & Government",
+      "jobType": "Hybrid",
+      "jobCode": "JREQ137206",
       "postedAt": "",
       "state": "open"
     },

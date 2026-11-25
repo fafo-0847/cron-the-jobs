@@ -1,6 +1,27 @@
 {
   "sourceUrl": "https://careers.teradata.com/jobs?location=Pakistan",
-  "fetchedAt": "2026-11-24T19:11:12.297729+00:00",
+  "fetchedAt": "2026-11-25T18:15:33.348867+00:00",
   "state": "open",
-  "jobs": []
+  "jobs": [
+    {
+      "id": "c07cb4f33ad32bfa5e68804057bc44ff",
+      "title": "Senior Data Modeler",
+      "link": "https://careers.teradata.com/jobs/220963/senior-data-modeler?search=location%3DPakistan&j_idx=0",
+      "location": "Islamabad, Islamabad Capital Territory, Pakistan | India",
+      "department": "",
+      "jobType": "Full Time, Remote",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "d8b527ffe36c06729a0c507b5ccaf3da",
+      "title": "Senior Data Modeler",
+      "link": "https://careers.teradata.com/jobs/220964/senior-data-modeler?search=location%3DPakistan&j_idx=1",
+      "location": "Islamabad, Islamabad Capital Territory, Pakistan | India",
+      "department": "",
+      "jobType": "Full Time, Remote",
+      "postedAt": "",
+      "state": "open"
+    }
+  ]
 }

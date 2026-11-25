@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://api.resumatorapi.com/v1/jobs?apikey=jB0b57gnKdU9rqBWvqQpxzITAPrHUFaz",
-  "fetchedAt": "2026-11-24T19:04:30.079776+00:00",
+  "fetchedAt": "2026-11-25T18:10:01.167454+00:00",
   "state": "open",
   "jobs": [
     {
@@ -19,7 +19,7 @@
       "link": "https://10pearls.resumatorsite.com/apply/vn0lzc1hRw/job_20261124101337_XWJAJ6YRNJQPR7VM",
       "location": "Karachi, Lahore, Islamabad, Pakistan",
       "department": "",
-      "jobType": "Contracted",
+      "jobType": "Full Time",
       "postedAt": "2026-11-24",
       "state": "open"
     },

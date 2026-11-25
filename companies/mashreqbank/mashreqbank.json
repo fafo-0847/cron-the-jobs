@@ -1,8 +1,28 @@
 {
   "sourceUrl": "https://hcld.fa.em2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,locationId=300000000300311,sortBy=POSTING_DATES_DESC,offset=0",
-  "fetchedAt": "2026-11-24T19:08:03.296506+00:00",
+  "fetchedAt": "2026-11-25T18:12:46.516607+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "b382ed3f75d7f587b74f83589eeed507",
+      "title": "Dev Engineer - Backend - (Mashreq Global Network Pakistan) - Retail Banking Group",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6715",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-11-25",
+      "state": "open"
+    },
+    {
+      "id": "3474f46c8908b8a02b5ddbb33dc2a485",
+      "title": "Senior Manager, Capital Management",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7132",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-11-25",
+      "state": "open"
+    },
     {
       "id": "74821194fc0d6650a754f8fcae7b2c60",
       "title": "AVP - Network Security Architect.MGN Pak - TECH - Data Centre and ATMs.MIT - PAKCOE",
@@ -91,16 +111,6 @@
       "department": "",
       "jobType": "Remote work (RW)",
       "postedAt": "2026-11-20",
-      "state": "open"
-    },
-    {
-      "id": "dab817277cea4f44e75b3809254aa868",
-      "title": "Senior Manager Technology - Integration Support",
-      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4762",
-      "location": "Pakistan",
-      "department": "",
-      "jobType": "Hybrid",
-      "postedAt": "2026-11-19",
       "state": "open"
     },
     {

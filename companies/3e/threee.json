@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://jobs.ashbyhq.com/3e",
-  "fetchedAt": "2026-11-24T19:04:30.228970+00:00",
+  "fetchedAt": "2026-11-25T18:10:01.313262+00:00",
   "state": "open",
   "jobs": [
     {
@@ -56,8 +56,8 @@
       "state": "open"
     },
     {
-      "id": "d7a22ee62167aaad1bd0586a3312887e",
-      "title": "Senior Portfolio Growth Marketing Manager",
+      "id": "a5941eba2898118d6e8c3a1c3689bd57",
+      "title": "Senior B2B Integrated Marketing Manager",
       "link": "https://jobs.ashbyhq.com/3E/0c0fb614-f710-45e3-b9c9-86051d482d30",
       "location": "Washington DC Metro Area",
       "department": "Commercial",
@@ -65,7 +65,7 @@
       "jobType": "FullTime",
       "workplaceType": "Remote",
       "compensation": "$120K – $130K • Offers Bonus",
-      "postedAt": "2026-09-24T16:54:54.155+00:00",
+      "postedAt": "2026-11-25T10:46:30.262+00:00",
       "state": "open"
     },
     {
@@ -104,7 +104,7 @@
       "jobType": "FullTime",
       "workplaceType": "Remote",
       "compensation": "",
-      "postedAt": "2026-11-19T21:17:36.867+00:00",
+      "postedAt": "2026-11-25T14:27:50.379+00:00",
       "state": "open"
     },
     {
@@ -115,9 +115,9 @@
       "department": "Customer Experience",
       "team": "Onboarding & Implementation",
       "jobType": "FullTime",
-      "workplaceType": "OnSite",
+      "workplaceType": "Remote",
       "compensation": "",
-      "postedAt": "2026-11-19T21:16:30.034+00:00",
+      "postedAt": "2026-11-25T14:46:51.535+00:00",
       "state": "open"
     },
     {
@@ -170,6 +170,19 @@
       "workplaceType": "",
       "compensation": "€18K – €26K • Offers Bonus",
       "postedAt": "2026-11-11T16:03:44.358+00:00",
+      "state": "open"
+    },
+    {
+      "id": "a17ef69126f6aabfe72eec06e8cce6f4",
+      "title": "Associate Regulatory Consultant - Hazard Communication",
+      "link": "https://jobs.ashbyhq.com/3E/8fb328e2-2a0f-42f7-8509-917c189fc699",
+      "location": "Remote, Türkiye",
+      "department": "Professional Services",
+      "team": "Yordas",
+      "jobType": "FullTime",
+      "workplaceType": "Remote",
+      "compensation": "",
+      "postedAt": "2026-11-25T16:15:12.608+00:00",
       "state": "open"
     }
   ]

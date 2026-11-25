@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://acemoneytransfer.applytojob.com/apply",
-  "fetchedAt": "2026-11-24T19:04:36.669760+00:00",
+  "fetchedAt": "2026-11-25T18:10:08.938163+00:00",
   "state": "open",
   "jobs": [
     {
@@ -29,6 +29,16 @@
       "link": "https://acemoneytransfer.applytojob.com/apply/wc7dJTCFvH/Compliance-Post-Assurance-Officer",
       "location": "Lahore, Punjab, Pakistan",
       "department": "Compliance",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "982113930ae5ea28a748a8df4d5d56de",
+      "title": "Customer Experience Officer /Executive",
+      "link": "https://acemoneytransfer.applytojob.com/apply/xdJEmBmPV3/Customer-Experience-Officer-Executive",
+      "location": "Jhelum, Punjab, Pakistan",
+      "department": "Customer Xperience",
       "jobType": "",
       "postedAt": "",
       "state": "open"
@@ -94,11 +104,11 @@
       "state": "open"
     },
     {
-      "id": "2bbfd9d0d506b226e662fb89d6939ccb",
-      "title": "Project Lead",
-      "link": "https://acemoneytransfer.applytojob.com/apply/TEPCh8mi3I/Project-Lead",
+      "id": "7f7a766cc20247ddb6197c9ad92cce56",
+      "title": "Project Lead (PMO)",
+      "link": "https://acemoneytransfer.applytojob.com/apply/TEPCh8mi3I/Project-Lead-PMO",
       "location": "Lahore, Punjab, Pakistan",
-      "department": "",
+      "department": "PMO",
       "jobType": "",
       "postedAt": "",
       "state": "open"

@@ -1,18 +1,8 @@
 {
   "sourceUrl": "https://jobs.dubizzlelabs.com",
-  "fetchedAt": "2026-11-24T19:06:29.801018+00:00",
+  "fetchedAt": "2026-11-25T18:11:38.510168+00:00",
   "state": "open",
   "jobs": [
-    {
-      "id": "67345cd12d7bc60df6660a74a2d9235d",
-      "title": "Accountant / Senior Accoutant",
-      "link": "https://dubizzlelabs.breezy.hr/p/7a649386de0f01-accountant-senior-accoutant",
-      "location": "Lahore, PK",
-      "department": "Finance",
-      "jobType": "Full-Time",
-      "postedAt": "2026-11-23T08:37:16.561Z",
-      "state": "open"
-    },
     {
       "id": "700b5a4cd14a8e4491356c8e7f06da75",
       "title": "Admin Officer",
@@ -34,13 +24,23 @@
       "state": "open"
     },
     {
+      "id": "c183d08670fac3e2a0d775cef4b0dfc7",
+      "title": "Assistant Accountant - FinOps",
+      "link": "https://dubizzlelabs.breezy.hr/p/88b42a6b713801-assistant-accountant-finops",
+      "location": "Lahore, Punjab",
+      "department": "",
+      "jobType": "Full-Time",
+      "postedAt": "2026-11-25T12:31:44.812Z",
+      "state": "open"
+    },
+    {
       "id": "5c523490a0e68647378de960ee4851b0",
       "title": "Associate Marketing Analyst",
       "link": "https://dubizzlelabs.breezy.hr/p/1d14327549f201-associate-marketing-analyst",
       "location": "Lahore, PK",
       "department": "Branding",
       "jobType": "Full-Time",
-      "postedAt": "2026-11-04T05:31:57.174Z",
+      "postedAt": "2026-11-25T11:13:29.078Z",
       "state": "open"
     },
     {

@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://www.overjet.com/careers",
-  "fetchedAt": "2026-11-24T19:09:00.550637+00:00",
+  "fetchedAt": "2026-11-25T18:13:39.300880+00:00",
   "state": "open",
   "jobs": [
     {
@@ -84,16 +84,6 @@
       "state": "open"
     },
     {
-      "id": "5fc60583467921fca8e6297fe41559e0",
-      "title": "Director of Engineering, New Products",
-      "link": "https://jobs.ashbyhq.com/Overjet/03cc6c8c-1608-45b4-a237-2191169e8db7",
-      "location": "San Mateo, CA",
-      "department": "R&D",
-      "jobType": "FullTime",
-      "postedAt": "2026-07-23T16:50:51.065+00:00",
-      "state": "open"
-    },
-    {
       "id": "f78149efff67ec52b589e151bace8250",
       "title": "Revenue Accounting Manager",
       "link": "https://jobs.ashbyhq.com/Overjet/cf982071-e3a6-4830-b26f-4fbbb1e18435",
@@ -111,16 +101,6 @@
       "department": "Sales & Marketing",
       "jobType": "FullTime",
       "postedAt": "2026-07-22T17:15:17.425+00:00",
-      "state": "open"
-    },
-    {
-      "id": "5b235b502f3c35c9f660431afa883d52",
-      "title": "Head of Product, New Products",
-      "link": "https://jobs.ashbyhq.com/Overjet/a234b6fb-7a62-4a8a-b6be-ae414943c947",
-      "location": "San Mateo, CA",
-      "department": "R&D",
-      "jobType": "FullTime",
-      "postedAt": "2026-07-27T17:40:15.045+00:00",
       "state": "open"
     },
     {
@@ -254,6 +234,16 @@
       "state": "open"
     },
     {
+      "id": "fc96f5ddb3fae968cd75b860620add25",
+      "title": "Legal Counsel",
+      "link": "https://jobs.ashbyhq.com/Overjet/23447766-ae25-4cc9-b83b-41d847563eb7",
+      "location": "United States, Remote",
+      "department": "G&A",
+      "jobType": "FullTime",
+      "postedAt": "2026-11-24T22:29:14.969+00:00",
+      "state": "open"
+    },
+    {
       "id": "8a7522f9e4ef43a63476256dfcf3ec8b",
       "title": "Executive Recruiter",
       "link": "https://jobs.ashbyhq.com/Overjet/086d8c0b-bbb6-46bc-a1b7-7dc5da34050b",
@@ -301,6 +291,26 @@
       "department": "R&D",
       "jobType": "FullTime",
       "postedAt": "2026-11-13T17:46:42.014+00:00",
+      "state": "open"
+    },
+    {
+      "id": "9b020903f2b89fcb8f35fad02ddcfda6",
+      "title": "Director of Product",
+      "link": "https://jobs.ashbyhq.com/Overjet/ffdfd369-499b-43e9-ac83-d3f4a8b415e1",
+      "location": "San Mateo, CA",
+      "department": "R&D",
+      "jobType": "FullTime",
+      "postedAt": "2026-11-24T19:33:38.662+00:00",
+      "state": "open"
+    },
+    {
+      "id": "ee5592bcd01419163cf0691849a608a4",
+      "title": "Senior Engineering Manager",
+      "link": "https://jobs.ashbyhq.com/Overjet/f93adca4-2a03-4fbf-b7b0-c984c2ceeb42",
+      "location": "San Mateo, CA",
+      "department": "R&D",
+      "jobType": "FullTime",
+      "postedAt": "2026-11-24T21:27:27.265+00:00",
       "state": "open"
     }
   ]
