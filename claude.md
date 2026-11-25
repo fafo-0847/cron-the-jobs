@@ -91,3 +91,23 @@ Use this file as the working context for future company scrape tasks.
 
 - `python -m pytest -q tests` (offline parser tests with markup captured from live pages; the
   `emptyboard` test uses headless Chromium and skips if it is not installed).
+
+## Adding a Company (config-driven, preferred)
+
+1. Find the source: `python tools/discover_careers.py in.json out.json` (in.json = [{"name", "website"}]);
+   for JS sites follow with `python tools/discover_rendered.py out.json rendered.json pagesDir`.
+   It detects job platforms (Greenhouse, Lever, Ashby, Workable, SmartRecruiters, Recruitee, Breezy,
+   Pinpoint, Manatal, Teamtailor, Zoho Recruit, Workday, BambooHR, JazzHR, Rippling, JOIN, PeopleForce)
+   and counts jobs.
+2. Create the module: `python tools/new_company.py <folder> <careersUrl> '<source json>'`.
+   Source types and options are documented in `companies/_shared/ats.py` and `companies/_shared/htmljobs.py`:
+   - platform: `{"type": "lever", "slug": "kwanso"}`
+   - own JSON API: `{"type": "jsonapi", "url": ..., "itemsPath": "data", "linkTemplate": "https://x/{slug}"}`
+   - custom page: `{"type": "html", "url": ..., "linkPattern": "x\\.com/jobs/[a-z0-9-]+/?$"}` or
+     `{"type": "html", "url": ..., "cardSelector": "h3.job-title", "requireJobWord": true}`;
+     add `"render": true` for JS-rendered pages, `"jsonLd": true` for schema.org data,
+     `"emptyPattern": "No open positions"` so an empty board is not reported as an error.
+   - global employers: add `"locationFilter": "Pakistan|Lahore|Karachi|Islamabad"`.
+3. Check it: `python -m companies.<folder>.<folder>` prints the job count and first titles.
+4. A dead source: set `disabledReason = "..."` in the module; main.py skips it without emailing errors.
+5. A company's first run only records a baseline (no "new jobs" email).
