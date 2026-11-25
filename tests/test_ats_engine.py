@@ -76,7 +76,7 @@ def test_smartrecruiters_pages_until_total(stubJson):
 	assert len(calls) == 1 and fetched["jobs"][0]["link"] == "https://jobs.smartrecruiters.com/Acme/744"
 
 
-def test_workday_site_url_parsing_and_paging(stubJson):
+def test_workday_site_url_parsing_and_paging(monkeypatch):
 	assert ats.parseWorkdaySiteUrl("https://acme.wd3.myworkdayjobs.com/en-US/External") == ("https://acme.wd3.myworkdayjobs.com", "acme", "External")
 
 	def page(payload):
@@ -84,7 +84,13 @@ def test_workday_site_url_parsing_and_paging(stubJson):
 		postings = [{"title": f"Job {offset + index}", "externalPath": f"/job/Lahore/Job_{offset + index}", "bulletFields": [f"R{offset + index}"],
 			"locationsText": "Lahore"} for index in range(20 if offset == 0 else 5)]
 		return {"total": 25, "jobPostings": postings}
-	calls = stubJson({"https://acme.wd3.myworkdayjobs.com/wday/cxs/acme/External/jobs": page})
+	calls = []
+
+	def fakePost(url, payload):
+		assert url == "https://acme.wd3.myworkdayjobs.com/wday/cxs/acme/External/jobs"
+		calls.append(payload)
+		return page(payload)
+	monkeypatch.setattr(ats, "postWorkdayPage", fakePost)
 	fetched = run({"type": "workday", "url": "https://acme.wd3.myworkdayjobs.com/External"})
 	assert len(fetched["jobs"]) == 25 and len(calls) == 2
 	assert fetched["jobs"][0]["link"] == "https://acme.wd3.myworkdayjobs.com/en-US/External/job/Lahore/Job_0"
@@ -187,3 +193,38 @@ def test_generated_module_exposes_main_py_interface(tmp_path, monkeypatch):
 		(tmp_path / "companies" / "manual").mkdir(parents=True)
 		(tmp_path / "companies" / "manual" / "manual.py").write_text("# hand written\n")
 		new_company.writeCompany("manual", "https://x", {"type": "lever", "slug": "x"})
+
+
+def test_location_filter_for_global_employers(monkeypatch):
+	async def fakeSource(source):
+		return {"jobs": [ats.makeJob("Engineer", "1", "x", "Dublin, Ireland"), ats.makeJob("Analyst", "2", "y", "Lahore, Pakistan")], "confirmedEmpty": False}
+	monkeypatch.setattr(ats, "fetchSource", fakeSource)
+	state = asyncio.run(company.fetchState({"type": "greenhouse", "slug": "x", "locationFilter": "Pakistan"}, logging.getLogger("x")))
+	assert [job["title"] for job in state["jobs"]] == ["Analyst"]
+	state = asyncio.run(company.fetchState({"type": "greenhouse", "slug": "x", "locationFilter": "Karachi"}, logging.getLogger("x")))
+	assert state == {"jobs": [], "state": "open", "confirmedEmpty": True}
+
+
+def test_json_ld_item_list_and_job_posting():
+	html = ('<script type="application/ld+json">{"@graph":[{"@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,'
+		'"name":"AWS Cloud Architect","url":"https://acme.co/careers/aws-cloud-architect"}]}]}</script>'
+		'<script type="application/ld+json">{"@type":"JobPosting","title":"QA Engineer","url":"/jobs/qa","employmentType":["FULL_TIME"],'
+		'"jobLocation":{"@type":"Place","address":{"addressLocality":"Lahore","addressCountry":"PK"}}}</script>')
+	jobs = htmljobs.parseJobs(html, {"jsonLd": True}, "https://acme.co/careers")
+	assert [(job["title"], job["link"], job["location"]) for job in jobs] == [
+		("AWS Cloud Architect", "https://acme.co/careers/aws-cloud-architect", ""), ("QA Engineer", "https://acme.co/jobs/qa", "Lahore, PK")]
+
+
+def test_card_stops_before_sibling_job_links():
+	html = ('<div class="grid"><div><h3>Senior AI Engineer</h3><a href="/careers/ai">Apply</a></div>'
+		'<div><h3>MERN Developer</h3><a href="/careers/mern">Apply</a></div></div>')
+	jobs = htmljobs.parseJobs(html, {"linkPattern": "/careers/[a-z]+$"}, "https://acme.co/careers")
+	assert [job["title"] for job in jobs] == ["Senior AI Engineer", "MERN Developer"]
+
+
+def test_json_api_source(stubJson):
+	stubJson({"https://acme.co/api/jobs": {"data": [{"id": 8, "title": "Back-end Developer", "location": "Lahore", "type": "Full-Time", "slug": "back-end-developer-OK"}]}})
+	fetched = run({"type": "jsonapi", "url": "https://acme.co/api/jobs", "itemsPath": "data", "linkTemplate": "https://acme.co/career/{slug}"})
+	job = fetched["jobs"][0]
+	assert (job["title"], job["location"], job["jobType"], job["link"]) == ("Back-end Developer", "Lahore", "Full-Time", "https://acme.co/career/back-end-developer-OK")
+	assert job["id"] == ats.generateJobId("Back-end Developer", "8")

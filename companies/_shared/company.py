@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import json
 import logging
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -28,6 +29,12 @@ async def fetchState(source: dict, logger: logging.Logger) -> dict[str, Any]:
 		fetched = await ats.fetchSource(source)
 		jobs = fetched["jobs"]
 		confirmedEmpty = fetched["confirmedEmpty"]
+		locationFilter = source.get("locationFilter")
+		if locationFilter:
+			# Global employers: keep only jobs whose location (or title) matches, e.g. "Pakistan|Lahore".
+			pattern = re.compile(locationFilter, re.I)
+			jobs = [job for job in jobs if pattern.search(job.get("location", "")) or pattern.search(job.get("title", ""))]
+			confirmedEmpty = len(jobs) == 0
 		if len(jobs) == 0 and not confirmedEmpty and source.get("type") == "html" and source.get("expectJobs", True):
 			logger.error("%s: no jobs matched on %s (layout changed or no openings)", logger.name, source.get("url"))
 	except Exception as error:

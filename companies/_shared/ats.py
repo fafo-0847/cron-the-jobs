@@ -12,6 +12,8 @@ Source config (a dict) picks the fetcher via "type":
   workday {url}  (the public myworkdayjobs.com site URL, e.g.
                   https://x.wd3.myworkdayjobs.com/en-US/External)
   pinpoint {slug} | manatal {slug} (careers-page.com/<slug>) | teamtailor {url}
+  jsonapi {url, itemsPath, fields: {title, id, location, department, jobType, postedAt}, linkTemplate}
+          a company's own JSON endpoint; linkTemplate is formatted with the item's fields, e.g. "https://x.com/jobs/{slug}"
   zohorecruit {url}  (career site, e.g. https://acme.zohorecruit.com/jobs/Careers; idFrom "link" keeps md5(title+link) ids)
   bamboohr {slug} | jazzhr {slug} | rippling {url} | joincom {slug} | peopleforce {url}
   html {url, ...}  see companies/_shared/htmljobs.py
@@ -276,29 +278,41 @@ def parseWorkdaySiteUrl(siteUrl: str) -> tuple[str, str, str]:
 	return f"{parsed.scheme}://{parsed.hostname}", tenant, pathParts[0]
 
 
+def postWorkdayPage(url: str, payload: dict) -> dict:
+	# Workday's CXS API answers 429 to aiohttp/urllib clients but not to requests (header/TLS
+	# fingerprinting), so this one source uses requests in a worker thread.
+	import requests
+	for attempt in range(3):
+		response = requests.post(url, json=payload, headers={"Accept": "application/json"}, timeout=requestTimeoutSeconds)
+		if response.status_code == 429 and attempt < 2:
+			time.sleep(10 * (attempt + 1))
+			continue
+		response.raise_for_status()
+		return response.json()
+	raise RuntimeError(f"gave up on {url}")
+
+
 async def fetchWorkday(source: dict) -> dict[str, Any]:
 	origin, tenant, site = parseWorkdaySiteUrl(source["url"])
-	searchText = source.get("searchText", "")
-	appliedFacets = source.get("facets", {})
+	apiUrl = f"{origin}/wday/cxs/{tenant}/{site}/jobs"
 	jobs = []
 	total = 0
 	offset = 0
-	async with newSession({"Content-Type": "application/json"}) as session:
-		for _ in range(maxPages):
-			payload = await requestJson(session, f"{origin}/wday/cxs/{tenant}/{site}/jobs", "POST",
-				{"appliedFacets": appliedFacets, "limit": 20, "offset": offset, "searchText": searchText})
-			postings = requireList(payload.get("jobPostings") if isinstance(payload, dict) else None, "Workday")
-			if offset == 0:
-				total = int(payload.get("total") or 0)
-			for posting in postings:
-				externalPath = posting.get("externalPath") or ""
-				bulletFields = posting.get("bulletFields") or []
-				stableId = bulletFields[0] if bulletFields else externalPath
-				jobs.append(makeJob(posting.get("title"), stableId, f"{origin}/en-US/{site}{externalPath}",
-					posting.get("locationsText"), "", "", posting.get("postedOn")))
-			offset = offset + len(postings)
-			if len(postings) == 0 or offset >= total:
-				break
+	for _ in range(maxPages):
+		payload = await asyncio.to_thread(postWorkdayPage, apiUrl, {
+			"appliedFacets": source.get("facets", {}), "limit": 20, "offset": offset, "searchText": source.get("searchText", "")})
+		postings = requireList(payload.get("jobPostings") if isinstance(payload, dict) else None, "Workday")
+		if offset == 0:
+			total = int(payload.get("total") or 0)
+		for posting in postings:
+			externalPath = posting.get("externalPath") or ""
+			bulletFields = posting.get("bulletFields") or []
+			stableId = bulletFields[0] if bulletFields else externalPath
+			jobs.append(makeJob(posting.get("title"), stableId, f"{origin}/en-US/{site}{externalPath}",
+				posting.get("locationsText"), "", "", posting.get("postedOn")))
+		offset = offset + len(postings)
+		if len(postings) == 0 or offset >= total:
+			break
 	return result(jobs, total == 0)
 
 
@@ -377,6 +391,35 @@ async def fetchTeamtailor(source: dict) -> dict[str, Any]:
 	})
 
 
+def pickPath(value: Any, path: str) -> Any:
+	for part in [part for part in path.split(".") if part]:
+		value = value.get(part) if isinstance(value, dict) else None
+	return value
+
+
+async def fetchJsonApi(source: dict) -> dict[str, Any]:
+	async with newSession() as session:
+		payload = await requestJson(session, source["url"])
+	items = requireList(pickPath(payload, source.get("itemsPath", "")), "JSON API")
+	fields = {"title": "title", "id": "id", "location": "location", "department": "department", "jobType": "type", "postedAt": ""}
+	fields.update(source.get("fields", {}))
+	jobs = []
+	for item in items:
+		if not isinstance(item, dict):
+			continue
+		formatValues = {key: clean(value) for key, value in item.items() if not isinstance(value, (dict, list))}
+		try:
+			link = source["linkTemplate"].format(**formatValues) if source.get("linkTemplate") else source["url"]
+		except KeyError:
+			link = source["url"]
+		jobs.append(makeJob(
+			pickPath(item, fields["title"]), clean(pickPath(item, fields["id"])), link,
+			pickPath(item, fields["location"]) if fields["location"] else "", pickPath(item, fields["department"]) if fields["department"] else "",
+			pickPath(item, fields["jobType"]) if fields["jobType"] else "", pickPath(item, fields["postedAt"]) if fields["postedAt"] else "",
+		))
+	return result(jobs, len(items) == 0)
+
+
 async def fetchWithSharedHelper(source: dict) -> dict[str, Any]:
 	sourceType = source["type"]
 	if sourceType == "bamboohr":
@@ -411,6 +454,7 @@ fetchers = {
 	"pinpoint": fetchPinpoint,
 	"manatal": fetchManatal,
 	"teamtailor": fetchTeamtailor,
+	"jsonapi": fetchJsonApi,
 }
 
 
