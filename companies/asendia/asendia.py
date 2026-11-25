@@ -12,6 +12,7 @@ from companies._shared import browser as sharedBrowser
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("asendia")
 
+disabledReason = '2026-11: asendia.ai/jobs-board returns 404 and jobseeker.asendia.ai no longer resolves; no careers page found.'
 sourceUrl = "https://asendia.ai/jobs-board"
 baseUrl = "https://asendia.ai"
 companyDir = Path(__file__).parent

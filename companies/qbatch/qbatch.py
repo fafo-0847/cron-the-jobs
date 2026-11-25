@@ -12,6 +12,7 @@ from companies._shared import browser as sharedBrowser
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("qbatch")
 
+disabledReason = '2026-11: careers.qbatch.com no longer resolves and qbatch.com has no careers page; jobs only appear on job boards.'
 sourceUrl = "https://careers.qbatch.com/jobs"
 baseUrl = "https://careers.qbatch.com"
 companyDir = Path(__file__).parent

@@ -40,6 +40,13 @@ async def run_company(company_name: str, companies_dir: Path, collector: health.
 	logger.info("Running %s", module_name)
 	module = importlib.import_module(module_name)
 
+	# A scraper whose source no longer exists sets `disabledReason = "..."`; it is skipped
+	# (snapshot untouched, no error email) until someone points it at a new source.
+	disabled_reason = getattr(module, "disabledReason", "")
+	if disabled_reason:
+		logger.info("Skipping %s (disabled: %s)", module_name, disabled_reason)
+		return [], None
+
 	company_json_path = resolve_snapshot_path(module, company_name, companies_dir)
 	is_first_run = not company_json_path.exists()
 

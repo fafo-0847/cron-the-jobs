@@ -13,6 +13,7 @@ from urllib.parse import urljoin
 from playwright.async_api import async_playwright
 
 
+disabledReason = '2026-11: ml1.ai removed its Simple Job Board listing; old /jobs/<slug>/ URLs return 404.'
 sourceUrl = "https://ml1.ai/careers/"
 requestTimeoutSeconds = 60
 userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"

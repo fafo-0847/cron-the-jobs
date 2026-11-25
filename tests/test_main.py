@@ -133,3 +133,12 @@ def test_confirmed_empty_ignored_when_jobs_returned(tmp_path, registerModule):
 	addedJobs, errorEntry = runCompany("mixed", tmp_path)
 	assert [job["id"] for job in addedJobs] == ["c"]
 	assert errorEntry is None
+
+
+def test_disabled_company_is_skipped(tmp_path, registerModule):
+	module = makeModule(tmp_path, "gone", [{"id": "a"}], [], logError="would fail")
+	module.disabledReason = "source deleted"
+	registerModule("gone", module)
+	addedJobs, errorEntry = runCompany("gone", tmp_path)
+	assert addedJobs == [] and errorEntry is None
+	assert module.written == []

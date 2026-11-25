@@ -4,6 +4,7 @@ aiosignal==1.4.0
 attrs==26.1.0
 azure-core==1.41.0
 azure-storage-blob==12.30.0
+beautifulsoup4==4.12.3
 certifi==2026.5.20
 cffi==2.0.0
 charset-normalizer==3.4.7
@@ -23,6 +24,7 @@ python-http-client==3.3.7
 requests==2.34.2
 resend==2.32.2
 sendgrid==6.12.5
+soupsieve==2.6
 typing_extensions==4.15.0
 urllib3==2.7.0
 Werkzeug==3.1.8

@@ -9,6 +9,7 @@ from typing import Any
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("xgrid")
 
+disabledReason = "2026-11: xgrid's Freshteam account was deleted; xgrid.co/open-positions lists no jobs. Re-enable when they pick a new careers source."
 sourceUrl = "https://xgrid.freshteam.com/hire/widgets/jobs.json"
 snapshotPath = Path(__file__).parent / "xgrid.json"
 

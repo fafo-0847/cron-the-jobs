@@ -12,6 +12,7 @@ from typing import Any
 import aiohttp
 
 
+disabledReason = "2026-11: WebHR org 'tps' deleted (ORG_NOT_FOUND); tpsworldwide.com/careers embeds the same dead widget. TPS now only posts on rozee.pk."
 sourceUrl = "https://api.webhr.co/api/careers/"
 requestTimeoutSeconds = 30
 tpsJsonPath = Path(__file__).with_name("tps.json")
