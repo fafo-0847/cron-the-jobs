@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://mission.dev/api/opportunities?page=1&perPage=12",
-  "fetchedAt": "2026-11-25T18:12:49.241979+00:00",
+  "fetchedAt": "2026-11-26T17:56:19.190257+00:00",
   "state": "open",
   "jobs": [
     {
@@ -148,22 +148,6 @@
       "state": "open"
     },
     {
-      "id": "03a8393af647e1f334c98b15c6da8578",
-      "title": "Senior Cloud and Platform Engineer",
-      "link": "",
-      "location": "",
-      "department": "DevOps Engineer",
-      "jobType": "REMOTE",
-      "engagementType": "DEDICATED",
-      "primarySkills": "Terraform, Linux",
-      "secondarySkills": "Ansible, Oracle Cloud Infrastructure, GitLab",
-      "slug": "MASCUSE001333",
-      "missionName": "Cutting Edge SAAS Platform",
-      "missionDescription": "Help develop a cutting-edge SaaS application. This platform consists of multiple services, including two .NET Core backend applications, two frontend web apps (React & Next.js), and a Python-based AI services integration.",
-      "postedAt": "2026-10-13T14:43:38Z",
-      "state": "open"
-    },
-    {
       "id": "46ee58ab42a4b98f3adc8e12025a951d",
       "title": "Founding Security Engineer",
       "link": "",
@@ -193,70 +177,6 @@
       "missionName": "Next Generation Infrastructure",
       "missionDescription": "You'll join a cutting edge team that is building next-generation infrastructure solutions to help organizations scale AI more efficiently. As AI workloads continue to grow, the team is focused on optimizing performance, reducing compute costs, and improving energy efficiency across the AI stack. Founded by experienced AI researchers and entrepreneurs, the company works across hardware, software, and model-serving technologies to deliver faster, more scalable AI systems. This is an exciting chance to join a highly technical team working at the forefront of AI infrastructure innovation. It's an opportunity of a lifetime!",
       "postedAt": "2026-09-09T23:03:27Z",
-      "state": "open"
-    },
-    {
-      "id": "bc5ea0906ccab81d2cb2318f52f797cc",
-      "title": "Senior API Platform Engineer",
-      "link": "",
-      "location": "",
-      "department": "DevOps Engineer, Back-End Developer",
-      "jobType": "REMOTE",
-      "engagementType": "DEDICATED",
-      "primarySkills": "Kubernetes, Apigee",
-      "secondarySkills": "OAuth2, OpenID Connect, WSO2 API Manager, Linux",
-      "slug": "MASCUSE001344",
-      "missionName": "Cutting Edge SAAS Platform",
-      "missionDescription": "Help develop a cutting-edge SaaS application. This platform consists of multiple services, including two .NET Core backend applications, two frontend web apps (React & Next.js), and a Python-based AI services integration.",
-      "postedAt": "2026-09-02T18:43:51Z",
-      "state": "open"
-    },
-    {
-      "id": "01447c0d81b7270baad96ec726700333",
-      "title": "Senior Cybersecurity Engineer",
-      "link": "",
-      "location": "India, Egypt, Japan, Nigeria, Qatar, Saudi Arabia",
-      "department": "DevOps Engineer",
-      "jobType": "REMOTE",
-      "engagementType": "DEDICATED",
-      "primarySkills": "Splunk",
-      "secondarySkills": "Teleport",
-      "slug": "MASCUSE001335",
-      "missionName": "Cutting Edge SAAS Platform",
-      "missionDescription": "Help develop a cutting-edge SaaS application. This platform consists of multiple services, including two .NET Core backend applications, two frontend web apps (React & Next.js), and a Python-based AI services integration.",
-      "postedAt": "2026-09-02T15:41:59Z",
-      "state": "open"
-    },
-    {
-      "id": "0179a69db3bee64d6fcbc90ef9c18fc4",
-      "title": "Senior Database Administrator (Oracle, PostgreSQL, and MySQL)",
-      "link": "",
-      "location": "India, Egypt, Nigeria, Pakistan, Qatar, Saudi Arabia",
-      "department": "Data Engineer, DevOps Engineer",
-      "jobType": "REMOTE",
-      "engagementType": "DEDICATED",
-      "primarySkills": "PostgreSQL, MySQL",
-      "secondarySkills": "Percona XtraDB, Oracle, HashiCorp Consul, etcd, HAProxy",
-      "slug": "MASCUSE001336",
-      "missionName": "Cutting Edge SAAS Platform",
-      "missionDescription": "Help develop a cutting-edge SaaS application. This platform consists of multiple services, including two .NET Core backend applications, two frontend web apps (React & Next.js), and a Python-based AI services integration.",
-      "postedAt": "2026-09-02T13:37:02Z",
-      "state": "open"
-    },
-    {
-      "id": "5ec29dcc3b1494186fcd236eab8a4cb7",
-      "title": "Senior DevOps Engineer",
-      "link": "",
-      "location": "India, Egypt, Nigeria, Pakistan, Saudi Arabia, South Africa",
-      "department": "DevOps Engineer",
-      "jobType": "REMOTE",
-      "engagementType": "DEDICATED",
-      "primarySkills": "Terraform, Kubernetes",
-      "secondarySkills": "Helm, Ansible, Linux, GitLab CI, Docker",
-      "slug": "MASCUSE001334",
-      "missionName": "Cutting Edge SAAS Platform",
-      "missionDescription": "Help develop a cutting-edge SaaS application. This platform consists of multiple services, including two .NET Core backend applications, two frontend web apps (React & Next.js), and a Python-based AI services integration.",
-      "postedAt": "2026-09-01T19:11:17Z",
       "state": "open"
     }
   ]

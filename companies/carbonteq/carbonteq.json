@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://www.carbonteq.com/careers",
-  "fetchedAt": "2026-11-25T18:10:51.248211+00:00",
+  "fetchedAt": "2026-11-26T17:54:18.529054+00:00",
   "state": "open",
   "jobs": [
     {
@@ -9,6 +9,16 @@
       "link": "https://www.carbonteq.com/careers/jobs/37de6050-4107-4d95-b29b-92735df0b951/apply",
       "location": "Lahore, Punjab, Pakistan",
       "department": "engineering",
+      "jobType": "Full-Time, On-Site",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "739b7aeb18684fc9544d9cc22902a28e",
+      "title": "Product & Design Associate",
+      "link": "https://www.carbonteq.com/careers/jobs/c7224d66-e57a-4150-821e-d626ea84504d/apply",
+      "location": "Lahore, Punjab, Pakistan",
+      "department": "design",
       "jobType": "Full-Time, On-Site",
       "postedAt": "",
       "state": "open"

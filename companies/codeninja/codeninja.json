@@ -1,12 +1,12 @@
 {
   "sourceUrl": "https://apply.workable.com/codeninjapk",
-  "fetchedAt": "2026-11-25T18:11:19.319389+00:00",
+  "fetchedAt": "2026-11-26T17:54:45.460445+00:00",
   "state": "open",
   "jobs": [
     {
-      "id": "7efa24035d0bea07a80ccc78bc3cc470",
-      "title": "Business Analyst - Pre Sales",
-      "link": "https://apply.workable.com/codeninjapk/j/BB8BCB51B4/",
+      "id": "215195ec73643fcb571da0c1d0279737",
+      "title": "Associate Project Manager",
+      "link": "https://apply.workable.com/codeninjapk/j/B6367B1A79/",
       "location": "Lahore, Punjab, Pakistan",
       "department": "Professional Services",
       "jobType": "Full time",
@@ -14,52 +14,22 @@
       "state": "open"
     },
     {
-      "id": "f3ed3715387b491d5886293d14edcccd",
-      "title": "React Native Mobile Developer (iOS & Android)",
-      "link": "https://apply.workable.com/codeninjapk/j/CD47234BEF/",
+      "id": "422cf6760a4ba6e7a83f690605b1c253",
+      "title": "Product Manager - Digital Enterprise Solutions Governance",
+      "link": "https://apply.workable.com/codeninjapk/j/7DB1542C9B/",
       "location": "Riyadh, Riyadh Province, Saudi Arabia",
       "department": "Professional Services",
-      "jobType": "Contract",
+      "jobType": "",
       "postedAt": "Posted today",
       "state": "open"
     },
     {
-      "id": "4e3e4d0eb0c78af71cc8f8b9579bd755",
-      "title": "Senior SQA Automation Engineer",
-      "link": "https://apply.workable.com/codeninjapk/j/61999E76E1/",
-      "location": "India",
+      "id": "50a8e5fdec2a79f0e0cf89596eecb7ef",
+      "title": "Business Analyst - Pre Sales & Discovery",
+      "link": "https://apply.workable.com/codeninjapk/j/BB8BCB51B4/",
+      "location": "Lahore, Punjab, Pakistan",
       "department": "Professional Services",
       "jobType": "Full time",
-      "postedAt": "Posted 22 days ago",
-      "state": "open"
-    },
-    {
-      "id": "c3d9eb857cca19e67218ffe8b925eae4",
-      "title": "Senior SQA Automation Engineer",
-      "link": "https://apply.workable.com/codeninjapk/j/6DA9FC5661/",
-      "location": "Riyadh, Riyadh Province, Saudi Arabia",
-      "department": "Professional Services",
-      "jobType": "Full time",
-      "postedAt": "Posted 23 days ago",
-      "state": "open"
-    },
-    {
-      "id": "783ced398f015016acac8ec9a24fc527",
-      "title": "Account Executive, AI Infrastructure",
-      "link": "https://apply.workable.com/codeninjapk/j/827CE14434/",
-      "location": "Dallas, Texas, United States",
-      "department": "Sales",
-      "jobType": "Full time",
-      "postedAt": "Posted 23 days ago",
-      "state": "open"
-    },
-    {
-      "id": "213c74a95b18f38e440e30da5e8b087e",
-      "title": "Sales Development Representative, Enterprise AI",
-      "link": "https://apply.workable.com/codeninjapk/j/5788C0434F/",
-      "location": "",
-      "department": "Sales",
-      "jobType": "",
       "postedAt": "",
       "state": "open"
     }

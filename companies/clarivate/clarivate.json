@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://careers.clarivate.com/c/technology-jobs",
-  "fetchedAt": "2026-11-25T18:11:09.281650+00:00",
+  "fetchedAt": "2026-11-26T17:54:36.480437+00:00",
   "state": "open",
   "jobs": [
     {
@@ -132,17 +132,6 @@
       "department": "IT Services",
       "jobType": "Hybrid",
       "jobCode": "JREQ135892",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "3aa4806cfaafa15dd4027a3fed0e8534",
-      "title": "Senior Software Engineer - Java",
-      "link": "https://careers.clarivate.com/job/JREQ136412/Senior-Software-Engineer-Java",
-      "location": "Karnātaka, India",
-      "department": "Intellectual Property",
-      "jobType": "Hybrid",
-      "jobCode": "JREQ136412",
       "postedAt": "",
       "state": "open"
     },
@@ -290,6 +279,17 @@
       "state": "open"
     },
     {
+      "id": "15d6f6f3cffb3886e1f0d3b99afe5427",
+      "title": "Senior Software Engineer (AI-Assisted Engineering)",
+      "link": "https://careers.clarivate.com/job/JREQ137145/Senior-Software-Engineer-AI-Assisted-Engineering",
+      "location": "Belgrade, Serbia",
+      "department": "Academia & Government",
+      "jobType": "Hybrid",
+      "jobCode": "JREQ137145",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
       "id": "5eda01fba25145fe435c07be771571d4",
       "title": "Manager, Solutions Analysis",
       "link": "https://careers.clarivate.com/job/JREQ137202/Manager-Solutions-Analysis",
@@ -312,13 +312,13 @@
       "state": "open"
     },
     {
-      "id": "15d6f6f3cffb3886e1f0d3b99afe5427",
-      "title": "Senior Software Engineer (AI-Assisted Engineering)",
-      "link": "https://careers.clarivate.com/job/JREQ137145/Senior-Software-Engineer-AI-Assisted-Engineering",
-      "location": "Belgrade, Serbia",
-      "department": "Academia & Government",
+      "id": "3c50b881d3c72ea3578d63d798425aa0",
+      "title": "Solutions Architect",
+      "link": "https://careers.clarivate.com/job/JREQ136972/Solutions-Architect",
+      "location": "",
+      "department": "Intellectual Property",
       "jobType": "Hybrid",
-      "jobCode": "JREQ137145",
+      "jobCode": "JREQ136972",
       "postedAt": "",
       "state": "open"
     }

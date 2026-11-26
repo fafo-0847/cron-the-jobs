@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://jobs.ashbyhq.com/3e",
-  "fetchedAt": "2026-11-25T18:10:01.313262+00:00",
+  "fetchedAt": "2026-11-26T17:53:08.205800+00:00",
   "state": "open",
   "jobs": [
     {
@@ -105,19 +105,6 @@
       "workplaceType": "Remote",
       "compensation": "",
       "postedAt": "2026-11-25T14:27:50.379+00:00",
-      "state": "open"
-    },
-    {
-      "id": "c2a193c59663956d1e29ed69ae81cb82",
-      "title": "Software Implementation Project Manager",
-      "link": "https://jobs.ashbyhq.com/3E/0e60deeb-0fe8-4a61-ae55-ecf13ea4a498",
-      "location": "Lancaster, UK",
-      "department": "Customer Experience",
-      "team": "Onboarding & Implementation",
-      "jobType": "FullTime",
-      "workplaceType": "Remote",
-      "compensation": "",
-      "postedAt": "2026-11-25T14:46:51.535+00:00",
       "state": "open"
     },
     {

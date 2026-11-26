@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://apply.workable.com/api/v1/widget/accounts/devsinc-17",
-  "fetchedAt": "2026-11-25T18:11:35.404758+00:00",
+  "fetchedAt": "2026-11-26T17:55:05.666406+00:00",
   "state": "open",
   "jobs": [
     {
@@ -17,15 +17,15 @@
       "isRemote": false
     },
     {
-      "id": "3fcaf126c044493e32dc43f02ca9d70c",
-      "title": "Associate Software Engineer",
-      "link": "https://apply.workable.com/j/6F286FB557",
-      "location": "Islamabad, Pakistan",
-      "department": "Cluster Head",
+      "id": "207f402b78a5a650b605caf8c7687574",
+      "title": "Associate Content Creator",
+      "link": "https://apply.workable.com/j/4FB671947F",
+      "location": "Lahore, Pakistan",
+      "department": "CEO Office",
       "jobType": "Full-time",
-      "postedAt": "2026-11-18",
+      "postedAt": "2026-11-26",
       "state": "open",
-      "experience": "Associate",
+      "experience": "Mid-Senior level",
       "education": "",
       "isRemote": false
     },
@@ -50,19 +50,6 @@
       "department": "Muneeb Sheikh - Ahmed Wasim",
       "jobType": "Full-time",
       "postedAt": "2026-10-30",
-      "state": "open",
-      "experience": "Associate",
-      "education": "",
-      "isRemote": false
-    },
-    {
-      "id": "0f86af9d42a99de100145149c7b4a569",
-      "title": "Associate Software Engineer- MERN",
-      "link": "https://apply.workable.com/j/802A856918",
-      "location": "Islamabad, Pakistan",
-      "department": "Cluster Head",
-      "jobType": "Full-time",
-      "postedAt": "2026-10-22",
       "state": "open",
       "experience": "Associate",
       "education": "",
@@ -310,6 +297,19 @@
       "department": "Cluster Head",
       "jobType": "Full-time",
       "postedAt": "2026-10-26",
+      "state": "open",
+      "experience": "Mid-Senior level",
+      "education": "",
+      "isRemote": false
+    },
+    {
+      "id": "d0dfd0614e0a6269f36e0a287b64d73a",
+      "title": "Senior Software Engineer - AI/ML & Data Scientist",
+      "link": "https://apply.workable.com/j/AC7ACC3F5D",
+      "location": "Lahore, Pakistan",
+      "department": "Muhammad Saim Malik",
+      "jobType": "Full-time",
+      "postedAt": "2026-11-26",
       "state": "open",
       "experience": "Mid-Senior level",
       "education": "",

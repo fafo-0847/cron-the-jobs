@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/moniepoint/jobs?content=true",
-  "fetchedAt": "2026-11-25T18:13:23.078304+00:00",
+  "fetchedAt": "2026-11-26T17:56:53.019042+00:00",
   "state": "open",
   "jobs": [
     {
@@ -12,6 +12,17 @@
       "jobType": "",
       "requisitionId": null,
       "postedAt": "2026-07-30T09:06:28-04:00",
+      "state": "open"
+    },
+    {
+      "id": "9f70d25f3fb5afce1072a5d17b64a546",
+      "title": "Analytics Manager",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4976360101",
+      "location": "Remote, Portugal",
+      "department": "Marketing & Sales",
+      "jobType": "",
+      "requisitionId": null,
+      "postedAt": "2026-09-15T04:43:27-04:00",
       "state": "open"
     },
     {
@@ -37,14 +48,14 @@
       "state": "open"
     },
     {
-      "id": "9f70d25f3fb5afce1072a5d17b64a546",
-      "title": "Analytics Manager",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4976360101",
-      "location": "Remote, Portugal",
-      "department": "Marketing & Sales",
+      "id": "80122b1727d53ef2d9a95c81e562da37",
+      "title": "Branch Experience Manager - Kaduna",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5048542101",
+      "location": "Kaduna, Nigeria",
+      "department": "Banking Operations",
       "jobType": "",
-      "requisitionId": null,
-      "postedAt": "2026-09-15T04:43:27-04:00",
+      "requisitionId": "1634",
+      "postedAt": "2026-11-26T07:35:13-05:00",
       "state": "open"
     },
     {
@@ -125,17 +136,6 @@
       "state": "open"
     },
     {
-      "id": "7f197e44302f143804ffe40ffefb768d",
-      "title": "Data Entry Officer (Oyo)",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4929783101",
-      "location": "Oyo, Nigeria",
-      "department": "Moniebook Business Management Tools",
-      "jobType": "",
-      "requisitionId": "1441",
-      "postedAt": "2026-07-16T08:34:29-04:00",
-      "state": "open"
-    },
-    {
       "id": "68301b86edd598aa8ac8778f660ad697",
       "title": "Early Careers Talent Acquisition Specialist",
       "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4981411101",
@@ -144,28 +144,6 @@
       "jobType": "",
       "requisitionId": "1589",
       "postedAt": "2026-09-22T08:49:44-04:00",
-      "state": "open"
-    },
-    {
-      "id": "13b4107cf58d452cb91c7efc3a234f9d",
-      "title": "Engineering Relations Partner",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4997794101",
-      "location": "Remote, Portugal",
-      "department": "Pool: Engineering",
-      "jobType": "",
-      "requisitionId": "1496",
-      "postedAt": "2026-10-05T11:33:43-04:00",
-      "state": "open"
-    },
-    {
-      "id": "e53d8af77dda6c5bf65272a022901e48",
-      "title": "Engineering Relations Partner",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4874410101",
-      "location": "Remote, India; Remote, Kenya; Remote, Lagos, Nigeria; Remote, Pakistan; Remote, Poland; Remote, South Africa; Remote, Spain",
-      "department": "Pool: Engineering",
-      "jobType": "",
-      "requisitionId": "1496",
-      "postedAt": "2026-05-25T05:52:00-04:00",
       "state": "open"
     },
     {
@@ -188,17 +166,6 @@
       "jobType": "",
       "requisitionId": "1616",
       "postedAt": "2026-10-23T09:45:00-04:00",
-      "state": "open"
-    },
-    {
-      "id": "ddf16425d4856a3be51d8c87d62270c0",
-      "title": "Field Credit Officer (Ogun)",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4983213101",
-      "location": "Ogun, Nigeria",
-      "department": "Field Credit and Verification",
-      "jobType": "",
-      "requisitionId": "1594",
-      "postedAt": "2026-09-23T10:44:57-04:00",
       "state": "open"
     },
     {
@@ -254,6 +221,17 @@
       "jobType": "",
       "requisitionId": null,
       "postedAt": "2026-07-29T09:53:06-04:00",
+      "state": "open"
+    },
+    {
+      "id": "09022d06686c6468555a188e0d694bd6",
+      "title": "Hardware Engineer",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4883663101",
+      "location": "Lagos, Nigeria",
+      "department": "Advanced Technical Operations",
+      "jobType": "",
+      "requisitionId": "768",
+      "postedAt": "2026-06-04T08:28:51-04:00",
       "state": "open"
     },
     {
@@ -345,6 +323,17 @@
       "state": "open"
     },
     {
+      "id": "fa33b7ce6890ffc321ef08ea1d5a69d1",
+      "title": "Implementation Officer (Abia)",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4931500101",
+      "location": "Abia, Nigeria",
+      "department": "Moniebook Business Management Tools",
+      "jobType": "",
+      "requisitionId": "1434",
+      "postedAt": "2026-07-18T21:18:19-04:00",
+      "state": "open"
+    },
+    {
       "id": "8b42a0dc14fa1d76339de67a0b693d12",
       "title": "Implementation Officer (Enugu)",
       "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4931501101",
@@ -353,17 +342,6 @@
       "jobType": "",
       "requisitionId": "1434",
       "postedAt": "2026-07-18T21:18:21-04:00",
-      "state": "open"
-    },
-    {
-      "id": "26b3bd5e1fd9c5a5b2532e666c6ef832",
-      "title": "Implementation Officer (Imo)",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5042163101",
-      "location": "Imo, Nigeria",
-      "department": "Moniebook Business Management Tools",
-      "jobType": "",
-      "requisitionId": "1434",
-      "postedAt": "2026-11-19T03:48:40-05:00",
       "state": "open"
     },
     {
@@ -389,17 +367,6 @@
       "state": "open"
     },
     {
-      "id": "30dc1ea794dba19ebf173916ce259101",
-      "title": "Performance Marketing Manager",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4244613101",
-      "location": "Remote, Spain",
-      "department": "Digital Marketing",
-      "jobType": "",
-      "requisitionId": "820",
-      "postedAt": "2023-11-09T07:20:28-05:00",
-      "state": "open"
-    },
-    {
       "id": "62bb51c14e869cff235b3a5c175065d1",
       "title": "Performance Marketing Manager",
       "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5028342101",
@@ -419,6 +386,17 @@
       "jobType": "",
       "requisitionId": "820",
       "postedAt": "2026-10-27T04:16:46-04:00",
+      "state": "open"
+    },
+    {
+      "id": "30dc1ea794dba19ebf173916ce259101",
+      "title": "Performance Marketing Manager",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4244613101",
+      "location": "Remote, Spain",
+      "department": "Digital Marketing",
+      "jobType": "",
+      "requisitionId": "820",
+      "postedAt": "2023-11-09T07:20:28-05:00",
       "state": "open"
     },
     {
@@ -510,6 +488,17 @@
       "state": "open"
     },
     {
+      "id": "3e929a4bc343e8c2bdf3653dfa2ebbd3",
+      "title": "Resident Internal Control Officer (RICO)",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5048525101",
+      "location": "Rivers, Nigeria",
+      "department": "Banking Operations",
+      "jobType": "",
+      "requisitionId": "1633",
+      "postedAt": "2026-11-26T07:36:13-05:00",
+      "state": "open"
+    },
+    {
       "id": "b4eed0e4efb23cb6bf2bc4670f7fdc26",
       "title": "Rewards Specialist",
       "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4782470101",
@@ -518,17 +507,6 @@
       "jobType": "",
       "requisitionId": "1399",
       "postedAt": "2026-11-25T07:13:06-05:00",
-      "state": "open"
-    },
-    {
-      "id": "a6d98f0804af19b2d3be157cb8ca1599",
-      "title": "Senior Business Analyst",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4912592101",
-      "location": "Remote, London, United Kingdom",
-      "department": "",
-      "jobType": "",
-      "requisitionId": null,
-      "postedAt": "2026-06-30T02:34:01-04:00",
       "state": "open"
     },
     {
@@ -565,14 +543,14 @@
       "state": "open"
     },
     {
-      "id": "5a50529131dcbb857e080a812ab7d6f0",
-      "title": "Senior Principal, Talent Marketing",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5015546101",
-      "location": "Remote, Spain",
-      "department": "Talent Acquisition",
+      "id": "a6d98f0804af19b2d3be157cb8ca1599",
+      "title": "Senior Business Analyst",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4912592101",
+      "location": "Remote, London, United Kingdom",
+      "department": "",
       "jobType": "",
-      "requisitionId": "1588",
-      "postedAt": "2026-10-26T01:42:37-04:00",
+      "requisitionId": null,
+      "postedAt": "2026-06-30T02:34:01-04:00",
       "state": "open"
     },
     {
@@ -584,6 +562,17 @@
       "jobType": "",
       "requisitionId": "1588",
       "postedAt": "2026-09-21T07:37:37-04:00",
+      "state": "open"
+    },
+    {
+      "id": "5a50529131dcbb857e080a812ab7d6f0",
+      "title": "Senior Principal, Talent Marketing",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5015546101",
+      "location": "Remote, Spain",
+      "department": "Talent Acquisition",
+      "jobType": "",
+      "requisitionId": "1588",
+      "postedAt": "2026-10-26T01:42:37-04:00",
       "state": "open"
     },
     {

@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://arbisoft.hirestream.io/api/v1/jobs/published-jobs/?timezone=Asia%2FKarachi&offset=0&limit=20&order=featured",
-  "fetchedAt": "2026-11-25T18:10:17.357892+00:00",
+  "fetchedAt": "2026-11-26T17:53:19.792933+00:00",
   "state": "open",
   "jobs": [
     {
@@ -9,7 +9,7 @@
       "link": "https://arbisoft.hirestream.io/jobs/5eedb46a-cd42-40ae-a951-1499abb2544e",
       "location": "Westwood Office, Lahore",
       "department": "Finance",
-      "postedAt": "2026-11-23T14:06:34.017246Z",
+      "postedAt": "2026-11-26T08:52:28.702897Z",
       "state": "open"
     },
     {

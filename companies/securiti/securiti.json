@@ -1,8 +1,18 @@
 {
   "sourceUrl": "https://careers.veeam.com/search-jobs?acm=ALL&alrpm=ALL&ascf=[%7B\"key\":\"Team\",\"value\":\"Securiti+AI\"%7D]",
-  "fetchedAt": "2026-11-25T18:14:35.006300+00:00",
+  "fetchedAt": "2026-11-26T17:58:19.556025+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "6524eccdbafb731a69fd0cec1f8b5a67",
+      "title": "Sr. Tech Lead - App Security & Compliance",
+      "link": "https://careers.veeam.com/job/san-jose/sr-tech-lead-app-security-and-compliance/22681/103792260368",
+      "location": "San Jose, CA",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
     {
       "id": "8166042d2186017070ee8d06d13dccb4",
       "title": "Sr. Tech Lead - Graph & Graph APIs",

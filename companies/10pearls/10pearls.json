@@ -1,8 +1,38 @@
 {
   "sourceUrl": "https://api.resumatorapi.com/v1/jobs?apikey=jB0b57gnKdU9rqBWvqQpxzITAPrHUFaz",
-  "fetchedAt": "2026-11-25T18:10:01.167454+00:00",
+  "fetchedAt": "2026-11-26T17:53:08.092664+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "2bf981a860583dc715b3d3cd1a330b9d",
+      "title": "Staff DevSecOps Consultant - Afternoon Shift",
+      "link": "https://10pearls.resumatorsite.com/apply/qM3FJtUDXe/job_20261126081222_JJ5B6O0G9Y1HAT4D",
+      "location": "Karachi, Lahore, Islamabad, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-11-26",
+      "state": "open"
+    },
+    {
+      "id": "1e8b73447cfd51ba2071743e11a146b4",
+      "title": "Data and Connectors Engineer",
+      "link": "https://10pearls.resumatorsite.com/apply/Q5Jcmy3uo0/job_20261126054500_4QOQGMBCT5KYABDH",
+      "location": "Karachi, Lahore, Islamabad, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-11-26",
+      "state": "open"
+    },
+    {
+      "id": "9122c19a75ad08e52a1557bd2fe43adc",
+      "title": "Key Account Manager",
+      "link": "https://10pearls.resumatorsite.com/apply/Fbx6clFPsQ/job_20261126165724_DOMLCJ5ZGYEHXIGZ",
+      "location": "Karachi, Lahore, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-11-26",
+      "state": "open"
+    },
     {
       "id": "b701cb114935b1e7cd9ff733c1bddaa5",
       "title": "Senior DevOps Consultant - Azure",
@@ -21,16 +51,6 @@
       "department": "",
       "jobType": "Full Time",
       "postedAt": "2026-11-24",
-      "state": "open"
-    },
-    {
-      "id": "ff97b4d74ff041521cd9da2ab2b092da",
-      "title": "Staff DevSecOps Consultant - Afternoon Shift",
-      "link": "https://10pearls.resumatorsite.com/apply/yVqAzFcRV4/job_20261123125456_IGKXYTRGOYCWBN6W",
-      "location": "Karachi, Lahore, Islamabad, Pakistan",
-      "department": "",
-      "jobType": "Full Time",
-      "postedAt": "2026-11-23",
       "state": "open"
     },
     {
@@ -981,26 +1001,6 @@
       "department": "",
       "jobType": "Full Time",
       "postedAt": "2025-05-19",
-      "state": "open"
-    },
-    {
-      "id": "6a60f1bd3ae1d72142da6fcb2e2a1a7c",
-      "title": "Staff/Senior Software Consultant - .Net + Angular",
-      "link": "https://10pearls.resumatorsite.com/apply/uFdQBN3okX/job_20250519071031_FLFQWKCUD2XFEEHS",
-      "location": "Karachi, Lahore, Islamabad, Pakistan",
-      "department": "",
-      "jobType": "Full Time",
-      "postedAt": "2025-05-19",
-      "state": "open"
-    },
-    {
-      "id": "1628fcd44807befc6df8a5dc0ad15ef6",
-      "title": "Staff/Senior Software Consultant - .Net + MongoDB + AWS",
-      "link": "https://10pearls.resumatorsite.com/apply/TkOjvz3Zg1/job_20250428115322_VYONPWKXH1N93XDM",
-      "location": "Karachi, Lahore, Islamabad, Pakistan",
-      "department": "",
-      "jobType": "Full Time",
-      "postedAt": "2025-04-28",
       "state": "open"
     }
   ]

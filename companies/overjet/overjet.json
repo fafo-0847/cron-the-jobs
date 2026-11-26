@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://www.overjet.com/careers",
-  "fetchedAt": "2026-11-25T18:13:39.300880+00:00",
+  "fetchedAt": "2026-11-26T17:57:10.615819+00:00",
   "state": "open",
   "jobs": [
     {
@@ -241,6 +241,16 @@
       "department": "G&A",
       "jobType": "FullTime",
       "postedAt": "2026-11-24T22:29:14.969+00:00",
+      "state": "open"
+    },
+    {
+      "id": "46d97ec12b37b57a5b5a48b2ba696154",
+      "title": "Senior Integrated Campaign Manager",
+      "link": "https://jobs.ashbyhq.com/Overjet/3dfb3173-ae74-4710-a5a6-8674f6f3d462",
+      "location": "United States, Remote",
+      "department": "Sales & Marketing",
+      "jobType": "FullTime",
+      "postedAt": "2026-11-25T23:18:56.657+00:00",
       "state": "open"
     },
     {

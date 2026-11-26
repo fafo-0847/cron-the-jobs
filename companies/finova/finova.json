@@ -1,12 +1,12 @@
 {
   "sourceUrl": "https://careers.finova.tech/#jobs",
-  "fetchedAt": "2026-11-25T18:11:46.087904+00:00",
+  "fetchedAt": "2026-11-26T17:55:17.107196+00:00",
   "state": "open",
   "jobs": [
     {
-      "id": "9f87b57ba152e9d3f8338456e1ab5de7",
-      "title": "Customer Success Account Manager",
-      "link": "https://careers.finova.tech/jobs/8790084-customer-success-account-manager",
+      "id": "276e850835520d3275ec1d68535942d9",
+      "title": "Technology Support Engineer - Mac Focused",
+      "link": "https://careers.finova.tech/jobs/8799825-technology-support-engineer-mac-focused",
       "location": "",
       "department": "",
       "jobType": "",
@@ -37,6 +37,16 @@
       "id": "88869ca20899327c2990ed1e8d65acfe",
       "title": "Senior Site Reliability Engineer",
       "link": "https://careers.finova.tech/jobs/8652786-senior-site-reliability-engineer",
+      "location": "",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "14230ad0691b63d4b2aadb52b3da4f71",
+      "title": "Technology Support Engineer",
+      "link": "https://careers.finova.tech/jobs/8536558-technology-support-engineer",
       "location": "",
       "department": "",
       "jobType": "",

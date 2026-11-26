@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://savvital.breezy.hr",
-  "fetchedAt": "2026-11-25T18:14:17.512116+00:00",
+  "fetchedAt": "2026-11-26T17:58:04.996122+00:00",
   "state": "open",
   "jobs": [
     {
@@ -99,7 +99,51 @@
       "department": "Pakistan",
       "jobType": "Full-Time",
       "remoteType": "Fully remote, no location restrictions",
-      "postedAt": "2026-11-20T14:30:54.121Z",
+      "postedAt": "2026-11-26T15:01:47.835Z",
+      "state": "open"
+    },
+    {
+      "id": "91dff1902abf7d8ab08168296d657934",
+      "title": "Senior Accounting Associate",
+      "link": "https://savvital.breezy.hr/p/e14d47581602-senior-accounting-associate",
+      "location": "Guatemala",
+      "department": "Guatemala",
+      "jobType": "Full-Time",
+      "remoteType": "Fully remote, no location restrictions",
+      "postedAt": "2026-11-26T14:48:57.768Z",
+      "state": "open"
+    },
+    {
+      "id": "24a3de6641ed19916b14f634f1a33674",
+      "title": "Senior Accounting Associate",
+      "link": "https://savvital.breezy.hr/p/d694a30da53b-senior-accounting-associate",
+      "location": "Peru",
+      "department": "Peru",
+      "jobType": "Full-Time",
+      "remoteType": "Fully remote, no location restrictions",
+      "postedAt": "2026-11-26T14:49:44.571Z",
+      "state": "open"
+    },
+    {
+      "id": "3eab732810a8e5f333a779067c184186",
+      "title": "Senior Accounting Associate",
+      "link": "https://savvital.breezy.hr/p/b70c4bb62d21-senior-accounting-associate",
+      "location": "Philippines",
+      "department": "Philippines",
+      "jobType": "Full-Time",
+      "remoteType": "Fully remote, no location restrictions",
+      "postedAt": "2026-11-26T14:50:38.814Z",
+      "state": "open"
+    },
+    {
+      "id": "a3b11313274650b1130fa9bf06ca8a0e",
+      "title": "Senior Accounting Associate",
+      "link": "https://savvital.breezy.hr/p/68d9e6672803-senior-accounting-associate",
+      "location": "South Africa",
+      "department": "South Africa",
+      "jobType": "Full-Time",
+      "remoteType": "Fully remote, no location restrictions",
+      "postedAt": "2026-11-26T14:51:24.834Z",
       "state": "open"
     },
     {

@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/careem/departments",
-  "fetchedAt": "2026-11-25T18:10:54.773166+00:00",
+  "fetchedAt": "2026-11-26T17:54:22.277718+00:00",
   "state": "open",
   "jobs": [
     {
@@ -9,15 +9,6 @@
       "link": "https://boards.greenhouse.io/careem/jobs/8789147002?gh_jid=8789147002",
       "location": "Dubai, United Arab Emirates",
       "department": "Central Care Leadership",
-      "postedAt": "2026-11-11T00:19:36-05:00",
-      "state": "open"
-    },
-    {
-      "id": "480618bece75c02439701c66016f8e9a",
-      "title": "Account Manager I",
-      "link": "https://boards.greenhouse.io/careem/jobs/8844091002?gh_jid=8844091002",
-      "location": "Amman, Jordan",
-      "department": "Food & Dineout Jordan",
       "postedAt": "2026-11-11T00:19:36-05:00",
       "state": "open"
     },
@@ -54,15 +45,6 @@
       "link": "https://boards.greenhouse.io/careem/jobs/8620725002?gh_jid=8620725002",
       "location": "Karachi, Pakistan",
       "department": "IT",
-      "postedAt": "2026-11-11T00:19:36-05:00",
-      "state": "open"
-    },
-    {
-      "id": "7e800d875da04c7f49efc7ac5e136a98",
-      "title": "Senior Operations Associate - Shops",
-      "link": "https://boards.greenhouse.io/careem/jobs/8640594002?gh_jid=8640594002",
-      "location": "Dubai, United Arab Emirates",
-      "department": "PMO & Partner Operations",
       "postedAt": "2026-11-11T00:19:36-05:00",
       "state": "open"
     },

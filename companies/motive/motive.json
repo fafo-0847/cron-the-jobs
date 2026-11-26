@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/gomotive/departments",
-  "fetchedAt": "2026-11-25T18:13:23.150172+00:00",
+  "fetchedAt": "2026-11-26T17:56:53.126178+00:00",
   "state": "open",
   "jobs": [
     {
@@ -477,7 +477,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8927928002",
       "location": "Taiwan - Taipei",
       "department": "Hardware Engineering",
-      "postedAt": "2026-11-19T15:33:52-05:00",
+      "postedAt": "2026-11-26T04:45:12-05:00",
       "state": "open"
     },
     {
@@ -496,15 +496,6 @@
       "location": "United States - Remote",
       "department": "HR",
       "postedAt": "2026-11-18T03:00:50-05:00",
-      "state": "open"
-    },
-    {
-      "id": "cd53693a3ed60954b8a9d0e900772840",
-      "title": "People Business Partner",
-      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8627801002",
-      "location": "Hybrid - Islamabad & Lahore",
-      "department": "HR",
-      "postedAt": "2026-11-19T15:32:40-05:00",
       "state": "open"
     },
     {
@@ -532,6 +523,15 @@
       "location": "Canada - Remote",
       "department": "HR",
       "postedAt": "2026-11-23T10:00:50-05:00",
+      "state": "open"
+    },
+    {
+      "id": "09f5c16ceaf16fe23063a9dfa1837576",
+      "title": "People Business Partner (HRBP)",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8961828002",
+      "location": "Hybrid - Islamabad & Lahore",
+      "department": "HR",
+      "postedAt": "2026-11-26T12:14:12-05:00",
       "state": "open"
     },
     {
@@ -760,15 +760,6 @@
       "state": "open"
     },
     {
-      "id": "5f5bf1dfe1b4a8ea8a429528e3634759",
-      "title": "Senior Field Marketing Manager",
-      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8958621002",
-      "location": "United States - Remote",
-      "department": "Marketing",
-      "postedAt": "2026-11-24T18:18:43-05:00",
-      "state": "open"
-    },
-    {
       "id": "39fffa1b5294617e25b7a9d1d39c475b",
       "title": "Mid-Market Regional Sales Manager ",
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8891542002",
@@ -805,21 +796,21 @@
       "state": "open"
     },
     {
-      "id": "15517fd4ae8e3f65bc5f40f57606e5d2",
-      "title": "Senior Order Management Specialist",
+      "id": "de3f40a0e4bd916cb754a3f778d726d9",
+      "title": "Senior Revenue Operations Specialist, Operations",
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8883191002",
       "location": "Hybrid - Islamabad & Lahore",
       "department": "Order Management",
-      "postedAt": "2026-11-25T11:31:11-05:00",
+      "postedAt": "2026-11-26T04:22:44-05:00",
       "state": "open"
     },
     {
-      "id": "507be79a6e1d4ddf28257329a5c95bb1",
-      "title": "Order Management Specialist, Operations",
+      "id": "85380e2e896a98de06dec056a27e08fd",
+      "title": "Revenue Operations Specialist, Operations",
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8883193002",
       "location": "Hybrid - Islamabad & Lahore",
       "department": "Order Management",
-      "postedAt": "2026-11-25T11:31:13-05:00",
+      "postedAt": "2026-11-26T04:26:26-05:00",
       "state": "open"
     },
     {
@@ -1585,6 +1576,15 @@
       "location": "Hybrid - Vancouver",
       "department": "Software Engineering",
       "postedAt": "2026-11-23T12:57:12-05:00",
+      "state": "open"
+    },
+    {
+      "id": "6421bd298a8576b0fc5a35560c9fce86",
+      "title": "Software Engineer, Workforce Management",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8905066002",
+      "location": "Bangalore, India",
+      "department": "Software Engineering",
+      "postedAt": "2026-11-25T20:43:46-05:00",
       "state": "open"
     },
     {

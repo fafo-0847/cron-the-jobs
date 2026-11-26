@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://www.careers-page.com/clustox#openings",
-  "fetchedAt": "2026-11-25T18:11:15.636864+00:00",
+  "fetchedAt": "2026-11-26T17:54:41.587187+00:00",
   "state": "open",
   "jobs": [
     {
@@ -54,16 +54,6 @@
       "state": "open"
     },
     {
-      "id": "d9fec0fbec3c78d5bdac08897118a3f3",
-      "title": "Senior Email Campaign Specialist",
-      "link": "https://www.careers-page.com/clustox/job/5W7Y9483",
-      "location": "Lahore, Pakistan",
-      "department": "",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
       "id": "521c95cba918186336bc1d436983c8d5",
       "title": "CMIT Internship",
       "link": "https://www.careers-page.com/clustox/job/W387R7V9",
@@ -97,6 +87,16 @@
       "id": "b220707faff07c554b062a120e16eb13",
       "title": "Content Engineer",
       "link": "https://www.careers-page.com/clustox/job/93773584",
+      "location": "Lahore, Pakistan",
+      "department": "",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "cb686e3ac1bd36367534a3ca5674b370",
+      "title": "Performance Marketing Specialist",
+      "link": "https://www.careers-page.com/clustox/job/937X9WX6",
       "location": "Lahore, Pakistan",
       "department": "",
       "jobType": "",

@@ -1,23 +1,83 @@
 {
   "sourceUrl": "https://iacqey.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC,offset=0",
-  "fetchedAt": "2026-11-25T18:13:54.749489+00:00",
+  "fetchedAt": "2026-11-26T17:57:41.984494+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "cc0d9a2609d510b35ccfeb87f2e88887",
+      "title": "Customer Service Officer",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1001",
+      "location": "United Arab Emirates",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-11-26",
+      "state": "open"
+    },
+    {
+      "id": "a42e373970c4519973b4d150463b8ce9",
+      "title": "Customer Service Officer",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1007",
+      "location": "Al Hamra Branch",
+      "department": "",
+      "jobType": "",
+      "postedAt": "2026-11-26",
+      "state": "open"
+    },
+    {
+      "id": "f7695f08e44153a46eb2b4ea334fe0ae",
+      "title": "Customer Service Officer",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1004",
+      "location": "Al Dhait Branch",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-11-26",
+      "state": "open"
+    },
+    {
+      "id": "286ecd54b5ccc1e770d54c3ec10b9b12",
+      "title": "Customer Service Officer",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1008",
+      "location": "Fujairah Branch",
+      "department": "",
+      "jobType": "",
+      "postedAt": "2026-11-26",
+      "state": "open"
+    },
+    {
+      "id": "63231f9294ac34260e5e701092e47476",
+      "title": "Senior  Team Leader - Personal Loans",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010",
+      "location": "Omniah Tower",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-11-26",
+      "state": "open"
+    },
+    {
+      "id": "d8933dde0eb92840f30c93300fa19122",
+      "title": "Digital PRO",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1011",
+      "location": "Al Dhait Branch",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-11-26",
+      "state": "open"
+    },
+    {
+      "id": "519263cb87d38cfe85cb9d00789f1120",
+      "title": "Customer Service Officer",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1013",
+      "location": "Sharjah King Faisal Road Branch",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-11-26",
+      "state": "open"
+    },
     {
       "id": "0608a6ff284b3c9e138f3b370d18bc73",
       "title": "Vice President - Client Support Lead, Wholesale Banking Technology",
       "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/987",
       "location": "DCO Corp.Office- 4th  FLOOR",
-      "department": "",
-      "jobType": "Hybrid",
-      "postedAt": "2026-11-25",
-      "state": "open"
-    },
-    {
-      "id": "36f144d815fec36f1049e6d2210f0ea3",
-      "title": "Relationship Manager - Commercial Assets Coverage",
-      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/997",
-      "location": "Omniah Tower",
       "department": "",
       "jobType": "Hybrid",
       "postedAt": "2026-11-25",

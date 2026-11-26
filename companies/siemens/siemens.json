@@ -1,8 +1,18 @@
 {
   "sourceUrl": "https://jobs.siemens.com/en_US/externaljobs/SearchJobs/?42414=%5B812046%5D&42414_format=17570&listFilterMode=1&folderRecordsPerPage=6&",
-  "fetchedAt": "2026-11-25T18:14:48.918080+00:00",
+  "fetchedAt": "2026-11-26T17:58:33.946509+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "faa7f9ff06709c146af9e65a9e1ddc76",
+      "title": "Country Security Officer - Siemens Pakistan",
+      "link": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/523069",
+      "location": "Karachi, Sindh, Pakistan",
+      "department": "Internal Services",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
     {
       "id": "7ca6e593badb9e1b61b63672b90eb3c4",
       "title": "Learning Program Manager for Partner Enablement - m/f/d",
@@ -49,16 +59,6 @@
       "link": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/529539",
       "location": "Multiple Locations",
       "department": "Sales",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "da7e21e6d162b9af7cc8bd652b8d0177",
-      "title": "Learning Portfolio Consultant - m/f/d",
-      "link": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/524586",
-      "location": "Multiple Locations",
-      "department": "Customer Services",
       "jobType": "",
       "postedAt": "",
       "state": "open"
