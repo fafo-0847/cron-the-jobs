@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://apply.workable.com/api/v1/widget/accounts/devsinc-17",
-  "fetchedAt": "2026-11-26T17:55:05.666406+00:00",
+  "fetchedAt": "2026-11-27T17:40:13.448500+00:00",
   "state": "open",
   "jobs": [
     {
@@ -375,19 +375,6 @@
       "department": "Cluster Head",
       "jobType": "Full-time",
       "postedAt": "2026-11-16",
-      "state": "open",
-      "experience": "Mid-Senior level",
-      "education": "",
-      "isRemote": false
-    },
-    {
-      "id": "3478a5ba301e62c0624b9293e8444e94",
-      "title": "Senior Video Editor",
-      "link": "https://apply.workable.com/j/D28910D8AC",
-      "location": "Lahore, Pakistan",
-      "department": "Voosha - Product",
-      "jobType": "Full-time",
-      "postedAt": "2026-11-18",
       "state": "open",
       "experience": "Mid-Senior level",
       "education": "",

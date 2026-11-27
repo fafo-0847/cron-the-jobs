@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://careers.clarivate.com/c/technology-jobs",
-  "fetchedAt": "2026-11-26T17:54:36.480437+00:00",
+  "fetchedAt": "2026-11-27T17:39:47.243832+00:00",
   "state": "open",
   "jobs": [
     {
@@ -11,17 +11,6 @@
       "department": "Other",
       "jobType": "",
       "jobCode": "JREQ136679",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "eb2b065d6a95746e2b05e60471413fba",
-      "title": "IT Support Services Analyst",
-      "link": "https://careers.clarivate.com/job/JREQ136215/IT-Support-Services-Analyst",
-      "location": "London, United Kingdom",
-      "department": "IT Services",
-      "jobType": "On-Site",
-      "jobCode": "JREQ136215",
       "postedAt": "",
       "state": "open"
     },
@@ -132,17 +121,6 @@
       "department": "IT Services",
       "jobType": "Hybrid",
       "jobCode": "JREQ135892",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "3d360c26ace6acc510e847845d7fbd68",
-      "title": "Senior Infrastructure Engineer (macOS management - JAMF)",
-      "link": "https://careers.clarivate.com/job/JREQ135710/Senior-Infrastructure-Engineer-macOS-management-JAMF",
-      "location": "Karnātaka, India",
-      "department": "IT Services",
-      "jobType": "Hybrid",
-      "jobCode": "JREQ135710",
       "postedAt": "",
       "state": "open"
     },
@@ -319,6 +297,28 @@
       "department": "Intellectual Property",
       "jobType": "Hybrid",
       "jobCode": "JREQ136972",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "eb2b065d6a95746e2b05e60471413fba",
+      "title": "IT Support Services Analyst",
+      "link": "https://careers.clarivate.com/job/JREQ136215/IT-Support-Services-Analyst",
+      "location": "London, United Kingdom",
+      "department": "IT Services",
+      "jobType": "On-Site",
+      "jobCode": "JREQ136215",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "54180f362bcc85e961c83c6a15e46e85",
+      "title": "Salesforce Admin - Business Systems Analyst",
+      "link": "https://careers.clarivate.com/job/JREQ137104/Salesforce-Admin-Business-Systems-Analyst",
+      "location": "",
+      "department": "IT Services",
+      "jobType": "Hybrid",
+      "jobCode": "JREQ137104",
       "postedAt": "",
       "state": "open"
     }

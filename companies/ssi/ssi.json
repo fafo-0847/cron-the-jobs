@@ -1,22 +1,12 @@
 {
   "sourceUrl": "https://strategic-systems-international.breezy.hr",
-  "fetchedAt": "2026-11-26T17:58:39.884941+00:00",
+  "fetchedAt": "2026-11-27T17:43:54.061803+00:00",
   "state": "open",
   "jobs": [
     {
       "id": "b3d652af3d931b6b9e5ba1264eac6a03",
       "title": "Accessibility Tester",
       "link": "https://strategic-systems-international.breezy.hr/p/625352227dde-accessibility-tester",
-      "location": "Multiple Locations",
-      "department": "",
-      "jobType": "Contract",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "e1a816dd422a36aafebaffafd6fddbf2",
-      "title": "Forward Deployed Engineer",
-      "link": "https://strategic-systems-international.breezy.hr/p/d06f8ca11182-forward-deployed-engineer",
       "location": "Multiple Locations",
       "department": "",
       "jobType": "Contract",
@@ -34,32 +24,12 @@
       "state": "open"
     },
     {
-      "id": "e1a816dd422a36aafebaffafd6fddbf2",
-      "title": "Forward Deployed Engineer",
-      "link": "https://strategic-systems-international.breezy.hr/p/d06f8ca11182-forward-deployed-engineer",
-      "location": "Multiple Locations",
-      "department": "",
-      "jobType": "Contract",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
       "id": "a261335626f3ae3285106a469e49d042",
       "title": "Business/Data Analyst",
       "link": "https://strategic-systems-international.breezy.hr/p/588736b4c73e-business-data-analyst",
       "location": "Lahore, PK",
       "department": "",
       "jobType": "Full-Time",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "e1a816dd422a36aafebaffafd6fddbf2",
-      "title": "Forward Deployed Engineer",
-      "link": "https://strategic-systems-international.breezy.hr/p/d06f8ca11182-forward-deployed-engineer",
-      "location": "Multiple Locations",
-      "department": "",
-      "jobType": "Contract",
       "postedAt": "",
       "state": "open"
     },
@@ -114,19 +84,19 @@
       "state": "open"
     },
     {
-      "id": "b3d652af3d931b6b9e5ba1264eac6a03",
-      "title": "Accessibility Tester",
-      "link": "https://strategic-systems-international.breezy.hr/p/625352227dde-accessibility-tester",
-      "location": "Multiple Locations",
+      "id": "2ab3624cdb0a7c3e4811c9522bad53ba",
+      "title": "Senior Security Engineer (SecOps / Cloud Security)",
+      "link": "https://strategic-systems-international.breezy.hr/p/88b5a52b04c9-senior-security-engineer-secops-cloud-security",
+      "location": "Lahore, Punjab",
       "department": "",
-      "jobType": "Contract",
+      "jobType": "Full-Time",
       "postedAt": "",
       "state": "open"
     },
     {
-      "id": "e1a816dd422a36aafebaffafd6fddbf2",
-      "title": "Forward Deployed Engineer",
-      "link": "https://strategic-systems-international.breezy.hr/p/d06f8ca11182-forward-deployed-engineer",
+      "id": "b3d652af3d931b6b9e5ba1264eac6a03",
+      "title": "Accessibility Tester",
+      "link": "https://strategic-systems-international.breezy.hr/p/625352227dde-accessibility-tester",
       "location": "Multiple Locations",
       "department": "",
       "jobType": "Contract",

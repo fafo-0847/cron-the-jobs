@@ -1,8 +1,28 @@
 {
   "sourceUrl": "https://iacqey.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC,offset=0",
-  "fetchedAt": "2026-11-26T17:57:41.984494+00:00",
+  "fetchedAt": "2026-11-27T17:42:56.302446+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "6eb331688e073b77237001744abe4604",
+      "title": "Branch Sales officer",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/610",
+      "location": "Al Qusais Branch",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-11-27",
+      "state": "open"
+    },
+    {
+      "id": "8ff124908fcd990a0518c2578e5070fd",
+      "title": "Branch Sales Officer",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/691",
+      "location": "Musaffah Branch",
+      "department": "",
+      "jobType": "On-site",
+      "postedAt": "2026-11-27",
+      "state": "open"
+    },
     {
       "id": "cc0d9a2609d510b35ccfeb87f2e88887",
       "title": "Customer Service Officer",
@@ -10,6 +30,16 @@
       "location": "United Arab Emirates",
       "department": "",
       "jobType": "On-site",
+      "postedAt": "2026-11-26",
+      "state": "open"
+    },
+    {
+      "id": "f760929cc005df5dbd2b4425b7edcfcc",
+      "title": "Customer Service Officer",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1006",
+      "location": "Al Nakheel Branch",
+      "department": "",
+      "jobType": "",
       "postedAt": "2026-11-26",
       "state": "open"
     },
@@ -30,6 +60,16 @@
       "location": "Al Dhait Branch",
       "department": "",
       "jobType": "On-site",
+      "postedAt": "2026-11-26",
+      "state": "open"
+    },
+    {
+      "id": "febc6234ca947e853f6c75a41a227aec",
+      "title": "Customer Service Officer",
+      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1005",
+      "location": "Al Nakheel Branch",
+      "department": "",
+      "jobType": "Hybrid",
       "postedAt": "2026-11-26",
       "state": "open"
     },
@@ -71,16 +111,6 @@
       "department": "",
       "jobType": "On-site",
       "postedAt": "2026-11-26",
-      "state": "open"
-    },
-    {
-      "id": "0608a6ff284b3c9e138f3b370d18bc73",
-      "title": "Vice President - Client Support Lead, Wholesale Banking Technology",
-      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/987",
-      "location": "DCO Corp.Office- 4th  FLOOR",
-      "department": "",
-      "jobType": "Hybrid",
-      "postedAt": "2026-11-25",
       "state": "open"
     },
     {

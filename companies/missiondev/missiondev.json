@@ -1,40 +1,8 @@
 {
   "sourceUrl": "https://mission.dev/api/opportunities?page=1&perPage=12",
-  "fetchedAt": "2026-11-26T17:56:19.190257+00:00",
+  "fetchedAt": "2026-11-27T17:41:28.576504+00:00",
   "state": "open",
   "jobs": [
-    {
-      "id": "4805d9cdbf4373b0a38ad0bfd688e727",
-      "title": "Senior Software Engineer (Backend & AWS) Risk Intelligence Platform  -  Canada",
-      "link": "",
-      "location": "Canada",
-      "department": "DevOps Engineer, Back-End Developer",
-      "jobType": "HYBRID",
-      "engagementType": "FULL_TIME_EMPLOYMENT",
-      "primarySkills": "AWS RDS, AWS S3, AWS EC2, AWS Lambda, AWS CloudWatch, AWS IAM, AWS VPC",
-      "secondarySkills": "Python, Docker, Node.js, SQL, Kubernetes, PostgreSQL, Terraform, Scrapy",
-      "slug": "VALSESE001412",
-      "missionName": "Senior Full Stack Developer, Risk Intelligence Platform",
-      "missionDescription": "About the Role\nAs a Senior Full Stack Developer, you will lead the technical evolution of a high-growth risk intelligence platform. You will own the development of end-to-end features, balancing complex backend data processing with the delivery of seamless user experiences.",
-      "postedAt": "2026-11-17T18:46:47Z",
-      "state": "open"
-    },
-    {
-      "id": "d61ff9e40cb34569f04179a335c5bf7e",
-      "title": "Senior Software Engineer (Backend & AWS) Risk Intelligence Platform  -  LATAM",
-      "link": "",
-      "location": "LATAM",
-      "department": "DevOps Engineer, Back-End Developer",
-      "jobType": "REMOTE",
-      "engagementType": "FULL_TIME_EMPLOYMENT",
-      "primarySkills": "AWS RDS, AWS S3, AWS EC2, AWS Lambda, AWS CloudWatch, AWS IAM, AWS VPC",
-      "secondarySkills": "Python, Docker, Node.js, SQL, Kubernetes, PostgreSQL, Terraform, Scrapy",
-      "slug": "VALSEDU001413",
-      "missionName": "Senior Full Stack Developer, Risk Intelligence Platform",
-      "missionDescription": "About the Role\nAs a Senior Full Stack Developer, you will lead the technical evolution of a high-growth risk intelligence platform. You will own the development of end-to-end features, balancing complex backend data processing with the delivery of seamless user experiences.",
-      "postedAt": "2026-11-17T18:46:40Z",
-      "state": "open"
-    },
     {
       "id": "992fc357549cfdf78b4f4c3e6a5e5297",
       "title": "AI Engineer",

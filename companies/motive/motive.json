@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/gomotive/departments",
-  "fetchedAt": "2026-11-26T17:56:53.126178+00:00",
+  "fetchedAt": "2026-11-27T17:42:02.477652+00:00",
   "state": "open",
   "jobs": [
     {
@@ -235,15 +235,6 @@
       "location": "United States - Remote",
       "department": "Enablement",
       "postedAt": "2026-11-18T13:24:16-05:00",
-      "state": "open"
-    },
-    {
-      "id": "c495cf0f39d67705be848de26d96c36c",
-      "title": "Senior Salesforce Engineer - CPQ",
-      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8781587002",
-      "location": "India - Remote",
-      "department": "Enterprise Systems",
-      "postedAt": "2026-11-16T13:23:43-05:00",
       "state": "open"
     },
     {
@@ -817,9 +808,9 @@
       "id": "e2ddae12bf656775b1427a404a34ab7b",
       "title": "Order Management Specialist, Returns",
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8940839002",
-      "location": "Pakistan - Remote",
+      "location": "Pakistan - Islamabad",
       "department": "Order Management",
-      "postedAt": "2026-11-19T15:33:55-05:00",
+      "postedAt": "2026-11-27T08:20:11-05:00",
       "state": "open"
     },
     {
@@ -1588,6 +1579,15 @@
       "state": "open"
     },
     {
+      "id": "677b2a660239bc13ddee643316a9e773",
+      "title": "Software Engineer (Backend)",
+      "link": "https://job-boards.greenhouse.io/gomotive/jobs/8905068002",
+      "location": "Bangalore, India",
+      "department": "Software Engineering",
+      "postedAt": "2026-11-27T05:24:10-05:00",
+      "state": "open"
+    },
+    {
       "id": "7075f5525adfa021cc85c5aaab0cd869",
       "title": "Senior Engineering Manager, Platform",
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8910519002",
@@ -1629,7 +1629,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8950900002",
       "location": "Hybrid - San Francisco, California",
       "department": "Software Engineering",
-      "postedAt": "2026-11-19T18:46:37-05:00",
+      "postedAt": "2026-11-27T11:33:30-05:00",
       "state": "open"
     },
     {
@@ -1647,7 +1647,7 @@
       "link": "https://job-boards.greenhouse.io/gomotive/jobs/8893076002",
       "location": "United States - Louisville, Kentucky",
       "department": "Supply Chain",
-      "postedAt": "2026-11-24T10:31:16-05:00",
+      "postedAt": "2026-11-26T19:46:42-05:00",
       "state": "open"
     },
     {

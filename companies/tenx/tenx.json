@@ -1,8 +1,18 @@
 {
   "sourceUrl": "https://tenx.webhr.co/hr/careers/",
-  "fetchedAt": "2026-11-26T17:59:12.994949+00:00",
+  "fetchedAt": "2026-11-27T17:44:29.452992+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "f613308c011571aa36a45f5f2e49cf4f",
+      "title": "Assistant Manager Finance",
+      "link": "",
+      "location": "",
+      "department": "Finance",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
     {
       "id": "b5db822545fa7554a0053d4bb06c2fc8",
       "title": "Data Engineer",

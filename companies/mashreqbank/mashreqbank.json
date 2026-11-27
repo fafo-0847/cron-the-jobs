@@ -1,8 +1,28 @@
 {
   "sourceUrl": "https://hcld.fa.em2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,locationId=300000000300311,sortBy=POSTING_DATES_DESC,offset=0",
-  "fetchedAt": "2026-11-26T17:56:16.245489+00:00",
+  "fetchedAt": "2026-11-27T17:41:26.369135+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "2ab44840350ea7cf00efc948fa078b59",
+      "title": "Assistant Manager Compliance",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6559",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Remote work (RW)",
+      "postedAt": "2026-11-27",
+      "state": "open"
+    },
+    {
+      "id": "e2576c3c774f0068286352c1f9100e0b",
+      "title": "Vice President - Global Contract Management",
+      "link": "https://hcld.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7391",
+      "location": "Pakistan",
+      "department": "",
+      "jobType": "Fulltime office (FTO)",
+      "postedAt": "2026-11-27",
+      "state": "open"
+    },
     {
       "id": "3474f46c8908b8a02b5ddbb33dc2a485",
       "title": "Senior Manager, Capital Management",

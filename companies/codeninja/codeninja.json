@@ -1,36 +1,26 @@
 {
   "sourceUrl": "https://apply.workable.com/codeninjapk",
-  "fetchedAt": "2026-11-26T17:54:45.460445+00:00",
+  "fetchedAt": "2026-11-27T17:39:56.525070+00:00",
   "state": "open",
   "jobs": [
     {
-      "id": "215195ec73643fcb571da0c1d0279737",
-      "title": "Associate Project Manager",
-      "link": "https://apply.workable.com/codeninjapk/j/B6367B1A79/",
-      "location": "Lahore, Punjab, Pakistan",
-      "department": "Professional Services",
+      "id": "783ced398f015016acac8ec9a24fc527",
+      "title": "Account Executive, AI Infrastructure",
+      "link": "https://apply.workable.com/codeninjapk/j/827CE14434/",
+      "location": "Dallas, Texas, United States",
+      "department": "Sales",
       "jobType": "Full time",
-      "postedAt": "Posted today",
+      "postedAt": "Posted 25 days ago",
       "state": "open"
     },
     {
-      "id": "422cf6760a4ba6e7a83f690605b1c253",
-      "title": "Product Manager - Digital Enterprise Solutions Governance",
-      "link": "https://apply.workable.com/codeninjapk/j/7DB1542C9B/",
-      "location": "Riyadh, Riyadh Province, Saudi Arabia",
-      "department": "Professional Services",
-      "jobType": "",
-      "postedAt": "Posted today",
-      "state": "open"
-    },
-    {
-      "id": "50a8e5fdec2a79f0e0cf89596eecb7ef",
-      "title": "Business Analyst - Pre Sales & Discovery",
-      "link": "https://apply.workable.com/codeninjapk/j/BB8BCB51B4/",
-      "location": "Lahore, Punjab, Pakistan",
-      "department": "Professional Services",
+      "id": "213c74a95b18f38e440e30da5e8b087e",
+      "title": "Sales Development Representative, Enterprise AI",
+      "link": "https://apply.workable.com/codeninjapk/j/5788C0434F/",
+      "location": "Dallas, Texas, United States",
+      "department": "Sales",
       "jobType": "Full time",
-      "postedAt": "",
+      "postedAt": "Posted 25 days ago",
       "state": "open"
     }
   ]

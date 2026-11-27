@@ -1,8 +1,28 @@
 {
   "sourceUrl": "https://careers.veeam.com/search-jobs?acm=ALL&alrpm=ALL&ascf=[%7B\"key\":\"Team\",\"value\":\"Securiti+AI\"%7D]",
-  "fetchedAt": "2026-11-26T17:58:19.556025+00:00",
+  "fetchedAt": "2026-11-27T17:43:33.419689+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "a93cebedf56fad1153cec039400cd48f",
+      "title": "Senior Forward Deployed Engineer",
+      "link": "https://careers.veeam.com/job/san-jose/senior-forward-deployed-engineer/22681/100820734912",
+      "location": "San Jose, CA",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
+    {
+      "id": "3d1f07631ff98d91c2c4f17a8120177a",
+      "title": "Sales Specialist - Data & AI Security",
+      "link": "https://careers.veeam.com/job/bengaluru/sales-specialist-data-and-ai-security/22681/91677244544",
+      "location": "Bengaluru, Karnataka",
+      "department": "Securiti AI",
+      "jobType": "",
+      "postedAt": "",
+      "state": "open"
+    },
     {
       "id": "6524eccdbafb731a69fd0cec1f8b5a67",
       "title": "Sr. Tech Lead - App Security & Compliance",
@@ -68,26 +88,6 @@
       "title": "Senior Sales Engineer - Data & AI Security",
       "link": "https://careers.veeam.com/job/seoul/senior-sales-engineer-data-and-ai-security/22681/98777400304",
       "location": "Seoul, KR",
-      "department": "Securiti AI",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "3d1f07631ff98d91c2c4f17a8120177a",
-      "title": "Sales Specialist - Data & AI Security",
-      "link": "https://careers.veeam.com/job/bengaluru/sales-specialist-data-and-ai-security/22681/91677244544",
-      "location": "Bengaluru, Karnataka",
-      "department": "Securiti AI",
-      "jobType": "",
-      "postedAt": "",
-      "state": "open"
-    },
-    {
-      "id": "a93cebedf56fad1153cec039400cd48f",
-      "title": "Senior Forward Deployed Engineer",
-      "link": "https://careers.veeam.com/job/san-jose/senior-forward-deployed-engineer/22681/100820734912",
-      "location": "San Jose, CA",
       "department": "Securiti AI",
       "jobType": "",
       "postedAt": "",

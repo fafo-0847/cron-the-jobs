@@ -1,8 +1,17 @@
 {
   "sourceUrl": "https://arbisoft.hirestream.io/api/v1/jobs/published-jobs/?timezone=Asia%2FKarachi&offset=0&limit=20&order=featured",
-  "fetchedAt": "2026-11-26T17:53:19.792933+00:00",
+  "fetchedAt": "2026-11-27T17:38:30.588218+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "6c05be6c2b16a88d847038b5326339a7",
+      "title": "Product Manager",
+      "link": "https://arbisoft.hirestream.io/jobs/2a99a09e-fd25-4da7-b4d6-16603b7f0884",
+      "location": "Westwood Office, Lahore",
+      "department": "Product Management",
+      "postedAt": "2026-11-27T06:53:51.229657Z",
+      "state": "open"
+    },
     {
       "id": "0a00e4ad219ffd40e3a8a9e29f1ebc18",
       "title": "Finance Executive",
@@ -19,15 +28,6 @@
       "location": "Arbisoft, Lahore",
       "department": "Product Management",
       "postedAt": "2026-11-23T10:51:14.835451Z",
-      "state": "open"
-    },
-    {
-      "id": "6c05be6c2b16a88d847038b5326339a7",
-      "title": "Product Manager",
-      "link": "https://arbisoft.hirestream.io/jobs/2a99a09e-fd25-4da7-b4d6-16603b7f0884",
-      "location": "Westwood Office, Lahore",
-      "department": "Product Management",
-      "postedAt": "2026-11-23T09:26:52.984591Z",
       "state": "open"
     },
     {
