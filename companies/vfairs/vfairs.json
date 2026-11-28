@@ -1,16 +1,16 @@
 {
   "sourceUrl": "https://vfairs.zohorecruit.com/jobs/careers?",
-  "fetchedAt": "2026-11-27T17:45:20.118988+00:00",
+  "fetchedAt": "2026-11-28T16:29:39.577577+00:00",
   "state": "open",
   "jobs": [
     {
-      "id": "f023b7f8da77d8711fe1409f6af702a7",
-      "title": "Principal Software Engineer",
-      "link": "https://vfairs.zohorecruit.com/jobs/careers/619320000005634002/Principal-Software-Engineer?source=CareerSite",
+      "id": "1d79dad9507c5c70e0f842117e92b0c6",
+      "title": "Software Architect",
+      "link": "https://vfairs.zohorecruit.com/jobs/careers/619320000005306001/Software-Architect?source=CareerSite",
       "location": "Lahore, Punjab, Pakistan",
       "department": "",
       "jobType": "Full time",
-      "postedAt": "09/23/2026",
+      "postedAt": "09/01/2026",
       "state": "open"
     },
     {
@@ -31,6 +31,26 @@
       "department": "",
       "jobType": "Full time",
       "postedAt": "10/09/2026",
+      "state": "open"
+    },
+    {
+      "id": "f023b7f8da77d8711fe1409f6af702a7",
+      "title": "Principal Software Engineer",
+      "link": "https://vfairs.zohorecruit.com/jobs/careers/619320000005634002/Principal-Software-Engineer?source=CareerSite",
+      "location": "Lahore, Punjab, Pakistan",
+      "department": "",
+      "jobType": "Full time",
+      "postedAt": "09/23/2026",
+      "state": "open"
+    },
+    {
+      "id": "a60d6839c03a3d2213c991de62047482",
+      "title": "Senior Technical Project Manager",
+      "link": "https://vfairs.zohorecruit.com/jobs/careers/619320000006121096/Senior-Technical-Project-Manager?source=CareerSite",
+      "location": "Lahore, Punjab, Pakistan",
+      "department": "",
+      "jobType": "Full time",
+      "postedAt": "11/12/2026",
       "state": "open"
     },
     {
@@ -61,26 +81,6 @@
       "department": "",
       "jobType": "Full time",
       "postedAt": "10/15/2026",
-      "state": "open"
-    },
-    {
-      "id": "a60d6839c03a3d2213c991de62047482",
-      "title": "Senior Technical Project Manager",
-      "link": "https://vfairs.zohorecruit.com/jobs/careers/619320000006121096/Senior-Technical-Project-Manager?source=CareerSite",
-      "location": "Lahore, Punjab, Pakistan",
-      "department": "",
-      "jobType": "Full time",
-      "postedAt": "11/12/2026",
-      "state": "open"
-    },
-    {
-      "id": "1d79dad9507c5c70e0f842117e92b0c6",
-      "title": "Software Architect",
-      "link": "https://vfairs.zohorecruit.com/jobs/careers/619320000005306001/Software-Architect?source=CareerSite",
-      "location": "Lahore, Punjab, Pakistan",
-      "department": "",
-      "jobType": "Full time",
-      "postedAt": "09/01/2026",
       "state": "open"
     },
     {

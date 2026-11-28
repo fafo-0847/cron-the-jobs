@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://iacqey.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC,offset=0",
-  "fetchedAt": "2026-11-27T17:42:56.302446+00:00",
+  "fetchedAt": "2026-11-28T16:27:26.932973+00:00",
   "state": "open",
   "jobs": [
     {
@@ -21,56 +21,6 @@
       "department": "",
       "jobType": "On-site",
       "postedAt": "2026-11-27",
-      "state": "open"
-    },
-    {
-      "id": "cc0d9a2609d510b35ccfeb87f2e88887",
-      "title": "Customer Service Officer",
-      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1001",
-      "location": "United Arab Emirates",
-      "department": "",
-      "jobType": "On-site",
-      "postedAt": "2026-11-26",
-      "state": "open"
-    },
-    {
-      "id": "f760929cc005df5dbd2b4425b7edcfcc",
-      "title": "Customer Service Officer",
-      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1006",
-      "location": "Al Nakheel Branch",
-      "department": "",
-      "jobType": "",
-      "postedAt": "2026-11-26",
-      "state": "open"
-    },
-    {
-      "id": "a42e373970c4519973b4d150463b8ce9",
-      "title": "Customer Service Officer",
-      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1007",
-      "location": "Al Hamra Branch",
-      "department": "",
-      "jobType": "",
-      "postedAt": "2026-11-26",
-      "state": "open"
-    },
-    {
-      "id": "f7695f08e44153a46eb2b4ea334fe0ae",
-      "title": "Customer Service Officer",
-      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1004",
-      "location": "Al Dhait Branch",
-      "department": "",
-      "jobType": "On-site",
-      "postedAt": "2026-11-26",
-      "state": "open"
-    },
-    {
-      "id": "febc6234ca947e853f6c75a41a227aec",
-      "title": "Customer Service Officer",
-      "link": "https://iacqey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1005",
-      "location": "Al Nakheel Branch",
-      "department": "",
-      "jobType": "Hybrid",
-      "postedAt": "2026-11-26",
       "state": "open"
     },
     {

@@ -1,16 +1,16 @@
 {
   "sourceUrl": "https://retailo.zohorecruit.com/jobs/Careers",
-  "fetchedAt": "2026-11-27T17:43:09.129631+00:00",
+  "fetchedAt": "2026-11-28T16:27:39.078273+00:00",
   "state": "open",
   "jobs": [
     {
-      "id": "fa32acd02e22ceae2f8c77697268f62a",
-      "title": "Full Stack Developer",
-      "link": "https://retailo.zohorecruit.com/jobs/Careers/605534000021401123/Full-Stack-Developer?source=CareerSite",
-      "location": "Islamabad, Punjab, Pakistan",
+      "id": "fa8ce54060f5761c3a0cd0f118607dcc",
+      "title": "Senior Backend JS Developer",
+      "link": "https://retailo.zohorecruit.com/jobs/Careers/605534000007077393/Senior-Backend-JS-Developer?source=CareerSite",
+      "location": "Islamabad, Islamabad, Pakistan 4-5 years",
       "department": "",
       "jobType": "Full time",
-      "postedAt": "04/24/2025",
+      "postedAt": "04/29/2025",
       "state": "open"
     },
     {
@@ -24,13 +24,13 @@
       "state": "open"
     },
     {
-      "id": "fa8ce54060f5761c3a0cd0f118607dcc",
-      "title": "Senior Backend JS Developer",
-      "link": "https://retailo.zohorecruit.com/jobs/Careers/605534000007077393/Senior-Backend-JS-Developer?source=CareerSite",
-      "location": "Islamabad, Islamabad, Pakistan 4-5 years",
+      "id": "fa32acd02e22ceae2f8c77697268f62a",
+      "title": "Full Stack Developer",
+      "link": "https://retailo.zohorecruit.com/jobs/Careers/605534000021401123/Full-Stack-Developer?source=CareerSite",
+      "location": "Islamabad, Punjab, Pakistan",
       "department": "",
       "jobType": "Full time",
-      "postedAt": "04/29/2025",
+      "postedAt": "04/24/2025",
       "state": "open"
     },
     {

@@ -1,19 +1,8 @@
 {
   "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/moniepoint/jobs?content=true",
-  "fetchedAt": "2026-11-27T17:42:02.404834+00:00",
+  "fetchedAt": "2026-11-28T16:26:42.367582+00:00",
   "state": "open",
   "jobs": [
-    {
-      "id": "9f70d25f3fb5afce1072a5d17b64a546",
-      "title": "Analytics Manager",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4976360101",
-      "location": "Remote, Portugal",
-      "department": "Marketing & Sales",
-      "jobType": "",
-      "requisitionId": null,
-      "postedAt": "2026-09-15T04:43:27-04:00",
-      "state": "open"
-    },
     {
       "id": "d01dbcb1d26d09960533babe3bece555",
       "title": "Analytics Manager",
@@ -23,6 +12,17 @@
       "jobType": "",
       "requisitionId": null,
       "postedAt": "2026-07-30T09:04:50-04:00",
+      "state": "open"
+    },
+    {
+      "id": "9f70d25f3fb5afce1072a5d17b64a546",
+      "title": "Analytics Manager",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4976360101",
+      "location": "Remote, Portugal",
+      "department": "Marketing & Sales",
+      "jobType": "",
+      "requisitionId": null,
+      "postedAt": "2026-09-15T04:43:27-04:00",
       "state": "open"
     },
     {
@@ -499,6 +499,17 @@
       "state": "open"
     },
     {
+      "id": "046e30e17f8cc66c7e37c5adfcd9f4df",
+      "title": "Senior Business Analyst",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4944062101",
+      "location": "Remote, Spain",
+      "department": "",
+      "jobType": "",
+      "requisitionId": null,
+      "postedAt": "2026-08-04T03:31:18-04:00",
+      "state": "open"
+    },
+    {
       "id": "a6d98f0804af19b2d3be157cb8ca1599",
       "title": "Senior Business Analyst",
       "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4912592101",
@@ -521,17 +532,6 @@
       "state": "open"
     },
     {
-      "id": "046e30e17f8cc66c7e37c5adfcd9f4df",
-      "title": "Senior Business Analyst",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4944062101",
-      "location": "Remote, Spain",
-      "department": "",
-      "jobType": "",
-      "requisitionId": null,
-      "postedAt": "2026-08-04T03:31:18-04:00",
-      "state": "open"
-    },
-    {
       "id": "7f3586b9386836e8a935a6997c2d2899",
       "title": "Senior Business Analyst",
       "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4936515101",
@@ -543,17 +543,6 @@
       "state": "open"
     },
     {
-      "id": "5a50529131dcbb857e080a812ab7d6f0",
-      "title": "Senior Principal, Talent Marketing",
-      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5015546101",
-      "location": "Remote, Spain",
-      "department": "Talent Acquisition",
-      "jobType": "",
-      "requisitionId": "1588",
-      "postedAt": "2026-10-26T01:42:37-04:00",
-      "state": "open"
-    },
-    {
       "id": "c643dd5fcf2bcd41c31c3500d516caba",
       "title": "Senior Principal, Talent Marketing",
       "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4980860101",
@@ -562,6 +551,17 @@
       "jobType": "",
       "requisitionId": "1588",
       "postedAt": "2026-09-21T07:37:37-04:00",
+      "state": "open"
+    },
+    {
+      "id": "5a50529131dcbb857e080a812ab7d6f0",
+      "title": "Senior Principal, Talent Marketing",
+      "link": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5015546101",
+      "location": "Remote, Spain",
+      "department": "Talent Acquisition",
+      "jobType": "",
+      "requisitionId": "1588",
+      "postedAt": "2026-10-26T01:42:37-04:00",
       "state": "open"
     },
     {

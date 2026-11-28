@@ -1,0 +1,198 @@
+[
+  {
+    "company": "asendia",
+    "type": "zero_jobs",
+    "reason": "HTTP 404 Not Found (page or endpoint moved)",
+    "error": "asendia: fetchState failed: HTTP 404 for https://asendia.ai/jobs-board (page removed or site down)",
+    "details": [
+      "asendia: fetchState failed: HTTP 404 for https://asendia.ai/jobs-board (page removed or site down)"
+    ],
+    "oldJobCount": 12,
+    "newJobCount": 0,
+    "failedAt": "2026-11-28T16:22:35.770097+00:00"
+  },
+  {
+    "company": "avanza",
+    "type": "zero_jobs",
+    "reason": "Timed out waiting for job listings (page layout may have changed)",
+    "error": "No jobs found or timeout waiting for job listings.",
+    "details": [
+      "No jobs found or timeout waiting for job listings.",
+      "Suspicious zero-job scrape, keeping old snapshot. Old=8 New=0"
+    ],
+    "oldJobCount": 8,
+    "newJobCount": 0,
+    "failedAt": "2026-11-28T16:23:13.941577+00:00"
+  },
+  {
+    "company": "burq",
+    "type": "zero_jobs",
+    "reason": "Timed out waiting for job listings (page layout may have changed)",
+    "error": "Failed to fetch burq jobs: Page.wait_for_selector: Timeout 30000ms exceeded.",
+    "details": [
+      "Failed to fetch burq jobs: Page.wait_for_selector: Timeout 30000ms exceeded."
+    ],
+    "oldJobCount": 8,
+    "newJobCount": 0,
+    "failedAt": "2026-11-28T16:23:57.164143+00:00"
+  },
+  {
+    "company": "cinnova",
+    "type": "zero_jobs",
+    "reason": "HTTP2 protocol error (often bot protection)",
+    "error": "Retrying https://careers.cinnova.pk/current-openings/ after transient failure (attempt 1/2): Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://careers.cinnova.pk/current-openings/",
+    "details": [
+      "Retrying https://careers.cinnova.pk/current-openings/ after transient failure (attempt 1/2): Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://careers.cinnova.pk/current-openings/",
+      "Failed to fetch cinnova: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://careers.cinnova.pk/current-openings/",
+      "Suspicious zero-job scrape, keeping old snapshot. Old=11 New=0"
+    ],
+    "oldJobCount": 11,
+    "newJobCount": 0,
+    "failedAt": "2026-11-28T16:24:05.597335+00:00"
+  },
+  {
+    "company": "codeninja",
+    "type": "zero_jobs",
+    "reason": "Timed out waiting for job listings (page layout may have changed)",
+    "error": "No jobs found or timeout waiting for job listings.",
+    "details": [
+      "No jobs found or timeout waiting for job listings.",
+      "Suspicious zero-job scrape, keeping old snapshot. Old=2 New=0"
+    ],
+    "oldJobCount": 2,
+    "newJobCount": 0,
+    "failedAt": "2026-11-28T16:24:51.090324+00:00"
+  },
+  {
+    "company": "infotech",
+    "type": "zero_jobs",
+    "reason": "HTTP2 protocol error (often bot protection)",
+    "error": "infotech: fetchState failed: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://infotechgroup.com/jobs-at-infotech/",
+    "details": [
+      "infotech: fetchState failed: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://infotechgroup.com/jobs-at-infotech/"
+    ],
+    "oldJobCount": 5,
+    "newJobCount": 0,
+    "failedAt": "2026-11-28T16:25:47.593697+00:00"
+  },
+  {
+    "company": "ml1",
+    "type": "zero_jobs",
+    "reason": "HTTP 404 Not Found (page or endpoint moved)",
+    "error": "ML1 careers page has no job board listing (Simple Job Board removed; old job URLs 404)",
+    "details": [
+      "ML1 careers page has no job board listing (Simple Job Board removed; old job URLs 404)"
+    ],
+    "oldJobCount": 6,
+    "newJobCount": 0,
+    "failedAt": "2026-11-28T16:26:42.314337+00:00"
+  },
+  {
+    "company": "persivia",
+    "type": "zero_jobs",
+    "reason": "HTTP 404 Not Found (page or endpoint moved)",
+    "error": "persivia: fetchState failed: persivia: job list (ul.job-list) not found (layout changed)",
+    "details": [
+      "persivia: fetchState failed: persivia: job list (ul.job-list) not found (layout changed)"
+    ],
+    "oldJobCount": 4,
+    "newJobCount": 0,
+    "failedAt": "2026-11-28T16:26:58.401246+00:00"
+  },
+  {
+    "company": "phaedra",
+    "type": "zero_jobs",
+    "reason": "HTTP 403 Forbidden (blocked)",
+    "error": "phaedrasolutions: fetchState failed: 403, message='Forbidden', url='https://www.phaedrasolutions.com/company/careers'",
+    "details": [
+      "phaedrasolutions: fetchState failed: 403, message='Forbidden', url='https://www.phaedrasolutions.com/company/careers'"
+    ],
+    "oldJobCount": 10,
+    "newJobCount": 0,
+    "failedAt": "2026-11-28T16:26:58.458909+00:00"
+  },
+  {
+    "company": "powersoft19",
+    "type": "zero_jobs",
+    "reason": "Timed out waiting for job listings (page layout may have changed)",
+    "error": "powersoft19: fetchState failed: Page.wait_for_selector: Timeout 20000ms exceeded.",
+    "details": [
+      "powersoft19: fetchState failed: Page.wait_for_selector: Timeout 20000ms exceeded."
+    ],
+    "oldJobCount": 4,
+    "newJobCount": 0,
+    "failedAt": "2026-11-28T16:27:20.940974+00:00"
+  },
+  {
+    "company": "qbatch",
+    "type": "zero_jobs",
+    "reason": "Domain does not resolve (DNS)",
+    "error": "qbatch: fetchState failed: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.qbatch.com/jobs",
+    "details": [
+      "qbatch: fetchState failed: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.qbatch.com/jobs"
+    ],
+    "oldJobCount": 5,
+    "newJobCount": 0,
+    "failedAt": "2026-11-28T16:27:23.581452+00:00"
+  },
+  {
+    "company": "thingtrax",
+    "type": "zero_jobs",
+    "reason": "Timed out waiting for job listings (page layout may have changed)",
+    "error": "thingtrax: fetchState failed: Page.wait_for_selector: Timeout 20000ms exceeded.",
+    "details": [
+      "thingtrax: fetchState failed: Page.wait_for_selector: Timeout 20000ms exceeded."
+    ],
+    "oldJobCount": 5,
+    "newJobCount": 0,
+    "failedAt": "2026-11-28T16:29:17.620256+00:00"
+  },
+  {
+    "company": "tkxel",
+    "type": "zero_jobs",
+    "reason": "HTTP 5xx server error",
+    "error": "Failed to fetch TKXEL jobs: HTTP 520 for https://careers.tkxel.com/jobs/ (page removed or site down)",
+    "details": [
+      "Failed to fetch TKXEL jobs: HTTP 520 for https://careers.tkxel.com/jobs/ (page removed or site down)"
+    ],
+    "oldJobCount": 35,
+    "newJobCount": 0,
+    "failedAt": "2026-11-28T16:29:21.132728+00:00"
+  },
+  {
+    "company": "tps",
+    "type": "zero_jobs",
+    "reason": "Failed to fetch TPS jobs: WebHR API error: ORG_NOT_FOUND (TPS careers widget on tpsworldwide.com/careers is also empty)",
+    "error": "Failed to fetch TPS jobs: WebHR API error: ORG_NOT_FOUND (TPS careers widget on tpsworldwide.com/careers is also empty)",
+    "details": [
+      "Failed to fetch TPS jobs: WebHR API error: ORG_NOT_FOUND (TPS careers widget on tpsworldwide.com/careers is also empty)"
+    ],
+    "oldJobCount": 17,
+    "newJobCount": 0,
+    "failedAt": "2026-11-28T16:29:22.452351+00:00"
+  },
+  {
+    "company": "xgrid",
+    "type": "zero_jobs",
+    "reason": "HTTP 404 Not Found (page or endpoint moved)",
+    "error": "Failed to fetch xgrid jobs: xgrid Freshteam account not found (Freshteam 'invalid domain' page); xgrid.co/open-positions shows no jobs",
+    "details": [
+      "Failed to fetch xgrid jobs: xgrid Freshteam account not found (Freshteam 'invalid domain' page); xgrid.co/open-positions shows no jobs"
+    ],
+    "oldJobCount": 7,
+    "newJobCount": 0,
+    "failedAt": "2026-11-28T16:29:50.496981+00:00"
+  },
+  {
+    "company": "zaptatech",
+    "type": "zero_jobs",
+    "reason": "Timed out waiting for job listings (page layout may have changed)",
+    "error": "Failed to fetch zaptech jobs: Page.wait_for_selector: Timeout 30000ms exceeded.",
+    "details": [
+      "Failed to fetch zaptech jobs: Page.wait_for_selector: Timeout 30000ms exceeded."
+    ],
+    "oldJobCount": 18,
+    "newJobCount": 0,
+    "failedAt": "2026-11-28T16:30:26.425751+00:00"
+  }
+]

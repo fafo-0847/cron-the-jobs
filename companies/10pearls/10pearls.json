@@ -1,8 +1,28 @@
 {
   "sourceUrl": "https://api.resumatorapi.com/v1/jobs?apikey=jB0b57gnKdU9rqBWvqQpxzITAPrHUFaz",
-  "fetchedAt": "2026-11-27T17:38:18.002949+00:00",
+  "fetchedAt": "2026-11-28T16:22:18.337274+00:00",
   "state": "open",
   "jobs": [
+    {
+      "id": "fd3659d0bb4ef2ac33d10ce2ecb06dc7",
+      "title": "Staff/Senior Software Consultant - Data Engineer - Evening",
+      "link": "https://10pearls.resumatorsite.com/apply/CvQtza234x/job_20261128141520_IWTMOQ1CCNLEZXEX",
+      "location": "Karachi, Lahore, Islamabad, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-11-28",
+      "state": "open"
+    },
+    {
+      "id": "3c505dcda92373cdaf65e1189b648233",
+      "title": "AI Automation Engineer",
+      "link": "https://10pearls.resumatorsite.com/apply/3XyCgYgvx3/job_20261128110701_NB0CXEB816D84LYJ",
+      "location": "Karachi, Lahore, Islamabad, Pakistan",
+      "department": "",
+      "jobType": "Full Time",
+      "postedAt": "2026-11-28",
+      "state": "open"
+    },
     {
       "id": "2bf981a860583dc715b3d3cd1a330b9d",
       "title": "Staff DevSecOps Consultant - Afternoon Shift",
@@ -981,26 +1001,6 @@
       "department": "",
       "jobType": "Full Time",
       "postedAt": "2025-07-01",
-      "state": "open"
-    },
-    {
-      "id": "2d528334bec7b9993186c6e40e27b5e5",
-      "title": "Associate Software Consultant",
-      "link": "https://10pearls.resumatorsite.com/apply/e1xHk6hp5Q/job_20250529110246_NOWZBNIWAGIOJE8Y",
-      "location": "Karachi, Lahore, Islamabad, Pakistan",
-      "department": "",
-      "jobType": "Full Time",
-      "postedAt": "2025-05-29",
-      "state": "open"
-    },
-    {
-      "id": "9fe471dbfe4b8468d0e733076a52151e",
-      "title": "Senior Software Consultant - Java + Angular",
-      "link": "https://10pearls.resumatorsite.com/apply/L44F2606Ti/job_20250519055228_BFEN9U2QSDTEJGHT",
-      "location": "Karachi, Lahore, Islamabad, Pakistan",
-      "department": "",
-      "jobType": "Full Time",
-      "postedAt": "2025-05-19",
       "state": "open"
     }
   ]
